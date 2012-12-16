@@ -22,7 +22,7 @@ sdp:Albano_G a sd:Author, foaf:Person ;
 sdp:Apel_J a foaf:Person ;
            rdfs:label "Apel, Joachim" .
 
-sdp:Bachmann_O sd:hasContributed "Perl tools: basic modules, Data, Record, INTPS, Html, Compute environment, Data: BIB, INTPS, Benchmark runs" ;
+sdp:Bachmann_O sd:hasContributed "Perl tools: basic modules, Data, Record, IntPS, Html, Compute environment, Data: BIB, IntPS, Benchmark runs" ;
                sd:hasShortName "obachman" ;
                sd:hasStatus "joined: 3/1999, left: 12/2000" ;
                sd:lastModified "2010-12-29" ;
@@ -36,7 +36,7 @@ sdp:Boege_W a sd:Author, foaf:Person ;
             rdfs:label "Boege, W." .
 
 sdp:Brickenstein_M sd:hasAffiliation sdp:kaiserslautern ;
-                   sd:hasContributed "INTPS satlib examples" ;
+                   sd:hasContributed "IntPS satlib examples" ;
                    sd:hasShortName "mbrickenstein" ;
                    sd:lastModified "2008-02-27" ;
                    a foaf:Person ;
@@ -52,7 +52,7 @@ sdp:Chou_SC a sd:Author, foaf:Person ;
             rdfs:label "Chou, S.-C." .
 
 sdp:Cioffi_F sd:hasAffiliation sdp:napoli ;
-             sd:hasContributed "Data: INTPS/Curves" ;
+             sd:hasContributed "Data: IntPS/Curves" ;
              sd:hasEmail "cioffifr@unina.it" ;
              sd:hasShortName "cioffi" ;
              sd:hasURLLiteral "http://cds.unina.it/~cioffifr" ;
@@ -86,7 +86,7 @@ sdp:Emiris_IZ a sd:Author, foaf:Person ;
               rdfs:label "Emiris, I.Z." .
 
 sdp:Faugere_JC sd:hasAffiliation sdp:paris_VI ;
-               sd:hasContributed "Data: INTPS" ;
+               sd:hasContributed "Data: IntPS" ;
                sd:hasEmail "jcf@posso.lip6.fr" ;
                sd:hasShortName "jcf" ;
                sd:hasURLLiteral "http://posso.lip6.fr/~jcf" ;
@@ -122,7 +122,7 @@ sdp:Giovini_A a sd:Author, foaf:Person ;
               rdfs:label "Giovini, A." .
 
 sdp:Graebe_HG sd:hasAffiliation sdp:leipzig ;
-              sd:hasContributed "Perl tools: basic modules, Meta, BIB, References, Syntax,, SQL, GEO, Data: BIB, INTPS, GEO" ;
+              sd:hasContributed "Perl tools: basic modules, Meta, BIB, References, Syntax,, SQL, GEO, Data: BIB, IntPS, GEO" ;
               sd:hasEmail "graebe@informatik.uni-leipzig.de" ;
               sd:hasShortName "graebe" ;
               sd:hasStatus "joined: 3/1999, active" ;
@@ -153,7 +153,7 @@ sdp:Heinle_A sd:hasAffiliation sdp:aachen ;
 sdp:Hemmecke_Ralf a foaf:Person ;
                   rdfs:label "Hemmecke, Ralf" .
 
-sdp:Hemmecke_Raymond sd:hasContributed "Data: TESTSETS" ;
+sdp:Hemmecke_Raymond sd:hasContributed "Data: TestSets" ;
                      sd:hasEmail "raymond@hemmecke.de" ;
                      sd:hasStatus "joined: 2/2002, active" ;
                      sd:hasURLLiteral "http://www.hemmecke.de/raymond" ;
@@ -237,7 +237,7 @@ sdp:Schoenemann_H sd:hasAffiliation sdp:kaiserslautern ;
                   rdfs:label "Schönemann, Hans" .
 
 sdp:Steidel_S sd:hasAffiliation sdp:kaiserslautern ;
-              sd:hasContributed "Some INTPS examples" ;
+              sd:hasContributed "Some IntPS examples" ;
               sd:hasEmail "steidel@mathematik.uni-kl.de" ;
               sd:hasURLLiteral "http://www.mathematik.uni-kl.de/~steidel" ;
               sd:lastModified "2010-12-29" ;
