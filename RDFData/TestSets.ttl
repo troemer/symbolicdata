@@ -6,9 +6,15 @@
 @prefix sdts: <http://symbolicdata.org/Data/TestSets/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://symbolicdata.org/Data/TestSets/>
+    a owl:Ontology ;
+    rdfs:comment "TestSets Data" ;
+    rdfs:label "SD TestSets Data" ;
+    owl:imports <http://symbolicdata.org/Data/People/> .
+
 sd:TestSet
     a owl:Class ;
-    rdfs:label "" .
+    rdfs:label "Test Set" .
 
 <http://symbolicdata.org/Data/TestSets/cubes.3x3x3>
     sd:createdAt "2002-01-28" ;
