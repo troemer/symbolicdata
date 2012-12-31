@@ -52,7 +52,7 @@ class FreeAlgebraFromXMLBuilder(object):
         variables = map(lambda x: str(x).strip(),variablesCSV.rsplit(","))
         #Extract basis:
         polynomials = xmlTree.getElementsByTagName("basis")[0]
-        basis = map(lambda poly: str(poly.firstChild.data).strip(),polynomials.getElementsByTagName("poly"))
+        basis = map(lambda poly: str(poly.firstChild.data).strip(),polynomials.getElementsByTagName("ncpoly"))
         #Extract upToDegree:
         uptoDeg = int((xmlTree.getElementsByTagName("uptoDeg")[0]).firstChild.data)
         return FreeAlgebra(name, self.__sdTable, variables, basis, uptoDeg)

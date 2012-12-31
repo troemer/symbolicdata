@@ -26,6 +26,11 @@ class FreeAlgebra(ProblemInstance):
         :type       uptoDeg: unsigned int
         """
         super(FreeAlgebra,self).__init__(name,sdTable)
+        if (
+                len(vars) == 0 or
+                len(basis) == 0
+            ):
+            raise IOError("Either the variable list was empty, or the basis. Either way, the creation of an instance of FreeAlgebra was not possible.")
         self.__vars              = vars
         self.__basis             = basis
         self.__uptoDeg           = uptoDeg
