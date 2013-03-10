@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <INTPS createdAt="1999-03-26" createdBy="graebe">
-<!-- $Id: Gerdt-90.xml,v 1.2 2006/03/05 09:09:59 graebe Exp $ -->
   <vars>a0,b0,a1,b1,a2,b2,a3,b3,a4,b4</vars>
   <basis>
     <poly>b1*b3-b1*b4-a3*b4+a4*b4</poly>
@@ -16,7 +15,6 @@
     <poly>-3*a0^3*b0*a2*b2-27*a0^2*b0^2*a2*b2-45*a0*b0^3*a2*b2-6*b0^4*a2*b2-3*a0^3*b0*b1*b3+9*a0^2*b0^2*b1*b3-9*a0*b0^3*b1*b3+3*b0^4*b1*b3-3*a0^3*b0*a3*b3-27*a0^2*b0^2*a3*b3-45*a0*b0^3*a3*b3-6*b0^4*a3*b3+18*a0^2*b0^2*b3*a4-9*a0*b0^3*b3*a4-9*b0^4*b3*a4+2*a0^4*b1*b4-2*a0^3*b0*b1*b4-6*a0^2*b0^2*b1*b4+10*a0*b0^3*b1*b4-4*b0^4*b1*b4+a0^4*a3*b4-a0^3*b0*a3*b4-30*a0^2*b0^2*a3*b4+32*a0*b0^3*a3*b4-2*b0^4*a3*b4+9*a0^2*b0^2*a4*b4-18*a0*b0^3*a4*b4+9*b0^4*a4*b4</poly>
     <poly>-6*a0^4*a2*b2-45*a0^3*b0*a2*b2-27*a0^2*b0^2*a2*b2-3*a0*b0^3*a2*b2+3*a0^4*a1*a3-9*a0^3*b0*a1*a3+9*a0^2*b0^2*a1*a3-3*a0*b0^3*a1*a3-6*a0^4*a3*b3-45*a0^3*b0*a3*b3-27*a0^2*b0^2*a3*b3-3*a0*b0^3*a3*b3-4*a0^4*a1*a4+10*a0^3*b0*a1*a4-6*a0^2*b0^2*a1*a4-2*a0*b0^3*a1*a4+2*b0^4*a1*a4-2*a0^4*b3*a4+32*a0^3*b0*b3*a4-30*a0^2*b0^2*b3*a4-a0*b0^3*b3*a4+b0^4*b3*a4-9*a0^4*a3*b4-9*a0^3*b0*a3*b4+18*a0^2*b0^2*a3*b4+9*a0^4*a4*b4-18*a0^3*b0*a4*b4+9*a0^2*b0^2*a4*b4</poly>
   </basis>
-  <Comment/>
   <ChangeLog>
     <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Gerdt-90</changed>
   </ChangeLog>

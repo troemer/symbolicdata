@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <INTPS createdAt="1999-03-26" createdBy="graebe">
-<!-- $Id: Hairer_2_1.xml,v 1.2 2006/03/05 09:09:59 graebe Exp $ -->
   <vars>c2,c3,c4,b4,b3,b2,b1,a21,a31,a32,a41,a42,a43</vars>
   <basis>
     <poly>b4+b3+b2+b1-1</poly>
@@ -16,7 +15,6 @@
     <poly>12*c2^2*b3*a32+12*c2^2*b4*a42+12*c3^2*b4*a43-1</poly>
     <poly>4*c4^3*b4+4*c3^3*b3+4*c2^3*b2-1</poly>
   </basis>
-  <Comment/>
   <ChangeLog>
     <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Hairer_2_1</changed>
   </ChangeLog>

@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <INTPS createdAt="2000-03-22" createdBy="graebe">
-<!-- $Id: Geometry.Brocard_1.xml,v 1.2 2006/03/05 09:09:58 graebe Exp $ -->
   <vars>x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,u1,u2</vars>
   <basis>
     <poly>x9</poly>
@@ -15,7 +14,6 @@
     <poly>x4^2-4*x6</poly>
     <poly>x1^2*u1^2+2*x1*x2*u1*u2+x2^2*u2^2-4*x3*u1^2-4*x3*u2^2</poly>
   </basis>
-  <Comment/>
   <ChangeLog>
     <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Geometry/Brocard_1</changed>
   </ChangeLog>

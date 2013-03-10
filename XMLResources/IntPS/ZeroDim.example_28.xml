@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <INTPS createdAt="1999-09-22" createdBy="wenk">
-<!-- $Id: ZeroDim.example_28.xml,v 1.2 2006/03/05 09:09:59 graebe Exp $ -->
   <vars>a,b,c,d,u,v,w,x,y,z</vars>
   <basis>
     <poly>210*z-210</poly>
@@ -14,7 +13,6 @@
     <poly>20*c*u+18*b*v+16*a*w</poly>
     <poly>8*b*u+7*a*v</poly>
   </basis>
-  <Comment/>
   <ChangeLog>
     <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/ZeroDim/example_28</changed>
   </ChangeLog>

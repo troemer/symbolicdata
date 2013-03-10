@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <INTPS createdAt="1999-04-20" createdBy="obachman">
-<!-- $Id: Singular.rcyclic_14.xml,v 1.2 2006/03/05 09:09:59 graebe Exp $ -->
   <vars>x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14</vars>
   <basis>
     <poly>x1+x2+x3</poly>
@@ -17,7 +16,6 @@
     <poly>x1*x2*x3*x4*x5*x6*x7*x8*x9*x10*x11*x12+x2*x3*x4*x5*x6*x7*x8*x9*x10*x11*x12*x13+x3*x4*x5*x6*x7*x8*x9*x10*x11*x12*x13*x14</poly>
     <poly>x1*x2*x3*x4*x5*x6*x7*x8*x9*x10*x11*x12*x13+x1*x3*x4*x5*x6*x7*x8*x9*x10*x11*x12*x13*x14+x2*x3*x4*x5*x6*x7*x8*x9*x10*x11*x12*x13*x14</poly>
   </basis>
-  <Comment/>
   <ChangeLog>
     <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Singular/rcyclic_14</changed>
   </ChangeLog>
