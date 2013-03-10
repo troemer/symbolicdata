@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <INTPS createdAt="1999-09-22" createdBy="wenk">
-<!-- $Id: ZeroDim.example_33.xml,v 1.2 2006/03/05 09:09:59 graebe Exp $ -->
   <vars>a,b,c,d,e,f,g</vars>
   <basis>
     <poly>d^2+2*c*e+2*b*f+2*a*g+g</poly>
@@ -11,7 +10,6 @@
     <poly>2*a*b+2*b*c+2*a*d+e^2+2*d*f+2*c*g+2*e*g+b+d</poly>
     <poly>a^2+2*d*e+2*c*f+2*b*g+a</poly>
   </basis>
-  <Comment/>
   <ChangeLog>
     <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/ZeroDim/example_33</changed>
   </ChangeLog>

@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <INTPS createdAt="1999-04-22" createdBy="jcf">
-<!-- $Id: PoSSo.rkat9.xml,v 1.2 2006/03/05 09:09:59 graebe Exp $ -->
   <vars>x1,x2,x3,x4,x5,x6,x7,x8,x9,x10</vars>
   <basis>
     <poly>x1+2*x2+2*x3+2*x4+2*x5+2*x6+2*x7+2*x8+2*x9+2*x10-1</poly>
@@ -14,7 +13,6 @@
     <poly>2*x1*x2+2*x2*x3+2*x3*x4+2*x4*x5+2*x5*x6+2*x6*x7+2*x7*x8+2*x8*x9+2*x9*x10-x2</poly>
     <poly>x1^2+2*x2^2+2*x3^2+2*x4^2+2*x5^2+2*x6^2+2*x7^2+2*x8^2+2*x9^2+2*x10^2-x1</poly>
   </basis>
-  <Comment/>
   <ChangeLog>
     <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/PoSSo/rkat9</changed>
   </ChangeLog>

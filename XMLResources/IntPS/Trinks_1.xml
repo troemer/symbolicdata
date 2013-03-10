@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <INTPS createdAt="1999-03-26" createdBy="graebe">
-<!-- $Id: Trinks_1.xml,v 1.2 2006/03/05 09:09:59 graebe Exp $ -->
   <vars>w,p,z,t,s,b</vars>
   <basis>
     <poly>35*p+40*z+25*t-27*s</poly>
@@ -11,7 +10,6 @@
     <poly>15*p*t+20*z*s-9*w</poly>
     <poly>-11*b^3+w*p+2*z*t</poly>
   </basis>
-  <Comment/>
   <ChangeLog>
     <changed at="2006-03-03" by="graebe">compiled from XMLData INTPS/Trinks_1</changed>
   </ChangeLog>
