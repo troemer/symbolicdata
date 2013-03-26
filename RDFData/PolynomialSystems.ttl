@@ -131,7 +131,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Caprasse>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "56" ;
+    sd:hasDegree "56"^^xsd:integer ;
     sd:hasDegreeList "3,3,4,4" ;
     sd:hasIsolatedPrimesDegrees "1,1,1,1,1,1,2,2,2,2,2,4,4,4,4" ;
     sd:hasLengthsList "4,4,9,9" ;
@@ -154,7 +154,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Cassou>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "16" ;
+    sd:hasDegree "16"^^xsd:integer ;
     sd:hasDegreeList "4,6,7,8" ;
     sd:hasLengthsList "6,11,10,18" ;
     sd:hasVariables "b,c,d,e" ;
@@ -208,7 +208,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve10_20>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "20,20,20,20,20,20,20,20,20,20,20" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "22,22,22,22,22,22,22,22,22,22,22" ;
@@ -221,7 +221,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve10_20.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42" ;
@@ -234,7 +234,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve10_30>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "30,30,30,30,30,30,30,30,30,30,30" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "32,32,32,32,32,32,32,32,32,32,32" ;
@@ -247,7 +247,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve10_30.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "62,62,62,62,62,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,91,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92" ;
@@ -260,7 +260,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve15_20>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22" ;
@@ -272,7 +272,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve15_20.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42" ;
@@ -285,7 +285,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve15_30>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32" ;
@@ -297,7 +297,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve15_30.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62" ;
@@ -310,7 +310,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve3_20>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "20,20,20,20" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "22,22,22,22" ;
@@ -322,7 +322,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve3_20.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "8,8,8,8,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "162,162,162,162,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182" ;
@@ -335,7 +335,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve3_30>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "30,30,30,30" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "32,32,32,32" ;
@@ -347,7 +347,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve3_30.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332,332" ;
@@ -360,7 +360,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve4_20>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "20,20,20,20,20" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "22,22,22,22,22" ;
@@ -372,7 +372,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve4_20.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "102,102,102,102,102,102,102,102,102,102,101,102,102,102,102,102,102,102,102,102,102,102,102,102,102" ;
@@ -385,7 +385,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve4_30>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "30,30,30,30,30" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "32,32,32,32,32" ;
@@ -397,7 +397,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve4_30.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182" ;
@@ -410,7 +410,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve5_20>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "20,20,20,20,20,20" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "22,22,22,22,22,22" ;
@@ -422,7 +422,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve5_20.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82" ;
@@ -435,7 +435,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve5_30>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "30,30,30,30,30,30" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "32,32,32,32,32,32" ;
@@ -447,7 +447,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve5_30.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "122,122,122,122,122,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152" ;
@@ -460,7 +460,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve6_20>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "20,20,20,20,20,20,20" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "22,22,22,22,22,22,22" ;
@@ -472,7 +472,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve6_20.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62" ;
@@ -485,7 +485,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve6_30>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "30,30,30,30,30,30,30" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "32,32,32,32,32,32,32" ;
@@ -497,7 +497,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve6_30.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122" ;
@@ -510,7 +510,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve7_20>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "20,20,20,20,20,20,20,20" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "22,22,22,22,22,22,22,22" ;
@@ -522,7 +522,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve7_20.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62" ;
@@ -535,7 +535,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve7_30>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "30,30,30,30,30,30,30,30" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "32,32,32,32,32,32,32,32" ;
@@ -547,7 +547,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve7_30.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92" ;
@@ -560,7 +560,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve8_20>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "20,20,20,20,20,20,20,20,20" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "22,22,22,22,22,22,22,22,22" ;
@@ -572,7 +572,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve8_20.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "42,42,42,42,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62" ;
@@ -585,7 +585,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve8_30>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "30,30,30,30,30,30,30,30,30" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "32,32,32,32,32,32,32,32,32" ;
@@ -597,7 +597,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve8_30.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92" ;
@@ -610,7 +610,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve9_20>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "20,20,20,20,20,20,20,20,20,20" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "22,22,22,22,22,22,22,22,22,22" ;
@@ -622,7 +622,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve9_20.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "42,42,42,42,42,42,42,42,42,42,42,42,42,42,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62" ;
@@ -635,7 +635,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve9_30>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "30,30,30,30,30,30,30,30,30,30" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "32,32,32,32,32,32,32,32,32,32" ;
@@ -647,7 +647,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.curve9_30.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "30" ;
+    sd:hasDegree "30"^^xsd:integer ;
     sd:hasDegreeList "3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92" ;
@@ -660,7 +660,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.scurve7_18>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "18" ;
+    sd:hasDegree "18"^^xsd:integer ;
     sd:hasDegreeList "18,18,18,18,18,18,18,18" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "12,12,12,12,12,12,12,12" ;
@@ -672,7 +672,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.scurve7_18.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "18" ;
+    sd:hasDegree "18"^^xsd:integer ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "28,28,28,28,28,28,28,28,28,46,48,48,48,48,48,48,48" ;
@@ -685,7 +685,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.scurve7_20>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "20,20,20,20,20,20,20,20" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "13,13,13,13,13,13,13,13" ;
@@ -697,7 +697,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.scurve7_20.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "30,30,30,30,30,30,30,50,53,53,53,53,53,53,53,53,53,53,53" ;
@@ -710,7 +710,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.scurve7_22>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "22" ;
+    sd:hasDegree "22"^^xsd:integer ;
     sd:hasDegreeList "22,22,22,22,22,22,22,22" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "14,14,14,14,14,14,14,14" ;
@@ -722,7 +722,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.scurve7_22.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "22" ;
+    sd:hasDegree "22"^^xsd:integer ;
     sd:hasDegreeList "2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "32,32,32,32,32,54,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58" ;
@@ -735,7 +735,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.scurve7_24>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "24" ;
+    sd:hasDegree "24"^^xsd:integer ;
     sd:hasDegreeList "24,24,24,24,24,24,24,24" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "15,15,15,15,15,15,15,15" ;
@@ -747,7 +747,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.scurve7_24.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "24" ;
+    sd:hasDegree "24"^^xsd:integer ;
     sd:hasDegreeList "2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "34,34,34,58,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63,63" ;
@@ -760,7 +760,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.scurve7_26>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "26" ;
+    sd:hasDegree "26"^^xsd:integer ;
     sd:hasDegreeList "26,26,26,26,26,26,26,26" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "16,16,16,16,16,16,16,16" ;
@@ -772,7 +772,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Curves.scurve7_26.Generators>
     sd:createdAt "2001-03-21" ;
     sd:createdBy sdp:Cioffi_F ;
-    sd:hasDegree "26" ;
+    sd:hasDegree "26"^^xsd:integer ;
     sd:hasDegreeList "2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "36,62,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68" ;
@@ -809,7 +809,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Cyclic_5>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "70" ;
+    sd:hasDegree "70"^^xsd:integer ;
     sd:hasDegreeList "1,2,3,4,5" ;
     sd:hasLengthsList "5,5,5,5,2" ;
     sd:hasVariables "v,w,x,y,z" ;
@@ -832,7 +832,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Cyclic_5_1>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "64" ;
+    sd:hasDegree "64"^^xsd:integer ;
     sd:hasDegreeList "1,2,3,4,5" ;
     sd:hasLengthsList "5,5,5,5,2" ;
     sd:hasVariables "v,w,x,y,z" ;
@@ -855,7 +855,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Cyclic_6>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "156" ;
+    sd:hasDegree "156"^^xsd:integer ;
     sd:hasDegreeList "1,2,3,4,5,6" ;
     sd:hasLengthsList "6,6,6,6,6,2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
@@ -878,7 +878,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Cyclic_7>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "924" ;
+    sd:hasDegree "924"^^xsd:integer ;
     sd:hasDegreeList "1,2,3,4,5,6,7" ;
     sd:hasLengthsList "7,7,7,7,7,7,2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
@@ -901,7 +901,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Cyclic_7_1>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "20" ;
+    sd:hasDegree "20"^^xsd:integer ;
     sd:hasDegreeList "4,5,6" ;
     sd:hasLengthsList "7,7,7" ;
     sd:hasVariables "a,b,c" ;
@@ -966,7 +966,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Czapor-86a>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "8" ;
+    sd:hasDegree "8"^^xsd:integer ;
     sd:hasDegreeList "2,2,2" ;
     sd:hasLengthsList "10,10,10" ;
     sd:hasVariables "x,y,z" ;
@@ -989,7 +989,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Czapor-86b>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "4" ;
+    sd:hasDegree "4"^^xsd:integer ;
     sd:hasDegreeList "2,2" ;
     sd:hasLengthsList "6,6" ;
     sd:hasParameters "a,b,c,d,e,f,g,h,k" ;
@@ -1035,7 +1035,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Czapor-86c>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "8" ;
+    sd:hasDegree "8"^^xsd:integer ;
     sd:hasDegreeList "2,2,2" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasParameters "a,b,c,d,e,f,g,h,k" ;
@@ -1103,7 +1103,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Czapor-86c_1>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "8" ;
+    sd:hasDegree "8"^^xsd:integer ;
     sd:hasDegreeList "2,2,2" ;
     sd:hasLengthsList "3,3,3" ;
     sd:hasParameters "a,b,c,g,h,k" ;
@@ -1172,7 +1172,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Czapor-86c_2>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "8" ;
+    sd:hasDegree "8"^^xsd:integer ;
     sd:hasDegreeList "2,2,2" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasParameters "d,e,f" ;
@@ -1309,7 +1309,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Czapor-87_1>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "14" ;
+    sd:hasDegree "14"^^xsd:integer ;
     sd:hasDegreeList "2,2,2,2" ;
     sd:hasLengthsList "13,13,13,12" ;
     sd:hasVariables "x,y,z,w" ;
@@ -1332,7 +1332,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Czapor-87_2>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "16" ;
+    sd:hasDegree "16"^^xsd:integer ;
     sd:hasDegreeList "2,2,2,2" ;
     sd:hasLengthsList "15,14,15,15" ;
     sd:hasVariables "x,y,z,w" ;
@@ -1355,7 +1355,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Czapor-91>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "8" ;
+    sd:hasDegree "8"^^xsd:integer ;
     sd:hasDegreeList "2,2,2" ;
     sd:hasLengthsList "8,8,7" ;
     sd:hasVariables "x,y,z" ;
@@ -1444,7 +1444,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Ellipsoid_-2>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "96" ;
+    sd:hasDegree "96"^^xsd:integer ;
     sd:hasDegreeList "4,4,4,6" ;
     sd:hasLengthsList "3,3,3,4" ;
     sd:hasParameters "ma,mb,mc,a,b,c" ;
@@ -1512,7 +1512,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Ellipsoid_2>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "6" ;
+    sd:hasDegree "6"^^xsd:integer ;
     sd:hasDegreeList "2,2,2,2" ;
     sd:hasLengthsList "3,3,4,3" ;
     sd:hasParameters "ma,mb,mc,a,b,c" ;
@@ -1580,7 +1580,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Ellipsoid_4>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "52" ;
+    sd:hasDegree "52"^^xsd:integer ;
     sd:hasDegreeList "4,4,4,4" ;
     sd:hasLengthsList "3,3,4,3" ;
     sd:hasParameters "ma,mb,mc,a,b,c" ;
@@ -1648,7 +1648,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Fateman>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "75" ;
+    sd:hasDegree "75"^^xsd:integer ;
     sd:hasDegreeList "3,5,5" ;
     sd:hasDimension "1" ;
     sd:hasLengthsList "4,37,4" ;
@@ -1661,7 +1661,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Fee_1>
     sd:createdAt "1999-05-22" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "26" ;
+    sd:hasDegree "26"^^xsd:integer ;
     sd:hasDegreeList "2,3,4,4" ;
     sd:hasLengthsList "5,6,20,15" ;
     sd:hasVariables "q,c,p,d" ;
@@ -1737,7 +1737,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/FourCircles>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "14" ;
+    sd:hasDegree "14"^^xsd:integer ;
     sd:hasDegreeList "7,7,8" ;
     sd:hasIsolatedPrimesDegrees "2,2,2,1,1,1" ;
     sd:hasLengthsList "15,16,19" ;
@@ -1760,7 +1760,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/FourCircles_1>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "25" ;
+    sd:hasDegree "25"^^xsd:integer ;
     sd:hasDegreeList "7,7" ;
     sd:hasIsolatedPrimesDegrees "8,3,2,2,2,1,1,1" ;
     sd:hasLengthsList "16,15" ;
@@ -4032,7 +4032,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Heron>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "8" ;
+    sd:hasDegree "8"^^xsd:integer ;
     sd:hasDegreeList "2,2,2,4" ;
     sd:hasIsolatedPrimesDegrees "4,4" ;
     sd:hasLengthsList "3,2,5,2" ;
@@ -4102,7 +4102,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Katsura_3>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "8" ;
+    sd:hasDegree "8"^^xsd:integer ;
     sd:hasDegreeList "1,2,2,2" ;
     sd:hasLengthsList "5,4,4,5" ;
     sd:hasVariables "u0,u1,u2,u3" ;
@@ -4125,7 +4125,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Katsura_4>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "16" ;
+    sd:hasDegree "16"^^xsd:integer ;
     sd:hasDegreeList "1,2,2,2,2" ;
     sd:hasLengthsList "6,4,5,5,6" ;
     sd:hasVariables "u0,u1,u2,u3,u4" ;
@@ -4148,7 +4148,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Katsura_5>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "32" ;
+    sd:hasDegree "32"^^xsd:integer ;
     sd:hasDegreeList "1,2,2,2,2,2" ;
     sd:hasLengthsList "7,5,5,6,6,7" ;
     sd:hasVariables "u0,u1,u2,u3,u4,u5" ;
@@ -4170,7 +4170,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Katsura_6>
     sd:createdAt "1999-05-22" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "64" ;
+    sd:hasDegree "64"^^xsd:integer ;
     sd:hasDegreeList "1,2,2,2,2,2,2" ;
     sd:hasLengthsList "8,5,6,6,7,7,8" ;
     sd:hasVariables "x0,x1,x2,x3,x4,x5,x6" ;
@@ -4611,7 +4611,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Raksanyi>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "3" ;
+    sd:hasDegree "3"^^xsd:integer ;
     sd:hasDegreeList "1,1,2,3" ;
     sd:hasLengthsList "2,5,5,2" ;
     sd:hasParameters "a,b,c,d" ;
@@ -4699,7 +4699,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Robot-RR>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "8" ;
+    sd:hasDegree "8"^^xsd:integer ;
     sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2,2,2,3,3,3,3" ;
     sd:hasIsolatedPrimesDegrees "4,4" ;
     sd:hasLengthsList "2,1,2,2,3,3,2,2,3,3,2,3,3,3,3,3" ;
@@ -4798,7 +4798,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Rose>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "136" ;
+    sd:hasDegree "136"^^xsd:integer ;
     sd:hasDegreeList "4,6,9" ;
     sd:hasLengthsList "2,6,21" ;
     sd:hasVariables "u3,u4,a" ;
@@ -4821,7 +4821,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Rose_1>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "128" ;
+    sd:hasDegree "128"^^xsd:integer ;
     sd:hasDegreeList "4,6,8" ;
     sd:hasLengthsList "2,6,21" ;
     sd:hasVariables "u3,u4,a" ;
@@ -4844,7 +4844,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Schiele>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "28" ;
+    sd:hasDegree "28"^^xsd:integer ;
     sd:hasDegreeList "2,2,8,8" ;
     sd:hasLengthsList "3,3,19,19" ;
     sd:hasParameters "p" ;
@@ -4912,7 +4912,7 @@ sd:ModPS
 
 <http://symbolicdata.org/Data/PolynomialSystems/Schiele_1>
     sd:createdAt "1999-03-26" ;
-    sd:hasDegree "40" ;
+    sd:hasDegree "40"^^xsd:integer ;
     sd:hasDegreeList "6,11" ;
     sd:hasLengthsList "8,16" ;
     sd:hasParameters "p" ;
@@ -4981,7 +4981,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Schiele_1_1>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "38" ;
+    sd:hasDegree "38"^^xsd:integer ;
     sd:hasDegreeList "6,11" ;
     sd:hasLengthsList "6,16" ;
     sd:hasVariables "x,y" ;
@@ -5523,7 +5523,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Sym1_211>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "8" ;
+    sd:hasDegree "8"^^xsd:integer ;
     sd:hasDegreeList "2,2,2" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z" ;
@@ -5546,7 +5546,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Sym1_311>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "27" ;
+    sd:hasDegree "27"^^xsd:integer ;
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z" ;
@@ -5569,7 +5569,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Sym1_321>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "27" ;
+    sd:hasDegree "27"^^xsd:integer ;
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z" ;
@@ -5592,7 +5592,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Sym1_411>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "64" ;
+    sd:hasDegree "64"^^xsd:integer ;
     sd:hasDegreeList "4,4,4" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z" ;
@@ -5615,7 +5615,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Sym1_431>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "64" ;
+    sd:hasDegree "64"^^xsd:integer ;
     sd:hasDegreeList "4,4,4" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z" ;
@@ -5638,7 +5638,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Sym2_3>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "27" ;
+    sd:hasDegree "27"^^xsd:integer ;
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "3,3,3" ;
     sd:hasVariables "x,y,z" ;
@@ -5660,7 +5660,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Sym3_2>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "15" ;
+    sd:hasDegree "15"^^xsd:integer ;
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "3,3,3" ;
     sd:hasVariables "x,y,z" ;
@@ -5683,7 +5683,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Sym3_3>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "37" ;
+    sd:hasDegree "37"^^xsd:integer ;
     sd:hasDegreeList "4,4,4" ;
     sd:hasLengthsList "3,3,3" ;
     sd:hasVariables "x,y,z" ;
@@ -5706,7 +5706,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Sym3_4>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "77" ;
+    sd:hasDegree "77"^^xsd:integer ;
     sd:hasDegreeList "5,5,5" ;
     sd:hasLengthsList "3,3,3" ;
     sd:hasVariables "x,y,z" ;
@@ -5729,7 +5729,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Sym3_5>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "141" ;
+    sd:hasDegree "141"^^xsd:integer ;
     sd:hasDegreeList "6,6,6" ;
     sd:hasLengthsList "3,3,3" ;
     sd:hasVariables "x,y,z" ;
@@ -5796,7 +5796,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Trinks>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "10" ;
+    sd:hasDegree "10"^^xsd:integer ;
     sd:hasDegreeList "1,1,2,2,2,3" ;
     sd:hasLengthsList "4,4,3,5,3,3" ;
     sd:hasVariables "w,p,z,t,s,b" ;
@@ -5819,7 +5819,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Trinks_1>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "2" ;
+    sd:hasDegree "2"^^xsd:integer ;
     sd:hasDegreeList "1,1,2,2,2,2,3" ;
     sd:hasLengthsList "4,4,3,3,5,3,3" ;
     sd:hasVariables "w,p,z,t,s,b" ;
@@ -6407,7 +6407,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Wang-92f>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "4" ;
+    sd:hasDegree "4"^^xsd:integer ;
     sd:hasDegreeList "1,1,1,1,2,2,2,2,2,2,2" ;
     sd:hasDimension "8" ;
     sd:hasIsolatedPrimesDimensions "7,8,6,6,7,7" ;
@@ -6421,7 +6421,7 @@ sd:ModPS
 <http://symbolicdata.org/Data/PolynomialSystems/Weispfenning-94>
     sd:createdAt "1999-03-26" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasDegree "54" ;
+    sd:hasDegree "54"^^xsd:integer ;
     sd:hasDegreeList "4,5,5" ;
     sd:hasLengthsList "6,4,5" ;
     sd:hasVariables "x,y,z" ;
