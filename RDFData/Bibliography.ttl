@@ -9,7 +9,7 @@
 <http://symbolicdata.org/Data/Bibliography/>
     a owl:Ontology ;
     rdfs:comment "Bibliography of the Symbolic Data Collection" ;
-    rdfs:label "SD BIB Data" ;
+    rdfs:label "SD Bibliographical Data" ;
     owl:imports <http://symbolicdata.org/Data/People/> .
 
 sd:Reference
