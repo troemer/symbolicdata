@@ -27,7 +27,7 @@ sd:CAS
     a sd:CAS .
 
 <http://symbolicdata.org/Data/System/Felix>
-    sd:hasAuthor sdp:Apel_J, sdp:Klaus_U  ;
+    dcterms:creator sdp:Apel_J, sdp:Klaus_U  ;
     rdfs:label "CAS Felix" ;
     sd:hasURL <http://felix.hgb-leipzig.de> ;
     sd:lastUpdate "2010-12-29" ;
@@ -66,7 +66,7 @@ sd:CAS
     a sd:CAS .
 
 <http://symbolicdata.org/Data/System/Points>
-    sd:hasAuthor sdp:Orecchia_F, sdp:Cioffi_F, sdp:Ramella_I ;
+    dcterms:creator sdp:Orecchia_F, sdp:Cioffi_F, sdp:Ramella_I ;
     dcterms:license <http://www.gnu.org/licenses/gpl.html> ;
     sd:hasURL <http://wpage.unina.it/cioffifr/EPoints.html> ;
     sd:lastUpdate "2010-12-29" ;
@@ -74,7 +74,7 @@ sd:CAS
     dcterms:description "Points intends to construct algorithms and to implement sofwares concerning problems in Algebraic Geometry which need the computation of the Hilbert Function or of minimal generators or of the resolution of the ideal of a finite set of points." .
 
 <http://symbolicdata.org/Data/System/QPoints>
-    sd:hasAuthor sdp:Orecchia_F, sdp:Cioffi_F, sdp:Ramella_I ;
+    dcterms:creator sdp:Orecchia_F, sdp:Cioffi_F, sdp:Ramella_I ;
     dcterms:license <http://www.gnu.org/licenses/gpl.html> ;
     sd:hasURL <http://cds.unina.it/~cioffifr/EPoints.html> ;
     sd:lastUpdate "2001-03-28" ;
