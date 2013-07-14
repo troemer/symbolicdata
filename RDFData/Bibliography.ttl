@@ -2,11 +2,11 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sd: <http://symbolicdata.org/Data/Model/> .
-@prefix sdp: <http://symbolicdata.org/Data/People/> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
 @prefix sdb: <http://symbolicdata.org/Data/BIB/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
-<http://symbolicdata.org/Data/BIB/>
+<http://symbolicdata.org/Data/Bibliography/>
     a owl:Ontology ;
     rdfs:comment "Bibliography of the Symbolic Data Collection" ;
     rdfs:label "SD BIB Data" ;

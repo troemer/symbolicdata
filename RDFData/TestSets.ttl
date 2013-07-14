@@ -2,8 +2,8 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sd: <http://symbolicdata.org/Data/Model/> .
-@prefix sdp: <http://symbolicdata.org/Data/People/> .
-@prefix sdts: <http://symbolicdata.org/Data/TestSets/> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix sdts: <http://symbolicdata.org/Data/TestSet/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://symbolicdata.org/Data/TestSets/>
@@ -16,7 +16,7 @@ sd:TestSet
     a owl:Class ;
     rdfs:label "Test Set" .
 
-<http://symbolicdata.org/Data/TestSets/cubes.3x3x3>
+<http://symbolicdata.org/Data/TestSet/cubes.3x3x3>
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/cubes.3x3x3.bas.xml> ;
@@ -24,7 +24,7 @@ sd:TestSet
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
-<http://symbolicdata.org/Data/TestSets/cubes.3x3x3dd>
+<http://symbolicdata.org/Data/TestSet/cubes.3x3x3dd>
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/cubes.3x3x3dd.bas.xml> ;
@@ -34,7 +34,7 @@ sd:TestSet
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
-<http://symbolicdata.org/Data/TestSets/cubes.3x3x3x3>
+<http://symbolicdata.org/Data/TestSet/cubes.3x3x3x3>
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/cubes.3x3x3x3.bas.xml> ;
@@ -42,7 +42,7 @@ sd:TestSet
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
-<http://symbolicdata.org/Data/TestSets/cubes.3x3x3x3dd>
+<http://symbolicdata.org/Data/TestSet/cubes.3x3x3x3dd>
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/cubes.3x3x3x3dd.bas.xml> ;
@@ -50,7 +50,7 @@ sd:TestSet
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
-<http://symbolicdata.org/Data/TestSets/cubes.4x4x4>
+<http://symbolicdata.org/Data/TestSet/cubes.4x4x4>
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/cubes.4x4x4.bas.xml> ;
@@ -58,7 +58,7 @@ sd:TestSet
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
-<http://symbolicdata.org/Data/TestSets/cubes.4x4x4dd>
+<http://symbolicdata.org/Data/TestSet/cubes.4x4x4dd>
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/cubes.4x4x4dd.bas.xml> ;
@@ -66,7 +66,7 @@ sd:TestSet
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
-<http://symbolicdata.org/Data/TestSets/cubes.4x4x4x4>
+<http://symbolicdata.org/Data/TestSet/cubes.4x4x4x4>
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/cubes.4x4x4x4.bas.xml> ;
@@ -74,7 +74,7 @@ sd:TestSet
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
-<http://symbolicdata.org/Data/TestSets/dd.3x3dd>
+<http://symbolicdata.org/Data/TestSet/dd.3x3dd>
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/dd.3x3dd.bas.xml> ;
@@ -84,7 +84,7 @@ sd:TestSet
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
-<http://symbolicdata.org/Data/TestSets/dd.4x4dd>
+<http://symbolicdata.org/Data/TestSet/dd.4x4dd>
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/dd.4x4dd.bas.xml> ;
@@ -94,7 +94,7 @@ sd:TestSet
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
-<http://symbolicdata.org/Data/TestSets/dd.5x5dd>
+<http://symbolicdata.org/Data/TestSet/dd.5x5dd>
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/dd.5x5dd.bas.xml> ;
@@ -102,7 +102,7 @@ sd:TestSet
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
-<http://symbolicdata.org/Data/TestSets/dd.6x6dd>
+<http://symbolicdata.org/Data/TestSet/dd.6x6dd>
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/dd.6x6dd.bas.xml> ;
@@ -110,7 +110,7 @@ sd:TestSet
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
-<http://symbolicdata.org/Data/TestSets/dd.7x7dd>
+<http://symbolicdata.org/Data/TestSet/dd.7x7dd>
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/dd.7x7dd.bas.xml> ;
@@ -118,7 +118,7 @@ sd:TestSet
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
-<http://symbolicdata.org/Data/TestSets/pan.3x3pan>
+<http://symbolicdata.org/Data/TestSet/pan.3x3pan>
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/pan.3x3pan.bas.xml> ;
@@ -128,7 +128,7 @@ sd:TestSet
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
-<http://symbolicdata.org/Data/TestSets/pan.4x4pan>
+<http://symbolicdata.org/Data/TestSet/pan.4x4pan>
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/pan.4x4pan.bas.xml> ;
@@ -138,7 +138,7 @@ sd:TestSet
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
-<http://symbolicdata.org/Data/TestSets/pan.5x5pan>
+<http://symbolicdata.org/Data/TestSet/pan.5x5pan>
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/pan.5x5pan.bas.xml> ;
@@ -148,7 +148,7 @@ sd:TestSet
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
-<http://symbolicdata.org/Data/TestSets/pan.6x6pan>
+<http://symbolicdata.org/Data/TestSet/pan.6x6pan>
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/pan.6x6pan.bas.xml> ;

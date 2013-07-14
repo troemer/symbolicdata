@@ -2,12 +2,12 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sd: <http://symbolicdata.org/Data/Model/> .
-@prefix sdp: <http://symbolicdata.org/Data/People/> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 sd:FreeAlgebra a owl:Class ; rdfs:label "Free Algebra" .
 
-<http://symbolicdata.org/Data/FreeAlgebra/>
+<http://symbolicdata.org/Data/FreeAlgebras/>
     a owl:Ontology ;
     rdfs:label "SD Free Algebra Systems Data" ;
     owl:imports <http://symbolicdata.org/Data/People/> .
