@@ -3,13 +3,13 @@
   <vars>x,y,z</vars>
   <commutators>
     <commutator fst="x" snd="z">
-      <D>2x</D>
+      <D>2*x</D>
     </commutator>
     <commutator fst="x" snd="y">
       <D>-z</D>
     </commutator>
     <commutator fst="y" snd="z">
-      <D>-2y</D>
+      <D>-2*y</D>
     </commutator>
   </commutators>
   <basis>
