@@ -3176,7 +3176,7 @@ sd:ModPS
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2" ;
     sd:hasLengthsList "2,3,5" ;
-    sd:hasVariables "x1,x2,a_,b_,c_,area,hv" ;
+    sd:hasVariables "x1,x2,a,b,c,area,hv" ;
     sd:isHomogeneous "1" ;
     sd:relatedIntPSEntry <http://symbolicdata.org/Data/PolynomialSystems/Geometry.Heron_1> ;
     a sd:IntPS ;
