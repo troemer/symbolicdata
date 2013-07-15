@@ -4194,7 +4194,7 @@ sd:ModPS
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "9,6,6,7,7,8,8,9" ;
-    sd:hasVariables "u_0,u_1,u_2,u_3,u_4,u_5,u_6,u_7" ;
+    sd:hasVariables "u0,u1,u2,u3,u4,u5,u6,u7" ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Katsura_7.xml> ;
     a sd:IntPS ;
     rdfs:comment "generated with singular lib function katsura" .
@@ -4205,7 +4205,7 @@ sd:ModPS
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "9,6,6,7,7,8,8,9" ;
-    sd:hasVariables "u_0,u_1,u_2,u_3,u_4,u_5,u_6,u_7,hv" ;
+    sd:hasVariables "u0,u1,u2,u3,u4,u5,u6,u7,hv" ;
     sd:isHomogeneous "1" ;
     sd:relatedIntPSEntry <http://symbolicdata.org/Data/PolynomialSystems/Katsura_7> ;
     a sd:IntPS ;
@@ -4216,7 +4216,7 @@ sd:ModPS
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "10,6,7,7,8,8,9,9,10" ;
-    sd:hasVariables "u_0,u_1,u_2,u_3,u_4,u_5,u_6,u_7,u_8" ;
+    sd:hasVariables "u0,u1,u2,u3,u4,u5,u6,u7,u8" ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Katsura_8.xml> ;
     a sd:IntPS ;
     rdfs:comment "generated with singular lib function katsura" .
@@ -4227,7 +4227,7 @@ sd:ModPS
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "10,6,7,7,8,8,9,9,10" ;
-    sd:hasVariables "u_0,u_1,u_2,u_3,u_4,u_5,u_6,u_7,u_8,hv" ;
+    sd:hasVariables "u0,u1,u2,u3,u4,u5,u6,u7,u8,hv" ;
     sd:isHomogeneous "1" ;
     sd:relatedIntPSEntry <http://symbolicdata.org/Data/PolynomialSystems/Katsura_8> ;
     a sd:IntPS ;
