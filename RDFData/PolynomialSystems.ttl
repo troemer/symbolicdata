@@ -3242,7 +3242,7 @@ sd:ModPS
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "3,3,4" ;
     sd:hasLengthsList "8,3,15" ;
-    sd:hasVariables "x1,x2,u1,u2" ;
+    sd:hasVariables "x1,x2,u1,u2,u3" ;
     sd:relatedIntPSEntry <http://symbolicdata.org/Data/PolynomialSystems/Geometry.InCenter_1> ;
     a sd:IntPS ;
     rdfs:comment "Flat variant of Geometry.InCenter_1" .
@@ -3253,7 +3253,7 @@ sd:ModPS
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "3,3,4" ;
     sd:hasLengthsList "8,3,15" ;
-    sd:hasVariables "x1,x2,u1,u2,hv" ;
+    sd:hasVariables "x1,x2,u1,u2,u3,hv" ;
     sd:isHomogeneous "1" ;
     sd:relatedIntPSEntry <http://symbolicdata.org/Data/PolynomialSystems/Geometry.InCenter_1.Flat> ;
     a sd:IntPS ;
@@ -3265,7 +3265,7 @@ sd:ModPS
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2" ;
     sd:hasLengthsList "3,6,6" ;
-    sd:hasParameters "u1,u2" ;
+    sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,hv" ;
     sd:isHomogeneous "1" ;
     sd:relatedIntPSEntry <http://symbolicdata.org/Data/PolynomialSystems/Geometry.InCenter_1> ;
