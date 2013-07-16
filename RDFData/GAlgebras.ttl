@@ -18,11 +18,6 @@ sd:GAlgebra a owl:Class ; rdfs:label "G-Algebra" .
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GAlgebras/algdep_qso3.xml> ;
     rdfs:comment "Parametric example" .
 
-<http://symbolicdata.org/Data/GAlgebra/> a sd:GAlgebra ;
-    sd:createdAt "2003-07-03" ;
-    sd:createdBy sdp:Levandovskyy_V;
-    sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GAlgebras/.xml> .
-
 <http://symbolicdata.org/Data/GAlgebra/sl2left15> a sd:GAlgebra ;
     sd:createdAt "2003-07-03" ;
     sd:createdBy sdp:Levandovskyy_V;
