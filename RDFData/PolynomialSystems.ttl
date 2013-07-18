@@ -964,7 +964,6 @@ sdpol:Czapor-86b
     rdfs:comment "Homogenized version of Czapor-86b" .
 
 <http://symbolicdata.org/Data/Ideal/Czapor-86b.Homog.Flat>
-    sd:flattenIdeal sd:retract;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "3,3" ;
@@ -1019,7 +1018,6 @@ sdpol:Czapor-86c
     rdfs:comment "Homogenized version of Czapor-86c" .
 
 <http://symbolicdata.org/Data/Ideal/Czapor-86c.Homog.Flat>
-    sd:flattenIdeal sd:retract;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "3,3,3" ;
@@ -1086,7 +1084,6 @@ sdpol:Czapor-86c_1
     rdfs:comment "Homogenized version of Czapor-86c_1" .
 
 <http://symbolicdata.org/Data/Ideal/Czapor-86c_1.Homog.Flat>
-    sd:flattenIdeal sd:retract;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "3,3,3" ;
@@ -1153,7 +1150,6 @@ sdpol:Czapor-86c_2
     rdfs:comment "Homogenized version of Czapor-86c_2" .
 
 <http://symbolicdata.org/Data/Ideal/Czapor-86c_2.Homog.Flat>
-    sd:flattenIdeal sd:retract;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2" ;
@@ -1219,7 +1215,6 @@ sdpol:Czapor-87
     rdfs:comment "Homogenized version of Czapor-87" .
 
 <http://symbolicdata.org/Data/Ideal/Czapor-87.Homog.Flat>
-    sd:flattenIdeal sd:retract;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2" ;
@@ -1414,7 +1409,6 @@ sdpol:Ellipsoid_-2
     rdfs:comment "Homogenized version of Ellipsoid_-2" .
 
 <http://symbolicdata.org/Data/Ideal/Ellipsoid_-2.Homog.Flat>
-    sd:flattenIdeal sd:retract;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "6,6,6,8" ;
@@ -1480,7 +1474,6 @@ sdpol:Ellipsoid_2
     rdfs:comment "Homogenized version of Ellipsoid_2" .
 
 <http://symbolicdata.org/Data/Ideal/Ellipsoid_2.Homog.Flat>
-    sd:flattenIdeal sd:retract;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "5,5,5,8" ;
@@ -1546,7 +1539,6 @@ sdpol:Ellipsoid_4
     rdfs:comment "Homogenized version of Ellipsoid_4" .
 
 <http://symbolicdata.org/Data/Ideal/Ellipsoid_4.Homog.Flat>
-    sd:flattenIdeal sd:retract;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "9,9,9,16" ;
@@ -3943,7 +3935,6 @@ sdpol:Heron
     rdfs:comment "Homogenized version of Heron" .
 
 <http://symbolicdata.org/Data/Ideal/Heron.Homog.Flat>
-    sd:flattenIdeal sd:retract;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "4,4,4,4" ;
@@ -4505,7 +4496,6 @@ sdpol:Raksanyi
     rdfs:comment "Homogenized version of Raksanyi" .
 
 <http://symbolicdata.org/Data/Ideal/Raksanyi.Homog.Flat>
-    sd:flattenIdeal sd:retract;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,4,6" ;
@@ -4590,7 +4580,6 @@ sdpol:Robot-RR
     rdfs:comment "Homogenized version of Robot-RR" .
 
 <http://symbolicdata.org/Data/Ideal/Robot-RR.Homog.Flat>
-    sd:flattenIdeal sd:retract;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3" ;
@@ -4740,7 +4729,6 @@ sdpol:Schiele
     rdfs:comment "Homogenized version of Schiele" .
 
 <http://symbolicdata.org/Data/Ideal/Schiele.Homog.Flat>
-    sd:flattenIdeal sd:retract;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,9,9" ;
@@ -4806,7 +4794,6 @@ sdpol:Schiele_1
     rdfs:comment "Homogenized version of Schiele_1" .
 
 <http://symbolicdata.org/Data/Ideal/Schiele_1.Homog.Flat>
-    sd:flattenIdeal sd:retract;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "7,12" ;
