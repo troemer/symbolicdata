@@ -39,7 +39,7 @@ sdpol:Bjoerk_8
     sd:hasDegreeList "1,1,2,3,4,5,6,7,8" ;
     sd:hasLengthsList "2,8,8,7,8,8,8,8,113" ;
     sd:hasVariables "a,b,c,d,e,f,g,h,hv" ;
-    sd:relatedParentIdeal sdpol:Bjoerk_8 ;
+    sd:homogenize sdpol:Bjoerk_8 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Bjoerk_8" .
 
@@ -60,7 +60,7 @@ sdpol:Bronstein-86
     sd:hasDegreeList "2,2,3" ;
     sd:hasLengthsList "3,4,5" ;
     sd:hasVariables "x,y,z,r,hv" ;
-    sd:relatedParentIdeal sdpol:Bronstein-86 ;
+    sd:homogenize sdpol:Bronstein-86 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Bronstein-86" .
 
@@ -73,7 +73,7 @@ sdpol:Buchberger-87
     sd:hasVariables "r,t,x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Buchberger-87> ;
     a sd:Ideal ;
-    rdfs:comment "Origin: Implicitation of (rt,rt^2,r^2)" .
+    rdfs:comment "Origin: Implicitation of (r*t,r*t^2,r^2)" .
 
 <http://symbolicdata.org/Data/Ideal/Buchberger-87.Homog>
     sd:homogenizedWith "hv" ;
@@ -82,7 +82,7 @@ sdpol:Buchberger-87
     sd:hasDegreeList "2,2,3" ;
     sd:hasLengthsList "2,2,2" ;
     sd:hasVariables "r,t,x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Buchberger-87 ;
+    sd:homogenize sdpol:Buchberger-87 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Buchberger-87" .
 
@@ -105,7 +105,7 @@ sdpol:Butcher
     sd:hasDegreeList "1,2,3,3,4,4,4,4" ;
     sd:hasLengthsList "5,6,7,7,9,9,9,8" ;
     sd:hasVariables "b,c2,c3,a,b3,b2,a32,b1,hv" ;
-    sd:relatedParentIdeal sdpol:Butcher ;
+    sd:homogenize sdpol:Butcher ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Butcher" .
 
@@ -127,7 +127,7 @@ sdpol:Caprasse
     sd:hasDegreeList "3,3,4,4" ;
     sd:hasLengthsList "4,4,9,9" ;
     sd:hasVariables "x,y,z,t,hv" ;
-    sd:relatedParentIdeal sdpol:Caprasse ;
+    sd:homogenize sdpol:Caprasse ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Caprasse" .
 
@@ -149,7 +149,7 @@ sdpol:Cassou
     sd:hasDegreeList "4,6,7,8" ;
     sd:hasLengthsList "6,11,10,18" ;
     sd:hasVariables "b,c,d,e,hv" ;
-    sd:relatedParentIdeal sdpol:Cassou ;
+    sd:homogenize sdpol:Cassou ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Cassou" .
 
@@ -178,7 +178,7 @@ sdpol:Cohn_2
     sd:hasDegreeList "5,6,6,6" ;
     sd:hasLengthsList "15,19,20,19" ;
     sd:hasVariables "t,x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Cohn_2 ;
+    sd:homogenize sdpol:Cohn_2 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Cohn_2" .
 
@@ -753,7 +753,7 @@ sdpol:Cyclic_4
     sd:hasDegreeList "1,2,3,4" ;
     sd:hasLengthsList "4,4,4,2" ;
     sd:hasVariables "w,x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Cyclic_4 ;
+    sd:homogenize sdpol:Cyclic_4 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Cyclic_4" .
 
@@ -775,7 +775,7 @@ sdpol:Cyclic_5
     sd:hasDegreeList "1,2,3,4,5" ;
     sd:hasLengthsList "5,5,5,5,2" ;
     sd:hasVariables "v,w,x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Cyclic_5 ;
+    sd:homogenize sdpol:Cyclic_5 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Cyclic_5" .
 
@@ -797,7 +797,7 @@ sdpol:Cyclic_5_1
     sd:hasDegreeList "1,2,3,4,5" ;
     sd:hasLengthsList "5,5,5,5,2" ;
     sd:hasVariables "v,w,x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Cyclic_5_1 ;
+    sd:homogenize sdpol:Cyclic_5_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Cyclic_5_1" .
 
@@ -819,7 +819,7 @@ sdpol:Cyclic_6
     sd:hasDegreeList "1,2,3,4,5,6" ;
     sd:hasLengthsList "6,6,6,6,6,2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,hv" ;
-    sd:relatedParentIdeal sdpol:Cyclic_6 ;
+    sd:homogenize sdpol:Cyclic_6 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Cyclic_6" .
 
@@ -841,7 +841,7 @@ sdpol:Cyclic_7
     sd:hasDegreeList "1,2,3,4,5,6,7" ;
     sd:hasLengthsList "7,7,7,7,7,7,2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,hv" ;
-    sd:relatedParentIdeal sdpol:Cyclic_7 ;
+    sd:homogenize sdpol:Cyclic_7 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Cyclic_7" .
 
@@ -863,7 +863,7 @@ sdpol:Cyclic_7_1
     sd:hasDegreeList "4,5,6" ;
     sd:hasLengthsList "7,7,7" ;
     sd:hasVariables "a,b,c,hv" ;
-    sd:relatedParentIdeal sdpol:Cyclic_7_1 ;
+    sd:homogenize sdpol:Cyclic_7_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Cyclic_7_1" .
 
@@ -883,7 +883,7 @@ sdpol:Cyclic_8
     sd:hasDegreeList "1,2,3,4,5,6,7,8" ;
     sd:hasLengthsList "8,8,8,8,8,8,8,2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,hv" ;
-    sd:relatedParentIdeal sdpol:Cyclic_8 ;
+    sd:homogenize sdpol:Cyclic_8 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Cyclic_8" .
 
@@ -903,7 +903,7 @@ sdpol:Cyclic_9
     sd:hasDegreeList "1,2,3,4,5,6,7,8,9" ;
     sd:hasLengthsList "9,9,9,9,9,9,9,9,2" ;
     sd:hasVariables "y1,y2,y3,y4,y5,y6,y7,y8,y9,hv" ;
-    sd:relatedParentIdeal sdpol:Cyclic_9 ;
+    sd:homogenize sdpol:Cyclic_9 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Cyclic_9" .
 
@@ -925,7 +925,7 @@ sdpol:Czapor-86a
     sd:hasDegreeList "2,2,2" ;
     sd:hasLengthsList "10,10,10" ;
     sd:hasVariables "x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Czapor-86a ;
+    sd:homogenize sdpol:Czapor-86a ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-86a" .
 
@@ -937,7 +937,7 @@ sdpol:Czapor-86b
     sd:hasLengthsList "6,6" ;
     sd:hasParameters "a,b,c,d,e,f,g,h,k" ;
     sd:hasVariables "x,y" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-86b.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Czapor-86b.Flat> ;
     a sd:Ideal ;
     rdfs:comment "diff = easy" .
 
@@ -959,7 +959,7 @@ sdpol:Czapor-86b
     sd:hasLengthsList "6,6" ;
     sd:hasParameters "a,b,c,d,e,f,g,h,k" ;
     sd:hasVariables "x,y,hv" ;
-    sd:relatedParentIdeal sdpol:Czapor-86b ;
+    sd:homogenize sdpol:Czapor-86b ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-86b" .
 
@@ -970,7 +970,7 @@ sdpol:Czapor-86b
     sd:hasDegreeList "3,3" ;
     sd:hasLengthsList "6,6" ;
     sd:hasVariables "x,y,hv,a,b,c,d,e,f,g,h,k" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-86b.Homog> ;
+    sd:flatten <http://symbolicdata.org/Data/Ideal/Czapor-86b.Homog> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Flat version of Czapor-86b.Homog" .
 
@@ -982,7 +982,7 @@ sdpol:Czapor-86c
     sd:hasLengthsList "4,4,4" ;
     sd:hasParameters "a,b,c,d,e,f,g,h,k" ;
     sd:hasVariables "x,y,z" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-86c.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Czapor-86c.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Czapor-86c.Flat>
@@ -1002,7 +1002,7 @@ sdpol:Czapor-86c
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z,a,b,c,d,e,f,g,h,k,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-86c.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Czapor-86c.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-86c.Flat" .
 
@@ -1014,7 +1014,7 @@ sdpol:Czapor-86c
     sd:hasLengthsList "4,4,4" ;
     sd:hasParameters "a,b,c,d,e,f,g,h,k" ;
     sd:hasVariables "x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Czapor-86c ;
+    sd:homogenize sdpol:Czapor-86c ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-86c" .
 
@@ -1025,7 +1025,7 @@ sdpol:Czapor-86c
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z,hv,a,b,c,d,e,f,g,h,k" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-86c.Homog> ;
+    sd:flatten <http://symbolicdata.org/Data/Ideal/Czapor-86c.Homog> ;
     a sd:Ideal ;
     rdfs:comment "Flat version of Czapor-86c.Homog" .
 
@@ -1036,7 +1036,7 @@ sdpol:Czapor-86c
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z,hv,a,b,c,d,e,f,g,h,k,hw" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-86c.Homog.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Czapor-86c.Homog.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-86c.Homog.Flat" .
 
@@ -1048,7 +1048,7 @@ sdpol:Czapor-86c_1
     sd:hasLengthsList "3,3,3" ;
     sd:hasParameters "a,b,c,g,h,k" ;
     sd:hasVariables "x,y,z" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-86c_1.Flat>;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Czapor-86c_1.Flat>;
     a sd:Ideal ;
     rdfs:comment "Czapor-86c(d=e=f=0)" .
 
@@ -1069,7 +1069,7 @@ sdpol:Czapor-86c_1
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "3,3,3" ;
     sd:hasVariables "x,y,z,a,b,c,g,h,k,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-86c_1.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Czapor-86c_1.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-86c_1.Flat" .
 
@@ -1081,7 +1081,7 @@ sdpol:Czapor-86c_1
     sd:hasLengthsList "3,3,3" ;
     sd:hasParameters "a,b,c,g,h,k" ;
     sd:hasVariables "x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Czapor-86c_1 ;
+    sd:homogenize sdpol:Czapor-86c_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-86c_1" .
 
@@ -1092,7 +1092,7 @@ sdpol:Czapor-86c_1
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "3,3,3" ;
     sd:hasVariables "x,y,z,hv,a,b,c,g,h,k" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-86c_1.Homog> ;
+    sd:flatten <http://symbolicdata.org/Data/Ideal/Czapor-86c_1.Homog> ;
     a sd:Ideal ;
     rdfs:comment "Flat version of Czapor-86c_1.Homog" .
 
@@ -1103,7 +1103,7 @@ sdpol:Czapor-86c_1
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "3,3,3" ;
     sd:hasVariables "x,y,z,hv,a,b,c,g,h,k,hw" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-86c_1.Homog.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Czapor-86c_1.Homog.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-86c_1.Homog.Flat" .
 
@@ -1115,7 +1115,7 @@ sdpol:Czapor-86c_2
     sd:hasLengthsList "4,4,4" ;
     sd:hasParameters "d,e,f" ;
     sd:hasVariables "x,y,z" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-86c_2.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Czapor-86c_2.Flat> ;
     a sd:Ideal ;
     rdfs:comment "Czapor-86c(a=b=c=g=h=k=0)" .
 
@@ -1136,7 +1136,7 @@ sdpol:Czapor-86c_2
     sd:hasDegreeList "2,2,2" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z,d,e,f,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-86c_2.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Czapor-86c_2.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-86c_2.Flat" .
 
@@ -1148,7 +1148,7 @@ sdpol:Czapor-86c_2
     sd:hasLengthsList "4,4,4" ;
     sd:hasParameters "d,e,f" ;
     sd:hasVariables "x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Czapor-86c_2 ;
+    sd:homogenize sdpol:Czapor-86c_2 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-86c_2" .
 
@@ -1159,7 +1159,7 @@ sdpol:Czapor-86c_2
     sd:hasDegreeList "2,2,2" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z,hv,d,e,f" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-86c_2.Homog> ;
+    sd:flatten <http://symbolicdata.org/Data/Ideal/Czapor-86c_2.Homog> ;
     a sd:Ideal ;
     rdfs:comment "Flat version of Czapor-86c_2.Homog" .
 
@@ -1170,7 +1170,7 @@ sdpol:Czapor-86c_2
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z,hv,d,e,f,hw" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-86c_2.Homog.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Czapor-86c_2.Homog.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-86c_2.Homog.Flat" .
 
@@ -1181,7 +1181,7 @@ sdpol:Czapor-87
     sd:hasLengthsList "14,15,15,15" ;
     sd:hasParameters "c1,c2,c3,c4,d1,d2,d3,d4" ;
     sd:hasVariables "x,y,z,w" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-87.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Czapor-87.Flat> ;
     a sd:Ideal ;
     rdfs:comment "diff = very hard, since almost random" .
 
@@ -1202,7 +1202,7 @@ sdpol:Czapor-87
     sd:hasDegreeList "3,3,3,3" ;
     sd:hasLengthsList "14,15,15,15" ;
     sd:hasVariables "x,y,z,w,c1,c2,c3,c4,d1,d2,d3,d4,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-87.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Czapor-87.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-87.Flat" .
 
@@ -1214,7 +1214,7 @@ sdpol:Czapor-87
     sd:hasLengthsList "14,15,15,15" ;
     sd:hasParameters "c1,c2,c3,c4,d1,d2,d3,d4" ;
     sd:hasVariables "x,y,z,w,hv" ;
-    sd:relatedParentIdeal sdpol:Czapor-87 ;
+    sd:homogenize sdpol:Czapor-87 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-87" .
 
@@ -1225,7 +1225,7 @@ sdpol:Czapor-87
     sd:hasDegreeList "2,2,2,2" ;
     sd:hasLengthsList "14,15,15,15" ;
     sd:hasVariables "x,y,z,w,hv,c1,c2,c3,c4,d1,d2,d3,d4" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-87.Homog> ;
+    sd:flatten <http://symbolicdata.org/Data/Ideal/Czapor-87.Homog> ;
     a sd:Ideal ;
     rdfs:comment "Flat version of Czapor-87.Homog" .
 
@@ -1236,7 +1236,7 @@ sdpol:Czapor-87
     sd:hasDegreeList "3,3,3,3" ;
     sd:hasLengthsList "14,15,15,15" ;
     sd:hasVariables "x,y,z,w,hv,c1,c2,c3,c4,d1,d2,d3,d4,hw" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Czapor-87.Homog.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Czapor-87.Homog.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-87.Homog.Flat" .
 
@@ -1258,7 +1258,7 @@ sdpol:Czapor-87_1
     sd:hasDegreeList "2,2,2,2" ;
     sd:hasLengthsList "13,13,13,12" ;
     sd:hasVariables "x,y,z,w,hv" ;
-    sd:relatedParentIdeal sdpol:Czapor-87_1 ;
+    sd:homogenize sdpol:Czapor-87_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-87_1" .
 
@@ -1280,7 +1280,7 @@ sdpol:Czapor-87_2
     sd:hasDegreeList "2,2,2,2" ;
     sd:hasLengthsList "15,14,15,15" ;
     sd:hasVariables "x,y,z,w,hv" ;
-    sd:relatedParentIdeal sdpol:Czapor-87_2 ;
+    sd:homogenize sdpol:Czapor-87_2 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-87_2" .
 
@@ -1302,7 +1302,7 @@ sdpol:Czapor-91
     sd:hasDegreeList "2,2,2" ;
     sd:hasLengthsList "8,8,7" ;
     sd:hasVariables "x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Czapor-91 ;
+    sd:homogenize sdpol:Czapor-91 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Czapor-91" .
 
@@ -1322,7 +1322,7 @@ sdpol:DiscrC2
     sd:hasDegreeList "3,3,4" ;
     sd:hasLengthsList "6,6,10" ;
     sd:hasVariables "x,y,a,b,c,d,e,f,g,h,i,j,hv" ;
-    sd:relatedParentIdeal sdpol:DiscrC2 ;
+    sd:homogenize sdpol:DiscrC2 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of DiscrC2" .
 
@@ -1344,7 +1344,7 @@ sdpol:Discriminant_4
     sd:hasDegreeList "5,5,5,5,6" ;
     sd:hasLengthsList "11,10,10,10,16" ;
     sd:hasVariables "a0,a1,a2,a3,hv" ;
-    sd:relatedParentIdeal sdpol:Discriminant_4 ;
+    sd:homogenize sdpol:Discriminant_4 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Discriminant_4" .
 
@@ -1365,7 +1365,7 @@ sdpol:Discriminant_5
     sd:hasDegreeList "7,7,7,7,7,8" ;
     sd:hasLengthsList "43,40,37,37,40,59" ;
     sd:hasVariables "a0,a1,a2,a3,a4,hv" ;
-    sd:relatedParentIdeal sdpol:Discriminant_5 ;
+    sd:homogenize sdpol:Discriminant_5 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Discriminant_5" .
 
@@ -1377,7 +1377,7 @@ sdpol:Ellipsoid_-2
     sd:hasLengthsList "3,3,3,4" ;
     sd:hasParameters "ma,mb,mc,a,b,c" ;
     sd:hasVariables "l,x,y,z" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Ellipsoid_-2.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Ellipsoid_-2.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Ellipsoid_-2.Flat>
@@ -1397,7 +1397,7 @@ sdpol:Ellipsoid_-2
     sd:hasDegreeList "4,4,4,6" ;
     sd:hasLengthsList "3,3,3,4" ;
     sd:hasVariables "l,x,y,z,ma,mb,mc,a,b,c,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Ellipsoid_-2.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Ellipsoid_-2.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Ellipsoid_-2.Flat" .
 
@@ -1409,7 +1409,7 @@ sdpol:Ellipsoid_-2
     sd:hasLengthsList "3,3,3,4" ;
     sd:hasParameters "ma,mb,mc,a,b,c" ;
     sd:hasVariables "l,x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Ellipsoid_-2 ;
+    sd:homogenize sdpol:Ellipsoid_-2 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Ellipsoid_-2" .
 
@@ -1420,7 +1420,7 @@ sdpol:Ellipsoid_-2
     sd:hasDegreeList "6,6,6,8" ;
     sd:hasLengthsList "3,3,3,4" ;
     sd:hasVariables "l,x,y,z,hv,ma,mb,mc,a,b,c" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Ellipsoid_-2.Homog> ;
+    sd:flatten <http://symbolicdata.org/Data/Ideal/Ellipsoid_-2.Homog> ;
     a sd:Ideal ;
     rdfs:comment "Flat version of Ellipsoid_-2.Homog" .
 
@@ -1431,7 +1431,7 @@ sdpol:Ellipsoid_-2
     sd:hasDegreeList "6,6,6,8" ;
     sd:hasLengthsList "3,3,3,4" ;
     sd:hasVariables "l,x,y,z,hv,ma,mb,mc,a,b,c,hw" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Ellipsoid_-2.Homog.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Ellipsoid_-2.Homog.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogeneous version of Ellipsoid_-2.Homog.Flat" .
 
@@ -1443,7 +1443,7 @@ sdpol:Ellipsoid_2
     sd:hasLengthsList "3,3,4,3" ;
     sd:hasParameters "ma,mb,mc,a,b,c" ;
     sd:hasVariables "l,x,y,z" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Ellipsoid_2.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Ellipsoid_2.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Ellipsoid_2.Flat>
@@ -1463,7 +1463,7 @@ sdpol:Ellipsoid_2
     sd:hasDegreeList "3,3,3,6" ;
     sd:hasLengthsList "3,3,3,4" ;
     sd:hasVariables "l,x,y,z,ma,mb,mc,a,b,c,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Ellipsoid_2.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Ellipsoid_2.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Ellipsoid_2.Flat" .
 
@@ -1475,7 +1475,7 @@ sdpol:Ellipsoid_2
     sd:hasLengthsList "3,3,4,3" ;
     sd:hasParameters "ma,mb,mc,a,b,c" ;
     sd:hasVariables "l,x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Ellipsoid_2 ;
+    sd:homogenize sdpol:Ellipsoid_2 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Ellipsoid_2" .
 
@@ -1486,7 +1486,7 @@ sdpol:Ellipsoid_2
     sd:hasDegreeList "5,5,5,8" ;
     sd:hasLengthsList "3,3,3,4" ;
     sd:hasVariables "l,x,y,z,hv,ma,mb,mc,a,b,c" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Ellipsoid_2.Homog> ;
+    sd:flatten <http://symbolicdata.org/Data/Ideal/Ellipsoid_2.Homog> ;
     a sd:Ideal ;
     rdfs:comment "Flat version of Ellipsoid_2.Homog" .
 
@@ -1497,7 +1497,7 @@ sdpol:Ellipsoid_2
     sd:hasDegreeList "5,5,5,8" ;
     sd:hasLengthsList "3,3,3,4" ;
     sd:hasVariables "l,x,y,z,hv,ma,mb,mc,a,b,c,hw" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Ellipsoid_2.Homog.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Ellipsoid_2.Homog.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Ellipsoid_2.Homog.Flat" .
 
@@ -1509,7 +1509,7 @@ sdpol:Ellipsoid_4
     sd:hasLengthsList "3,3,4,3" ;
     sd:hasParameters "ma,mb,mc,a,b,c" ;
     sd:hasVariables "l,x,y,z" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Ellipsoid_4.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Ellipsoid_4.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Ellipsoid_4.Flat>
@@ -1529,7 +1529,7 @@ sdpol:Ellipsoid_4
     sd:hasDegreeList "5,5,5,12" ;
     sd:hasLengthsList "3,3,3,4" ;
     sd:hasVariables "l,x,y,z,ma,mb,mc,a,b,c,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Ellipsoid_4.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Ellipsoid_4.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Ellipsoid_4.Flat" .
 
@@ -1541,7 +1541,7 @@ sdpol:Ellipsoid_4
     sd:hasLengthsList "3,3,4,3" ;
     sd:hasParameters "ma,mb,mc,a,b,c" ;
     sd:hasVariables "l,x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Ellipsoid_4 ;
+    sd:homogenize sdpol:Ellipsoid_4 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Ellipsoid_4" .
 
@@ -1552,7 +1552,7 @@ sdpol:Ellipsoid_4
     sd:hasDegreeList "9,9,9,16" ;
     sd:hasLengthsList "3,3,3,4" ;
     sd:hasVariables "l,x,y,z,hv,ma,mb,mc,a,b,c" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Ellipsoid_4.Homog> ;
+    sd:flatten <http://symbolicdata.org/Data/Ideal/Ellipsoid_4.Homog> ;
     a sd:Ideal ;
     rdfs:comment "Flat version of Ellipsoid_4.Homog" .
 
@@ -1563,7 +1563,7 @@ sdpol:Ellipsoid_4
     sd:hasDegreeList "9,9,9,16" ;
     sd:hasLengthsList "3,3,3,4" ;
     sd:hasVariables "l,x,y,z,hv,ma,mb,mc,a,b,c,hw" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Ellipsoid_4.Homog.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Ellipsoid_4.Homog.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogeneous version of Ellipsoid_4.Homog.Flat" .
 
@@ -1597,7 +1597,7 @@ sdpol:Fee_1
     sd:hasDegreeList "2,3,4,4" ;
     sd:hasLengthsList "5,6,20,15" ;
     sd:hasVariables "q,c,p,d,hv" ;
-    sd:relatedParentIdeal sdpol:Fee_1 ;
+    sd:homogenize sdpol:Fee_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Fee_1" .
 
@@ -1608,7 +1608,7 @@ sdpol:Fee_2
     sd:hasLengthsList "5,9,20,15" ;
     sd:hasParameters "b" ;
     sd:hasVariables "q,c,p,d" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Fee_2.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Fee_2.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Fee_2.Flat>
@@ -1628,7 +1628,7 @@ sdpol:Fee_2
     sd:hasDegreeList "4,5,5,6" ;
     sd:hasLengthsList "7,18,18,32" ;
     sd:hasVariables "q,c,p,d,b,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Fee_2.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Fee_2.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Fee_2.Flat" .
 
@@ -1640,7 +1640,7 @@ sdpol:Fee_2
     sd:hasLengthsList "5,9,20,15" ;
     sd:hasParameters "b" ;
     sd:hasVariables "q,c,p,d,hv" ;
-    sd:relatedParentIdeal sdpol:Fee_2 ;
+    sd:homogenize sdpol:Fee_2 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Fee_2" .
 
@@ -1670,7 +1670,7 @@ sdpol:FourCircles
     sd:hasDegreeList "7,7,8" ;
     sd:hasLengthsList "15,16,19" ;
     sd:hasVariables "y,x,hv" ;
-    sd:relatedParentIdeal sdpol:FourCircles ;
+    sd:homogenize sdpol:FourCircles ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of FourCircles" .
 
@@ -1692,7 +1692,7 @@ sdpol:FourCircles_1
     sd:hasDegreeList "7,7" ;
     sd:hasLengthsList "16,15" ;
     sd:hasVariables "x,y,hv" ;
-    sd:relatedParentIdeal sdpol:FourCircles_1 ;
+    sd:homogenize sdpol:FourCircles_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of FourCircles_1" .
 
@@ -1712,7 +1712,7 @@ sdpol:FourCircles_1
     sd:hasDegreeList "1,2,2" ;
     sd:hasLengthsList "3,4,4" ;
     sd:hasVariables "x1,x2,x3,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Arnon> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Arnon> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Arnon" .
 
@@ -1723,7 +1723,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,3,7,4" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Biarc.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Biarc.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.Biarc.Flat>
@@ -1744,7 +1744,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,3,7,4" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Biarc> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Biarc> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Biarc" .
 
@@ -1755,7 +1755,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,4,4,7,6" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x0,x1,x2,x3,x4" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Brahmagupta.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Brahmagupta.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.Brahmagupta.Flat>
@@ -1775,7 +1775,7 @@ sdpol:FourCircles_1
     sd:hasDegreeList "2,2,2,2,3" ;
     sd:hasLengthsList "3,4,5,7,6" ;
     sd:hasVariables "x1,x2,x3,x4,x0,u1,u2,u3,u4,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Brahmagupta.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Brahmagupta.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Brahmagupta.Flat" .
 
@@ -1787,7 +1787,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,4,4,7,6" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x0,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Brahmagupta> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Brahmagupta> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Brahmagupta" .
 
@@ -1798,7 +1798,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "1,4,3,4,1,3,5,5,7,2,4" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Brocard_1.Flat>;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Brocard_1.Flat>;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.Brocard_1.Flat>
@@ -1815,7 +1815,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "2,4,4,2,4,4,2" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Butterfly_1.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Butterfly_1.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.Butterfly_1.Flat>
@@ -1836,7 +1836,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "2,4,4,2,4,4,2" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Butterfly_1> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Butterfly_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Butterfly_1" .
 
@@ -1847,7 +1847,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "5,6,4,3,3,5,2,2,2" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Butterfly_3.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Butterfly_3.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.Butterfly_3.Flat>
@@ -1868,7 +1868,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "5,6,4,3,3,5,2,2,2" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Butterfly_3> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Butterfly_3> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Butterfly_3" .
 
@@ -1879,7 +1879,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "2,3,6,3,6,3,6,3" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Chou-84a_2.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Chou-84a_2.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.Chou-84a_2.Flat>
@@ -1900,7 +1900,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "2,3,6,3,5,3,5,2" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Chou-84a_2> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Chou-84a_2> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Chou-84a_2" .
 
@@ -2980,7 +2980,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,3,3,4,4,5" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.FermatPoint_1.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.FermatPoint_1.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.FermatPoint_1.Flat>
@@ -3000,7 +3000,7 @@ sdpol:FourCircles_1
     sd:hasDegreeList "2,2,2,2,2,2" ;
     sd:hasLengthsList "3,3,4,4,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.FermatPoint_1.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.FermatPoint_1.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.FermatPoint_1.Flat" .
 
@@ -3012,7 +3012,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,3,3,4,4,5" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.FermatPoint_1> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.FermatPoint_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.FermatPoint_1" .
 
@@ -3023,7 +3023,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "6,6" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.FeuerbachTangency_1.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.FeuerbachTangency_1.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.FeuerbachTangency_1.Flat>
@@ -3043,7 +3043,7 @@ sdpol:FourCircles_1
     sd:hasDegreeList "3,4" ;
     sd:hasLengthsList "8,15" ;
     sd:hasVariables "x1,x2,u1,u2,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.FeuerbachTangency_1.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.FeuerbachTangency_1.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.FeuerbachTangency_1.Flat" .
 
@@ -3055,7 +3055,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "6,6" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.FeuerbachTangency_1> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.FeuerbachTangency_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.FeuerbachTangency_1" .
 
@@ -3085,7 +3085,7 @@ sdpol:FourCircles_1
     sd:hasDegreeList "2,2,2" ;
     sd:hasLengthsList "2,3,5" ;
     sd:hasVariables "x1,x2,a,b,c,area,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Heron_1> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Heron_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Heron_1" .
 
@@ -3096,7 +3096,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,3,3,3,4,4" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.IMO.35_1.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.IMO.35_1.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.IMO.35_1.Flat>
@@ -3116,7 +3116,7 @@ sdpol:FourCircles_1
     sd:hasDegreeList "2,2,3,3,3,3" ;
     sd:hasLengthsList "3,3,4,5,4,5" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2,u3,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.IMO.35_1.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.IMO.35_1.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.IMO.35_1.Flat" .
 
@@ -3128,7 +3128,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,3,3,3,4,4" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.IMO.35_1> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.IMO.35_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.IMO.35_1" .
 
@@ -3139,7 +3139,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.InCenter_1.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.InCenter_1.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.InCenter_1.Flat>
@@ -3159,7 +3159,7 @@ sdpol:FourCircles_1
     sd:hasDegreeList "3,3,4" ;
     sd:hasLengthsList "8,3,15" ;
     sd:hasVariables "x1,x2,u1,u2,u3,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.InCenter_1.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.InCenter_1.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.InCenter_1.Flat" .
 
@@ -3171,7 +3171,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,6,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.InCenter_1> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.InCenter_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.InCenter_1" .
 
@@ -3182,7 +3182,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "2,4,3" ;
     sd:hasParameters "u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.MacLane_1.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.MacLane_1.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.MacLane_1.Flat>
@@ -3202,7 +3202,7 @@ sdpol:FourCircles_1
     sd:hasDegreeList "5,5,6" ;
     sd:hasLengthsList "6,9,18" ;
     sd:hasVariables "x1,x2,x3,u2,u3,u4,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.MacLane_1.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.MacLane_1.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.MacLane_1.Flat" .
 
@@ -3214,7 +3214,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "2,4,3" ;
     sd:hasParameters "u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.MacLane_1> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.MacLane_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.MacLane_1" .
 
@@ -3225,7 +3225,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,3,9,9,31,60" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Morley_1.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Morley_1.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.Morley_1.Flat>
@@ -3245,7 +3245,7 @@ sdpol:FourCircles_1
     sd:hasDegreeList "3,3,4,4,4,6" ;
     sd:hasLengthsList "9,9,6,6,41,90" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Morley_1.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Morley_1.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Morley_1.Flat" .
 
@@ -3257,7 +3257,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,3,9,9,31,60" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Morley_1> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Morley_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Morley_1" .
 
@@ -3298,7 +3298,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,3,3,3" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.PedalPointTriangle_1.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.PedalPointTriangle_1.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.PedalPointTriangle_1.Flat>
@@ -3319,7 +3319,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,3,3,3" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.PedalPointTriangle_1> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.PedalPointTriangle_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.PedalPointTriangle_1" .
 
@@ -3330,7 +3330,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "2,3,3,4" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.SimsonInverse_1.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.SimsonInverse_1.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.SimsonInverse_1.Flat>
@@ -3350,7 +3350,7 @@ sdpol:FourCircles_1
     sd:hasDegreeList "1,3,3,3" ;
     sd:hasLengthsList "2,4,6,10" ;
     sd:hasVariables "x1,x2,x3,x4,u1,u2,u3,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.SimsonInverse_1.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.SimsonInverse_1.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.SimsonInverse_1.Flat" .
 
@@ -3362,7 +3362,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "2,3,3,4" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.SimsonInverse_1> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.SimsonInverse_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.SimsonInverse_1" .
 
@@ -3373,7 +3373,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "2,2,2,8,9,8" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Simson_2.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_2.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.Simson_2.Flat>
@@ -3393,7 +3393,7 @@ sdpol:FourCircles_1
     sd:hasDegreeList "2,2,2,3,3,3" ;
     sd:hasLengthsList "3,3,3,10,14,10" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2,u3,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Simson_2.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_2.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Simson_2.Flat" .
 
@@ -3405,7 +3405,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "2,2,2,8,9,8" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Simson_2> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_2> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Simson_2" .
 
@@ -3416,7 +3416,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "5,2,2,2,4,4,6,2,2" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Simson_3.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_3.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.Simson_3.Flat>
@@ -3437,7 +3437,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "5,2,2,2,4,4,6,2,2" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Simson_3> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_3> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Simson_3" .
 
@@ -3448,7 +3448,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,2,4,4,2,3,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Simson_4.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_4.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.Simson_4.Flat>
@@ -3469,7 +3469,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,2,4,4,3,2,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Simson_4> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_4> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Simson_4" .
 
@@ -3480,7 +3480,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,2,4,4,3" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Simson_5.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_5.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.Simson_5.Flat>
@@ -3501,7 +3501,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,2,4,4,3" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Simson_5> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_5> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Simson_5" .
 
@@ -3512,7 +3512,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "2,4,6,4,6,3" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_1.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_1.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_1.Flat>
@@ -3532,7 +3532,7 @@ sdpol:FourCircles_1
     sd:hasDegreeList "1,2,2,2,2,2" ;
     sd:hasLengthsList "2,4,6,4,6,3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_1.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_1.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Steiner_1.Flat" .
 
@@ -3544,7 +3544,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,3,2,3,4,3" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_1> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Steiner_1" .
 
@@ -3555,7 +3555,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "2,4,6,6,9" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_2.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_2.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_2.Flat>
@@ -3575,7 +3575,7 @@ sdpol:FourCircles_1
     sd:hasDegreeList "1,2,2,3,3" ;
     sd:hasLengthsList "2,4,6,6,9" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_2.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_2.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Steiner_2.Flat" .
 
@@ -3587,7 +3587,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "3,3,2,5,6" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_2> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_2> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Steiner_2" .
 
@@ -3598,7 +3598,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "6,6,6,6,9,9" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Thebault_1.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Thebault_1.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Geometry.Thebault_1.Flat>
@@ -3618,7 +3618,7 @@ sdpol:FourCircles_1
     sd:hasDegreeList "3,3,4,4,5,5" ;
     sd:hasLengthsList "6,6,12,12,20,20" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2,u3,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Thebault_1.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Thebault_1.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Thebault_1.Flat" .
 
@@ -3630,7 +3630,7 @@ sdpol:FourCircles_1
     sd:hasLengthsList "6,6,6,6,9,9" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Thebault_1> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Thebault_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Thebault_1" .
 
@@ -3650,7 +3650,7 @@ sdpol:FourCircles_1
     sd:hasDegreeList "2,2,2,2,2,2" ;
     sd:hasLengthsList "2,3,5,3,5,7" ;
     sd:hasVariables "x1,x2,x3,x4,S,R,a,b,c,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Geometry.Tri_area_1> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Tri_area_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Geometry.Tri_area_1" .
 
@@ -3672,7 +3672,7 @@ sdpol:Gerdt-85
     sd:hasDegreeList "2,3,3,3,3,3,3,3,3,3,3,4,4" ;
     sd:hasLengthsList "3,6,6,7,5,9,10,7,8,3,12,18,13" ;
     sd:hasVariables "l7,l6,l5,l4,l3,l2,l1,hv" ;
-    sd:relatedParentIdeal sdpol:Gerdt-85 ;
+    sd:homogenize sdpol:Gerdt-85 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Gerdt-85" .
 
@@ -3695,7 +3695,7 @@ sdpol:Gerdt-85_1
     sd:hasDegreeList "2,3,3,3,3,3,3,3,3,3,4,4" ;
     sd:hasLengthsList "3,3,7,10,10,6,9,6,7,12,13,18" ;
     sd:hasVariables "x,y,z,t,u,v,w,hv" ;
-    sd:relatedParentIdeal sdpol:Gerdt-85_1 ;
+    sd:homogenize sdpol:Gerdt-85_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Gerdt-85_1" .
 
@@ -3729,7 +3729,7 @@ sdpol:Gerdt-91a
     sd:hasDegreeList "3,3,3,3,3,3,3,4,4" ;
     sd:hasLengthsList "3,4,4,5,9,3,4,4,6" ;
     sd:hasVariables "l6,l5,l4,l3,l2,l1,hv" ;
-    sd:relatedParentIdeal sdpol:Gerdt-91a ;
+    sd:homogenize sdpol:Gerdt-91a ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Gerdt-91a" .
 
@@ -3751,7 +3751,7 @@ sdpol:Gerdt-91b
     sd:hasDegreeList "4,4,5,5" ;
     sd:hasLengthsList "8,10,14,16" ;
     sd:hasVariables "t,x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Gerdt-91b ;
+    sd:homogenize sdpol:Gerdt-91b ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Gerdt-91b" .
 
@@ -3773,7 +3773,7 @@ sdpol:Gerdt-93
     sd:hasDegreeList "2,3,3" ;
     sd:hasLengthsList "4,3,3" ;
     sd:hasVariables "l,s,z,y,x,hv" ;
-    sd:relatedParentIdeal sdpol:Gerdt-93 ;
+    sd:homogenize sdpol:Gerdt-93 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Gerdt-93" .
 
@@ -3804,7 +3804,7 @@ sdpol:Gonnet-83
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "1,2,1,2,3,4,3,2,1,4,2,2,8,9,8,9,15,7,16" ;
     sd:hasVariables "a0,a2,a3,a4,a5,b0,b1,b2,b3,b4,b5,c0,c1,c2,c3,c4,c5,hv" ;
-    sd:relatedParentIdeal sdpol:Gonnet-83 ;
+    sd:homogenize sdpol:Gonnet-83 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Gonnet-83" .
 
@@ -3826,7 +3826,7 @@ sdpol:Gonnet-83_1
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "1,2,1,2,3,4,3,2,1,4,2,2,9,8,9,7,8,16,15" ;
     sd:hasVariables "a0,a1,a2,a3,a4,a5,b0,b1,b2,b3,b4,b5,c0,c1,c2,c3,c4,c5,hv" ;
-    sd:relatedParentIdeal sdpol:Gonnet-83_1 ;
+    sd:homogenize sdpol:Gonnet-83_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Gonnet-83_1" .
 
@@ -3848,7 +3848,7 @@ sdpol:Hairer_1
     sd:hasDegreeList "1,1,1,2,3,3" ;
     sd:hasLengthsList "4,3,2,3,2,3" ;
     sd:hasVariables "c2,c3,b3,b2,b1,a21,a32,a31,hv" ;
-    sd:relatedParentIdeal sdpol:Hairer_1 ;
+    sd:homogenize sdpol:Hairer_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Hairer_1" .
 
@@ -3870,7 +3870,7 @@ sdpol:Hairer_2
     sd:hasDegreeList "1,1,1,1,2,3,3,4,4,4,4" ;
     sd:hasLengthsList "5,4,3,2,4,4,4,2,4,4,4" ;
     sd:hasVariables "c2,c3,c4,b4,b3,b2,b1,a21,a31,a32,a41,a42,a43,hv" ;
-    sd:relatedParentIdeal sdpol:Hairer_2 ;
+    sd:homogenize sdpol:Hairer_2 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Hairer_2" .
 
@@ -3892,7 +3892,7 @@ sdpol:Hairer_2_1
     sd:hasDegreeList "1,1,1,1,1,2,3,3,4,4,4,4" ;
     sd:hasLengthsList "5,2,4,3,2,4,4,4,2,4,4,4" ;
     sd:hasVariables "c2,c3,c4,b4,b3,b2,b1,a21,a31,a32,a41,a42,a43,hv" ;
-    sd:relatedParentIdeal sdpol:Hairer_2_1 ;
+    sd:homogenize sdpol:Hairer_2_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Hairer_2_1" .
 
@@ -3905,7 +3905,7 @@ sdpol:Heron
     sd:hasLengthsList "3,2,5,2" ;
     sd:hasParameters "a,b,c" ;
     sd:hasVariables "x1,x2,x3,d" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Heron.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Heron.Flat> ;
     a sd:Ideal ;
     rdfs:comment "Origin: Geometry theorem proving. Derive Heron's formula for the area d of a triangle with side lengths a,b,c." .
 
@@ -3926,7 +3926,7 @@ sdpol:Heron
     sd:hasDegreeList "2,2,2,4" ;
     sd:hasLengthsList "3,2,5,2" ;
     sd:hasVariables "x1,x2,x3,d,a,b,c,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Heron.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Heron.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Heron.Flat" .
 
@@ -3938,7 +3938,7 @@ sdpol:Heron
     sd:hasLengthsList "3,2,5,2" ;
     sd:hasParameters "a,b,c" ;
     sd:hasVariables "x1,x2,x3,d,hv" ;
-    sd:relatedParentIdeal sdpol:Heron ;
+    sd:homogenize sdpol:Heron ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Heron" .
 
@@ -3949,7 +3949,7 @@ sdpol:Heron
     sd:hasDegreeList "4,4,4,4" ;
     sd:hasLengthsList "2,5,3,2" ;
     sd:hasVariables "x1,x2,x3,d,hv,a,b,c" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Heron.Homog> ;
+    sd:flatten <http://symbolicdata.org/Data/Ideal/Heron.Homog> ;
     a sd:Ideal ;
     rdfs:comment "Flat version of Heron.Homog" .
 
@@ -3960,7 +3960,7 @@ sdpol:Heron
     sd:hasDegreeList "4,4,4,4" ;
     sd:hasLengthsList "2,5,3,2" ;
     sd:hasVariables "x1,x2,x3,d,hv,a,b,c,hw" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Heron.Homog.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Heron.Homog.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Heron.Homog.Flat" .
 
@@ -3982,7 +3982,7 @@ sdpol:Katsura_3
     sd:hasDegreeList "1,2,2,2" ;
     sd:hasLengthsList "5,4,4,5" ;
     sd:hasVariables "u0,u1,u2,u3,hv" ;
-    sd:relatedParentIdeal sdpol:Katsura_3 ;
+    sd:homogenize sdpol:Katsura_3 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Katsura_3" .
 
@@ -4004,7 +4004,7 @@ sdpol:Katsura_4
     sd:hasDegreeList "1,2,2,2,2" ;
     sd:hasLengthsList "6,4,5,5,6" ;
     sd:hasVariables "u0,u1,u2,u3,u4,hv" ;
-    sd:relatedParentIdeal sdpol:Katsura_4 ;
+    sd:homogenize sdpol:Katsura_4 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Katsura_4" .
 
@@ -4025,7 +4025,7 @@ sdpol:Katsura_5
     sd:hasDegreeList "1,2,2,2,2,2" ;
     sd:hasLengthsList "7,5,5,6,6,7" ;
     sd:hasVariables "u0,u1,u2,u3,u4,u5,hv" ;
-    sd:relatedParentIdeal sdpol:Katsura_5 ;
+    sd:homogenize sdpol:Katsura_5 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Katsura_5" .
 
@@ -4046,7 +4046,7 @@ sdpol:Katsura_6
     sd:hasDegreeList "1,2,2,2,2,2,2" ;
     sd:hasLengthsList "8,5,6,6,7,7,8" ;
     sd:hasVariables "x0,x1,x2,x3,x4,x5,x6,hv" ;
-    sd:relatedParentIdeal sdpol:Katsura_6 ;
+    sd:homogenize sdpol:Katsura_6 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Katsura_6" .
 
@@ -4067,7 +4067,7 @@ sdpol:Katsura_7
     sd:hasDegreeList "1,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "9,6,6,7,7,8,8,9" ;
     sd:hasVariables "u0,u1,u2,u3,u4,u5,u6,u7,hv" ;
-    sd:relatedParentIdeal sdpol:Katsura_7 ;
+    sd:homogenize sdpol:Katsura_7 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Katsura_7" .
 
@@ -4088,7 +4088,7 @@ sdpol:Katsura_8
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "10,6,7,7,8,8,9,9,10" ;
     sd:hasVariables "u0,u1,u2,u3,u4,u5,u6,u7,u8,hv" ;
-    sd:relatedParentIdeal sdpol:Katsura_8 ;
+    sd:homogenize sdpol:Katsura_8 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Katsura_8" .
 
@@ -4111,7 +4111,7 @@ sdpol:Krider
     sd:hasDegreeList "10,10,11,12,13,16" ;
     sd:hasLengthsList "18,23,28,39,48,107" ;
     sd:hasVariables "a,b,c,d,f,g,u,v,w,p,hv" ;
-    sd:relatedParentIdeal sdpol:Krider ;
+    sd:homogenize sdpol:Krider ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Krider" .
 
@@ -4133,7 +4133,7 @@ sdpol:Neff-89
     sd:hasDegreeList "2,2" ;
     sd:hasLengthsList "7,7" ;
     sd:hasVariables "z,y,x,hv" ;
-    sd:relatedParentIdeal sdpol:Neff-89 ;
+    sd:homogenize sdpol:Neff-89 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Neff-89" .
 
@@ -4154,7 +4154,7 @@ sdpol:Noonburg-89
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z,c,hv" ;
-    sd:relatedParentIdeal sdpol:Noonburg-89 ;
+    sd:homogenize sdpol:Noonburg-89 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Noonburg-89" .
 
@@ -4175,7 +4175,7 @@ sdpol:Noonburg-89
     sd:hasDegreeList "4,4,4,4" ;
     sd:hasLengthsList "14,22,14,14" ;
     sd:hasVariables "x6,x5,x3,x1,x2,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Paris.ahml> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Paris.ahml> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Paris.ahml" .
 
@@ -4195,7 +4195,7 @@ sdpol:Noonburg-89
     sd:hasDegreeList "10,26" ;
     sd:hasLengthsList "16,48" ;
     sd:hasVariables "x,A,B,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Paris.berth> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Paris.berth> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Paris.berth" .
 
@@ -4216,7 +4216,7 @@ sdpol:Noonburg-89
     sd:hasDegreeList "2,3,4,5,6,7" ;
     sd:hasLengthsList "6,40,146,512,1384,3560" ;
     sd:hasVariables "Ap,Fpp,Bp,App,Fp,Epp,Ep,dpp,Cp,Bpp,dp,Cpp,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Paris.fronville> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Paris.fronville> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Paris.fronville" .
 
@@ -4236,7 +4236,7 @@ sdpol:Noonburg-89
     sd:hasDegreeList "2,2,3,3,4,4" ;
     sd:hasLengthsList "3,3,4,4,5,5" ;
     sd:hasVariables "x,y1,z1,y2,z2,a,b,c,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Paris.hawes> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Paris.hawes> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Paris.hawes" .
 
@@ -4256,7 +4256,7 @@ sdpol:Noonburg-89
     sd:hasDegreeList "2,2,4,4,5,9" ;
     sd:hasLengthsList "3,3,5,5,14,58" ;
     sd:hasVariables "x,y1,z1,y2,z2,a,b,c,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Paris.hawes3> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Paris.hawes3> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Paris.hawes3" .
 
@@ -4277,7 +4277,7 @@ sdpol:Noonburg-89
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2,2,2,5,5,5,5" ;
     sd:hasLengthsList "6,6,7,7,5,5,7,7,8,8,11,11,13,13,13,13" ;
     sd:hasVariables "S1,s1,d1,S2,D2,s2,d2,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Paris.ilias13> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Paris.ilias13> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Paris.ilias13" .
 
@@ -4298,7 +4298,7 @@ sdpol:Noonburg-89
     sd:hasDegreeList "16,16,16,16,16,16,16,16,16" ;
     sd:hasLengthsList "172,374,424,523,540,548,578,603,498" ;
     sd:hasVariables "u4,u3,u2,t,l,v,u,w,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Paris.safey> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Paris.safey> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Paris.safey" .
 
@@ -4320,7 +4320,7 @@ sdpol:Pavelle
     sd:hasDegreeList "2,2,2,2" ;
     sd:hasLengthsList "4,4,4,4" ;
     sd:hasVariables "x,y,z,t,a,b,c,d,hv" ;
-    sd:relatedParentIdeal sdpol:Pavelle ;
+    sd:homogenize sdpol:Pavelle ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Pavelle" .
 
@@ -4361,7 +4361,7 @@ sdpol:Pfister_3
     sd:hasDegreeList "5,6,6,6" ;
     sd:hasLengthsList "15,20,19,20" ;
     sd:hasVariables "x,y,z,t,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/PoSSo.cohn3> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/PoSSo.cohn3> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of PoSSo.cohn3" .
 
@@ -4382,7 +4382,7 @@ sdpol:Pfister_3
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "12,7,8,8,9,9,10,10,11,11,12" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/PoSSo.rkat10> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/PoSSo.rkat10> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of PoSSo.rkat10" .
 
@@ -4403,7 +4403,7 @@ sdpol:Pfister_3
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "13,8,8,9,9,10,10,11,11,12,12,13" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/PoSSo.rkat11> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/PoSSo.rkat11> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of PoSSo.rkat11" .
 
@@ -4424,7 +4424,7 @@ sdpol:Pfister_3
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "14,8,9,9,10,10,11,11,12,12,13,13,14" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/PoSSo.rkat12> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/PoSSo.rkat12> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of PoSSo.rkat12" .
 
@@ -4445,7 +4445,7 @@ sdpol:Pfister_3
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "15,9,9,10,10,11,11,12,12,13,13,14,14,15" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/PoSSo.rkat13> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/PoSSo.rkat13> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of PoSSo.rkat13" .
 
@@ -4466,7 +4466,7 @@ sdpol:Pfister_3
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "11,7,7,8,8,9,9,10,10,11" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/PoSSo.rkat9> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/PoSSo.rkat9> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of PoSSo.rkat9" .
 
@@ -4479,7 +4479,7 @@ sdpol:Raksanyi
     sd:hasParameters "a,b,c,d" ;
     sd:hasVariables "x4,x3,x2,x1" ;
     a sd:Ideal ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Raksanyi.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Raksanyi.Flat> ;
     rdfs:comment "diff = easy" .
 
 <http://symbolicdata.org/Data/Ideal/Raksanyi.Flat>
@@ -4500,7 +4500,7 @@ sdpol:Raksanyi
     sd:hasLengthsList "2,5,5,2" ;
     sd:hasParameters "a,b,c,d" ;
     sd:hasVariables "x4,x3,x2,x1,hv" ;
-    sd:relatedParentIdeal sdpol:Raksanyi ;
+    sd:homogenize sdpol:Raksanyi ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Raksanyi" .
 
@@ -4511,7 +4511,7 @@ sdpol:Raksanyi
     sd:hasDegreeList "2,2,4,6" ;
     sd:hasLengthsList "3,7,7,2" ;
     sd:hasVariables "x4,x3,x2,x1,hv,a,b,c,d" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Raksanyi.Homog> ;
+    sd:flatten <http://symbolicdata.org/Data/Ideal/Raksanyi.Homog> ;
     a sd:Ideal ;
     rdfs:comment "Flat version of Raksanyi.Homog" .
 
@@ -4522,7 +4522,7 @@ sdpol:Raksanyi
     sd:hasDegreeList "2,2,4,6" ;
     sd:hasLengthsList "3,7,7,2" ;
     sd:hasVariables "x4,x3,x2,x1,hv,a,b,c,d,hw" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Raksanyi.Homog.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Raksanyi.Homog.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Raksanyi.Homog.Flat" .
 
@@ -4550,7 +4550,7 @@ sdpol:Robot-Fabrice24
     sd:hasDegreeList "1,2,2,2,2,2,2,3,3" ;
     sd:hasLengthsList "2,6,7,6,5,5,4,34,34" ;
     sd:hasVariables "x1,x2,x3,y1,y2,y3,z1,z2,z3,hv" ;
-    sd:relatedParentIdeal sdpol:Robot-Fabrice24 ;
+    sd:homogenize sdpol:Robot-Fabrice24 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Robot-Fabrice24" .
 
@@ -4563,7 +4563,7 @@ sdpol:Robot-RR
     sd:hasLengthsList "2,1,2,2,3,3,2,2,3,3,2,3,3,3,3,3" ;
     sd:hasParameters "l1,l2,px,py,pz" ;
     sd:hasVariables "sp,st,sf,cp,ct,cf,s2,s1,c2,c1" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Robot-RR.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Robot-RR.Flat> ;
     a sd:Ideal ;
     rdfs:comment "Origin: Inverse robot kinematics of an RR toy robot [Wang:95a]" .
 
@@ -4585,7 +4585,7 @@ sdpol:Robot-RR
     sd:hasLengthsList "2,1,2,2,3,3,2,2,3,3,2,3,3,3,3,3" ;
     sd:hasParameters "l1,l2,px,py,pz" ;
     sd:hasVariables "sp,st,sf,cp,ct,cf,s2,s1,c2,c1,hv" ;
-    sd:relatedParentIdeal sdpol:Robot-RR ;
+    sd:homogenize sdpol:Robot-RR ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Robot-RR" .
 
@@ -4596,7 +4596,7 @@ sdpol:Robot-RR
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3" ;
     sd:hasLengthsList "1,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3" ;
     sd:hasVariables "sp,st,sf,cp,ct,cf,s2,s1,c2,c1,hv,l1,l2,px,py,pz" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Robot-RR.Homog> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Robot-RR.Homog> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Flat version of Robot-RR.Homog" .
 
@@ -4618,7 +4618,7 @@ sdpol:Robot-Romin
     sd:hasDegreeList "2,2,2,2,2,2,2" ;
     sd:hasLengthsList "3,3,2,2,3,3,3" ;
     sd:hasVariables "s1,s2,s3,c1,c2,c3,d,a,b,c,l2,l3,hv" ;
-    sd:relatedParentIdeal sdpol:Robot-Romin ;
+    sd:homogenize sdpol:Robot-Romin ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Robot-Romin" .
 
@@ -4638,7 +4638,7 @@ sdpol:Robot-jcf26
     sd:hasDegreeList "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,3,4,4" ;
     sd:hasLengthsList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,4,8,6,11,8,15,8,71,71" ;
     sd:hasVariables "px2,px3,px4,px5,px6,py3,py4,py5,pz4,pz5,bx2,bx3,bx4,bx5,by3,by4,by5,bz4,bz5,D1,D2,D3,D4,D5,D6,x1,x2,x3,y1,y2,y3,z1,z2,z3,hv" ;
-    sd:relatedParentIdeal sdpol:Robot-jcf26 ;
+    sd:homogenize sdpol:Robot-jcf26 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Robot-jcf26" .
 
@@ -4668,7 +4668,7 @@ sdpol:Rose
     sd:hasDegreeList "4,6,9" ;
     sd:hasLengthsList "2,6,21" ;
     sd:hasVariables "u3,u4,a,hv" ;
-    sd:relatedParentIdeal sdpol:Rose ;
+    sd:homogenize sdpol:Rose ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Rose" .
 
@@ -4690,7 +4690,7 @@ sdpol:Rose_1
     sd:hasDegreeList "4,6,8" ;
     sd:hasLengthsList "2,6,21" ;
     sd:hasVariables "u3,u4,a,hv" ;
-    sd:relatedParentIdeal sdpol:Rose_1 ;
+    sd:homogenize sdpol:Rose_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Rose_1" .
 
@@ -4702,7 +4702,7 @@ sdpol:Schiele
     sd:hasLengthsList "3,3,19,19" ;
     sd:hasParameters "p" ;
     sd:hasVariables "s1,s2,c1,c2" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Schiele.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Schiele.Flat> ;
     a sd:Ideal ;
     rdfs:comment "Find solutions for the angles sin=s_i, cos=c_i depending on p." .
 
@@ -4723,7 +4723,7 @@ sdpol:Schiele
     sd:hasDegreeList "2,2,8,8" ;
     sd:hasLengthsList "3,3,19,19" ;
     sd:hasVariables "s1,s2,c1,c2,p,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Schiele.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Schiele.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Schiele.Flat" .
 
@@ -4735,7 +4735,7 @@ sdpol:Schiele
     sd:hasLengthsList "3,3,19,19" ;
     sd:hasParameters "p" ;
     sd:hasVariables "s1,s2,c1,c2,hv" ;
-    sd:relatedParentIdeal sdpol:Schiele ;
+    sd:homogenize sdpol:Schiele ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Schiele" .
 
@@ -4746,7 +4746,7 @@ sdpol:Schiele
     sd:hasDegreeList "2,2,9,9" ;
     sd:hasLengthsList "3,3,19,19" ;
     sd:hasVariables "s1,s2,c1,c2,hv,p" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Schiele.Homog> ;
+    sd:flatten <http://symbolicdata.org/Data/Ideal/Schiele.Homog> ;
     a sd:Ideal ;
     rdfs:comment "Flat version of Schiele.Homog" .
 
@@ -4757,7 +4757,7 @@ sdpol:Schiele
     sd:hasDegreeList "2,2,9,9" ;
     sd:hasLengthsList "3,3,19,19" ;
     sd:hasVariables "s1,s2,c1,c2,hv,p,hw" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Schiele.Homog.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Schiele.Homog.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Flat version of Schiele.Homog.Flat" .
 
@@ -4768,7 +4768,7 @@ sdpol:Schiele_1
     sd:hasLengthsList "8,16" ;
     sd:hasParameters "p" ;
     sd:hasVariables "x,y" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Schiele_1.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Schiele_1.Flat> ;
     a sd:Ideal ;
     rdfs:comment "Obtained from \"Schiele\" by half-tan-substitution." .
 
@@ -4789,7 +4789,7 @@ sdpol:Schiele_1
     sd:hasDegreeList "7,12" ;
     sd:hasLengthsList "14,22" ;
     sd:hasVariables "x,y,p,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Schiele_1.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Schiele_1.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Schiele_1.Flat" .
 
@@ -4801,7 +4801,7 @@ sdpol:Schiele_1
     sd:hasLengthsList "8,16" ;
     sd:hasParameters "p" ;
     sd:hasVariables "x,y,hv" ;
-    sd:relatedParentIdeal sdpol:Schiele_1 ;
+    sd:homogenize sdpol:Schiele_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Schiele_1" .
 
@@ -4812,7 +4812,7 @@ sdpol:Schiele_1
     sd:hasDegreeList "7,12" ;
     sd:hasLengthsList "14,22" ;
     sd:hasVariables "x,y,hv,p" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Schiele_1.Homog> ;
+    sd:flatten <http://symbolicdata.org/Data/Ideal/Schiele_1.Homog> ;
     a sd:Ideal ;
     rdfs:comment "Flat version of Schiele_1.Homog" .
 
@@ -4823,7 +4823,7 @@ sdpol:Schiele_1
     sd:hasDegreeList "7,12" ;
     sd:hasLengthsList "14,22" ;
     sd:hasVariables "x,y,hv,p,hw" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Schiele_1.Homog.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Schiele_1.Homog.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogeneous version of Schiele_1.Homog.Flat" .
 
@@ -4845,7 +4845,7 @@ sdpol:Schiele_1_1
     sd:hasDegreeList "6,11" ;
     sd:hasLengthsList "6,16" ;
     sd:hasVariables "x,y,hv" ;
-    sd:relatedParentIdeal sdpol:Schiele_1_1 ;
+    sd:homogenize sdpol:Schiele_1_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Schiele_1_1" .
 
@@ -4865,7 +4865,7 @@ sdpol:Schiele_1_1
     sd:hasDegreeList "1,1,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "6,6,2,2,2,2,26,26,2" ;
     sd:hasVariables "U6,U5,U4,U3,U2,u6,u5,u4,u3,u2,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/SignalTheory.f633> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/SignalTheory.f633> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of SignalTheory.f633" .
 
@@ -4885,7 +4885,7 @@ sdpol:Schiele_1_1
     sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2,3,3" ;
     sd:hasLengthsList "7,7,2,2,2,2,2,21,21,2,15,15" ;
     sd:hasVariables "U7,U6,U5,U4,U3,U2,u7,u6,u5,u4,u3,u2,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/SignalTheory.f744> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/SignalTheory.f744> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of SignalTheory.f744" .
 
@@ -4905,7 +4905,7 @@ sdpol:Schiele_1_1
     sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2,2,3,3,4,4" ;
     sd:hasLengthsList "8,8,2,2,2,2,2,2,50,50,2,26,26,140,140" ;
     sd:hasVariables "X8,X7,X6,X5,X4,X3,X2,x8,x7,x6,x5,x4,x3,x2,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/SignalTheory.f855> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/SignalTheory.f855> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of SignalTheory.f855" .
 
@@ -4925,7 +4925,7 @@ sdpol:Schiele_1_1
     sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,4,4" ;
     sd:hasLengthsList "9,9,2,2,2,2,2,2,2,2,2,2,2,2,2,2,36,36,2,2,85,85,252,252" ;
     sd:hasVariables "U9,U8,U7,U6,U5,U4,U3,U2,u9,u8,u7,u6,u5,u4,u3,u2,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/SignalTheory.f966> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/SignalTheory.f966> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of SignalTheory.f966" .
 
@@ -4946,7 +4946,7 @@ sdpol:Schiele_1_1
     sd:hasDegreeList "11,11,14" ;
     sd:hasLengthsList "2,4,4" ;
     sd:hasVariables "x,t,y,z,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Singular.alex_1> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Singular.alex_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Singular.alex_1" .
 
@@ -4967,7 +4967,7 @@ sdpol:Schiele_1_1
     sd:hasDegreeList "11,11,12" ;
     sd:hasLengthsList "3,3,3" ;
     sd:hasVariables "t,x,y,z,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Singular.alex_2> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Singular.alex_2> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Singular.alex_2" .
 
@@ -4988,7 +4988,7 @@ sdpol:Schiele_1_1
     sd:hasDegreeList "9,9,14" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "t,x,y,z,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Singular.alex_3> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Singular.alex_3> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Singular.alex_3" .
 
@@ -5009,7 +5009,7 @@ sdpol:Schiele_1_1
     sd:hasDegreeList "1,2,3,4,5" ;
     sd:hasLengthsList "5,5,5,5,2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16,x17,x18,x19,x20,x21,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Singular.ecyclic_5> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Singular.ecyclic_5> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Singular.ecyclic_5" .
 
@@ -5030,7 +5030,7 @@ sdpol:Schiele_1_1
     sd:hasDegreeList "1,2,3,4,5,6" ;
     sd:hasLengthsList "6,6,6,6,6,2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16,x17,x18,x19,x20,x21,x22,x23,x24,x25,x26,x27,x28,x29,x30,x31,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Singular.ecyclic_6> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Singular.ecyclic_6> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Singular.ecyclic_6" .
 
@@ -5051,7 +5051,7 @@ sdpol:Schiele_1_1
     sd:hasDegreeList "1,2,3,4,5,6,7" ;
     sd:hasLengthsList "7,7,7,7,7,7,2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16,x17,x18,x19,x20,x21,x22,x23,x24,x25,x26,x27,x28,x29,x30,x31,x32,x33,x34,x35,x36,x37,x38,x39,x40,x41,x42,x43,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Singular.ecyclic_7> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Singular.ecyclic_7> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Singular.ecyclic_7" .
 
@@ -5222,7 +5222,7 @@ sdpol:Schiele_1_1
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "6,7,6,7,6,7,6,7,6,7" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Singular.schwarz_10> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Singular.schwarz_10> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Singular.schwarz_10" .
 
@@ -5243,7 +5243,7 @@ sdpol:Schiele_1_1
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "7,7,7,7,7,7,7,7,7,7,7" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Singular.schwarz_11> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Singular.schwarz_11> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Singular.schwarz_11" .
 
@@ -5274,7 +5274,7 @@ sdpol:Schiele_1_1
     sd:hasDegreeList "2,2,2,2,2,2,2" ;
     sd:hasLengthsList "5,5,5,5,5,5,5" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Singular.schwarz_7> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Singular.schwarz_7> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Singular.schwarz_7" .
 
@@ -5295,7 +5295,7 @@ sdpol:Schiele_1_1
     sd:hasDegreeList "2,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "5,6,5,6,5,6,5,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Singular.schwarz_8> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Singular.schwarz_8> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Singular.schwarz_8" .
 
@@ -5316,7 +5316,7 @@ sdpol:Schiele_1_1
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "6,6,6,6,6,6,6,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Singular.schwarz_9> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Singular.schwarz_9> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Singular.schwarz_9" .
 
@@ -5354,7 +5354,7 @@ sdpol:Sym1_211
     sd:hasDegreeList "2,2,2" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Sym1_211 ;
+    sd:homogenize sdpol:Sym1_211 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Sym1_211" .
 
@@ -5376,7 +5376,7 @@ sdpol:Sym1_311
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Sym1_311 ;
+    sd:homogenize sdpol:Sym1_311 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Sym1_311" .
 
@@ -5398,7 +5398,7 @@ sdpol:Sym1_321
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Sym1_321 ;
+    sd:homogenize sdpol:Sym1_321 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Sym1_321" .
 
@@ -5420,7 +5420,7 @@ sdpol:Sym1_411
     sd:hasDegreeList "4,4,4" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Sym1_411 ;
+    sd:homogenize sdpol:Sym1_411 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Sym1_411" .
 
@@ -5442,7 +5442,7 @@ sdpol:Sym1_431
     sd:hasDegreeList "4,4,4" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Sym1_431 ;
+    sd:homogenize sdpol:Sym1_431 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Sym1_431" .
 
@@ -5463,7 +5463,7 @@ sdpol:Sym2_3
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "3,3,3" ;
     sd:hasVariables "x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Sym2_3 ;
+    sd:homogenize sdpol:Sym2_3 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Sym2_3" .
 
@@ -5485,7 +5485,7 @@ sdpol:Sym3_2
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "3,3,3" ;
     sd:hasVariables "x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Sym3_2 ;
+    sd:homogenize sdpol:Sym3_2 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Sym3_2" .
 
@@ -5507,7 +5507,7 @@ sdpol:Sym3_3
     sd:hasDegreeList "4,4,4" ;
     sd:hasLengthsList "3,3,3" ;
     sd:hasVariables "x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Sym3_3 ;
+    sd:homogenize sdpol:Sym3_3 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Sym3_3" .
 
@@ -5529,7 +5529,7 @@ sdpol:Sym3_4
     sd:hasDegreeList "5,5,5" ;
     sd:hasLengthsList "3,3,3" ;
     sd:hasVariables "x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Sym3_4 ;
+    sd:homogenize sdpol:Sym3_4 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Sym3_4" .
 
@@ -5550,7 +5550,7 @@ sdpol:Sym3_5
     sd:hasDegreeList "6,6,6" ;
     sd:hasLengthsList "3,3,3" ;
     sd:hasVariables "x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Sym3_5 ;
+    sd:homogenize sdpol:Sym3_5 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Sym3_5" .
 
@@ -5592,7 +5592,7 @@ sdpol:TD-89
     sd:hasDegreeList "8,10,31" ;
     sd:hasLengthsList "2,2,4" ;
     sd:hasVariables "x,y,z,t,hv" ;
-    sd:relatedParentIdeal sdpol:TD-89 ;
+    sd:homogenize sdpol:TD-89 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of TD-89" .
 
@@ -5614,7 +5614,7 @@ sdpol:Trinks
     sd:hasDegreeList "1,1,2,2,2,3" ;
     sd:hasLengthsList "4,4,3,5,3,3" ;
     sd:hasVariables "w,p,z,t,s,b,hv" ;
-    sd:relatedParentIdeal sdpol:Trinks ;
+    sd:homogenize sdpol:Trinks ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Trinks" .
 
@@ -5636,7 +5636,7 @@ sdpol:Trinks_1
     sd:hasDegreeList "1,1,2,2,2,2,3" ;
     sd:hasLengthsList "4,4,3,3,5,3,3" ;
     sd:hasVariables "w,p,z,t,s,b,hv" ;
-    sd:relatedParentIdeal sdpol:Trinks_1 ;
+    sd:homogenize sdpol:Trinks_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Trinks_1" .
 
@@ -5657,7 +5657,7 @@ sdpol:Twomat3
     sd:hasDegreeList "2,2,2,2,2,2,2,4" ;
     sd:hasLengthsList "6,4,4,6,6,6,6,9" ;
     sd:hasVariables "a,b,c,d,e,f,g,h,i,A,B,C,D,E,F,G,H,I,hv" ;
-    sd:relatedParentIdeal sdpol:Twomat3 ;
+    sd:homogenize sdpol:Twomat3 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Twomat3" .
 
@@ -5679,7 +5679,7 @@ sdpol:Vermeer
     sd:hasDegreeList "2,3,3,5" ;
     sd:hasLengthsList "7,2,4,4" ;
     sd:hasVariables "w,v,u,y,x,hv" ;
-    sd:relatedParentIdeal sdpol:Vermeer ;
+    sd:homogenize sdpol:Vermeer ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Vermeer" .
 
@@ -5701,7 +5701,7 @@ sdpol:Vermeer_1
     sd:hasDegreeList "2,2,3,3" ;
     sd:hasLengthsList "7,2,2,4" ;
     sd:hasVariables "w,v,u,y,x,hv" ;
-    sd:relatedParentIdeal sdpol:Vermeer_1 ;
+    sd:homogenize sdpol:Vermeer_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Vermeer_1" .
 
@@ -5723,7 +5723,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "2,3,3,4" ;
     sd:hasLengthsList "7,2,2,4" ;
     sd:hasVariables "t,u,x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Vermeer_2 ;
+    sd:homogenize sdpol:Vermeer_2 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Vermeer_2" .
 
@@ -5743,7 +5743,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "1,1,1,1,1,2,2,2,2,2,2,2,3" ;
     sd:hasLengthsList "4,2,5,2,2,4,3,3,4,4,4,4,5" ;
     sd:hasVariables "c1,c2,c3,z2,z3,z4,z5,y2,y3,y4,y5,x3,x4,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Verschelde.chemkin> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.chemkin> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Verschelde.chemkin" .
 
@@ -5763,7 +5763,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "1,2,3,3,3,3" ;
     sd:hasLengthsList "6,2,3,4,5,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Verschelde.eco6> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.eco6> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Verschelde.eco6" .
 
@@ -5783,7 +5783,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "1,2,3,3,3,3,3" ;
     sd:hasLengthsList "7,2,3,4,5,6,7" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Verschelde.eco7> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.eco7> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Verschelde.eco7" .
 
@@ -5803,7 +5803,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "4,4,4,4,4" ;
     sd:hasLengthsList "16,16,16,16,16" ;
     sd:hasVariables "p1,p2,p3,p4,p5,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Verschelde.gametwo5> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.gametwo5> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Verschelde.gametwo5" .
 
@@ -5823,7 +5823,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "5,5,5,5,5,5" ;
     sd:hasLengthsList "32,32,32,32,32,32" ;
     sd:hasVariables "p6,p4,p3,p2,p5,p1,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Verschelde.gametwo6> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.gametwo6> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Verschelde.gametwo6" .
 
@@ -5843,7 +5843,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "6,6,6,6,6,6,6" ;
     sd:hasLengthsList "64,64,64,64,64,64,64" ;
     sd:hasVariables "p1,p2,p3,p4,p5,p6,p7,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Verschelde.gametwo7> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.gametwo7> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Verschelde.gametwo7" .
 
@@ -5863,7 +5863,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x1,x2,x3,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Verschelde.noon3> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.noon3> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Verschelde.noon3" .
 
@@ -5883,7 +5883,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "3,3,3,3" ;
     sd:hasLengthsList "5,5,5,5" ;
     sd:hasVariables "x1,x2,x3,x4,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Verschelde.noon4> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.noon4> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Verschelde.noon4" .
 
@@ -5903,7 +5903,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "3,3,3,3,3" ;
     sd:hasLengthsList "6,6,6,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Verschelde.noon5> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.noon5> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Verschelde.noon5" .
 
@@ -5923,7 +5923,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "3,3,3,3,3,3" ;
     sd:hasLengthsList "7,7,7,7,7,7" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Verschelde.noon6> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.noon6> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Verschelde.noon6" .
 
@@ -5943,7 +5943,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "3,3,3,3,3,3,3" ;
     sd:hasLengthsList "8,8,8,8,8,8,8" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Verschelde.noon7> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.noon7> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Verschelde.noon7" .
 
@@ -5963,7 +5963,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "3,3,3,3,3,3,3,3" ;
     sd:hasLengthsList "9,9,9,9,9,9,9,9" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Verschelde.noon8> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.noon8> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Verschelde.noon8" .
 
@@ -5983,7 +5983,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "3,3,3,3,3,3,3,3,3" ;
     sd:hasLengthsList "10,10,10,10,10,10,10,10,10" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Verschelde.noon9> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.noon9> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Verschelde.noon9" .
 
@@ -6003,7 +6003,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "1,1,2,2,2,2,2" ;
     sd:hasLengthsList "2,7,3,4,5,6,7" ;
     sd:hasVariables "x1,x2,x3,x4,u7,x5,x6,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Verschelde.redeco7> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.redeco7> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Verschelde.redeco7" .
 
@@ -6023,7 +6023,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "1,1,2,2,2,2,2,2" ;
     sd:hasLengthsList "2,8,3,4,5,6,7,8" ;
     sd:hasVariables "x1,x2,x3,x4,x5,u8,x6,x7,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Verschelde.redeco8> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.redeco8> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Verschelde.redeco8" .
 
@@ -6043,7 +6043,7 @@ sdpol:Vermeer_2
     sd:hasDegreeList "2,2,2,2,2,2,2,2" ;
     sd:hasLengthsList "8,13,13,13,13,11,11,11" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Verschelde.virasoro> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.virasoro> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Verschelde.virasoro" .
 
@@ -6065,7 +6065,7 @@ sdpol:Wang-89
     sd:hasDegreeList "2,2,3" ;
     sd:hasLengthsList "3,4,6" ;
     sd:hasVariables "z,y,x,w,hv" ;
-    sd:relatedParentIdeal sdpol:Wang-89 ;
+    sd:homogenize sdpol:Wang-89 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Wang-89" .
 
@@ -6087,7 +6087,7 @@ sdpol:Wang-91
     sd:hasDegreeList "3,3,3,3" ;
     sd:hasLengthsList "2,2,3,3" ;
     sd:hasVariables "x3,x2,x1,x0,b,a,hv" ;
-    sd:relatedParentIdeal sdpol:Wang-91 ;
+    sd:homogenize sdpol:Wang-91 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Wang-91" .
 
@@ -6109,7 +6109,7 @@ sdpol:Wang-91_1
     sd:hasDegreeList "3,3,3,3" ;
     sd:hasLengthsList "2,2,3,3" ;
     sd:hasVariables "x3,x2,x1,b,a,hv" ;
-    sd:relatedParentIdeal sdpol:Wang-91_1 ;
+    sd:homogenize sdpol:Wang-91_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Wang-91_1" .
 
@@ -6131,7 +6131,7 @@ sdpol:Wang-92a
     sd:hasDegreeList "2,2,3" ;
     sd:hasLengthsList "3,4,7" ;
     sd:hasVariables "y,x,a6,a4,a3,a2,a1,hv" ;
-    sd:relatedParentIdeal sdpol:Wang-92a ;
+    sd:homogenize sdpol:Wang-92a ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Wang-92a" .
 
@@ -6153,7 +6153,7 @@ sdpol:Wang-92c
     sd:hasDegreeList "2,3,3" ;
     sd:hasLengthsList "4,5,4" ;
     sd:hasVariables "d,c,b,a,hv" ;
-    sd:relatedParentIdeal sdpol:Wang-92c ;
+    sd:homogenize sdpol:Wang-92c ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Wang-92c" .
 
@@ -6175,7 +6175,7 @@ sdpol:Wang-92e
     sd:hasDegreeList "3,3,3,8,8,8,8,8,8,9" ;
     sd:hasLengthsList "2,2,2,6,6,6,8,8,8,8" ;
     sd:hasVariables "y,l3,l2,l1,x6,x5,x4,x3,x2,x1,hv" ;
-    sd:relatedParentIdeal sdpol:Wang-92e ;
+    sd:homogenize sdpol:Wang-92e ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Wang-92e" .
 
@@ -6210,7 +6210,7 @@ sdpol:Weispfenning-94
     sd:hasDegreeList "4,5,5" ;
     sd:hasLengthsList "6,4,5" ;
     sd:hasVariables "x,y,z,hv" ;
-    sd:relatedParentIdeal sdpol:Weispfenning-94 ;
+    sd:homogenize sdpol:Weispfenning-94 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Weispfenning-94" .
 
@@ -6222,7 +6222,7 @@ sdpol:Wu-90
     sd:hasParameters "u0,u1,u2,u3,u4,u5,u6,u7,u8,u9" ;
     sd:hasVariables "x1,x2,x3,x4" ;
     a sd:Ideal ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Wu-90.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Wu-90.Flat> ;
     rdfs:comment "Origin: A problem in chemical equilibrium." .
 
 <http://symbolicdata.org/Data/Ideal/Wu-90.Flat>
@@ -6242,7 +6242,7 @@ sdpol:Wu-90
     sd:hasDegreeList "4,4,4,5" ;
     sd:hasLengthsList "5,6,11,9" ;
     sd:hasVariables "x1,x2,x3,x4,u0,u1,u2,u3,u4,u5,u6,u7,u8,u9,hv" ;
-    sd:relatedParentIdeal <http://symbolicdata.org/Data/Ideal/Wu-90.Flat> ;
+    sd:homogenize <http://symbolicdata.org/Data/Ideal/Wu-90.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Wu-90.Flat" .
 
@@ -6254,7 +6254,7 @@ sdpol:Wu-90
     sd:hasLengthsList "6,5,11,9" ;
     sd:hasParameters "u0,u1,u2,u3,u4,u5,u6,u7,u8,u9" ;
     sd:hasVariables "x1,x2,x3,x4,hv" ;
-    sd:relatedParentIdeal sdpol:Wu-90 ;
+    sd:homogenize sdpol:Wu-90 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Homogenized version of Wu-90" .
 
