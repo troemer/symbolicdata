@@ -1,10 +1,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sd: <http://symbolicdata.org/Data/Model/> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 
 sd:CAS
     a owl:Class ;
@@ -27,12 +27,12 @@ sd:CAS
     a sd:CAS .
 
 <http://symbolicdata.org/Data/System/Felix>
-    dcterms:creator sdp:Apel_J, sdp:Klaus_U  ;
+    dct:creator sdp:Apel_J, sdp:Klaus_U  ;
     rdfs:label "CAS Felix" ;
     sd:hasURL <http://felix.hgb-leipzig.de> ;
     sd:lastUpdate "2010-12-29" ;
     a sd:CAS ;
-    dcterms:description "Special computer algebra system for the computation in commutative and non-commutative rings and modules"; 
+    dct:description "Special computer algebra system for the computation in commutative and non-commutative rings and modules"; 
     rdfs:comment "no more under development" .
 
 <http://symbolicdata.org/Data/System/GB>
@@ -66,20 +66,22 @@ sd:CAS
     a sd:CAS .
 
 <http://symbolicdata.org/Data/System/Points>
-    dcterms:creator sdp:Orecchia_F, sdp:Cioffi_F, sdp:Ramella_I ;
-    dcterms:license <http://www.gnu.org/licenses/gpl.html> ;
+    dct:creator sdp:Orecchia_F, sdp:Cioffi_F, sdp:Ramella_I ;
+    dct:license <http://www.gnu.org/licenses/gpl.html> ;
     sd:hasURL <http://wpage.unina.it/cioffifr/EPoints.html> ;
     sd:lastUpdate "2010-12-29" ;
+    rdfs:label "Points" ;
     a sd:CAS ;
-    dcterms:description "Points intends to construct algorithms and to implement sofwares concerning problems in Algebraic Geometry which need the computation of the Hilbert Function or of minimal generators or of the resolution of the ideal of a finite set of points." .
+    dct:description "Points intends to construct algorithms and to implement sofwares concerning problems in Algebraic Geometry which need the computation of the Hilbert Function or of minimal generators or of the resolution of the ideal of a finite set of points." .
 
 <http://symbolicdata.org/Data/System/QPoints>
-    dcterms:creator sdp:Orecchia_F, sdp:Cioffi_F, sdp:Ramella_I ;
-    dcterms:license <http://www.gnu.org/licenses/gpl.html> ;
+    dct:creator sdp:Orecchia_F, sdp:Cioffi_F, sdp:Ramella_I ;
+    dct:license <http://www.gnu.org/licenses/gpl.html> ;
     sd:hasURL <http://cds.unina.it/~cioffifr/EPoints.html> ;
     sd:lastUpdate "2001-03-28" ;
+    rdfs:label "QPoints" ;
     a sd:CAS ;
-    dcterms:description "A software for computations related to points in projective spaces over the field Q of rational numbers." .
+    dct:description "A software for computations related to points in projective spaces over the field Q of rational numbers." .
 
 <http://symbolicdata.org/Data/System/Reduce>
     owl:sameAs <http://www.swmath.org/software/789>;
