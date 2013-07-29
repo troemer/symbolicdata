@@ -1372,7 +1372,7 @@ sdpol:Ellipsoid_-2
     sd:hasLengthsList "3,3,3,4" ;
     sd:hasParameters "ma,mb,mc,a,b,c" ;
     sd:hasVariables "l,x,y,z" ;
-    sd:homogenize <http://symbolicdata.org/Data/Ideal/Ellipsoid_-2.Flat> ;
+    sd:parameterize <http://symbolicdata.org/Data/Ideal/Ellipsoid_-2.Flat> ;
     a sd:Ideal .
 
 <http://symbolicdata.org/Data/Ideal/Ellipsoid_-2.Flat>
@@ -4585,7 +4585,7 @@ sdpol:Robot-RR
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3" ;
     sd:hasLengthsList "1,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3" ;
     sd:hasVariables "sp,st,sf,cp,ct,cf,s2,s1,c2,c1,hv,l1,l2,px,py,pz" ;
-    sd:homogenize <http://symbolicdata.org/Data/Ideal/Robot-RR.Homog> ;
+    sd:flatten <http://symbolicdata.org/Data/Ideal/Robot-RR.Homog> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
     rdfs:comment "Flat version of Robot-RR.Homog" .
 
