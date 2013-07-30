@@ -26,7 +26,7 @@ sdpol:Bjoerk_8
     sd:createdAt "1999-04-20" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,2,3,4,5,6,7,8" ;
-    sd:hasLengthsList "2,8,8,7,8,8,8,8,113" ;
+    sd:hasLengthsList "2,7,8,8,8,8,8,8,113" ;
     sd:hasVariables "a,b,c,d,e,f,g,h" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Bjoerk_8> ;
     a sd:Ideal ;
@@ -37,7 +37,7 @@ sdpol:Bjoerk_8
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,2,3,4,5,6,7,8" ;
-    sd:hasLengthsList "2,8,8,7,8,8,8,8,113" ;
+    sd:hasLengthsList "2,7,8,8,8,8,8,8,113" ;
     sd:hasVariables "a,b,c,d,e,f,g,h,hv" ;
     sd:homogenize sdpol:Bjoerk_8 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -92,7 +92,7 @@ sdpol:Butcher
     sd:hasDegreeList "1,2,3,3,4,4,4,4" ;
     sd:hasDimension "3" ;
     sd:hasIsolatedPrimesDimensions "3,3,3,2,2,0,0" ;
-    sd:hasLengthsList "5,6,7,7,9,9,9,8" ;
+    sd:hasLengthsList "5,6,7,7,8,9,9,9" ;
     sd:hasVariables "b,c2,c3,a,b3,b2,a32,b1" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Butcher> ;
     a sd:Ideal ;
@@ -103,7 +103,7 @@ sdpol:Butcher
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,3,4,4,4,4" ;
-    sd:hasLengthsList "5,6,7,7,9,9,9,8" ;
+    sd:hasLengthsList "5,6,7,7,8,9,9,9" ;
     sd:hasVariables "b,c2,c3,a,b3,b2,a32,b1,hv" ;
     sd:homogenize sdpol:Butcher ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -136,7 +136,7 @@ sdpol:Cassou
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree "16" ;
     sd:hasDegreeList "4,6,7,8" ;
-    sd:hasLengthsList "6,11,10,18" ;
+    sd:hasLengthsList "6,10,11,18" ;
     sd:hasVariables "b,c,d,e" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Cassou> ;
     a sd:Ideal ;
@@ -147,7 +147,7 @@ sdpol:Cassou
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "4,6,7,8" ;
-    sd:hasLengthsList "6,11,10,18" ;
+    sd:hasLengthsList "6,10,11,18" ;
     sd:hasVariables "b,c,d,e,hv" ;
     sd:homogenize sdpol:Cassou ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -165,7 +165,7 @@ sdpol:Cohn_2
     sd:createdAt "1999-04-20" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "5,6,6,6" ;
-    sd:hasLengthsList "15,19,20,19" ;
+    sd:hasLengthsList "15,19,19,20" ;
     sd:hasVariables "t,x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Cohn_2> ;
     a sd:Ideal ;
@@ -176,7 +176,7 @@ sdpol:Cohn_2
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "5,6,6,6" ;
-    sd:hasLengthsList "15,19,20,19" ;
+    sd:hasLengthsList "15,19,19,20" ;
     sd:hasVariables "t,x,y,z,hv" ;
     sd:homogenize sdpol:Cohn_2 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -224,7 +224,7 @@ sdpol:Cohn_2
     sd:hasDegree 30 ;
     sd:hasDegreeList "2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3" ;
     sd:hasDimension "1" ;
-    sd:hasLengthsList "62,62,62,62,62,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,91,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92" ;
+    sd:hasLengthsList "62,62,62,62,62,91,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92" ;
     sd:hasVariables "x0,x1,x2,x3,x4,x5,x6,x7,x8,x9,x10" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/ModPS/Curves.curve10_30.Generators> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -344,7 +344,7 @@ sdpol:Cohn_2
     sd:hasDegree 20 ;
     sd:hasDegreeList "5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5" ;
     sd:hasDimension "1" ;
-    sd:hasLengthsList "102,102,102,102,102,102,102,102,102,102,101,102,102,102,102,102,102,102,102,102,102,102,102,102,102" ;
+    sd:hasLengthsList "101,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102" ;
     sd:hasVariables "x0,x1,x2,x3,x4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/ModPS/Curves.curve4_20.Generators> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -740,7 +740,7 @@ sdpol:Cyclic_4
     sd:hasDegreeList "1,2,3,4" ;
     sd:hasDimension "1" ;
     sd:hasIsolatedPrimesDimensions "1,1" ;
-    sd:hasLengthsList "4,4,4,2" ;
+    sd:hasLengthsList "2,4,4,4" ;
     sd:hasVariables "w,x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Cyclic_4> ;
     a sd:Ideal ;
@@ -751,7 +751,7 @@ sdpol:Cyclic_4
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,4" ;
-    sd:hasLengthsList "4,4,4,2" ;
+    sd:hasLengthsList "2,4,4,4" ;
     sd:hasVariables "w,x,y,z,hv" ;
     sd:homogenize sdpol:Cyclic_4 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -762,7 +762,7 @@ sdpol:Cyclic_5
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 70 ;
     sd:hasDegreeList "1,2,3,4,5" ;
-    sd:hasLengthsList "5,5,5,5,2" ;
+    sd:hasLengthsList "2,5,5,5,5" ;
     sd:hasVariables "v,w,x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Cyclic_5> ;
     a sd:Ideal ;
@@ -773,7 +773,7 @@ sdpol:Cyclic_5
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,4,5" ;
-    sd:hasLengthsList "5,5,5,5,2" ;
+    sd:hasLengthsList "2,5,5,5,5" ;
     sd:hasVariables "v,w,x,y,z,hv" ;
     sd:homogenize sdpol:Cyclic_5 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -784,7 +784,7 @@ sdpol:Cyclic_5_1
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 64 ;
     sd:hasDegreeList "1,2,3,4,5" ;
-    sd:hasLengthsList "5,5,5,5,2" ;
+    sd:hasLengthsList "2,5,5,5,5" ;
     sd:hasVariables "v,w,x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Cyclic_5_1> ;
     a sd:Ideal ;
@@ -795,7 +795,7 @@ sdpol:Cyclic_5_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,4,5" ;
-    sd:hasLengthsList "5,5,5,5,2" ;
+    sd:hasLengthsList "2,5,5,5,5" ;
     sd:hasVariables "v,w,x,y,z,hv" ;
     sd:homogenize sdpol:Cyclic_5_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -806,7 +806,7 @@ sdpol:Cyclic_6
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 156 ;
     sd:hasDegreeList "1,2,3,4,5,6" ;
-    sd:hasLengthsList "6,6,6,6,6,2" ;
+    sd:hasLengthsList "2,6,6,6,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Cyclic_6> ;
     a sd:Ideal ;
@@ -817,7 +817,7 @@ sdpol:Cyclic_6
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,4,5,6" ;
-    sd:hasLengthsList "6,6,6,6,6,2" ;
+    sd:hasLengthsList "2,6,6,6,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,hv" ;
     sd:homogenize sdpol:Cyclic_6 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -828,7 +828,7 @@ sdpol:Cyclic_7
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 924 ;
     sd:hasDegreeList "1,2,3,4,5,6,7" ;
-    sd:hasLengthsList "7,7,7,7,7,7,2" ;
+    sd:hasLengthsList "2,7,7,7,7,7,7" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Cyclic_7> ;
     a sd:Ideal ;
@@ -839,7 +839,7 @@ sdpol:Cyclic_7
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,4,5,6,7" ;
-    sd:hasLengthsList "7,7,7,7,7,7,2" ;
+    sd:hasLengthsList "2,7,7,7,7,7,7" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,hv" ;
     sd:homogenize sdpol:Cyclic_7 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -871,7 +871,7 @@ sdpol:Cyclic_8
     sd:createdAt "1999-04-20" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,4,5,6,7,8" ;
-    sd:hasLengthsList "8,8,8,8,8,8,8,2" ;
+    sd:hasLengthsList "2,8,8,8,8,8,8,8" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Cyclic_8> ;
     a sd:Ideal .
@@ -881,7 +881,7 @@ sdpol:Cyclic_8
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,4,5,6,7,8" ;
-    sd:hasLengthsList "8,8,8,8,8,8,8,2" ;
+    sd:hasLengthsList "2,8,8,8,8,8,8,8" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,hv" ;
     sd:homogenize sdpol:Cyclic_8 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -891,7 +891,7 @@ sdpol:Cyclic_9
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,2,3,4,5,6,7,8,9" ;
-    sd:hasLengthsList "9,9,9,9,9,9,9,9,2" ;
+    sd:hasLengthsList "2,9,9,9,9,9,9,9,9" ;
     sd:hasVariables "y1,y2,y3,y4,y5,y6,y7,y8,y9" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Cyclic_9> ;
     a sd:Ideal .
@@ -901,7 +901,7 @@ sdpol:Cyclic_9
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,4,5,6,7,8,9" ;
-    sd:hasLengthsList "9,9,9,9,9,9,9,9,2" ;
+    sd:hasLengthsList "2,9,9,9,9,9,9,9,9" ;
     sd:hasVariables "y1,y2,y3,y4,y5,y6,y7,y8,y9,hv" ;
     sd:homogenize sdpol:Cyclic_9 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -1152,7 +1152,7 @@ sdpol:Czapor-86c_2
 <http://symbolicdata.org/Data/Ideal/Czapor-86c_2.Homog.Flat>
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
-    sd:hasDegreeList "2,2,2" ;
+    sd:hasDegreeList "3,3,3" ;
     sd:hasLengthsList "4,4,4" ;
     sd:hasVariables "x,y,z,hv,d,e,f" ;
     sd:flatten <http://symbolicdata.org/Data/Ideal/Czapor-86c_2.Homog> ;
@@ -1217,7 +1217,7 @@ sdpol:Czapor-87
 <http://symbolicdata.org/Data/Ideal/Czapor-87.Homog.Flat>
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
-    sd:hasDegreeList "2,2,2,2" ;
+    sd:hasDegreeList "3,3,3,3" ;
     sd:hasLengthsList "14,15,15,15" ;
     sd:hasVariables "x,y,z,w,hv,c1,c2,c3,c4,d1,d2,d3,d4" ;
     sd:flatten <http://symbolicdata.org/Data/Ideal/Czapor-87.Homog> ;
@@ -1240,7 +1240,7 @@ sdpol:Czapor-87_1
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 14 ;
     sd:hasDegreeList "2,2,2,2" ;
-    sd:hasLengthsList "13,13,13,12" ;
+    sd:hasLengthsList "12,13,13,13" ;
     sd:hasVariables "x,y,z,w" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Czapor-87_1> ;
     a sd:Ideal ;
@@ -1251,7 +1251,7 @@ sdpol:Czapor-87_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2" ;
-    sd:hasLengthsList "13,13,13,12" ;
+    sd:hasLengthsList "12,13,13,13" ;
     sd:hasVariables "x,y,z,w,hv" ;
     sd:homogenize sdpol:Czapor-87_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -1262,7 +1262,7 @@ sdpol:Czapor-87_2
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 16 ;
     sd:hasDegreeList "2,2,2,2" ;
-    sd:hasLengthsList "15,14,15,15" ;
+    sd:hasLengthsList "14,15,15,15" ;
     sd:hasVariables "x,y,z,w" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Czapor-87_2> ;
     a sd:Ideal ;
@@ -1273,7 +1273,7 @@ sdpol:Czapor-87_2
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2" ;
-    sd:hasLengthsList "15,14,15,15" ;
+    sd:hasLengthsList "14,15,15,15" ;
     sd:hasVariables "x,y,z,w,hv" ;
     sd:homogenize sdpol:Czapor-87_2 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -1284,7 +1284,7 @@ sdpol:Czapor-91
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 8 ;
     sd:hasDegreeList "2,2,2" ;
-    sd:hasLengthsList "8,8,7" ;
+    sd:hasLengthsList "7,8,8" ;
     sd:hasVariables "x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Czapor-91> ;
     a sd:Ideal ;
@@ -1295,7 +1295,7 @@ sdpol:Czapor-91
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2" ;
-    sd:hasLengthsList "8,8,7" ;
+    sd:hasLengthsList "7,8,8" ;
     sd:hasVariables "x,y,z,hv" ;
     sd:homogenize sdpol:Czapor-91 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -1327,7 +1327,7 @@ sdpol:Discriminant_4
     sd:hasDegreeList "5,5,5,5,6" ;
     sd:hasDimension "2" ;
     sd:hasIsolatedPrimesDimensions "2,2" ;
-    sd:hasLengthsList "11,10,10,10,16" ;
+    sd:hasLengthsList "10,10,10,11,16" ;
     sd:hasVariables "a0,a1,a2,a3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Discriminant_4> ;
     a sd:Ideal .
@@ -1337,7 +1337,7 @@ sdpol:Discriminant_4
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "5,5,5,5,6" ;
-    sd:hasLengthsList "11,10,10,10,16" ;
+    sd:hasLengthsList "10,10,10,11,16" ;
     sd:hasVariables "a0,a1,a2,a3,hv" ;
     sd:homogenize sdpol:Discriminant_4 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -1348,7 +1348,7 @@ sdpol:Discriminant_5
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "7,7,7,7,7,8" ;
     sd:hasDimension "3" ;
-    sd:hasLengthsList "43,40,37,37,40,59" ;
+    sd:hasLengthsList "37,37,40,40,43,59" ;
     sd:hasVariables "a0,a1,a2,a3,a4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Discriminant_5> ;
     a sd:Ideal .
@@ -1358,7 +1358,7 @@ sdpol:Discriminant_5
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "7,7,7,7,7,8" ;
-    sd:hasLengthsList "43,40,37,37,40,59" ;
+    sd:hasLengthsList "37,37,40,40,43,59" ;
     sd:hasVariables "a0,a1,a2,a3,a4,hv" ;
     sd:homogenize sdpol:Discriminant_5 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -1434,7 +1434,7 @@ sdpol:Ellipsoid_2
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 6 ;
     sd:hasDegreeList "2,2,2,2" ;
-    sd:hasLengthsList "3,3,4,3" ;
+    sd:hasLengthsList "3,3,3,4" ;
     sd:hasParameters "ma,mb,mc,a,b,c" ;
     sd:hasVariables "l,x,y,z" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Ellipsoid_2.Flat> ;
@@ -1466,7 +1466,7 @@ sdpol:Ellipsoid_2
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2" ;
-    sd:hasLengthsList "3,3,4,3" ;
+    sd:hasLengthsList "3,3,3,4" ;
     sd:hasParameters "ma,mb,mc,a,b,c" ;
     sd:hasVariables "l,x,y,z,hv" ;
     sd:homogenize sdpol:Ellipsoid_2 ;
@@ -1499,7 +1499,7 @@ sdpol:Ellipsoid_4
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 52 ;
     sd:hasDegreeList "4,4,4,4" ;
-    sd:hasLengthsList "3,3,4,3" ;
+    sd:hasLengthsList "3,3,3,4" ;
     sd:hasParameters "ma,mb,mc,a,b,c" ;
     sd:hasVariables "l,x,y,z" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Ellipsoid_4.Flat> ;
@@ -1531,7 +1531,7 @@ sdpol:Ellipsoid_4
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "4,4,4,4" ;
-    sd:hasLengthsList "3,3,4,3" ;
+    sd:hasLengthsList "3,3,3,4" ;
     sd:hasParameters "ma,mb,mc,a,b,c" ;
     sd:hasVariables "l,x,y,z,hv" ;
     sd:homogenize sdpol:Ellipsoid_4 ;
@@ -1565,7 +1565,7 @@ sdpol:Fateman
     sd:hasDegree 75 ;
     sd:hasDegreeList "3,5,5" ;
     sd:hasDimension "1" ;
-    sd:hasLengthsList "4,37,4" ;
+    sd:hasLengthsList "4,4,37" ;
     sd:hasVariables "p,q,r,s" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Fateman> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -1576,7 +1576,7 @@ sdpol:Fee_1
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 26 ;
     sd:hasDegreeList "2,3,4,4" ;
-    sd:hasLengthsList "5,6,20,15" ;
+    sd:hasLengthsList "5,6,15,20" ;
     sd:hasVariables "q,c,p,d" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Fee_1> ;
     a sd:Ideal ;
@@ -1587,7 +1587,7 @@ sdpol:Fee_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,3,4,4" ;
-    sd:hasLengthsList "5,6,20,15" ;
+    sd:hasLengthsList "5,6,15,20" ;
     sd:hasVariables "q,c,p,d,hv" ;
     sd:homogenize sdpol:Fee_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -1597,7 +1597,7 @@ sdpol:Fee_2
     sd:createdAt "1999-05-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,3,4,4" ;
-    sd:hasLengthsList "5,9,20,15" ;
+    sd:hasLengthsList "5,9,15,20" ;
     sd:hasParameters "b" ;
     sd:hasVariables "q,c,p,d" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Fee_2.Flat> ;
@@ -1629,7 +1629,7 @@ sdpol:Fee_2
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,3,4,4" ;
-    sd:hasLengthsList "5,9,20,15" ;
+    sd:hasLengthsList "5,9,15,20" ;
     sd:hasParameters "b" ;
     sd:hasVariables "q,c,p,d,hv" ;
     sd:homogenize sdpol:Fee_2 ;
@@ -1672,7 +1672,7 @@ sdpol:FourCircles_1
     sd:hasDegree 25 ;
     sd:hasDegreeList "7,7" ;
     sd:hasIsolatedPrimesDegrees "8,3,2,2,2,1,1,1" ;
-    sd:hasLengthsList "16,15" ;
+    sd:hasLengthsList "15,16" ;
     sd:hasVariables "x,y" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/FourCircles_1> ;
     a sd:Ideal .
@@ -1682,7 +1682,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "7,7" ;
-    sd:hasLengthsList "16,15" ;
+    sd:hasLengthsList "15,16" ;
     sd:hasVariables "x,y,hv" ;
     sd:homogenize sdpol:FourCircles_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -1712,7 +1712,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,2,2,2" ;
-    sd:hasLengthsList "3,3,7,4" ;
+    sd:hasLengthsList "3,3,4,7" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Biarc.Flat> ;
@@ -1722,7 +1722,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2" ;
-    sd:hasLengthsList "6,3,8,4" ;
+    sd:hasLengthsList "3,4,6,8" ;
     sd:hasVariables "x1,x2,x3,x4,x5,u1,u2,u3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Biarc> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -1733,7 +1733,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2" ;
-    sd:hasLengthsList "3,3,7,4" ;
+    sd:hasLengthsList "3,3,4,7" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Biarc> ;
@@ -1744,7 +1744,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2,3" ;
-    sd:hasLengthsList "3,4,4,7,6" ;
+    sd:hasLengthsList "3,4,4,6,7" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x0,x1,x2,x3,x4" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Brahmagupta.Flat> ;
@@ -1754,7 +1754,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,3" ;
-    sd:hasLengthsList "3,4,5,7,6" ;
+    sd:hasLengthsList "3,4,5,6,7" ;
     sd:hasVariables "x1,x2,x3,x4,x0,u1,u2,u3,u4" ;
     a sd:Ideal ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Brahmagupta> ;
@@ -1765,7 +1765,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,3" ;
-    sd:hasLengthsList "3,4,5,7,6" ;
+    sd:hasLengthsList "3,4,5,6,7" ;
     sd:hasVariables "x1,x2,x3,x4,x0,u1,u2,u3,u4,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Brahmagupta.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -1776,7 +1776,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,3" ;
-    sd:hasLengthsList "3,4,4,7,6" ;
+    sd:hasLengthsList "3,4,4,6,7" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x0,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Brahmagupta> ;
@@ -1787,7 +1787,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1,2,2,2,2,2" ;
-    sd:hasLengthsList "1,4,3,4,1,3,5,5,7,2,4" ;
+    sd:hasLengthsList "1,1,2,3,3,4,4,4,5,5,7" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Brocard_1.Flat>;
@@ -1804,7 +1804,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,4,4,2,4,4,2" ;
+    sd:hasLengthsList "2,2,2,4,4,4,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Butterfly_1.Flat> ;
@@ -1814,7 +1814,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,4,6,2,6,4,6" ;
+    sd:hasLengthsList "2,2,4,4,6,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,u1,u2,u3,u4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Butterfly_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -1825,7 +1825,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,4,4,2,4,4,2" ;
+    sd:hasLengthsList "2,2,2,4,4,4,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Butterfly_1> ;
@@ -1836,7 +1836,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "5,6,4,3,3,5,2,2,2" ;
+    sd:hasLengthsList "2,2,2,3,3,4,5,5,6" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Butterfly_3.Flat> ;
@@ -1846,7 +1846,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "6,6,4,4,4,6,3,3,3" ;
+    sd:hasLengthsList "3,3,3,4,4,4,6,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,u1,u2,u3,u4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Butterfly_3> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -1857,7 +1857,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "5,6,4,3,3,5,2,2,2" ;
+    sd:hasLengthsList "2,2,2,3,3,4,5,5,6" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Butterfly_3> ;
@@ -1868,7 +1868,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,3,6,3,6,3,6,3" ;
+    sd:hasLengthsList "2,2,3,3,3,5,5,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Chou-84a_2.Flat> ;
@@ -1878,7 +1878,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,3,6,3,6,3,6,3" ;
+    sd:hasLengthsList "2,3,3,3,3,6,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,u1,u2,u3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou-84a_2> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -1889,7 +1889,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,3,6,3,5,3,5,2" ;
+    sd:hasLengthsList "2,2,3,3,3,5,5,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Chou-84a_2> ;
@@ -1900,7 +1900,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,2,2,2,2" ;
-    sd:hasLengthsList "4,3,4,4,5,4" ;
+    sd:hasLengthsList "3,4,4,4,4,5" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.100_1> ;
@@ -1910,7 +1910,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,2,2,2,2" ;
-    sd:hasLengthsList "3,3,4,8,3,3" ;
+    sd:hasLengthsList "3,3,3,3,4,8" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.106_1> ;
@@ -1920,7 +1920,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,2,2" ;
-    sd:hasLengthsList "3,3,4,3,3,4" ;
+    sd:hasLengthsList "3,3,3,3,4,4" ;
     sd:hasParameters "r,u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.106_2> ;
@@ -1930,7 +1930,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,3,6,3,5,3,5,2" ;
+    sd:hasLengthsList "2,2,3,3,3,5,5,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.115_2> ;
@@ -1960,7 +1960,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,2,2,2" ;
-    sd:hasLengthsList "3,1,4,4,6,4" ;
+    sd:hasLengthsList "1,3,4,4,4,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.131_1> ;
@@ -1970,7 +1970,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2" ;
-    sd:hasLengthsList "4,2,4" ;
+    sd:hasLengthsList "2,4,4" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.132_1> ;
@@ -2000,7 +2000,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,2,2,2" ;
-    sd:hasLengthsList "3,3,3,3,2,3" ;
+    sd:hasLengthsList "2,3,3,3,3,3" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.139_1> ;
@@ -2010,7 +2010,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "4,3,3,4,2,2,2,4,3" ;
+    sd:hasLengthsList "2,2,2,3,3,3,4,4,4" ;
     sd:hasParameters "u1,u2,u3,u4,u5,u6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.152_1> ;
@@ -2019,7 +2019,7 @@ sdpol:FourCircles_1
 <http://symbolicdata.org/Data/Ideal/Geometry.Chou.153_1>
     sd:createdAt "2000-03-22" ;
     sd:hasDegreeList "2,2,2,2,2" ;
-    sd:hasLengthsList "3,2,4,2,3" ;
+    sd:hasLengthsList "2,2,3,3,4" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.153_1> ;
@@ -2029,7 +2029,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2" ;
-    sd:hasLengthsList "2,5,3,6" ;
+    sd:hasLengthsList "2,3,5,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.156_1> ;
@@ -2039,7 +2039,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2,2,2" ;
-    sd:hasLengthsList "4,5,4,6,3,6" ;
+    sd:hasLengthsList "3,4,4,5,6,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.160_1> ;
@@ -2049,7 +2049,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,2,2,3" ;
-    sd:hasLengthsList "3,2,3,2,2,6,8,9" ;
+    sd:hasLengthsList "2,2,2,3,3,6,8,9" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.167_1> ;
@@ -2059,7 +2059,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,2,2,2" ;
-    sd:hasLengthsList "4,4,4,2,4,6" ;
+    sd:hasLengthsList "2,4,4,4,4,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.201_1> ;
@@ -2089,7 +2089,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,2,2,2,2" ;
-    sd:hasLengthsList "4,2,3,5,6,4,6,8" ;
+    sd:hasLengthsList "2,3,4,4,5,6,6,8" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x8,x1,x2,x3,x4,x5,x6,x7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.238_1> ;
@@ -2139,7 +2139,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,2,2,2,2" ;
-    sd:hasLengthsList "1,2,2,3,2,4,4,6" ;
+    sd:hasLengthsList "1,2,2,2,3,4,4,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.249_3> ;
@@ -2159,7 +2159,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,2,2" ;
-    sd:hasLengthsList "2,5,4" ;
+    sd:hasLengthsList "2,4,5" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.258_1> ;
@@ -2169,7 +2169,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2" ;
-    sd:hasLengthsList "4,4,3" ;
+    sd:hasLengthsList "3,4,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.266_2> ;
@@ -2179,7 +2179,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,3" ;
-    sd:hasLengthsList "5,3,5" ;
+    sd:hasLengthsList "3,5,5" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.267_1> ;
@@ -2189,7 +2189,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,2,2,2" ;
-    sd:hasLengthsList "1,1,5,5,3" ;
+    sd:hasLengthsList "1,1,3,5,5" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.272_1> ;
@@ -2199,7 +2199,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,2,2,2" ;
-    sd:hasLengthsList "3,4,4,2,3" ;
+    sd:hasLengthsList "2,3,3,4,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.273_1> ;
@@ -2209,7 +2209,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,2,2,2" ;
-    sd:hasLengthsList "2,4,3,4,3" ;
+    sd:hasLengthsList "2,3,3,4,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.274_1> ;
@@ -2219,7 +2219,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,2,2,2,2,2" ;
-    sd:hasLengthsList "2,4,8,6,3,4,3" ;
+    sd:hasLengthsList "2,3,3,4,4,6,8" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.274_2> ;
@@ -2229,7 +2229,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,2,2" ;
-    sd:hasLengthsList "4,4,3" ;
+    sd:hasLengthsList "3,4,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.275_1> ;
@@ -2239,7 +2239,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "4,7,7,6,4,6,3" ;
+    sd:hasLengthsList "3,4,4,6,6,7,7" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.289_1> ;
@@ -2249,7 +2249,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "4,7,7,6,4,6,3" ;
+    sd:hasLengthsList "3,4,4,6,6,7,7" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.290_1> ;
@@ -2259,7 +2259,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,2,2,2" ;
-    sd:hasLengthsList "1,2,2,4,4,6,3" ;
+    sd:hasLengthsList "1,2,2,3,4,4,6" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.292_1> ;
@@ -2269,7 +2269,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,2" ;
-    sd:hasLengthsList "1,2,2,4,3" ;
+    sd:hasLengthsList "1,2,2,3,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.293_1> ;
@@ -2279,7 +2279,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,2,2" ;
-    sd:hasLengthsList "2,1,2,2,4,6,3" ;
+    sd:hasLengthsList "1,2,2,2,3,4,6" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.296_1> ;
@@ -2289,7 +2289,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1,2,2,2" ;
-    sd:hasLengthsList "2,2,1,2,2,4,6,6,3" ;
+    sd:hasLengthsList "1,2,2,2,2,3,4,6,6" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.296_2> ;
@@ -2299,7 +2299,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1,1,2" ;
-    sd:hasLengthsList "1,2,2,3,2,2,4,4" ;
+    sd:hasLengthsList "1,2,2,2,2,3,4,4" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.297_1> ;
@@ -2319,7 +2319,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,2,2" ;
-    sd:hasLengthsList "2,4,2,3,4,4" ;
+    sd:hasLengthsList "2,2,3,4,4,4" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.300_1> ;
@@ -2329,7 +2329,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1,2" ;
-    sd:hasLengthsList "2,3,2,2,4,4,3" ;
+    sd:hasLengthsList "2,2,2,3,3,4,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.301_2> ;
@@ -2339,7 +2339,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,2,2,2,2" ;
-    sd:hasLengthsList "2,2,4,4,3,6,6,3" ;
+    sd:hasLengthsList "2,2,3,3,4,4,6,6" ;
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.302_1> ;
@@ -2349,7 +2349,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,2,2,2,2" ;
-    sd:hasLengthsList "2,2,4,4,6,6,3,3" ;
+    sd:hasLengthsList "2,2,3,3,4,4,6,6" ;
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.303_1> ;
@@ -2359,7 +2359,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1,1,2,2,2" ;
-    sd:hasLengthsList "2,2,4,2,3,6,3,4,4,4" ;
+    sd:hasLengthsList "2,2,2,3,3,4,4,4,4,6" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.304_1> ;
@@ -2369,7 +2369,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,2,2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "3,4,2,3,2,8,4,2,5,6,4,6,4,4" ;
+    sd:hasLengthsList "2,2,2,3,3,4,4,4,4,4,5,6,6,8" ;
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.310_1> ;
@@ -2379,7 +2379,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1,2,2,2,2,2" ;
-    sd:hasLengthsList "2,3,3,2,2,4,4,3,2,4,4" ;
+    sd:hasLengthsList "2,2,2,2,3,3,3,4,4,4,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.311_1> ;
@@ -2389,7 +2389,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1,1,1,1,1,2" ;
-    sd:hasLengthsList "2,1,2,2,4,4,2,2,4,3,4" ;
+    sd:hasLengthsList "1,2,2,2,2,2,3,4,4,4,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.313_1> ;
@@ -2399,7 +2399,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,2,2,2,2" ;
-    sd:hasLengthsList "2,3,4,2,3,2,4,6,4" ;
+    sd:hasLengthsList "2,2,2,3,3,4,4,4,6" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.317_1> ;
@@ -2409,7 +2409,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1,2" ;
-    sd:hasLengthsList "2,3,2,3,3,2,3" ;
+    sd:hasLengthsList "2,2,2,3,3,3,3" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.319_1> ;
@@ -2419,7 +2419,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,2,2,2" ;
-    sd:hasLengthsList "3,2,2,3,2,4,6" ;
+    sd:hasLengthsList "2,2,2,3,3,4,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.322_1> ;
@@ -2429,7 +2429,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,2,2,2" ;
-    sd:hasLengthsList "1,2,3,2,3,7,5,2" ;
+    sd:hasLengthsList "1,2,2,2,3,3,5,7" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.325_1> ;
@@ -2439,7 +2439,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,2,3,3,4,4,4,4,4,2,2,5,6,2,3,6" ;
+    sd:hasLengthsList "2,2,2,2,2,3,3,3,4,4,4,4,4,5,6,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.329_1> ;
@@ -2449,7 +2449,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1,1,2,2,2,2,2" ;
-    sd:hasLengthsList "2,3,1,2,2,2,2,4,4,4,6,4" ;
+    sd:hasLengthsList "1,2,2,2,2,2,3,4,4,4,4,6" ;
     sd:hasParameters "u1,u2,u3,u4,u5,u6,u7" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.330_1> ;
@@ -2459,7 +2459,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,2,2" ;
-    sd:hasLengthsList "2,3,2,4,4,3,6" ;
+    sd:hasLengthsList "2,2,3,3,4,4,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.336_1> ;
@@ -2469,7 +2469,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,2,2,2,2,2,2,2,3" ;
-    sd:hasLengthsList "3,2,2,2,2,4,4,6,6,8,8,9" ;
+    sd:hasLengthsList "2,2,2,2,3,4,4,6,6,8,8,9" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.337_1> ;
@@ -2479,7 +2479,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,2,2,2,2,2,2,3" ;
-    sd:hasLengthsList "2,2,2,2,4,6,4,6,8,9" ;
+    sd:hasLengthsList "2,2,2,2,4,4,6,6,8,9" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.353_1> ;
@@ -2489,7 +2489,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,1,2,4,4,6,3,3,4" ;
+    sd:hasLengthsList "1,2,2,3,3,4,4,4,6" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.35_1> ;
@@ -2499,7 +2499,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,2,2" ;
-    sd:hasLengthsList "3,2,5,4" ;
+    sd:hasLengthsList "2,3,4,5" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.374_1> ;
@@ -2509,7 +2509,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,2,2,2,2,2" ;
-    sd:hasLengthsList "2,2,4,4,2,4,4" ;
+    sd:hasLengthsList "2,2,2,4,4,4,4" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.376_1> ;
@@ -2519,7 +2519,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2,2" ;
-    sd:hasLengthsList "6,9,5,4,2" ;
+    sd:hasLengthsList "2,4,5,6,9" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.377_1> ;
@@ -2529,7 +2529,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,2,2,2,2,2" ;
-    sd:hasLengthsList "3,3,2,3,2,4,5,4,6" ;
+    sd:hasLengthsList "2,2,3,3,3,4,4,5,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.383_1> ;
@@ -2539,7 +2539,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2" ;
-    sd:hasLengthsList "6,2,3,6" ;
+    sd:hasLengthsList "2,3,6,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.387_1> ;
@@ -2549,7 +2549,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,2,2,2" ;
-    sd:hasLengthsList "2,4,3,6" ;
+    sd:hasLengthsList "2,3,4,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.388_1> ;
@@ -2559,7 +2559,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "4,2,3,4,6,2,3,6" ;
+    sd:hasLengthsList "2,2,3,3,4,4,6,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.389_1> ;
@@ -2569,7 +2569,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2,2" ;
-    sd:hasLengthsList "3,5,2,2,2" ;
+    sd:hasLengthsList "2,2,2,3,5" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.390_1> ;
@@ -2579,7 +2579,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,2,2,2,2,2,3" ;
-    sd:hasLengthsList "2,2,4,6,5,4,4,9" ;
+    sd:hasLengthsList "2,2,4,4,4,5,6,9" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.393_1> ;
@@ -2599,7 +2599,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2,2" ;
-    sd:hasLengthsList "3,6,3,3,6" ;
+    sd:hasLengthsList "3,3,3,6,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.395_1> ;
@@ -2619,7 +2619,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2" ;
-    sd:hasLengthsList "4,4,3" ;
+    sd:hasLengthsList "3,4,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.398_1> ;
@@ -2629,7 +2629,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1,2,2,2" ;
-    sd:hasLengthsList "2,3,3,2,2,3,6,4,6" ;
+    sd:hasLengthsList "2,2,2,3,3,3,4,6,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.400_1> ;
@@ -2639,7 +2639,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,5,4,5,3,3,2" ;
+    sd:hasLengthsList "2,2,3,3,4,5,5" ;
     sd:hasParameters "u1,u2,u3,u4,u5,u6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.401_1> ;
@@ -2659,7 +2659,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,2,2,2" ;
-    sd:hasLengthsList "3,4,9,4" ;
+    sd:hasLengthsList "3,4,4,9" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.417_1> ;
@@ -2669,7 +2669,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,2,2" ;
-    sd:hasLengthsList "2,3,3,2,5" ;
+    sd:hasLengthsList "2,2,3,3,5" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.418_1> ;
@@ -2679,7 +2679,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,2,3" ;
-    sd:hasLengthsList "3,3,2,6,6" ;
+    sd:hasLengthsList "2,3,3,6,6" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.420_1> ;
@@ -2689,7 +2689,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,2,2,2" ;
-    sd:hasLengthsList "2,3,3,2,6,4,4" ;
+    sd:hasLengthsList "2,2,3,3,4,4,6" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.420_2> ;
@@ -2699,7 +2699,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1" ;
-    sd:hasLengthsList "3,2,4,4,2" ;
+    sd:hasLengthsList "2,2,3,4,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.423_1> ;
@@ -2709,7 +2709,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,2" ;
-    sd:hasLengthsList "3,2,4,4,3,4" ;
+    sd:hasLengthsList "2,3,3,4,4,4" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.425_1> ;
@@ -2719,7 +2719,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,2,2" ;
-    sd:hasLengthsList "2,3,3,2,5" ;
+    sd:hasLengthsList "2,2,3,3,5" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.426_1> ;
@@ -2729,7 +2729,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,3,4,4,4,2,4,6" ;
+    sd:hasLengthsList "2,2,3,4,4,4,4,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.428_1> ;
@@ -2739,7 +2739,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,2,2,2" ;
-    sd:hasLengthsList "2,4,3,4,9,4" ;
+    sd:hasLengthsList "2,3,4,4,4,9" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.429_1> ;
@@ -2789,7 +2789,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,2,2,2" ;
-    sd:hasLengthsList "3,2,2,3,3,2,4,6" ;
+    sd:hasLengthsList "2,2,2,3,3,3,4,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.442_1> ;
@@ -2799,7 +2799,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1,1,1,1,2" ;
-    sd:hasLengthsList "2,3,3,1,2,4,4,3,2,6" ;
+    sd:hasLengthsList "1,2,2,2,3,3,3,4,4,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.444_1> ;
@@ -2809,7 +2809,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1,1,1,1,1,2,2" ;
-    sd:hasLengthsList "2,3,3,3,1,2,4,4,3,2,8,8" ;
+    sd:hasLengthsList "1,2,2,2,3,3,3,3,4,4,8,8" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.445_1> ;
@@ -2819,7 +2819,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1,1,1,1,2,2,2,2,2" ;
-    sd:hasLengthsList "2,3,2,3,2,3,3,2,3,4,4,6,4,4" ;
+    sd:hasLengthsList "2,2,2,2,3,3,3,3,3,4,4,4,4,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.451_1> ;
@@ -2829,7 +2829,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "3,2,3,2,3,5,2,2,4,4,4,2,4" ;
+    sd:hasLengthsList "2,2,2,2,2,3,3,3,4,4,4,4,5" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.459_1> ;
@@ -2839,7 +2839,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "3,2,2,3,2,4,6,2,4,4,4,5" ;
+    sd:hasLengthsList "2,2,2,2,3,3,4,4,4,4,5,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.460_1> ;
@@ -2849,7 +2849,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2" ;
-    sd:hasLengthsList "4,6,3" ;
+    sd:hasLengthsList "3,4,6" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.462_1> ;
@@ -2859,7 +2859,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1" ;
-    sd:hasLengthsList "2,3,2" ;
+    sd:hasLengthsList "2,2,3" ;
     sd:hasParameters "u2,u3,u4,u5,u6" ;
     sd:hasVariables "x1,x2,x3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.463_1> ;
@@ -2869,7 +2869,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1" ;
-    sd:hasLengthsList "2,2,3,4,2" ;
+    sd:hasLengthsList "2,2,2,3,4" ;
     sd:hasParameters "u2,u3,u4,u5,u6" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.465_1> ;
@@ -2879,7 +2879,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,2,2,2" ;
-    sd:hasLengthsList "2,3,2,2,2,9,4,4" ;
+    sd:hasLengthsList "2,2,2,2,3,4,4,9" ;
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.468_1> ;
@@ -2899,7 +2899,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1,1,1" ;
-    sd:hasLengthsList "3,2,3,3,3,4,2,3" ;
+    sd:hasLengthsList "2,2,3,3,3,3,3,4" ;
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.475_1> ;
@@ -2909,7 +2909,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1" ;
-    sd:hasLengthsList "1,2,2,3,2,3" ;
+    sd:hasLengthsList "1,2,2,2,3,3" ;
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.477_1> ;
@@ -2919,7 +2919,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,3,4,4,4,2,5,3" ;
+    sd:hasLengthsList "2,2,3,3,4,4,4,5" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.64_1> ;
@@ -2929,7 +2929,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,2,2" ;
-    sd:hasLengthsList "3,2,4,4" ;
+    sd:hasLengthsList "2,3,4,4" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.70_1> ;
@@ -2949,7 +2949,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2,2,2,3" ;
-    sd:hasLengthsList "4,2,2,3,4,2,8" ;
+    sd:hasLengthsList "2,2,2,3,4,4,8" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Chou.94_1> ;
@@ -3095,7 +3095,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,3,3,3,3" ;
-    sd:hasLengthsList "3,3,4,5,4,5" ;
+    sd:hasLengthsList "3,3,4,4,5,5" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2,u3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.IMO.35_1> ;
     a sd:Ideal ;
@@ -3106,7 +3106,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,3,3,3,3" ;
-    sd:hasLengthsList "3,3,4,5,4,5" ;
+    sd:hasLengthsList "3,3,4,4,5,5" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2,u3,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.IMO.35_1.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3137,8 +3137,8 @@ sdpol:FourCircles_1
 <http://symbolicdata.org/Data/Ideal/Geometry.InCenter_1.Flat>
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
-    sd:hasDegreeList "3,3,4" ;
-    sd:hasLengthsList "8,3,15" ;
+    sd:hasDegreeList "3,3" ;
+    sd:hasLengthsList "3,8" ;
     sd:hasVariables "x1,x2,u1,u2,u3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.InCenter_1> ;
     a sd:Ideal ;
@@ -3148,8 +3148,8 @@ sdpol:FourCircles_1
     sd:homogenizedWith "hv" ;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
-    sd:hasDegreeList "3,3,4" ;
-    sd:hasLengthsList "8,3,15" ;
+    sd:hasDegreeList "3,3" ;
+    sd:hasLengthsList "3,8" ;
     sd:hasVariables "x1,x2,u1,u2,u3,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.InCenter_1.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3159,8 +3159,8 @@ sdpol:FourCircles_1
     sd:homogenizedWith "hv" ;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
-    sd:hasDegreeList "2,2,2" ;
-    sd:hasLengthsList "3,6,6" ;
+    sd:hasDegreeList "2,2" ;
+    sd:hasLengthsList "3,6" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.InCenter_1> ;
@@ -3171,7 +3171,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,3,3" ;
-    sd:hasLengthsList "2,4,3" ;
+    sd:hasLengthsList "2,3,4" ;
     sd:hasParameters "u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.MacLane_1.Flat> ;
@@ -3203,7 +3203,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,3,3" ;
-    sd:hasLengthsList "2,4,3" ;
+    sd:hasLengthsList "2,3,4" ;
     sd:hasParameters "u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.MacLane_1> ;
@@ -3224,7 +3224,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "3,3,4,4,4,6" ;
-    sd:hasLengthsList "9,9,6,6,41,90" ;
+    sd:hasLengthsList "6,6,9,9,41,90" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Morley_1> ;
     a sd:Ideal ;
@@ -3235,7 +3235,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "3,3,4,4,4,6" ;
-    sd:hasLengthsList "9,9,6,6,41,90" ;
+    sd:hasLengthsList "6,6,9,9,41,90" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Morley_1.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3277,7 +3277,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,2" ;
-    sd:hasLengthsList "3,2,3,2" ;
+    sd:hasLengthsList "2,2,3,3" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Parallelogram_1> ;
@@ -3328,7 +3328,7 @@ sdpol:FourCircles_1
 <http://symbolicdata.org/Data/Ideal/Geometry.SimsonInverse_1.Flat>
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
-    sd:hasDegreeList "1,3,3,3" ;
+    sd:hasDegreeList "1,2,3,3" ;
     sd:hasLengthsList "2,4,6,10" ;
     sd:hasVariables "x1,x2,x3,x4,u1,u2,u3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.SimsonInverse_1> ;
@@ -3339,7 +3339,7 @@ sdpol:FourCircles_1
     sd:homogenizedWith "hv" ;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
-    sd:hasDegreeList "1,3,3,3" ;
+    sd:hasDegreeList "1,2,3,3" ;
     sd:hasLengthsList "2,4,6,10" ;
     sd:hasVariables "x1,x2,x3,x4,u1,u2,u3,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.SimsonInverse_1.Flat> ;
@@ -3362,7 +3362,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,3,3,3" ;
-    sd:hasLengthsList "2,2,2,8,9,8" ;
+    sd:hasLengthsList "2,2,2,8,8,9" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_2.Flat> ;
@@ -3372,7 +3372,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,3,3,3" ;
-    sd:hasLengthsList "3,3,3,10,14,10" ;
+    sd:hasLengthsList "3,3,3,10,10,14" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2,u3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Simson_2> ;
     a sd:Ideal ;
@@ -3383,7 +3383,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,3,3,3" ;
-    sd:hasLengthsList "3,3,3,10,14,10" ;
+    sd:hasLengthsList "3,3,3,10,10,14" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2,u3,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_2.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3394,7 +3394,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,3,3,3" ;
-    sd:hasLengthsList "2,2,2,8,9,8" ;
+    sd:hasLengthsList "2,2,2,8,8,9" ;
     sd:hasParameters "u1,u2,u3" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_2> ;
@@ -3405,7 +3405,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "5,2,2,2,4,4,6,2,2" ;
+    sd:hasLengthsList "2,2,2,2,2,4,4,5,6" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_3.Flat> ;
@@ -3415,7 +3415,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "6,2,2,3,4,4,8,3,3" ;
+    sd:hasLengthsList "2,2,3,3,3,4,4,6,8" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,u1,u2,u3,u4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Simson_3> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3426,7 +3426,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "5,2,2,2,4,4,6,2,2" ;
+    sd:hasLengthsList "2,2,2,2,2,4,4,5,6" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_3> ;
@@ -3437,7 +3437,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,1,2" ;
-    sd:hasLengthsList "3,2,4,4,2,3,4" ;
+    sd:hasLengthsList "2,2,3,3,4,4,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_4.Flat> ;
@@ -3446,8 +3446,8 @@ sdpol:FourCircles_1
 <http://symbolicdata.org/Data/Ideal/Geometry.Simson_4.Flat>
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
-    sd:hasDegreeList "2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,4,4,4,6,2,4" ;
+    sd:hasDegreeList "1,2,2,2,2,2,2" ;
+    sd:hasLengthsList "2,2,4,4,4,4,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,u1,u2,u3,u4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Simson_4> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3458,7 +3458,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,1,1,1,1,2" ;
-    sd:hasLengthsList "3,2,4,4,3,2,4" ;
+    sd:hasLengthsList "2,2,3,3,4,4,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_4> ;
@@ -3469,7 +3469,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,2" ;
-    sd:hasLengthsList "3,2,4,4,3" ;
+    sd:hasLengthsList "2,3,3,4,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_5.Flat> ;
@@ -3478,7 +3478,7 @@ sdpol:FourCircles_1
 <http://symbolicdata.org/Data/Ideal/Geometry.Simson_5.Flat>
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
-    sd:hasDegreeList "2,2,2,2,4" ;
+    sd:hasDegreeList "2,2,2,2,3" ;
     sd:hasLengthsList "2,4,4,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,u1,u2,u3,u4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Simson_5> ;
@@ -3490,7 +3490,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,1,1,2" ;
-    sd:hasLengthsList "3,2,4,4,3" ;
+    sd:hasLengthsList "2,3,3,4,4" ;
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasVariables "x1,x2,x3,x4,x5,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Simson_5> ;
@@ -3501,7 +3501,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,1,2,2,2" ;
-    sd:hasLengthsList "2,4,6,4,6,3" ;
+    sd:hasLengthsList "2,3,3,3,3,4" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_1.Flat> ;
@@ -3511,7 +3511,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2" ;
-    sd:hasLengthsList "2,4,6,4,6,3" ;
+    sd:hasLengthsList "2,3,4,4,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Steiner_1> ;
     a sd:Ideal ;
@@ -3522,7 +3522,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2" ;
-    sd:hasLengthsList "2,4,6,4,6,3" ;
+    sd:hasLengthsList "2,3,4,4,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_1.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3533,7 +3533,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,1,2,2,2" ;
-    sd:hasLengthsList "3,3,2,3,4,3" ;
+    sd:hasLengthsList "2,3,3,3,3,4" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_1> ;
@@ -3544,7 +3544,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,1,2,2" ;
-    sd:hasLengthsList "2,4,6,6,9" ;
+    sd:hasLengthsList "2,3,3,5,6" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_2.Flat> ;
@@ -3576,7 +3576,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,1,2,2" ;
-    sd:hasLengthsList "3,3,2,5,6" ;
+    sd:hasLengthsList "2,3,3,5,6" ;
     sd:hasParameters "u1,u2" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Steiner_2> ;
@@ -3596,8 +3596,8 @@ sdpol:FourCircles_1
 <http://symbolicdata.org/Data/Ideal/Geometry.Thebault_1.Flat>
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
-    sd:hasDegreeList "3,3,4,4,5,5" ;
-    sd:hasLengthsList "6,6,12,12,20,20" ;
+    sd:hasDegreeList "3,3,3,3,5,5" ;
+    sd:hasLengthsList "6,6,6,6,20,20" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2,u3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Thebault_1> ;
     a sd:Ideal ;
@@ -3607,8 +3607,8 @@ sdpol:FourCircles_1
     sd:homogenizedWith "hv" ;
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
-    sd:hasDegreeList "3,3,4,4,5,5" ;
-    sd:hasLengthsList "6,6,12,12,20,20" ;
+    sd:hasDegreeList "3,3,3,3,5,5" ;
+    sd:hasLengthsList "6,6,6,6,20,20" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,u1,u2,u3,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Thebault_1.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3630,7 +3630,7 @@ sdpol:FourCircles_1
     sd:createdAt "2000-03-22" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,3,5,3,5,7" ;
+    sd:hasLengthsList "2,3,3,5,5,7" ;
     sd:hasVariables "x1,x2,x3,x4,S,R,a,b,c" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Geometry.Tri_area_1> ;
     a sd:Ideal .
@@ -3640,7 +3640,7 @@ sdpol:FourCircles_1
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,3,5,3,5,7" ;
+    sd:hasLengthsList "2,3,3,5,5,7" ;
     sd:hasVariables "x1,x2,x3,x4,S,R,a,b,c,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Geometry.Tri_area_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3652,7 +3652,7 @@ sdpol:Gerdt-85
     sd:hasDegreeList "2,3,3,3,3,3,3,3,3,3,3,4,4" ;
     sd:hasDimension "3" ;
     sd:hasIsolatedPrimesDimensions "3,2,2,2,1,1,1,1,1" ;
-    sd:hasLengthsList "3,6,6,7,5,9,10,7,8,3,12,18,13" ;
+    sd:hasLengthsList "3,3,5,6,6,7,7,8,9,10,12,13,18" ;
     sd:hasVariables "l7,l6,l5,l4,l3,l2,l1" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Gerdt-85> ;
     a sd:Ideal .
@@ -3662,7 +3662,7 @@ sdpol:Gerdt-85
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,3,3,3,3,3,3,3,3,3,3,4,4" ;
-    sd:hasLengthsList "3,6,6,7,5,9,10,7,8,3,12,18,13" ;
+    sd:hasLengthsList "3,3,5,6,6,7,7,8,9,10,12,13,18" ;
     sd:hasVariables "l7,l6,l5,l4,l3,l2,l1,hv" ;
     sd:homogenize sdpol:Gerdt-85 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3674,7 +3674,7 @@ sdpol:Gerdt-85_1
     sd:hasDegreeList "2,3,3,3,3,3,3,3,3,3,4,4" ;
     sd:hasDimension "3" ;
     sd:hasIsolatedPrimesDimensions "3,3,2,2,2,2,1,0,0,0" ;
-    sd:hasLengthsList "3,3,7,10,10,6,9,6,7,12,13,18" ;
+    sd:hasLengthsList "3,3,6,6,7,7,9,10,10,12,13,18" ;
     sd:hasVariables "x,y,z,t,u,v,w" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Gerdt-85_1> ;
     a sd:Ideal ;
@@ -3685,7 +3685,7 @@ sdpol:Gerdt-85_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,3,3,3,3,3,3,3,3,3,4,4" ;
-    sd:hasLengthsList "3,3,7,10,10,6,9,6,7,12,13,18" ;
+    sd:hasLengthsList "3,3,6,6,7,7,9,10,10,12,13,18" ;
     sd:hasVariables "x,y,z,t,u,v,w,hv" ;
     sd:homogenize sdpol:Gerdt-85_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3697,7 +3697,7 @@ sdpol:Gerdt-90
     sd:hasDegreeList "2,2,3,3,4,4,4,4,4,4,6,6" ;
     sd:hasDimension "6" ;
     sd:hasIsolatedPrimesDimensions "5,5,4,5,4,5,6,6,6,3,4,4,4,6,4,4,4,4,4,4" ;
-    sd:hasLengthsList "4,4,6,6,14,14,20,20,15,15,28,28" ;
+    sd:hasLengthsList "4,4,6,6,14,14,15,15,20,20,28,28" ;
     sd:hasVariables "a0,b0,a1,b1,a2,b2,a3,b3,a4,b4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Gerdt-90> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3709,7 +3709,7 @@ sdpol:Gerdt-91a
     sd:hasDegreeList "3,3,3,3,3,3,3,4,4" ;
     sd:hasDimension "1" ;
     sd:hasIsolatedPrimesDimensions "1,1" ;
-    sd:hasLengthsList "3,4,4,5,9,3,4,4,6" ;
+    sd:hasLengthsList "3,3,4,4,4,4,5,6,9" ;
     sd:hasVariables "l6,l5,l4,l3,l2,l1" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Gerdt-91a> ;
     a sd:Ideal .
@@ -3719,7 +3719,7 @@ sdpol:Gerdt-91a
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "3,3,3,3,3,3,3,4,4" ;
-    sd:hasLengthsList "3,4,4,5,9,3,4,4,6" ;
+    sd:hasLengthsList "3,3,4,4,4,4,5,6,9" ;
     sd:hasVariables "l6,l5,l4,l3,l2,l1,hv" ;
     sd:homogenize sdpol:Gerdt-91a ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3752,7 +3752,7 @@ sdpol:Gerdt-93
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,3,3" ;
     sd:hasDimension "2" ;
-    sd:hasLengthsList "4,3,3" ;
+    sd:hasLengthsList "3,3,4" ;
     sd:hasVariables "l,s,z,y,x" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Gerdt-93> ;
     a sd:Ideal ;
@@ -3763,7 +3763,7 @@ sdpol:Gerdt-93
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,3,3" ;
-    sd:hasLengthsList "4,3,3" ;
+    sd:hasLengthsList "3,3,4" ;
     sd:hasVariables "l,s,z,y,x,hv" ;
     sd:homogenize sdpol:Gerdt-93 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3783,7 +3783,7 @@ sdpol:Gonnet-83
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2" ;
     sd:hasDimension "3" ;
     sd:hasIsolatedPrimesDimensions "3,3,3" ;
-    sd:hasLengthsList "1,2,1,2,3,4,3,2,1,4,2,2,8,9,8,9,15,7,16" ;
+    sd:hasLengthsList "1,1,1,2,2,2,2,2,3,3,4,4,7,8,8,9,9,15,16" ;
     sd:hasVariables "a0,a2,a3,a4,a5,b0,b1,b2,b3,b4,b5,c0,c1,c2,c3,c4,c5" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Gonnet-83> ;
     a sd:Ideal ;
@@ -3794,7 +3794,7 @@ sdpol:Gonnet-83
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "1,2,1,2,3,4,3,2,1,4,2,2,8,9,8,9,15,7,16" ;
+    sd:hasLengthsList "1,1,1,2,2,2,2,2,3,3,4,4,7,8,8,9,9,15,16" ;
     sd:hasVariables "a0,a2,a3,a4,a5,b0,b1,b2,b3,b4,b5,c0,c1,c2,c3,c4,c5,hv" ;
     sd:homogenize sdpol:Gonnet-83 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3805,7 +3805,7 @@ sdpol:Gonnet-83_1
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2" ;
     sd:hasDimension "7" ;
-    sd:hasLengthsList "1,2,1,2,3,4,3,2,1,4,2,2,9,8,9,7,8,16,15" ;
+    sd:hasLengthsList "1,1,1,2,2,2,2,2,3,3,4,4,7,8,8,9,9,15,16" ;
     sd:hasVariables "a0,a1,a2,a3,a4,a5,b0,b1,b2,b3,b4,b5,c0,c1,c2,c3,c4,c5" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Gonnet-83_1> ;
     a sd:Ideal ;
@@ -3816,7 +3816,7 @@ sdpol:Gonnet-83_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "1,2,1,2,3,4,3,2,1,4,2,2,9,8,9,7,8,16,15" ;
+    sd:hasLengthsList "1,1,1,2,2,2,2,2,3,3,4,4,7,8,8,9,9,15,16" ;
     sd:hasVariables "a0,a1,a2,a3,a4,a5,b0,b1,b2,b3,b4,b5,c0,c1,c2,c3,c4,c5,hv" ;
     sd:homogenize sdpol:Gonnet-83_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3827,7 +3827,7 @@ sdpol:Hairer_1
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,2,3,3" ;
     sd:hasDimension "2" ;
-    sd:hasLengthsList "4,3,2,3,2,3" ;
+    sd:hasLengthsList "2,2,3,3,3,4" ;
     sd:hasVariables "c2,c3,b3,b2,b1,a21,a32,a31" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Hairer_1> ;
     a sd:Ideal ;
@@ -3838,7 +3838,7 @@ sdpol:Hairer_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,1,2,3,3" ;
-    sd:hasLengthsList "4,3,2,3,2,3" ;
+    sd:hasLengthsList "2,2,3,3,3,4" ;
     sd:hasVariables "c2,c3,b3,b2,b1,a21,a32,a31,hv" ;
     sd:homogenize sdpol:Hairer_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3849,7 +3849,7 @@ sdpol:Hairer_2
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,2,3,3,4,4,4,4" ;
     sd:hasDimension "2" ;
-    sd:hasLengthsList "5,4,3,2,4,4,4,2,4,4,4" ;
+    sd:hasLengthsList "2,2,3,4,4,4,4,4,4,4,5" ;
     sd:hasVariables "c2,c3,c4,b4,b3,b2,b1,a21,a31,a32,a41,a42,a43" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Hairer_2> ;
     a sd:Ideal ;
@@ -3860,7 +3860,7 @@ sdpol:Hairer_2
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,1,1,2,3,3,4,4,4,4" ;
-    sd:hasLengthsList "5,4,3,2,4,4,4,2,4,4,4" ;
+    sd:hasLengthsList "2,2,3,4,4,4,4,4,4,4,5" ;
     sd:hasVariables "c2,c3,c4,b4,b3,b2,b1,a21,a31,a32,a41,a42,a43,hv" ;
     sd:homogenize sdpol:Hairer_2 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3871,7 +3871,7 @@ sdpol:Hairer_2_1
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "1,1,1,1,1,2,3,3,4,4,4,4" ;
     sd:hasDimension "2" ;
-    sd:hasLengthsList "5,2,4,3,2,4,4,4,2,4,4,4" ;
+    sd:hasLengthsList "2,2,2,3,4,4,4,4,4,4,4,5" ;
     sd:hasVariables "c2,c3,c4,b4,b3,b2,b1,a21,a31,a32,a41,a42,a43" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Hairer_2_1> ;
     a sd:Ideal ;
@@ -3882,7 +3882,7 @@ sdpol:Hairer_2_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,1,1,1,2,3,3,4,4,4,4" ;
-    sd:hasLengthsList "5,2,4,3,2,4,4,4,2,4,4,4" ;
+    sd:hasLengthsList "2,2,2,3,4,4,4,4,4,4,4,5" ;
     sd:hasVariables "c2,c3,c4,b4,b3,b2,b1,a21,a31,a32,a41,a42,a43,hv" ;
     sd:homogenize sdpol:Hairer_2_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3894,7 +3894,7 @@ sdpol:Heron
     sd:hasDegree 8 ;
     sd:hasDegreeList "2,2,2,4" ;
     sd:hasIsolatedPrimesDegrees "4,4" ;
-    sd:hasLengthsList "3,2,5,2" ;
+    sd:hasLengthsList "2,2,3,5" ;
     sd:hasParameters "a,b,c" ;
     sd:hasVariables "x1,x2,x3,d" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Heron.Flat> ;
@@ -3905,7 +3905,7 @@ sdpol:Heron
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,4" ;
-    sd:hasLengthsList "3,2,5,2" ;
+    sd:hasLengthsList "2,2,3,5" ;
     sd:hasVariables "x1,x2,x3,d,a,b,c" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Heron> ;
     a sd:Ideal ;
@@ -3916,7 +3916,7 @@ sdpol:Heron
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,4" ;
-    sd:hasLengthsList "3,2,5,2" ;
+    sd:hasLengthsList "2,2,3,5" ;
     sd:hasVariables "x1,x2,x3,d,a,b,c,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Heron.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3927,7 +3927,7 @@ sdpol:Heron
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,4" ;
-    sd:hasLengthsList "3,2,5,2" ;
+    sd:hasLengthsList "2,2,3,5" ;
     sd:hasParameters "a,b,c" ;
     sd:hasVariables "x1,x2,x3,d,hv" ;
     sd:homogenize sdpol:Heron ;
@@ -3938,7 +3938,7 @@ sdpol:Heron
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "4,4,4,4" ;
-    sd:hasLengthsList "2,5,3,2" ;
+    sd:hasLengthsList "2,2,3,5" ;
     sd:hasVariables "x1,x2,x3,d,hv,a,b,c" ;
     sd:flatten <http://symbolicdata.org/Data/Ideal/Heron.Homog> ;
     a sd:Ideal ;
@@ -3949,7 +3949,7 @@ sdpol:Heron
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "4,4,4,4" ;
-    sd:hasLengthsList "2,5,3,2" ;
+    sd:hasLengthsList "2,2,3,5" ;
     sd:hasVariables "x1,x2,x3,d,hv,a,b,c,hw" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Heron.Homog.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3960,7 +3960,7 @@ sdpol:Katsura_3
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 8 ;
     sd:hasDegreeList "1,2,2,2" ;
-    sd:hasLengthsList "5,4,4,5" ;
+    sd:hasLengthsList "4,4,5,5" ;
     sd:hasVariables "u0,u1,u2,u3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Katsura_3> ;
     a sd:Ideal ;
@@ -3971,7 +3971,7 @@ sdpol:Katsura_3
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2" ;
-    sd:hasLengthsList "5,4,4,5" ;
+    sd:hasLengthsList "4,4,5,5" ;
     sd:hasVariables "u0,u1,u2,u3,hv" ;
     sd:homogenize sdpol:Katsura_3 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -3982,7 +3982,7 @@ sdpol:Katsura_4
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 16 ;
     sd:hasDegreeList "1,2,2,2,2" ;
-    sd:hasLengthsList "6,4,5,5,6" ;
+    sd:hasLengthsList "4,5,5,6,6" ;
     sd:hasVariables "u0,u1,u2,u3,u4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Katsura_4> ;
     a sd:Ideal ;
@@ -3993,7 +3993,7 @@ sdpol:Katsura_4
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2" ;
-    sd:hasLengthsList "6,4,5,5,6" ;
+    sd:hasLengthsList "4,5,5,6,6" ;
     sd:hasVariables "u0,u1,u2,u3,u4,hv" ;
     sd:homogenize sdpol:Katsura_4 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4004,7 +4004,7 @@ sdpol:Katsura_5
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 32 ;
     sd:hasDegreeList "1,2,2,2,2,2" ;
-    sd:hasLengthsList "7,5,5,6,6,7" ;
+    sd:hasLengthsList "5,5,6,6,7,7" ;
     sd:hasVariables "u0,u1,u2,u3,u4,u5" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Katsura_5> ;
     a sd:Ideal .
@@ -4014,7 +4014,7 @@ sdpol:Katsura_5
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2" ;
-    sd:hasLengthsList "7,5,5,6,6,7" ;
+    sd:hasLengthsList "5,5,6,6,7,7" ;
     sd:hasVariables "u0,u1,u2,u3,u4,u5,hv" ;
     sd:homogenize sdpol:Katsura_5 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4025,7 +4025,7 @@ sdpol:Katsura_6
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 64 ;
     sd:hasDegreeList "1,2,2,2,2,2,2" ;
-    sd:hasLengthsList "8,5,6,6,7,7,8" ;
+    sd:hasLengthsList "5,6,6,7,7,8,8" ;
     sd:hasVariables "x0,x1,x2,x3,x4,x5,x6" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Katsura_6> ;
     a sd:Ideal .
@@ -4035,7 +4035,7 @@ sdpol:Katsura_6
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2" ;
-    sd:hasLengthsList "8,5,6,6,7,7,8" ;
+    sd:hasLengthsList "5,6,6,7,7,8,8" ;
     sd:hasVariables "x0,x1,x2,x3,x4,x5,x6,hv" ;
     sd:homogenize sdpol:Katsura_6 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4045,7 +4045,7 @@ sdpol:Katsura_7
     sd:createdAt "1999-04-20" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "9,6,6,7,7,8,8,9" ;
+    sd:hasLengthsList "6,6,7,7,8,8,9,9" ;
     sd:hasVariables "u0,u1,u2,u3,u4,u5,u6,u7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Katsura_7> ;
     a sd:Ideal ;
@@ -4056,7 +4056,7 @@ sdpol:Katsura_7
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "9,6,6,7,7,8,8,9" ;
+    sd:hasLengthsList "6,6,7,7,8,8,9,9" ;
     sd:hasVariables "u0,u1,u2,u3,u4,u5,u6,u7,hv" ;
     sd:homogenize sdpol:Katsura_7 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4066,7 +4066,7 @@ sdpol:Katsura_8
     sd:createdAt "1999-04-20" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "10,6,7,7,8,8,9,9,10" ;
+    sd:hasLengthsList "6,7,7,8,8,9,9,10,10" ;
     sd:hasVariables "u0,u1,u2,u3,u4,u5,u6,u7,u8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Katsura_8> ;
     a sd:Ideal ;
@@ -4077,7 +4077,7 @@ sdpol:Katsura_8
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "10,6,7,7,8,8,9,9,10" ;
+    sd:hasLengthsList "6,7,7,8,8,9,9,10,10" ;
     sd:hasVariables "u0,u1,u2,u3,u4,u5,u6,u7,u8,hv" ;
     sd:homogenize sdpol:Katsura_8 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4153,7 +4153,7 @@ sdpol:Noonburg-89
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "4,4,4,4" ;
-    sd:hasLengthsList "14,22,14,14" ;
+    sd:hasLengthsList "14,14,14,22" ;
     sd:hasVariables "x6,x5,x3,x1,x2" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Paris.ahml> ;
     a sd:Ideal ;
@@ -4164,7 +4164,7 @@ sdpol:Noonburg-89
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "4,4,4,4" ;
-    sd:hasLengthsList "14,22,14,14" ;
+    sd:hasLengthsList "14,14,14,22" ;
     sd:hasVariables "x6,x5,x3,x1,x2,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Paris.ahml> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4255,7 +4255,7 @@ sdpol:Noonburg-89
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2,2,2,5,5,5,5" ;
-    sd:hasLengthsList "6,6,7,7,5,5,7,7,8,8,11,11,13,13,13,13" ;
+    sd:hasLengthsList "5,5,6,6,7,7,7,7,8,8,11,11,13,13,13,13" ;
     sd:hasVariables "S1,s1,d1,S2,D2,s2,d2" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Paris.ilias13> ;
     a sd:Ideal ;
@@ -4266,7 +4266,7 @@ sdpol:Noonburg-89
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2,2,2,5,5,5,5" ;
-    sd:hasLengthsList "6,6,7,7,5,5,7,7,8,8,11,11,13,13,13,13" ;
+    sd:hasLengthsList "5,5,6,6,7,7,7,7,8,8,11,11,13,13,13,13" ;
     sd:hasVariables "S1,s1,d1,S2,D2,s2,d2,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Paris.ilias13> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4276,7 +4276,7 @@ sdpol:Noonburg-89
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "16,16,16,16,16,16,16,16,16" ;
-    sd:hasLengthsList "172,374,424,523,540,548,578,603,498" ;
+    sd:hasLengthsList "172,374,424,498,523,540,548,578,603" ;
     sd:hasVariables "u4,u3,u2,t,l,v,u,w" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Paris.safey> ;
     a sd:Ideal ;
@@ -4287,7 +4287,7 @@ sdpol:Noonburg-89
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "16,16,16,16,16,16,16,16,16" ;
-    sd:hasLengthsList "172,374,424,523,540,548,578,603,498" ;
+    sd:hasLengthsList "172,374,424,498,523,540,548,578,603" ;
     sd:hasVariables "u4,u3,u2,t,l,v,u,w,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Paris.safey> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4340,7 +4340,7 @@ sdpol:Pfister_3
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "5,6,6,6" ;
-    sd:hasLengthsList "15,20,19,20" ;
+    sd:hasLengthsList "15,19,20,20" ;
     sd:hasVariables "x,y,z,t" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/PoSSo.cohn3> ;
     a sd:Ideal .
@@ -4350,7 +4350,7 @@ sdpol:Pfister_3
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "5,6,6,6" ;
-    sd:hasLengthsList "15,20,19,20" ;
+    sd:hasLengthsList "15,19,20,20" ;
     sd:hasVariables "x,y,z,t,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/PoSSo.cohn3> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4360,7 +4360,7 @@ sdpol:Pfister_3
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "12,7,8,8,9,9,10,10,11,11,12" ;
+    sd:hasLengthsList "7,8,8,9,9,10,10,11,11,12,12" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/PoSSo.rkat10> ;
     a sd:Ideal ;
@@ -4371,7 +4371,7 @@ sdpol:Pfister_3
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "12,7,8,8,9,9,10,10,11,11,12" ;
+    sd:hasLengthsList "7,8,8,9,9,10,10,11,11,12,12" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/PoSSo.rkat10> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4381,7 +4381,7 @@ sdpol:Pfister_3
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "13,8,8,9,9,10,10,11,11,12,12,13" ;
+    sd:hasLengthsList "8,8,9,9,10,10,11,11,12,12,13,13" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/PoSSo.rkat11> ;
     a sd:Ideal ;
@@ -4392,7 +4392,7 @@ sdpol:Pfister_3
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "13,8,8,9,9,10,10,11,11,12,12,13" ;
+    sd:hasLengthsList "8,8,9,9,10,10,11,11,12,12,13,13" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/PoSSo.rkat11> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4402,7 +4402,7 @@ sdpol:Pfister_3
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "14,8,9,9,10,10,11,11,12,12,13,13,14" ;
+    sd:hasLengthsList "8,9,9,10,10,11,11,12,12,13,13,14,14" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/PoSSo.rkat12> ;
     a sd:Ideal ;
@@ -4413,7 +4413,7 @@ sdpol:Pfister_3
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "14,8,9,9,10,10,11,11,12,12,13,13,14" ;
+    sd:hasLengthsList "8,9,9,10,10,11,11,12,12,13,13,14,14" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/PoSSo.rkat12> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4423,7 +4423,7 @@ sdpol:Pfister_3
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "15,9,9,10,10,11,11,12,12,13,13,14,14,15" ;
+    sd:hasLengthsList "9,9,10,10,11,11,12,12,13,13,14,14,15,15" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/PoSSo.rkat13> ;
     a sd:Ideal ;
@@ -4434,7 +4434,7 @@ sdpol:Pfister_3
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "15,9,9,10,10,11,11,12,12,13,13,14,14,15" ;
+    sd:hasLengthsList "9,9,10,10,11,11,12,12,13,13,14,14,15,15" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/PoSSo.rkat13> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4444,7 +4444,7 @@ sdpol:Pfister_3
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "11,7,7,8,8,9,9,10,10,11" ;
+    sd:hasLengthsList "7,7,8,8,9,9,10,10,11,11" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/PoSSo.rkat9> ;
     a sd:Ideal ;
@@ -4455,7 +4455,7 @@ sdpol:Pfister_3
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "11,7,7,8,8,9,9,10,10,11" ;
+    sd:hasLengthsList "7,7,8,8,9,9,10,10,11,11" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/PoSSo.rkat9> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4466,7 +4466,7 @@ sdpol:Raksanyi
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 3 ;
     sd:hasDegreeList "1,1,2,3" ;
-    sd:hasLengthsList "2,5,5,2" ;
+    sd:hasLengthsList "2,2,5,5" ;
     sd:hasParameters "a,b,c,d" ;
     sd:hasVariables "x4,x3,x2,x1" ;
     a sd:Ideal ;
@@ -4477,7 +4477,7 @@ sdpol:Raksanyi
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,2,3" ;
-    sd:hasLengthsList "3,7,7,2" ;
+    sd:hasLengthsList "2,3,7,7" ;
     sd:hasVariables "x4,x3,x2,x1,a,b,c,d" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Raksanyi> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4488,7 +4488,7 @@ sdpol:Raksanyi
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,2,3" ;
-    sd:hasLengthsList "2,5,5,2" ;
+    sd:hasLengthsList "2,2,5,5" ;
     sd:hasParameters "a,b,c,d" ;
     sd:hasVariables "x4,x3,x2,x1,hv" ;
     sd:homogenize sdpol:Raksanyi ;
@@ -4499,7 +4499,7 @@ sdpol:Raksanyi
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,4,6" ;
-    sd:hasLengthsList "3,7,7,2" ;
+    sd:hasLengthsList "2,3,7,7" ;
     sd:hasVariables "x4,x3,x2,x1,hv,a,b,c,d" ;
     sd:flatten <http://symbolicdata.org/Data/Ideal/Raksanyi.Homog> ;
     a sd:Ideal ;
@@ -4510,7 +4510,7 @@ sdpol:Raksanyi
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,4,6" ;
-    sd:hasLengthsList "3,7,7,2" ;
+    sd:hasLengthsList "2,3,7,7" ;
     sd:hasVariables "x4,x3,x2,x1,hv,a,b,c,d,hw" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Raksanyi.Homog.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4528,7 +4528,7 @@ sdpol:Robot-Fabrice24
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,2,2,2,2,2,2,3,3" ;
-    sd:hasLengthsList "2,6,7,6,5,5,4,34,34" ;
+    sd:hasLengthsList "2,4,5,5,6,6,7,34,34" ;
     sd:hasVariables "x1,x2,x3,y1,y2,y3,z1,z2,z3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Robot-Fabrice24> ;
     a sd:Ideal .
@@ -4538,7 +4538,7 @@ sdpol:Robot-Fabrice24
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,3,3" ;
-    sd:hasLengthsList "2,6,7,6,5,5,4,34,34" ;
+    sd:hasLengthsList "2,4,5,5,6,6,7,34,34" ;
     sd:hasVariables "x1,x2,x3,y1,y2,y3,z1,z2,z3,hv" ;
     sd:homogenize sdpol:Robot-Fabrice24 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4550,7 +4550,7 @@ sdpol:Robot-RR
     sd:hasDegree 8 ;
     sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2,2,2,3,3,3,3" ;
     sd:hasIsolatedPrimesDegrees "4,4" ;
-    sd:hasLengthsList "2,1,2,2,3,3,2,2,3,3,2,3,3,3,3,3" ;
+    sd:hasLengthsList "1,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3" ;
     sd:hasParameters "l1,l2,px,py,pz" ;
     sd:hasVariables "sp,st,sf,cp,ct,cf,s2,s1,c2,c1" ;
     sd:parameterize <http://symbolicdata.org/Data/Ideal/Robot-RR.Flat> ;
@@ -4561,7 +4561,7 @@ sdpol:Robot-RR
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3" ;
-    sd:hasLengthsList "1,3,3,3,2,2,3,3,2,3,2,2,3,3,3,3" ;
+    sd:hasLengthsList "1,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3" ;
     sd:hasVariables "sp,st,sf,cp,ct,cf,s2,s1,c2,c1,l1,l2,px,py,pz" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Robot-RR> ;
     a sd:Ideal ;
@@ -4572,7 +4572,7 @@ sdpol:Robot-RR
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2,2,2,3,3,3,3" ;
-    sd:hasLengthsList "2,1,2,2,3,3,2,2,3,3,2,3,3,3,3,3" ;
+    sd:hasLengthsList "1,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3" ;
     sd:hasParameters "l1,l2,px,py,pz" ;
     sd:hasVariables "sp,st,sf,cp,ct,cf,s2,s1,c2,c1,hv" ;
     sd:homogenize sdpol:Robot-RR ;
@@ -4583,7 +4583,7 @@ sdpol:Robot-RR
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3" ;
-    sd:hasLengthsList "1,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3" ;
+    sd:hasLengthsList "1,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3" ;
     sd:hasVariables "sp,st,sf,cp,ct,cf,s2,s1,c2,c1,hv,l1,l2,px,py,pz" ;
     sd:flatten <http://symbolicdata.org/Data/Ideal/Robot-RR.Homog> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4594,7 +4594,7 @@ sdpol:Robot-Romin
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,2,2,2,2,2" ;
     sd:hasDimension "5" ;
-    sd:hasLengthsList "3,3,2,2,3,3,3" ;
+    sd:hasLengthsList "2,2,3,3,3,3,3" ;
     sd:hasVariables "s1,s2,s3,c1,c2,c3,d,a,b,c,l2,l3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Robot-Romin> ;
     a sd:Ideal ;
@@ -4605,7 +4605,7 @@ sdpol:Robot-Romin
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "3,3,2,2,3,3,3" ;
+    sd:hasLengthsList "2,2,3,3,3,3,3" ;
     sd:hasVariables "s1,s2,s3,c1,c2,c3,d,a,b,c,l2,l3,hv" ;
     sd:homogenize sdpol:Robot-Romin ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4615,7 +4615,7 @@ sdpol:Robot-jcf26
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,3,4,4" ;
-    sd:hasLengthsList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,4,8,6,11,8,15,8,71,71" ;
+    sd:hasLengthsList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,4,6,8,8,8,11,15,71,71" ;
     sd:hasVariables "px2,px3,px4,px5,px6,py3,py4,py5,pz4,pz5,bx2,bx3,bx4,bx5,by3,by4,by5,bz4,bz5,D1,D2,D3,D4,D5,D6,x1,x2,x3,y1,y2,y3,z1,z2,z3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Robot-jcf26> ;
     a sd:Ideal .
@@ -4625,7 +4625,7 @@ sdpol:Robot-jcf26
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,3,4,4" ;
-    sd:hasLengthsList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,4,8,6,11,8,15,8,71,71" ;
+    sd:hasLengthsList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,4,6,8,8,8,11,15,71,71" ;
     sd:hasVariables "px2,px3,px4,px5,px6,py3,py4,py5,pz4,pz5,bx2,bx3,bx4,bx5,by3,by4,by5,bz4,bz5,D1,D2,D3,D4,D5,D6,x1,x2,x3,y1,y2,y3,z1,z2,z3,hv" ;
     sd:homogenize sdpol:Robot-jcf26 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4840,7 +4840,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,1,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "6,6,2,2,2,2,26,26,2" ;
+    sd:hasLengthsList "2,2,2,2,2,6,6,26,26" ;
     sd:hasVariables "U6,U5,U4,U3,U2,u6,u5,u4,u3,u2" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/SignalTheory.f633> ;
     a sd:Ideal .
@@ -4850,7 +4850,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "6,6,2,2,2,2,26,26,2" ;
+    sd:hasLengthsList "2,2,2,2,2,6,6,26,26" ;
     sd:hasVariables "U6,U5,U4,U3,U2,u6,u5,u4,u3,u2,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/SignalTheory.f633> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4860,7 +4860,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2,3,3" ;
-    sd:hasLengthsList "7,7,2,2,2,2,2,21,21,2,15,15" ;
+    sd:hasLengthsList "2,2,2,2,2,2,7,7,15,15,21,21" ;
     sd:hasVariables "U7,U6,U5,U4,U3,U2,u7,u6,u5,u4,u3,u2" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/SignalTheory.f744> ;
     a sd:Ideal .
@@ -4870,7 +4870,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2,3,3" ;
-    sd:hasLengthsList "7,7,2,2,2,2,2,21,21,2,15,15" ;
+    sd:hasLengthsList "2,2,2,2,2,2,7,7,15,15,21,21" ;
     sd:hasVariables "U7,U6,U5,U4,U3,U2,u7,u6,u5,u4,u3,u2,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/SignalTheory.f744> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4880,7 +4880,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2,2,3,3,4,4" ;
-    sd:hasLengthsList "8,8,2,2,2,2,2,2,50,50,2,26,26,140,140" ;
+    sd:hasLengthsList "2,2,2,2,2,2,2,8,8,26,26,50,50,140,140" ;
     sd:hasVariables "X8,X7,X6,X5,X4,X3,X2,x8,x7,x6,x5,x4,x3,x2" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/SignalTheory.f855> ;
     a sd:Ideal .
@@ -4890,7 +4890,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2,2,3,3,4,4" ;
-    sd:hasLengthsList "8,8,2,2,2,2,2,2,50,50,2,26,26,140,140" ;
+    sd:hasLengthsList "2,2,2,2,2,2,2,8,8,26,26,50,50,140,140" ;
     sd:hasVariables "X8,X7,X6,X5,X4,X3,X2,x8,x7,x6,x5,x4,x3,x2,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/SignalTheory.f855> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4900,7 +4900,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,4,4" ;
-    sd:hasLengthsList "9,9,2,2,2,2,2,2,2,2,2,2,2,2,2,2,36,36,2,2,85,85,252,252" ;
+    sd:hasLengthsList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,9,9,36,36,85,85,252,252" ;
     sd:hasVariables "U9,U8,U7,U6,U5,U4,U3,U2,u9,u8,u7,u6,u5,u4,u3,u2" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/SignalTheory.f966> ;
     a sd:Ideal .
@@ -4910,7 +4910,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,4,4" ;
-    sd:hasLengthsList "9,9,2,2,2,2,2,2,2,2,2,2,2,2,2,2,36,36,2,2,85,85,252,252" ;
+    sd:hasLengthsList "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,9,9,36,36,85,85,252,252" ;
     sd:hasVariables "U9,U8,U7,U6,U5,U4,U3,U2,u9,u8,u7,u6,u5,u4,u3,u2,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/SignalTheory.f966> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -4983,7 +4983,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-04-20" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,4,5" ;
-    sd:hasLengthsList "5,5,5,5,2" ;
+    sd:hasLengthsList "2,5,5,5,5" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16,x17,x18,x19,x20,x21" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Singular.ecyclic_5> ;
     a sd:Ideal ;
@@ -4994,7 +4994,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,4,5" ;
-    sd:hasLengthsList "5,5,5,5,2" ;
+    sd:hasLengthsList "2,5,5,5,5" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16,x17,x18,x19,x20,x21,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Singular.ecyclic_5> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5004,7 +5004,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-04-20" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,4,5,6" ;
-    sd:hasLengthsList "6,6,6,6,6,2" ;
+    sd:hasLengthsList "2,6,6,6,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16,x17,x18,x19,x20,x21,x22,x23,x24,x25,x26,x27,x28,x29,x30,x31" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Singular.ecyclic_6> ;
     a sd:Ideal ;
@@ -5015,7 +5015,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,4,5,6" ;
-    sd:hasLengthsList "6,6,6,6,6,2" ;
+    sd:hasLengthsList "2,6,6,6,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16,x17,x18,x19,x20,x21,x22,x23,x24,x25,x26,x27,x28,x29,x30,x31,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Singular.ecyclic_6> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5025,7 +5025,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-04-20" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,4,5,6,7" ;
-    sd:hasLengthsList "7,7,7,7,7,7,2" ;
+    sd:hasLengthsList "2,7,7,7,7,7,7" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16,x17,x18,x19,x20,x21,x22,x23,x24,x25,x26,x27,x28,x29,x30,x31,x32,x33,x34,x35,x36,x37,x38,x39,x40,x41,x42,x43" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Singular.ecyclic_7> ;
     a sd:Ideal ;
@@ -5036,7 +5036,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,4,5,6,7" ;
-    sd:hasLengthsList "7,7,7,7,7,7,2" ;
+    sd:hasLengthsList "2,7,7,7,7,7,7" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16,x17,x18,x19,x20,x21,x22,x23,x24,x25,x26,x27,x28,x29,x30,x31,x32,x33,x34,x35,x36,x37,x38,x39,x40,x41,x42,x43,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Singular.ecyclic_7> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5046,7 +5046,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-04-20" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "3,5,10" ;
-    sd:hasLengthsList "4,3,2" ;
+    sd:hasLengthsList "2,3,4" ;
     sd:hasVariables "w,t,x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Singular.gerhard_1> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5196,7 +5196,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-04-20" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "6,7,6,7,6,7,6,7,6,7" ;
+    sd:hasLengthsList "6,6,6,6,6,7,7,7,7,7" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Singular.schwarz_10> ;
     a sd:Ideal ;
@@ -5207,7 +5207,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "6,7,6,7,6,7,6,7,6,7" ;
+    sd:hasLengthsList "6,6,6,6,6,7,7,7,7,7" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Singular.schwarz_10> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5238,7 +5238,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-04-20" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2" ;
-    sd:hasLengthsList "4,5,4,5,4,5" ;
+    sd:hasLengthsList "4,4,4,5,5,5" ;
     sd:hasVariables "a,b,c,d,e,g,h" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Singular.schwarz_6> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5269,7 +5269,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-04-20" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "5,6,5,6,5,6,5,6" ;
+    sd:hasLengthsList "5,5,5,5,6,6,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Singular.schwarz_8> ;
     a sd:Ideal ;
@@ -5280,7 +5280,7 @@ sdpol:Schiele_1_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "5,6,5,6,5,6,5,6" ;
+    sd:hasLengthsList "5,5,5,5,6,6,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Singular.schwarz_8> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5545,7 +5545,7 @@ sdpol:Symmetric_5
     sd:createdAt "1999-04-20" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "5,5,5,5,5" ;
-    sd:hasLengthsList "2,2,2,5,2" ;
+    sd:hasLengthsList "2,2,2,2,5" ;
     sd:hasVariables "a,b,c,d,e" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Symmetric_5> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5555,7 +5555,7 @@ sdpol:Symmetric_6
     sd:createdAt "1999-04-20" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "6,6,6,6,6" ;
-    sd:hasLengthsList "2,2,2,5,2" ;
+    sd:hasLengthsList "2,2,2,2,5" ;
     sd:hasVariables "a,b,c,d,e" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Symmetric_6> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5588,7 +5588,7 @@ sdpol:Trinks
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 10 ;
     sd:hasDegreeList "1,1,2,2,2,3" ;
-    sd:hasLengthsList "4,4,3,5,3,3" ;
+    sd:hasLengthsList "3,3,3,4,4,5" ;
     sd:hasVariables "w,p,z,t,s,b" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Trinks> ;
     a sd:Ideal ;
@@ -5599,7 +5599,7 @@ sdpol:Trinks
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,2,2,2,3" ;
-    sd:hasLengthsList "4,4,3,5,3,3" ;
+    sd:hasLengthsList "3,3,3,4,4,5" ;
     sd:hasVariables "w,p,z,t,s,b,hv" ;
     sd:homogenize sdpol:Trinks ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5610,7 +5610,7 @@ sdpol:Trinks_1
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 2 ;
     sd:hasDegreeList "1,1,2,2,2,2,3" ;
-    sd:hasLengthsList "4,4,3,3,5,3,3" ;
+    sd:hasLengthsList "3,3,3,3,4,4,5" ;
     sd:hasVariables "w,p,z,t,s,b" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Trinks_1> ;
     a sd:Ideal ;
@@ -5621,7 +5621,7 @@ sdpol:Trinks_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,2,2,2,2,3" ;
-    sd:hasLengthsList "4,4,3,3,5,3,3" ;
+    sd:hasLengthsList "3,3,3,3,4,4,5" ;
     sd:hasVariables "w,p,z,t,s,b,hv" ;
     sd:homogenize sdpol:Trinks_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5631,7 +5631,7 @@ sdpol:Twomat3
     sd:createdAt "1999-04-20" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2,4" ;
-    sd:hasLengthsList "6,4,4,6,6,6,6,9" ;
+    sd:hasLengthsList "4,4,6,6,6,6,6,9" ;
     sd:hasVariables "a,b,c,d,e,f,g,h,i,A,B,C,D,E,F,G,H,I" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Twomat3> ;
     a sd:Ideal ;
@@ -5642,7 +5642,7 @@ sdpol:Twomat3
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2,4" ;
-    sd:hasLengthsList "6,4,4,6,6,6,6,9" ;
+    sd:hasLengthsList "4,4,6,6,6,6,6,9" ;
     sd:hasVariables "a,b,c,d,e,f,g,h,i,A,B,C,D,E,F,G,H,I,hv" ;
     sd:homogenize sdpol:Twomat3 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5653,7 +5653,7 @@ sdpol:Vermeer
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,3,3,5" ;
     sd:hasDimension "1" ;
-    sd:hasLengthsList "7,2,4,4" ;
+    sd:hasLengthsList "2,4,4,7" ;
     sd:hasVariables "w,v,u,y,x" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Vermeer> ;
     a sd:Ideal ;
@@ -5664,7 +5664,7 @@ sdpol:Vermeer
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,3,3,5" ;
-    sd:hasLengthsList "7,2,4,4" ;
+    sd:hasLengthsList "2,4,4,7" ;
     sd:hasVariables "w,v,u,y,x,hv" ;
     sd:homogenize sdpol:Vermeer ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5675,7 +5675,7 @@ sdpol:Vermeer_1
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,2,3,3" ;
     sd:hasDimension "1" ;
-    sd:hasLengthsList "7,2,2,4" ;
+    sd:hasLengthsList "2,2,4,7" ;
     sd:hasVariables "w,v,u,y,x" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Vermeer_1> ;
     a sd:Ideal ;
@@ -5686,7 +5686,7 @@ sdpol:Vermeer_1
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,3,3" ;
-    sd:hasLengthsList "7,2,2,4" ;
+    sd:hasLengthsList "2,2,4,7" ;
     sd:hasVariables "w,v,u,y,x,hv" ;
     sd:homogenize sdpol:Vermeer_1 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5697,7 +5697,7 @@ sdpol:Vermeer_2
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "2,3,3,4" ;
     sd:hasDimension "1" ;
-    sd:hasLengthsList "7,2,2,4" ;
+    sd:hasLengthsList "2,2,4,7" ;
     sd:hasVariables "t,u,x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Vermeer_2> ;
     a sd:Ideal ;
@@ -5708,7 +5708,7 @@ sdpol:Vermeer_2
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,3,3,4" ;
-    sd:hasLengthsList "7,2,2,4" ;
+    sd:hasLengthsList "2,2,4,7" ;
     sd:hasVariables "t,u,x,y,z,hv" ;
     sd:homogenize sdpol:Vermeer_2 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5718,7 +5718,7 @@ sdpol:Vermeer_2
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,1,1,1,1,2,2,2,2,2,2,2,3" ;
-    sd:hasLengthsList "4,2,5,2,2,4,3,3,4,4,4,4,5" ;
+    sd:hasLengthsList "2,2,2,3,3,4,4,4,4,4,4,5,5" ;
     sd:hasVariables "c1,c2,c3,z2,z3,z4,z5,y2,y3,y4,y5,x3,x4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Verschelde.chemkin> ;
     a sd:Ideal .
@@ -5728,7 +5728,7 @@ sdpol:Vermeer_2
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,1,1,1,2,2,2,2,2,2,2,3" ;
-    sd:hasLengthsList "4,2,5,2,2,4,3,3,4,4,4,4,5" ;
+    sd:hasLengthsList "2,2,2,3,3,4,4,4,4,4,4,5,5" ;
     sd:hasVariables "c1,c2,c3,z2,z3,z4,z5,y2,y3,y4,y5,x3,x4,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.chemkin> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5738,7 +5738,7 @@ sdpol:Vermeer_2
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,2,3,3,3,3" ;
-    sd:hasLengthsList "6,2,3,4,5,6" ;
+    sd:hasLengthsList "2,3,4,5,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Verschelde.eco6> ;
     a sd:Ideal .
@@ -5748,7 +5748,7 @@ sdpol:Vermeer_2
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,3,3,3" ;
-    sd:hasLengthsList "6,2,3,4,5,6" ;
+    sd:hasLengthsList "2,3,4,5,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.eco6> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5758,7 +5758,7 @@ sdpol:Vermeer_2
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,2,3,3,3,3,3" ;
-    sd:hasLengthsList "7,2,3,4,5,6,7" ;
+    sd:hasLengthsList "2,3,4,5,6,7,7" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Verschelde.eco7> ;
     a sd:Ideal .
@@ -5768,7 +5768,7 @@ sdpol:Vermeer_2
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,2,3,3,3,3,3" ;
-    sd:hasLengthsList "7,2,3,4,5,6,7" ;
+    sd:hasLengthsList "2,3,4,5,6,7,7" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.eco7> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5978,7 +5978,7 @@ sdpol:Vermeer_2
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,1,2,2,2,2,2" ;
-    sd:hasLengthsList "2,7,3,4,5,6,7" ;
+    sd:hasLengthsList "2,3,4,5,6,7,7" ;
     sd:hasVariables "x1,x2,x3,x4,u7,x5,x6" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Verschelde.redeco7> ;
     a sd:Ideal .
@@ -5988,7 +5988,7 @@ sdpol:Vermeer_2
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,2,2,2,2,2" ;
-    sd:hasLengthsList "2,7,3,4,5,6,7" ;
+    sd:hasLengthsList "2,3,4,5,6,7,7" ;
     sd:hasVariables "x1,x2,x3,x4,u7,x5,x6,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.redeco7> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -5998,7 +5998,7 @@ sdpol:Vermeer_2
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "1,1,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,8,3,4,5,6,7,8" ;
+    sd:hasLengthsList "2,3,4,5,6,7,8,8" ;
     sd:hasVariables "x1,x2,x3,x4,x5,u8,x6,x7" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Verschelde.redeco8> ;
     a sd:Ideal .
@@ -6008,7 +6008,7 @@ sdpol:Vermeer_2
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "1,1,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,8,3,4,5,6,7,8" ;
+    sd:hasLengthsList "2,3,4,5,6,7,8,8" ;
     sd:hasVariables "x1,x2,x3,x4,x5,u8,x6,x7,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.redeco8> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -6018,7 +6018,7 @@ sdpol:Vermeer_2
     sd:createdAt "1999-04-22" ;
     sd:createdBy sdp:Faugere_JC ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "8,13,13,13,13,11,11,11" ;
+    sd:hasLengthsList "8,11,11,11,13,13,13,13" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Verschelde.virasoro> ;
     a sd:Ideal .
@@ -6028,7 +6028,7 @@ sdpol:Vermeer_2
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "8,13,13,13,13,11,11,11" ;
+    sd:hasLengthsList "8,11,11,11,13,13,13,13" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Verschelde.virasoro> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -6128,7 +6128,7 @@ sdpol:Wang-92c
     sd:hasDegreeList "2,3,3" ;
     sd:hasDimension "1" ;
     sd:hasIsolatedPrimesDimensions "1,1" ;
-    sd:hasLengthsList "4,5,4" ;
+    sd:hasLengthsList "4,4,5" ;
     sd:hasVariables "d,c,b,a" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Wang-92c> ;
     a sd:Ideal .
@@ -6138,7 +6138,7 @@ sdpol:Wang-92c
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "2,3,3" ;
-    sd:hasLengthsList "4,5,4" ;
+    sd:hasLengthsList "4,4,5" ;
     sd:hasVariables "d,c,b,a,hv" ;
     sd:homogenize sdpol:Wang-92c ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -6173,7 +6173,7 @@ sdpol:Wang-92f
     sd:hasDegreeList "1,1,1,1,2,2,2,2,2,2,2" ;
     sd:hasDimension "8" ;
     sd:hasIsolatedPrimesDimensions "7,8,6,6,7,7" ;
-    sd:hasLengthsList "3,3,2,2,3,6,4,4,4,7,6" ;
+    sd:hasLengthsList "2,2,3,3,3,4,4,4,6,6,7" ;
     sd:hasVariables "x17,x16,x15,x14,x13,x12,x11,x10,x9,x8,x7,u6,u5,u4,u3,u2,u1" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Wang-92f> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -6184,7 +6184,7 @@ sdpol:Weispfenning-94
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegree 54 ;
     sd:hasDegreeList "4,5,5" ;
-    sd:hasLengthsList "6,4,5" ;
+    sd:hasLengthsList "4,5,6" ;
     sd:hasVariables "x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Weispfenning-94> ;
     a sd:Ideal ;
@@ -6195,7 +6195,7 @@ sdpol:Weispfenning-94
     sd:createdAt "1999-06-04" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "4,5,5" ;
-    sd:hasLengthsList "6,4,5" ;
+    sd:hasLengthsList "4,5,6" ;
     sd:hasVariables "x,y,z,hv" ;
     sd:homogenize sdpol:Weispfenning-94 ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -6205,7 +6205,7 @@ sdpol:Wu-90
     sd:createdAt "1999-07-20" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasDegreeList "3,3,3,4" ;
-    sd:hasLengthsList "6,5,11,9" ;
+    sd:hasLengthsList "5,6,9,11" ;
     sd:hasParameters "u0,u1,u2,u3,u4,u5,u6,u7,u8,u9" ;
     sd:hasVariables "x1,x2,x3,x4" ;
     a sd:Ideal ;
@@ -6216,7 +6216,7 @@ sdpol:Wu-90
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "4,4,4,5" ;
-    sd:hasLengthsList "5,6,11,9" ;
+    sd:hasLengthsList "5,6,9,11" ;
     sd:hasVariables "x1,x2,x3,x4,u0,u1,u2,u3,u4,u5,u6,u7,u8,u9" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Wu-90> ;
     a sd:Ideal ;
@@ -6227,7 +6227,7 @@ sdpol:Wu-90
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "4,4,4,5" ;
-    sd:hasLengthsList "5,6,11,9" ;
+    sd:hasLengthsList "5,6,9,11" ;
     sd:hasVariables "x1,x2,x3,x4,u0,u1,u2,u3,u4,u5,u6,u7,u8,u9,hv" ;
     sd:homogenize <http://symbolicdata.org/Data/Ideal/Wu-90.Flat> ;
     a sd:HomogeneousIdeal, sd:Ideal ;
@@ -6238,7 +6238,7 @@ sdpol:Wu-90
     sd:createdAt "1999-08-27" ;
     sd:createdBy sdp:Bachmann_O ;
     sd:hasDegreeList "3,3,3,4" ;
-    sd:hasLengthsList "6,5,11,9" ;
+    sd:hasLengthsList "5,6,9,11" ;
     sd:hasParameters "u0,u1,u2,u3,u4,u5,u6,u7,u8,u9" ;
     sd:hasVariables "x1,x2,x3,x4,hv" ;
     sd:homogenize sdpol:Wu-90 ;
@@ -6269,7 +6269,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "2,3,4" ;
-    sd:hasLengthsList "6,9,8" ;
+    sd:hasLengthsList "6,8,9" ;
     sd:hasVariables "x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_12> ;
     a sd:Ideal ;
@@ -6279,7 +6279,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "1,2,3" ;
-    sd:hasLengthsList "4,5,4" ;
+    sd:hasLengthsList "4,4,5" ;
     sd:hasVariables "x1,x2,x3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_13> ;
     a sd:Ideal ;
@@ -6289,7 +6289,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "1,2,3,4" ;
-    sd:hasLengthsList "4,9,9,6" ;
+    sd:hasLengthsList "4,6,9,9" ;
     sd:hasVariables "x1,x2,x3,x4" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_14> ;
     a sd:Ideal ;
@@ -6299,7 +6299,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "1,3,3" ;
-    sd:hasLengthsList "3,8,7" ;
+    sd:hasLengthsList "3,7,8" ;
     sd:hasVariables "x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_15> ;
     a sd:Ideal ;
@@ -6349,7 +6349,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "1,2,3,4,5,6" ;
-    sd:hasLengthsList "6,6,6,6,6,2" ;
+    sd:hasLengthsList "2,6,6,6,6,6" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_23> ;
     a sd:Ideal ;
@@ -6369,7 +6369,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "8,8" ;
-    sd:hasLengthsList "12,9" ;
+    sd:hasLengthsList "9,12" ;
     sd:hasVariables "x,y" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_26> ;
     a sd:Ideal ;
@@ -6389,7 +6389,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,3,4,5,6,6,5,4,3,2" ;
+    sd:hasLengthsList "2,2,3,3,4,4,5,5,6,6" ;
     sd:hasVariables "a,b,c,d,u,v,w,x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_28> ;
     a sd:Ideal ;
@@ -6399,7 +6399,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "1,1,2,2,3,3,3,3" ;
-    sd:hasLengthsList "2,4,6,9,9,9,7,5" ;
+    sd:hasLengthsList "2,4,5,6,7,9,9,9" ;
     sd:hasVariables "a,b,u,v,w,x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_29> ;
     a sd:Ideal ;
@@ -6439,7 +6439,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "5,5,5,5,5,9,5" ;
+    sd:hasLengthsList "5,5,5,5,5,5,9" ;
     sd:hasVariables "a,b,c,d,e,f,g" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_33> ;
     a sd:Ideal ;
@@ -6449,7 +6449,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "2,2,2" ;
-    sd:hasLengthsList "5,5,4" ;
+    sd:hasLengthsList "4,5,5" ;
     sd:hasVariables "x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_4> ;
     a sd:Ideal ;
@@ -6469,7 +6469,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "1,2,2" ;
-    sd:hasLengthsList "4,3,4" ;
+    sd:hasLengthsList "3,4,4" ;
     sd:hasVariables "y,z,x" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_41> ;
     a sd:Ideal ;
@@ -6479,7 +6479,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2" ;
-    sd:hasLengthsList "2,3,2,4,5,10,9,6,5,5" ;
+    sd:hasLengthsList "2,2,3,4,5,5,5,6,9,10" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_42> ;
     a sd:Ideal ;
@@ -6499,7 +6499,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "1,2,2,2" ;
-    sd:hasLengthsList "5,4,4,5" ;
+    sd:hasLengthsList "4,4,5,5" ;
     sd:hasVariables "t,z,y,x" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_45> ;
     a sd:Ideal ;
@@ -6519,7 +6519,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "2,2,2" ;
-    sd:hasLengthsList "8,7,7" ;
+    sd:hasLengthsList "7,7,8" ;
     sd:hasVariables "x1,x2,x3" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_5> ;
     a sd:Ideal ;
@@ -6529,7 +6529,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "4,5,5" ;
-    sd:hasLengthsList "6,5,4" ;
+    sd:hasLengthsList "4,5,6" ;
     sd:hasVariables "z,y,x" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_51> ;
     a sd:Ideal ;
@@ -6539,7 +6539,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "1,2,3,4,5,6" ;
-    sd:hasLengthsList "6,6,6,6,6,2" ;
+    sd:hasLengthsList "2,6,6,6,6,6" ;
     sd:hasVariables "a,b,c,d,x,f" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_54> ;
     a sd:Ideal ;
@@ -6549,7 +6549,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "1,1,2,2,3,3,3,3" ;
-    sd:hasLengthsList "2,4,6,9,9,9,7,5" ;
+    sd:hasLengthsList "2,4,5,6,7,9,9,9" ;
     sd:hasVariables "a,b,x,y,z,u,v,w" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_57> ;
     a sd:Ideal ;
@@ -6579,7 +6579,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "4,4,4" ;
-    sd:hasLengthsList "5,3,4" ;
+    sd:hasLengthsList "3,4,5" ;
     sd:hasVariables "x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_60> ;
     a sd:Ideal ;
@@ -6589,7 +6589,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "4,4,4" ;
-    sd:hasLengthsList "4,5,4" ;
+    sd:hasLengthsList "4,4,5" ;
     sd:hasVariables "x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_61> ;
     a sd:Ideal ;
@@ -6599,7 +6599,7 @@ sdpol:Wu-90
     sd:createdAt "1999-09-22" ;
     sd:createdBy sdp:Wenk_M ;
     sd:hasDegreeList "4,4,4" ;
-    sd:hasLengthsList "5,4,4" ;
+    sd:hasLengthsList "4,4,5" ;
     sd:hasVariables "x,y,z" ;
     sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/ZeroDim.example_62> ;
     a sd:Ideal ;
