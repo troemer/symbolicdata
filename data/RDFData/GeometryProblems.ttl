@@ -13,8 +13,7 @@ sd:GeoProblemFormulation
 
 <http://symbolicdata.org/Data/GeometryProblems/>
     a owl:Ontology ;
-    rdfs:label "SD Geometry Problems Formulations" ;
-    owl:imports  <http://symbolicdata.org/Data/People/> .
+    rdfs:label "SD Geometry Problems Formulations" .
 
 sdg:Arnon
     sd:createdAt "1999-11-01" ;

@@ -9,8 +9,7 @@ sd:FreeAlgebra a owl:Class ; rdfs:label "Free Algebra" .
 
 <http://symbolicdata.org/Data/FreeAlgebras/>
     a owl:Ontology ;
-    rdfs:label "SD Free Algebra Systems Data" ;
-    owl:imports <http://symbolicdata.org/Data/People/> .
+    rdfs:label "SD Free Algebra Systems Data" .
 
 <http://symbolicdata.org/Data/FreeAlgebra/2tri_4var10deg> a sd:FreeAlgebra ;
     sd:createdAt "2010" ;

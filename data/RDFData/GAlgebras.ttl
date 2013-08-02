@@ -9,8 +9,7 @@ sd:GAlgebra a owl:Class ; rdfs:label "G-Algebra" .
 
 <http://symbolicdata.org/Data/GAlgebras/>
     a owl:Ontology ;
-    rdfs:label "SD G-Algebra Systems Data" ;
-    owl:imports <http://symbolicdata.org/Data/People/> .
+    rdfs:label "SD G-Algebra Systems Data" .
 
 <http://symbolicdata.org/Data/GAlgebra/algdep_qso3> a sd:GAlgebra ;
     sd:createdAt "2003-07-03" ;

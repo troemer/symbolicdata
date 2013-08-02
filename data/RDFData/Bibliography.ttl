@@ -9,12 +9,11 @@
 <http://symbolicdata.org/Data/Bibliography/>
     a owl:Ontology ;
     rdfs:comment "Bibliography of the Symbolic Data Collection" ;
-    rdfs:label "SD Bibliographical Data" ;
-    owl:imports <http://symbolicdata.org/Data/People/> .
+    rdfs:label "SD Bibliographical Data" .
 
 sd:Reference
     a owl:Class ;
-    rdfs:label "References to Publications" .
+    rdfs:label "Reference to a Publication" .
 
 sdb:Albano_00a
     sd:createdAt "2001-03-16" ;

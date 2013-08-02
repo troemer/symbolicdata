@@ -9,8 +9,7 @@
 <http://symbolicdata.org/Data/TestSets/>
     a owl:Ontology ;
     rdfs:comment "TestSets Data" ;
-    rdfs:label "SD TestSets Data" ;
-    owl:imports <http://symbolicdata.org/Data/People/> .
+    rdfs:label "SD TestSets Data"  .
 
 sd:TestSet
     a owl:Class ;
