@@ -1,5 +1,15 @@
+##################################
+#
+# author: graebe
+# createdAt: 2013-08-24
+
+# purpose: load data into the local Virtuoso store
+# usage: perl loaddata.pl | isql-vt 1111 dba <YourSecretPassword>
+
+# all scripts are relative to this environment variable
+
 my $SD = $ENV{'SD'}; # root dir of the symbolicdata repo clone
-die "Environment variable SD not set - store there the root dir of the symbolicdata repo clone" unless $SD;
+die "Environment variable SD not set" unless $SD;
 
 my $RDFData="$SD/data/RDFData";
 my $out;
