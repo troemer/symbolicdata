@@ -3,9 +3,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 
-<file:///home/graebe/git/SD/symbolicdata/workbench/GeoCode.ttl>
-    a owl:Ontology ;
+<http://symbolicdata.org/Data/GeoCode/> a owl:Ontology ;
     rdfs:label "GeoCode Function Specifications" .
+
+sd:GeoCodeFunction a owl:Class ; rdfs:label "GeoCode Function" .
 
 <http://symbolicdata.org/Data/GeoCodeFunction/Point>
     sd:call "Point[$a::Scalar,$b::Scalar]::Point" ;
@@ -377,8 +378,4 @@
     sd:summary "variable point on the line AB. u is a parameter" ;
     a sd:GeoCodeFunction ;
     rdfs:label "varpoint" .
-
-sd:GeoCodeFunction
-    a owl:Class ;
-    rdfs:label "GeoCode Function" .
 
