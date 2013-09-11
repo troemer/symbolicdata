@@ -1,15 +1,14 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
-
-<file:///home/graebe/git/SD/symbolicdata/workbench/a.ttl>
-    a owl:Ontology ;
-    rdfs:label "GeoProofSchemes" .
 
 <http://symbolicdata.org/Data/GeoProofScheme/Arnon>
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Arnon> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Arnon.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Arnon" .
@@ -18,6 +17,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "deduction", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Biarc> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Biarc.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Biarc" .
@@ -26,6 +26,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "deduction", "equational" ;
     sd:hasVariables "x0,x1,x2,x3,x4" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Brahmagupta> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Brahmagupta.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Brahmagupta" .
@@ -34,6 +35,7 @@
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "linear" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Brocard> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Brocard_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Brocard_2" .
@@ -41,6 +43,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Brocard_3>
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Brocard> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Brocard_3.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Brocard_3" .
@@ -49,6 +52,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Butterfly> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Butterfly_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Butterfly_1" .
@@ -56,6 +60,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Butterfly_2>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Butterfly> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Butterfly_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Butterfly_2" .
@@ -64,6 +69,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Butterfly> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Butterfly_3.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Butterfly_3" .
@@ -72,6 +78,7 @@
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.100> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.100_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.100_1" .
@@ -79,6 +86,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.101_1>
     sd:hasParameters "u1,u2,u3,u4,u5,u6" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.101> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.101_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.101_1" .
@@ -86,6 +94,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.103_1>
     sd:hasParameters "u1,u2,u3,u4,u5,u6,u7,u8" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.103> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.103_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.103_1" .
@@ -94,6 +103,7 @@
     sd:hasParameters "u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.106> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.106_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.106_1" .
@@ -102,6 +112,7 @@
     sd:hasParameters "r,u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.106> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.106_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.106_2" .
@@ -110,6 +121,7 @@
     sd:hasParameters "u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.106> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.106_3.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.106_3" .
@@ -117,6 +129,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.115_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.115> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.115_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.115_1" .
@@ -125,6 +138,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.115> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.115_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.115_2" .
@@ -132,6 +146,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.115_3>
     sd:hasParameters "r,u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.115> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.115_3.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.115_3" .
@@ -140,6 +155,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.116> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.116_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.116_1" .
@@ -147,6 +163,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.121_1>
     sd:hasParameters "u1,u2,u3,u4,u5,u6,u7,u8" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.121> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.121_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.121_1" .
@@ -155,6 +172,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.128> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.128_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.128_1" .
@@ -163,6 +181,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.131> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.131_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.131_1" .
@@ -171,6 +190,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.132> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.132_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.132_1" .
@@ -178,6 +198,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.133_1>
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.133> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.133_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.133_1" .
@@ -185,6 +206,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.134_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.134> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.134_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.134_1" .
@@ -193,6 +215,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.137> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.137_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.137_1" .
@@ -201,6 +224,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.138> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.138_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.138_1" .
@@ -209,6 +233,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.139> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.139_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.139_1" .
@@ -217,6 +242,7 @@
     sd:hasParameters "u1,u2,u3,u4,u5,u6" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.152> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.152_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.152_1" .
@@ -225,6 +251,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.153> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.153_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.153_1" .
@@ -233,6 +260,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.156> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.156_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.156_1" .
@@ -241,6 +269,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.160> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.160_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.160_1" .
@@ -249,6 +278,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.160> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.160_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.160_2" .
@@ -257,6 +287,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.167> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.167_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.167_1" .
@@ -265,6 +296,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.168> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.168_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.168_1" .
@@ -273,6 +305,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.168> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.168_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.168_2" .
@@ -280,6 +313,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.174_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.174> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.174_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.174_1" .
@@ -287,6 +321,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.175_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.175> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.175_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.175_1" .
@@ -294,6 +329,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.179_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.179> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.179_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.179_1" .
@@ -301,6 +337,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.180_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.180> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.180_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.180_1" .
@@ -308,6 +345,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.181_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.181> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.181_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.181_1" .
@@ -315,6 +353,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.182_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.182> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.182_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.182_1" .
@@ -322,6 +361,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.184_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.184> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.184_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.184_1" .
@@ -329,6 +369,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.186_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.186> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.186_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.186_1" .
@@ -336,6 +377,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.187_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.187> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.187_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.187_1" .
@@ -343,6 +385,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.188_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.188> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.188_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.188_1" .
@@ -350,6 +393,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.189_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.189> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.189_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.189_1" .
@@ -357,6 +401,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.195_1>
     sd:hasParameters "r,u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.195> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.195_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.195_1" .
@@ -364,6 +409,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.197_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.197> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.197_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.197_1" .
@@ -371,6 +417,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.198_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.198> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.198_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.198_1" .
@@ -378,6 +425,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.199_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.199> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.199_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.199_1" .
@@ -386,6 +434,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.201> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.201_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.201_1" .
@@ -394,6 +443,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.202> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.202_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.202_1" .
@@ -402,6 +452,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.203> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.203_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.203_1" .
@@ -409,6 +460,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.207_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.207> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.207_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.207_1" .
@@ -416,6 +468,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.210_1>
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.210> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.210_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.210_1" .
@@ -423,6 +476,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.216_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.216> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.216_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.216_1" .
@@ -431,6 +485,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.220> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.220_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.220_1" .
@@ -438,6 +493,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.221_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.221> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.221_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.221_1" .
@@ -445,6 +501,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.224_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.224> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.224_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.224_1" .
@@ -452,6 +509,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.230_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.230> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.230_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.230_1" .
@@ -459,6 +517,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.231_1>
     sd:hasParameters "u1,u2,u3,u4,u5,u6" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.231> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.231_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.231_1" .
@@ -467,6 +526,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.238> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.238_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.238_1" .
@@ -475,6 +535,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.238> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.238_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.238_2" .
@@ -482,6 +543,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.239_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.239> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.239_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.239_1" .
@@ -489,6 +551,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.240_1>
     sd:hasParameters "r,u1,u2" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.240> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.240_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.240_1" .
@@ -497,6 +560,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.243> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.243_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.243_1" .
@@ -504,6 +568,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.245_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.245> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.245_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.245_1" .
@@ -511,6 +576,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.246_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.246> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.246_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.246_1" .
@@ -519,6 +585,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.247> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.247_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.247_1" .
@@ -527,6 +594,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.249> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.249_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.249_1" .
@@ -535,6 +603,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.249> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.249_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.249_2" .
@@ -543,6 +612,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.249> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.249_3.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.249_3" .
@@ -551,6 +621,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.250> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.250_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.250_1" .
@@ -558,6 +629,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.253_1>
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.253> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.253_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.253_1" .
@@ -565,6 +637,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.255_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.255> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.255_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.255_1" .
@@ -572,6 +645,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.257_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.257> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.257_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.257_1" .
@@ -580,6 +654,7 @@
     sd:hasParameters "u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.258> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.258_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.258_1" .
@@ -587,6 +662,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.260_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.260> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.260_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.260_1" .
@@ -594,6 +670,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.261_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.261> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.261_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.261_1" .
@@ -601,6 +678,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.263_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.263> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.263_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.263_1" .
@@ -608,6 +686,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.265_1>
     sd:hasParameters "r,u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.265> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.265_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.265_1" .
@@ -616,6 +695,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.265> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.265_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.265_2" .
@@ -624,6 +704,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.266> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.266_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.266_1" .
@@ -632,6 +713,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.266> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.266_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.266_2" .
@@ -640,6 +722,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.267> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.267_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.267_1" .
@@ -648,6 +731,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.269> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.269_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.269_1" .
@@ -656,6 +740,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.270> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.270_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.270_1" .
@@ -664,6 +749,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.272> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.272_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.272_1" .
@@ -672,6 +758,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.273> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.273_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.273_1" .
@@ -680,6 +767,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.274> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.274_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.274_1" .
@@ -688,6 +776,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.274> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.274_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.274_2" .
@@ -696,6 +785,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.275> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.275_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.275_1" .
@@ -703,6 +793,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.279_1>
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.279> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.279_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.279_1" .
@@ -710,6 +801,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.280_1>
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.280> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.280_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.280_1" .
@@ -717,6 +809,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.281_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.281> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.281_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.281_1" .
@@ -724,6 +817,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.282_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.282> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.282_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.282_1" .
@@ -731,6 +825,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.283_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.283> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.283_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.283_1" .
@@ -738,6 +833,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.284_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.284> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.284_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.284_1" .
@@ -745,6 +841,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.285_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.285> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.285_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.285_1" .
@@ -752,6 +849,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.286_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.286> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.286_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.286_1" .
@@ -759,6 +857,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.287_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.287> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.287_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.287_1" .
@@ -767,6 +866,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.289> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.289_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.289_1" .
@@ -774,6 +874,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.28_1>
     sd:hasParameters "u1,u2,u3,u4,u5,u6,u7" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.28> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.28_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.28_1" .
@@ -782,6 +883,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.290> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.290_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.290_1" .
@@ -789,6 +891,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.291_1>
     sd:hasParameters "u2,u3,u4" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.291> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.291_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.291_1" .
@@ -797,6 +900,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.292> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.292_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.292_1" .
@@ -805,6 +909,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.293> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.293_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.293_1" .
@@ -813,6 +918,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.296> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.296_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.296_1" .
@@ -821,6 +927,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.296> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.296_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.296_2" .
@@ -829,6 +936,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.297> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.297_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.297_1" .
@@ -837,6 +945,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.29> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.29_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.29_1" .
@@ -845,6 +954,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.300> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.300_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.300_1" .
@@ -853,6 +963,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.301> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.301_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.301_1" .
@@ -861,6 +972,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.301> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.301_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.301_2" .
@@ -869,6 +981,7 @@
     sd:hasParameters "u2,u3,u4,u5" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.302> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.302_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.302_1" .
@@ -877,6 +990,7 @@
     sd:hasParameters "u2,u3,u4,u5" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.303> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.303_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.303_1" .
@@ -885,6 +999,7 @@
     sd:hasParameters "u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.304> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.304_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.304_1" .
@@ -893,6 +1008,7 @@
     sd:hasParameters "u2,u3,u4,u5" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.310> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.310_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.310_1" .
@@ -900,6 +1016,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.310_2>
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.310> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.310_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.310_2" .
@@ -908,6 +1025,7 @@
     sd:hasParameters "u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.311> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.311_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.311_1" .
@@ -915,6 +1033,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.312_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.312> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.312_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.312_1" .
@@ -923,6 +1042,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.313> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.313_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.313_1" .
@@ -930,6 +1050,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.315_1>
     sd:hasParameters "r,u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.315> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.315_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.315_1" .
@@ -938,6 +1059,7 @@
     sd:hasParameters "u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.317> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.317_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.317_1" .
@@ -945,6 +1067,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.317_2>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.317> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.317_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.317_2" .
@@ -953,6 +1076,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.319> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.319_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.319_1" .
@@ -960,6 +1084,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.31_1>
     sd:hasParameters "u1,u2,u3,u4,u5,u6" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.31> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.31_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.31_1" .
@@ -968,6 +1093,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.322> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.322_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.322_1" .
@@ -976,6 +1102,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.325> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.325_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.325_1" .
@@ -983,6 +1110,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.325_2>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.325> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.325_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.325_2" .
@@ -990,6 +1118,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.327_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.327> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.327_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.327_1" .
@@ -998,6 +1127,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.329> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.329_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.329_1" .
@@ -1005,6 +1135,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.329_2>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.329> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.329_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.329_2" .
@@ -1013,6 +1144,7 @@
     sd:hasParameters "u1,u2,u3,u4,u5,u6,u7" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.330> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.330_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.330_1" .
@@ -1020,6 +1152,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.330_2>
     sd:hasParameters "u1,u2,u3,u4,u5,u6,u7" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.330> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.330_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.330_2" .
@@ -1028,6 +1161,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.336> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.336_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.336_1" .
@@ -1036,6 +1170,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.337> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.337_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.337_1" .
@@ -1043,6 +1178,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.337_2>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.337> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.337_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.337_2" .
@@ -1050,6 +1186,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.338_1>
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.338> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.338_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.338_1" .
@@ -1057,6 +1194,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.339_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.339> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.339_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.339_1" .
@@ -1064,6 +1202,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.351_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.351> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.351_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.351_1" .
@@ -1072,6 +1211,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.353> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.353_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.353_1" .
@@ -1079,6 +1219,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.353_2>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.353> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.353_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.353_2" .
@@ -1086,6 +1227,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.354_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.354> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.354_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.354_1" .
@@ -1094,6 +1236,7 @@
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.35> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.35_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.35_1" .
@@ -1101,6 +1244,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.373_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.373> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.373_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.373_1" .
@@ -1109,6 +1253,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.374> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.374_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.374_1" .
@@ -1117,6 +1262,7 @@
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.376> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.376_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.376_1" .
@@ -1125,6 +1271,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.377> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.377_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.377_1" .
@@ -1133,6 +1280,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.377> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.377_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.377_2" .
@@ -1140,6 +1288,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.37_2>
     sd:hasParameters "r,u1" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.37> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.37_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.37_2" .
@@ -1147,6 +1296,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.381_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.381> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.381_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.381_1" .
@@ -1154,6 +1304,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.382_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.382> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.382_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.382_1" .
@@ -1162,6 +1313,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.383> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.383_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.383_1" .
@@ -1169,6 +1321,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.384_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.384> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.384_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.384_1" .
@@ -1176,6 +1329,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.385_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.385> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.385_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.385_1" .
@@ -1183,6 +1337,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.386_1>
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.386> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.386_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.386_1" .
@@ -1191,6 +1346,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.387> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.387_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.387_1" .
@@ -1198,6 +1354,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.387_2>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.387> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.387_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.387_2" .
@@ -1206,6 +1363,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.388> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.388_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.388_1" .
@@ -1214,6 +1372,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.389> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.389_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.389_1" .
@@ -1222,6 +1381,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.389> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.389_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.389_2" .
@@ -1230,6 +1390,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.390> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.390_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.390_1" .
@@ -1237,6 +1398,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.390_2>
     sd:hasParameters "r,u1,u2,u3,u4" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.390> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.390_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.390_2" .
@@ -1245,6 +1407,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.393> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.393_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.393_1" .
@@ -1253,6 +1416,7 @@
     sd:hasParameters "r,u1,u2" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.393> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.393_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.393_2" .
@@ -1261,6 +1425,7 @@
     sd:hasParameters "u2,u3" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.395> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.395_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.395_1" .
@@ -1269,6 +1434,7 @@
     sd:hasParameters "u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.395> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.395_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.395_2" .
@@ -1276,6 +1442,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.396_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.396> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.396_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.396_1" .
@@ -1284,6 +1451,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.398> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.398_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.398_1" .
@@ -1292,6 +1460,7 @@
     sd:hasParameters "u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.400> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.400_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.400_1" .
@@ -1299,6 +1468,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.400_2>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.400> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.400_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.400_2" .
@@ -1307,6 +1477,7 @@
     sd:hasParameters "u1,u2,u3,u4,u5,u6" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.401> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.401_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.401_1" .
@@ -1314,6 +1485,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.401_2>
     sd:hasParameters "u1,u2,u3,u4,u5,u6" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.401> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.401_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.401_2" .
@@ -1321,6 +1493,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.402_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.402> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.402_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.402_1" .
@@ -1328,6 +1501,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.404_1>
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.404> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.404_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.404_1" .
@@ -1335,6 +1509,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.405_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.405> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.405_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.405_1" .
@@ -1342,6 +1517,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.408_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.408> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.408_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.408_1" .
@@ -1349,6 +1525,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.410_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.410> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.410_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.410_1" .
@@ -1357,6 +1534,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.417> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.417_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.417_1" .
@@ -1365,6 +1543,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.418> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.418_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.418_1" .
@@ -1373,6 +1552,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.420> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.420_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.420_1" .
@@ -1381,6 +1561,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.420> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.420_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.420_2" .
@@ -1389,6 +1570,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.423> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.423_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.423_1" .
@@ -1397,6 +1579,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.425> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.425_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.425_1" .
@@ -1405,6 +1588,7 @@
     sd:hasParameters "u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.426> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.426_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.426_1" .
@@ -1413,6 +1597,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.428> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.428_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.428_1" .
@@ -1421,6 +1606,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.429> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.429_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.429_1" .
@@ -1429,6 +1615,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.430> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.430_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.430_1" .
@@ -1437,6 +1624,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.436> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.436_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.436_1" .
@@ -1445,6 +1633,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.437> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.437_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.437_1" .
@@ -1453,6 +1642,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.439> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.439_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.439_1" .
@@ -1461,6 +1651,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.442> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.442_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.442_1" .
@@ -1469,6 +1660,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.444> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.444_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.444_1" .
@@ -1477,6 +1669,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.445> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.445_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.445_1" .
@@ -1485,6 +1678,7 @@
     sd:hasParameters "u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.451> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.451_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.451_1" .
@@ -1493,6 +1687,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.459> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.459_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.459_1" .
@@ -1501,6 +1696,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.460> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.460_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.460_1" .
@@ -1508,6 +1704,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.460_2>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.460> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.460_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.460_2" .
@@ -1516,6 +1713,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.462> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.462_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.462_1" .
@@ -1524,6 +1722,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.463> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.463_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.463_1" .
@@ -1532,6 +1731,7 @@
     sd:hasParameters "u1,u2,u3,u4,u5,u6" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.465> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.465_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.465_1" .
@@ -1540,6 +1740,7 @@
     sd:hasParameters "u2,u3,u4,u5" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.468> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.468_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.468_1" .
@@ -1547,6 +1748,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.469_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.469> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.469_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.469_1" .
@@ -1554,6 +1756,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.46_1>
     sd:hasParameters "u1,u2,u3,u4,u5,u6,u7,u8" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.46> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.46_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.46_1" .
@@ -1562,6 +1765,7 @@
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.472> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.472_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.472_1" .
@@ -1569,6 +1773,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.473_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.473> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.473_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.473_1" .
@@ -1577,6 +1782,7 @@
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.475> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.475_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.475_1" .
@@ -1584,6 +1790,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.476_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.476> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.476_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.476_1" .
@@ -1592,6 +1799,7 @@
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.477> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.477_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.477_1" .
@@ -1599,6 +1807,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.494_2>
     sd:hasParameters "u1,u2,u3,u4,u5,u6" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.494> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.494_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.494_2" .
@@ -1606,6 +1815,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.49_1>
     sd:hasParameters "u1,u2,u3,u4,u5,u6,u7" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.49> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.49_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.49_1" .
@@ -1613,6 +1823,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.60_1>
     sd:hasParameters "u1,u2,u3,u4,u5,u6,u7,u8,u9,u10,u11,u12,u13,u14" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.60> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.60_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.60_1" .
@@ -1620,6 +1831,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.61_1>
     sd:hasParameters "u1,u2,u3,u4,u5,u6,u7" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.61> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.61_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.61_1" .
@@ -1628,6 +1840,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.64> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.64_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.64_1" .
@@ -1635,6 +1848,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.69_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.69> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.69_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.69_1" .
@@ -1643,6 +1857,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.70> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.70_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.70_1" .
@@ -1650,6 +1865,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.71_1>
     sd:hasParameters "r,u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.71> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.71_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.71_1" .
@@ -1657,6 +1873,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.72_1>
     sd:hasParameters "u1,u2,u3,u4,u5,u6" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.72> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.72_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.72_1" .
@@ -1664,6 +1881,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.73_1>
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.73> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.73_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.73_1" .
@@ -1671,6 +1889,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.74_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.74> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.74_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.74_1" .
@@ -1678,6 +1897,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.75_1>
     sd:hasParameters "r,u1,u2" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.75> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.75_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.75_1" .
@@ -1686,6 +1906,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.78> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.78_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.78_1" .
@@ -1693,6 +1914,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.82_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.82> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.82_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.82_1" .
@@ -1700,6 +1922,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.84_1>
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.84> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.84_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.84_1" .
@@ -1708,6 +1931,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.87> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.87_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.87_1" .
@@ -1715,6 +1939,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.90_1>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.90> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.90_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.90_1" .
@@ -1723,6 +1948,7 @@
     sd:hasParameters "u1" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.91> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.91_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.91_1" .
@@ -1730,6 +1956,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.92_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.92> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.92_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.92_1" .
@@ -1737,6 +1964,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.93_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.93> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.93_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.93_1" .
@@ -1745,6 +1973,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.94> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.94_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.94_1" .
@@ -1753,6 +1982,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational", "rational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.94> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.94_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.94_2" .
@@ -1760,6 +1990,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.95_1>
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.95> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.95_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.95_1" .
@@ -1767,6 +1998,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.96_1>
     sd:hasParameters "r,u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.96> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.96_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.96_1" .
@@ -1774,6 +2006,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.97_1>
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.97> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.97_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.97_1" .
@@ -1781,6 +2014,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Chou.99_1>
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Chou.99> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Chou.99_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Chou.99_1" .
@@ -1788,6 +2022,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/CircumCenter_1>
     sd:hasParameters "a1,a2,b1,b2,c1,c2" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/CircumCenter> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/CircumCenter_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "CircumCenter_1" .
@@ -1795,6 +2030,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Contests.BWM_96_2_3>
     sd:hasParameters "u1,u2,u3,u4,u5" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Contests.BWM_96_2> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/BWM_96_2_3.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Contests.BWM_96_2_3" .
@@ -1802,6 +2038,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Contests.GIPE_98_3>
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Contests.GIPE_98> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/GIPE_98_3.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Contests.GIPE_98_3" .
@@ -1809,6 +2046,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Contests.GIPE_98_6>
     sd:hasParameters "u1" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Contests.GIPE_98> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/GIPE_98_6.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Contests.GIPE_98_6" .
@@ -1816,6 +2054,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Desargue_1>
     sd:hasParameters "a1,a2,b1,b2,c1,c2,d1,d2,u" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Desargue> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Desargue_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Desargue_1" .
@@ -1823,6 +2062,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/EulerLine_1>
     sd:hasParameters "a1,a2,b1,b2,c1,c2" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/EulerLine> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/EulerLine_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "EulerLine_1" .
@@ -1831,6 +2071,7 @@
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/FermatPoint> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/FermatPoint_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "FermatPoint_1" .
@@ -1839,6 +2080,7 @@
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/FeuerbachTangency> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/FeuerbachTangency_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "FeuerbachTangency_1" .
@@ -1846,6 +2088,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Feuerbach_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Feuerbach> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Feuerbach_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Feuerbach_1" .
@@ -1854,6 +2097,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "linear" ;
     sd:hasVariables "x1,x2,x3,x4,x5" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/GeneralizedFermatPoint> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/GeneralizedFermatPoint_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "GeneralizedFermatPoint_1" .
@@ -1861,6 +2105,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Heron_1>
     sd:hasProofType "deduction", "equational" ;
     sd:hasVariables "x1,x2,a,b,c,area" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Heron> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Heron_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Heron_1" .
@@ -1869,6 +2114,7 @@
     sd:hasParameters "u1" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.11_4a> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.11_4a.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.11_4a" .
@@ -1877,6 +2123,7 @@
     sd:hasParameters "u1" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.11_4b> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.11_4b.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.11_4b" .
@@ -1884,6 +2131,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/IMO.12_1>
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.12> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.12_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.12_1" .
@@ -1891,6 +2139,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/IMO.17_3>
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.17> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.17_3.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.17_3" .
@@ -1898,6 +2147,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/IMO.1_5>
     sd:hasParameters "u1" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.1> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.1_5.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.1_5" .
@@ -1905,6 +2155,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/IMO.20_4>
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.20> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.20_4.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.20_4" .
@@ -1912,6 +2163,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/IMO.23_2>
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.23> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.23_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.23_2" .
@@ -1919,6 +2171,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/IMO.23_5>
     sd:hasProofType "deduction" ;
     sd:hasVariables "r" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.23> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.23_5.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.23_5" .
@@ -1927,6 +2180,7 @@
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.24> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.24_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.24_2" .
@@ -1935,6 +2189,7 @@
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.25_4a> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.25_4a.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.25_4a" .
@@ -1943,6 +2198,7 @@
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.25_4b> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.25_4b.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.25_4b" .
@@ -1950,6 +2206,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/IMO.26_5>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.26> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.26_5.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.26_5" .
@@ -1957,6 +2214,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/IMO.28_2>
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.28> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.28_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.28_2" .
@@ -1964,6 +2222,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/IMO.2_3>
     sd:hasParameters "u1" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.2> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.2_3.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.2_3" .
@@ -1972,6 +2231,7 @@
     sd:hasParameters "sa0,ha0,hb0" ;
     sd:hasProofType "construction", "deduction" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.2_4a> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.2_4a.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.2_4a" .
@@ -1980,6 +2240,7 @@
     sd:hasParameters "sa0,ha0,hb0" ;
     sd:hasProofType "construction", "deduction" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.2_4b> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.2_4b.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.2_4b" .
@@ -1987,6 +2248,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/IMO.30_2a>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.30_2a> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.30_2a.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.30_2a" .
@@ -1994,6 +2256,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/IMO.30_2b>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "inequality", "real" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.30_2b> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.30_2b.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.30_2b" .
@@ -2002,6 +2265,7 @@
     sd:hasParameters "u1" ;
     sd:hasProofType "real" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.35> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.35_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.35_2" .
@@ -2010,6 +2274,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constraints", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.36> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.36_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.36_1" .
@@ -2017,6 +2282,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/IMO.36_1a>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.36_1a> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.36_1a.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.36_1a" .
@@ -2024,6 +2290,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/IMO.39_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational", "real" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.39> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.39_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.39_1" .
@@ -2031,6 +2298,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/IMO.3_2>
     sd:hasParameters "x1,x2" ;
     sd:hasProofType "inequality", "real" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.3> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.3_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.3_2" .
@@ -2039,6 +2307,7 @@
     sd:hasParameters "u1" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.43> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.43_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.43_2" .
@@ -2046,6 +2315,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/IMO.4_6>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.4> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.4_6.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.4_6" .
@@ -2053,6 +2323,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/IMO.7_5>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive", "deduction" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/IMO.7> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/IMO.7_5.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "IMO.7_5" .
@@ -2061,6 +2332,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/InCenter> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/InCenter_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "InCenter_1" .
@@ -2068,6 +2340,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/InCenter_2>
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/InCenter> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/InCenter_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "InCenter_2" .
@@ -2076,6 +2349,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/MacLane> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/MacLane_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "MacLane_1" .
@@ -2083,6 +2357,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Miquel_1>
     sd:hasParameters "c1,c2,u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Miquel> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Miquel_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Miquel_1" .
@@ -2091,6 +2366,7 @@
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Morley> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Morley_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Morley_1" .
@@ -2099,6 +2375,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/NapoleonTriangle> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/NapoleonTriangle_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "NapoleonTriangle_1" .
@@ -2106,6 +2383,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/PappusPoint_1>
     sd:hasParameters "u1,u2,u3,u4,u5,u6,u7,u8" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/PappusPoint> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/PappusPoint_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "PappusPoint_1" .
@@ -2114,6 +2392,7 @@
     sd:hasParameters "u1,u2,u3,u4,u5,u6,u7,u8,u9,u0" ;
     sd:hasProofType "linear" ;
     sd:hasVariables "x1,x2" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Pappus> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Pappus_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Pappus_1" .
@@ -2122,6 +2401,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "linear" ;
     sd:hasVariables "x1,x2,x3,x4" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Parallelogram> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Parallelogram_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Parallelogram_1" .
@@ -2129,6 +2409,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Parallelogram_2>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Parallelogram> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Parallelogram_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Parallelogram_2" .
@@ -2137,6 +2418,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/PedalPointTriangle> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/PedalPointTriangle_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "PedalPointTriangle_1" .
@@ -2144,6 +2426,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/PedalPointTriangle_2>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/PedalPointTriangle> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/PedalPointTriangle_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "PedalPointTriangle_2" .
@@ -2152,6 +2435,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/SimsonInverse> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/SimsonInverse_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "SimsonInverse_1" .
@@ -2159,6 +2443,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Simson_1>
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Simson> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Simson_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Simson_1" .
@@ -2167,6 +2452,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Simson> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Simson_2.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Simson_2" .
@@ -2175,6 +2461,7 @@
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Simson> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Simson_3.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Simson_3" .
@@ -2183,6 +2470,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Simson> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Simson_4.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Simson_4" .
@@ -2191,6 +2479,7 @@
     sd:hasParameters "u1,u2,u3,u4" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6,x7" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Simson> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Simson_5.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Simson_5" .
@@ -2198,6 +2487,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/TaylorCircle_1>
     sd:hasParameters "u1,u2,u3" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/TaylorCircle> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/TaylorCircle_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "TaylorCircle_1" .
@@ -2206,6 +2496,7 @@
     sd:hasParameters "u1,u2" ;
     sd:hasProofType "equational" ;
     sd:hasVariables "x1,x2,x3,x4,x5,x6" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Thebault> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Thebault_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Thebault_1" .
@@ -2213,6 +2504,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Tri_alt>
     sd:hasParameters "a1,a2,b1,b2,c1,c2" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Tri_alt> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Tri_alt.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Tri_alt" .
@@ -2220,6 +2512,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Tri_area_1>
     sd:hasProofType "deduction", "equational" ;
     sd:hasVariables "x1,x2,x3,x4,s,r,rs,a,b,c" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Tri_area> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Tri_area_1.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Tri_area_1" .
@@ -2227,6 +2520,7 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Tri_median>
     sd:hasParameters "a1,a2,b1,b2,c1,c2" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Tri_median> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Tri_median.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Tri_median" .
@@ -2234,9 +2528,14 @@
 <http://symbolicdata.org/Data/GeoProofScheme/Tri_mp>
     sd:hasParameters "a1,a2,b1,b2,c1,c2" ;
     sd:hasProofType "constructive" ;
+    sd:relatedGeometryProblem <http://symbolicdata.org/Data/GeometryProblem/Tri_mp> ;
     sd:relatedXMLResource <http://symbolicdata.org/XMLResources/GeoProofSchemes/Tri_mp.xml> ;
     a sd:GeoProofScheme ;
     rdfs:label "Tri_mp" .
+
+<http://symbolicdata.org/Data/GeoProofSchemes/>
+    a owl:Ontology ;
+    rdfs:label "GeoProofSchemes" .
 
 sd:GeoProofScheme
     a owl:Class ;

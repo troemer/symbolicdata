@@ -7,13 +7,12 @@
 @prefix sdg: <http://symbolicdata.org/Data/GeometryProblem/> .
 @prefix sdgps: <http://symbolicdata.org/Data/GeoProofScheme/> .
 
-sd:GeoProblemFormulation
-    a owl:Class ;
-    rdfs:label "Geo Problem Formulation" .
-
 <http://symbolicdata.org/Data/GeometryProblems/>
     a owl:Ontology ;
     rdfs:label "SD Geometry Problems Formulations" .
+
+sd:GeoProblemFormulation a owl:Class ; 
+    rdfs:label "Geo Problem Formulation" .
 
 sdg:Arnon
     sd:createdAt "1999-11-01" ;

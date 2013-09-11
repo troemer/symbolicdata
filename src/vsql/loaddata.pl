@@ -2,7 +2,7 @@
 #
 # author: graebe
 # createdAt: 2013-08-24
-# lastModified: 2013-08-25
+# lastModified: 2013-09-11
 
 # purpose: load data into the local Virtuoso store
 # usage: perl loaddata.pl | isql-vt 1111 dba <YourSecretPassword>
@@ -21,9 +21,12 @@ $out.=createLoadCommand("Bibliography","BIB-References.ttl");
 $out.=createLoadCommand("FanoPolytopes","FanoPolytopes.ttl");
 $out.=createLoadCommand("FreeAlgebras","FreeAlgebras.ttl");
 $out.=createLoadCommand("GAlgebras","GAlgebras.ttl");
+$out.=createLoadCommand("GeoCode","GeoCode.ttl");
+$out.=createLoadCommand("GeoProofSchemes","GeoProofSchemes.ttl");
 $out.=createLoadCommand("GeometryProblems","GeometryProblems.ttl");
 $out.=createLoadCommand("People","People.ttl");
 $out.=createLoadCommand("PolynomialSystems","PolynomialSystems.ttl");
+$out.=createLoadCommand("References","References.ttl");
 $out.=createLoadCommand("Systems","Systems.ttl");
 $out.=createLoadCommand("TestSets","TestSets.ttl");
 print $out;
@@ -31,7 +34,8 @@ print $out;
 sub createLoadCommand {
   my ($graph,$file)=@_;
   return<<EOT;
-DB.DBA.TTLP_MT (file_to_string_output('$RDFData/$file'),'http://symbolicdata.org/Data/$graph/'); \
+DB.DBA.TTLP_MT (file_to_string_output('$RDFData/$file'),'http://symbolicdata.org/Data/$graph/'); 
+  sparql create silent graph <http://symbolicdata.org/Data/$graph/> ; 
 EOT
 }
 
@@ -52,7 +56,8 @@ sparql clear graph <http://symbolicdata.org/Data/Systems/> ;
 sparql clear graph <http://symbolicdata.org/Data/TestSets/> ; 
 
 Graphs are not created automatically. If you have problems to display content
-in Ontowiki, such a command may help to resolve the trouble
+in Ontowiki, such a command may help to resolve the trouble.  Now included
+into the above script.
 
 sparql create silent graph <http://symbolicdata.org/Data/Bibliography/> ; 
 sparql create silent graph <http://symbolicdata.org/Data/FanoPolytopes/> ; 

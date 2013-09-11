@@ -1,6 +1,6 @@
 -- author: graebe
 -- createdAt: 2013-08-25
--- lastModified: 2013-08-25
+-- lastModified: 2013-09-11
 
 -- purpose: isql-vt script to create dumps of Graphs directly from Virtuoso.
 -- usage: isql-vt 111 dba <YourSecretPassword> dump.vsql
@@ -21,8 +21,11 @@ graph_to_ttl_file('http://symbolicdata.org/Data/Bibliography/', '/tmp/BIB-All.tt
 graph_to_ttl_file('http://symbolicdata.org/Data/FanoPolytopes/', '/tmp/FanoPolytopes.ttl');
 graph_to_ttl_file('http://symbolicdata.org/Data/FreeAlgebras/', '/tmp/FreeAlgebras.ttl');
 graph_to_ttl_file('http://symbolicdata.org/Data/GAlgebras/', '/tmp/GAlgebras.ttl');
+graph_to_ttl_file('http://symbolicdata.org/Data/GeoCode/', '/tmp/GeoCode.ttl');
+graph_to_ttl_file('http://symbolicdata.org/Data/GeoProofSchemes/', '/tmp/GeoProofSchemes.ttl');
 graph_to_ttl_file('http://symbolicdata.org/Data/GeometryProblems/', '/tmp/GeometryProblems.ttl');
 graph_to_ttl_file('http://symbolicdata.org/Data/People/', '/tmp/People.ttl');
-graph_to_ttl_file('http://symbolicdata.org/Data/Systems/', '/tmp/Systems.ttl');
 graph_to_ttl_file('http://symbolicdata.org/Data/PolynomialSystems/', '/tmp/PolynomialSystems.ttl');
+graph_to_ttl_file('http://symbolicdata.org/Data/References/', '/tmp/References.ttl');
+graph_to_ttl_file('http://symbolicdata.org/Data/Systems/', '/tmp/Systems.ttl');
 graph_to_ttl_file('http://symbolicdata.org/Data/TestSets/', '/tmp/TestSets.ttl');
