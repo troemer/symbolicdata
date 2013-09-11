@@ -1,20 +1,8 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-<!--
   <xs:include schemaLocation="Types.xsd"/>
   <xs:include schemaLocation="Common.xsd"/>
--->
-
-<!-- from Types.xsd -->
-
-  <xs:simpleType name="VarList">
-    <!-- A comma separated list of variable names.-->
-    <xs:restriction base="xs:token">
-      <xs:pattern value="\[\w[\w_\d]*(,\s*\w[\w_\d]*)*\]"/>
-    </xs:restriction>
-  </xs:simpleType>
-
 
   <!-- subelement definition -->
 

@@ -2,12 +2,8 @@
 <Construction>
 <Title> IMO/43_2 </Title>
 <prooftype> equational </prooftype>
-<vars>
-[x1, x2]
-</vars>
-<parameters>
-[u1]
-</parameters>
+<vars>x1,x2</vars>
+<parameters>u1</parameters>
 <Points>
 <Point id='$c_0' type='free'>Point[-1, 0]</Point>
 <Point id='$c_1' type='free'>Point[1, 0]</Point>

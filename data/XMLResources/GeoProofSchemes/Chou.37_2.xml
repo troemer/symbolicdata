@@ -2,9 +2,7 @@
 <Construction>
 <Title> Chou/37_2 </Title>
 <prooftype> constructive </prooftype>
-<parameters>
-[r, u1]
-</parameters>
+<parameters>r,u1</parameters>
 <Points>
 <Point id='$c_0' type='free'>Point[0, 0]</Point>
 <Point id='$c_1' type='free'>Point[0, r]</Point>

@@ -2,12 +2,8 @@
 <Construction>
 <Title> Chou/106_3 </Title>
 <prooftype> equational </prooftype>
-<vars>
-[x1]
-</vars>
-<parameters>
-[u2, u3, u4]
-</parameters>
+<vars>x1</vars>
+<parameters>u2,u3,u4</parameters>
 <Points>
 <Point id='$c_0' type='free'>Point[0, 0]</Point>
 <Point id='$c_1' type='free'>Point[1, 0]</Point>

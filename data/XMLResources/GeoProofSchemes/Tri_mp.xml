@@ -2,9 +2,7 @@
 <Construction>
 <Title> Tri_mp </Title>
 <prooftype> constructive </prooftype>
-<parameters>
-[a1, a2, b1, b2, c1, c2]
-</parameters>
+<parameters>a1,a2,b1,b2,c1,c2</parameters>
 <Points>
 <Point id='$c_0' type='free'>Point[a1, a2]</Point>
 <Point id='$c_1' type='free'>Point[b1, b2]</Point>
