@@ -7,13 +7,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix org: <http://www.w3.org/ns/org#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-sd:Contributor a owl:Class ; rdfs:label "Contributor" .
+sd:Contributor a owl:Class ;
+               rdfs:label "Contributor" .
 
-<> a owl:Ontology ; rdfs:label "SD Person Data" .
+<> a owl:Ontology ;
+   rdfs:label "SD Person Data" .
 
 sdp:Albano_G a foaf:Person ;
              foaf:name "Albano, G." .
@@ -21,11 +20,11 @@ sdp:Albano_G a foaf:Person ;
 sdp:Apel_J a foaf:Person ;
            foaf:name "Apel, Joachim" .
 
-sdp:Bachmann_O sd:hasContributed "Version 1 - Perl tools: basic modules, Data, Record, IntPS, Html, Compute environment, Data: BIB, IntPS, Benchmark runs" ;
+sdp:Bachmann_O a foaf:Person, sd:Contributor ;
+               foaf:name "Bachmann, Olaf" ;
+               sd:hasContributed "Version 1 - Perl tools: basic modules, Data, Record, IntPS, Html, Compute environment, Data: BIB, IntPS, Benchmark runs" ;
                foaf:nick "obachman" ;
-               sd:lastModified "2010-12-29" ;
-               a sd:Contributor, foaf:Person ;
-               foaf:name "Bachmann, Olaf" .
+               sd:lastModified "2010-12-29" .
 
 sdp:Bjoerk_G a foaf:Person ;
              foaf:name "Björck, G." .
@@ -33,12 +32,12 @@ sdp:Bjoerk_G a foaf:Person ;
 sdp:Boege_W a foaf:Person ;
             foaf:name "Boege, W." .
 
-sdp:Brickenstein_M org:memberOf sdp:kaiserslautern ;
+sdp:Brickenstein_M a foaf:Person, sd:Contributor ;
+                   foaf:name "Brickenstein, Michael" ;
                    sd:hasContributed "IntPS satlib examples" ;
                    foaf:nick "mbrickenstein" ;
-                   sd:lastModified "2008-02-27" ;
-                   a sd:Contributor, foaf:Person ;
-                   foaf:name "Brickenstein, Michael" .
+                   <http://www.w3.org/ns/org#memberOf> sdp:kaiserslautern ;
+                   sd:lastModified "2008-02-27" .
 
 sdp:Buchberger_B a foaf:Person ;
                  foaf:name "Buchberger, Benno" .
@@ -49,14 +48,14 @@ sdp:Canny_JF a foaf:Person ;
 sdp:Chou_SC a foaf:Person ;
             foaf:name "Chou, S.-C." .
 
-sdp:Cioffi_F org:memberOf sdp:napoli ;
+sdp:Cioffi_F a foaf:Person, sd:Contributor ;
+             foaf:name "Cioffi, Francesca" ;
              sd:hasContributed "Data: IntPS/Curves" ;
-             foaf:mbox "cioffifr@unina.it" ;
              foaf:nick "cioffi" ;
+             <http://www.w3.org/ns/org#memberOf> sdp:napoli ;
+             foaf:mbox "cioffifr@unina.it" ;
              foaf:homepage <http://cds.unina.it/~cioffifr> ;
-             sd:lastModified "2004-08-26" ;
-             a sd:Contributor, foaf:Person ;
-             foaf:name "Cioffi, Francesca" .
+             sd:lastModified "2004-08-26" .
 
 sdp:Cohn_H a foaf:Person ;
            foaf:name "Cohn, H." .
@@ -67,29 +66,29 @@ sdp:Cox_D a foaf:Person ;
 sdp:Czapor_SR a foaf:Person ;
               foaf:name "Czapor, S.R." .
 
-sdp:Decker_W org:memberOf sdp:kaiserslautern ;
-             a foaf:Person ;
-             foaf:name "Decker, Wolfram" .
+sdp:Decker_W a foaf:Person ;
+             foaf:name "Decker, Wolfram" ;
+             <http://www.w3.org/ns/org#memberOf> sdp:kaiserslautern .
 
-sdp:Dengel_M org:memberOf sdp:saarbruecken ;
+sdp:Dengel_M a foaf:Person, sd:Contributor ;
+             foaf:name "Dengel, Michael" ;
              sd:hasContributed "Version 1: Html presentation, frames and JavaScript" ;
+             <http://www.w3.org/ns/org#memberOf> sdp:saarbruecken ;
              foaf:mbox "mdengel@math.uni-sb.de" ;
              foaf:homepage <http://loge.math.uni-sb.de/~dengel> ;
-             sd:lastModified "2004-08-26" ;
-             a sd:Contributor, foaf:Person ;
-             foaf:name "Dengel, Michael" .
+             sd:lastModified "2004-08-26" .
 
 sdp:Emiris_IZ a foaf:Person ;
               foaf:name "Emiris, I.Z." .
 
-sdp:Faugere_JC org:memberOf sdp:paris_VI ;
+sdp:Faugere_JC a foaf:Person, sd:Contributor ;
+               foaf:name "Faugére, Jean-Charles" ;
                sd:hasContributed "Data: IntPS" ;
-               foaf:mbox "jcf@posso.lip6.fr" ;
                foaf:nick "jcf" ;
+               <http://www.w3.org/ns/org#memberOf> sdp:paris_VI ;
+               foaf:mbox "jcf@posso.lip6.fr" ;
                foaf:homepage <http://posso.lip6.fr/~jcf> ;
-               sd:lastModified "2004-08-26" ;
-               a sd:Contributor, foaf:Person ;
-               foaf:name "Faugére, Jean-Charles" .
+               sd:lastModified "2004-08-26" .
 
 sdp:Froeberg_G a foaf:Person ;
                foaf:name "Fröberg, G." .
@@ -106,6 +105,9 @@ sdp:Fukuda_S a foaf:Person ;
 sdp:Galligo_A a foaf:Person ;
               foaf:name "Galligo, André" .
 
+sdp:Gatermann_K a foaf:Person ;
+                foaf:name "Gatermann, Karin" .
+
 sdp:Gebauer_R a foaf:Person ;
               foaf:name "Gebauer, Rüdiger" .
 
@@ -118,43 +120,43 @@ sdp:Gerdt_VP a foaf:Person ;
 sdp:Giovini_A a foaf:Person ;
               foaf:name "Giovini, A." .
 
-sdp:Graebe_HG org:memberOf sdp:leipzig ;
+sdp:Graebe_HG a foaf:Person, sd:Contributor ;
+              foaf:name "Gräbe, Hans-Gert" ;
               sd:hasContributed "Perl tools: basic modules, Meta, BIB, References, Syntax,, SQL, GEO, Data: BIB, IntPS, GEO" ;
-              foaf:mbox "graebe@informatik.uni-leipzig.de" ;
               foaf:nick "graebe" ;
+              <http://www.w3.org/ns/org#memberOf> sdp:leipzig ;
+              foaf:mbox "graebe@informatik.uni-leipzig.de" ;
               foaf:homepage <http://www.informatik.uni-leipzig.de/~graebe> ;
-              sd:lastModified "2004-08-26" ;
-              a sd:Contributor, foaf:Person ;
-              foaf:name "Gräbe, Hans-Gert" .
+              sd:lastModified "2004-08-26" .
 
 sdp:Grayson_DR a foaf:Person ;
                foaf:name "Grayson, Daniel R." .
 
-sdp:Greuel_GM org:memberOf sdp:kaiserslautern ;
-              a foaf:Person ;
-              foaf:name "Greuel, Gert-Martin" .
+sdp:Greuel_GM a foaf:Person ;
+              foaf:name "Greuel, Gert-Martin" ;
+              <http://www.w3.org/ns/org#memberOf> sdp:kaiserslautern .
 
 sdp:Hearn_AC a foaf:Person ;
              foaf:name "Hearn, Anthony C." .
 
-sdp:Heinle_A org:memberOf sdp:aachen ;
+sdp:Heinle_A a foaf:Person, sd:Contributor ;
+             foaf:name "Heinle, Albert" ;
              sd:hasContributed "Data: FreeAlgebra" ;
+             <http://www.w3.org/ns/org#memberOf> sdp:aachen ;
              foaf:mbox "Albert.Heinle@math.rwth-aachen.de" ;
              foaf:homepage <http://www.math.rwth-aachen.de/~Albert.Heinle> ;
-             sd:lastModified "2012-11-18" ;
-             a sd:Contributor, foaf:Person ;
-             foaf:name "Heinle, Albert" .
+             sd:lastModified "2012-11-18" .
 
-sdp:Hemmecke_Ralf a sd:Contributor, foaf:Person ;
-             sd:hasContributed "Git usage" ;
-                  foaf:name "Hemmecke, Ralf" .
+sdp:Hemmecke_Ralf a foaf:Person, sd:Contributor ;
+                  foaf:name "Hemmecke, Ralf" ;
+                  sd:hasContributed "Git usage" .
 
-sdp:Hemmecke_Raymond sd:hasContributed "Data: TestSets" ;
+sdp:Hemmecke_Raymond a foaf:Person, sd:Contributor ;
+                     foaf:name "Hemmecke, Raymond" ;
+                     sd:hasContributed "Data: TestSets" ;
                      foaf:mbox "raymond@hemmecke.de" ;
                      foaf:homepage <http://www.hemmecke.de/raymond> ;
-                     sd:lastModified "2004-08-26" ;
-                     a sd:Contributor, foaf:Person ;
-                     foaf:name "Hemmecke, Raymond" .
+                     sd:lastModified "2004-08-26" .
 
 sdp:Inawashiro_N a foaf:Person ;
                  foaf:name "Inawashiro, N." .
@@ -180,14 +182,17 @@ sdp:Kobayashi_H a foaf:Person ;
 sdp:Kredel_H a foaf:Person ;
              foaf:name "Kredel, Heinz" .
 
-sdp:Levandovskyy_V org:memberOf sdp:aachen ;
+sdp:Kreps_DM a foaf:Person ;
+             foaf:name "Kreps, David M." .
+
+sdp:Levandovskyy_V a foaf:Person, sd:Contributor ;
+                   foaf:name "Levandovskyy, Viktor" ;
                    sd:hasContributed "Data: GAlgebra, FreeAlgebra" ;
-                   foaf:mbox "levandov@math.rwth-aachen.de" ;
                    foaf:nick "levandovsky" ;
+                   <http://www.w3.org/ns/org#memberOf> sdp:aachen ;
+                   foaf:mbox "levandov@math.rwth-aachen.de" ;
                    foaf:homepage <http://www.math.rwth-aachen.de/~Viktor.Levandovskyy> ;
-                   sd:lastModified "2004-08-26" ;
-                   a sd:Contributor, foaf:Person ;
-                   foaf:name "Levandovskyy, Viktor" .
+                   sd:lastModified "2004-08-26" .
 
 sdp:Little_J a foaf:Person ;
              foaf:name "Little, J." .
@@ -195,48 +200,72 @@ sdp:Little_J a foaf:Person ;
 sdp:Manocha_D a foaf:Person ;
               foaf:name "Manocha, D." .
 
+sdp:McKelvey_RD a foaf:Person ;
+                foaf:name "McKelvey, Richard D." .
+
+sdp:McLennan_A a foaf:Person ;
+               foaf:name "McLennan, Andrew" .
+
+sdp:Melenk_H a foaf:Person ;
+             foaf:name "Melenk, Herbert" .
+
+sdp:Moeller_HM a foaf:Person ;
+               foaf:name "Möller, H. Michael" .
+
 sdp:Mora_T a foaf:Person ;
            foaf:name "Mora, Teo" .
+
+sdp:Morgan_A a foaf:Person ;
+             foaf:name "Morgan, Alexander" .
 
 sdp:Murao_H a foaf:Person ;
             foaf:name "Murao, H." .
 
+sdp:Neun_W a foaf:Person ;
+           foaf:name "Neun, Winfried" .
+
 sdp:Niesi_G a foaf:Person ;
             foaf:name "Niesi, G." .
+
+sdp:Noonburg_VW a foaf:Person ;
+                foaf:name "Noonburg, V. W." .
 
 sdp:OShea_D a foaf:Person ;
             foaf:name "O'Shea, D." .
 
-sdp:Orecchia_F org:memberOf sdp:napoli ;
-               a foaf:Person ;
-               foaf:name "Orecchia, Ferruccio" .
+sdp:Orecchia_F a foaf:Person ;
+               foaf:name "Orecchia, Ferruccio" ;
+               <http://www.w3.org/ns/org#memberOf> sdp:napoli .
 
-sdp:Pfister_G org:memberOf sdp:kaiserslautern ;
-              a foaf:Person ;
-              foaf:name "Pfister, Gerhard" .
+sdp:Pfister_G a foaf:Person ;
+              foaf:name "Pfister, Gerhard" ;
+              <http://www.w3.org/ns/org#memberOf> sdp:kaiserslautern .
 
-sdp:Ramella_I org:memberOf sdp:napoli ;
-              a foaf:Person ;
-              foaf:name "Ramella, Isabella" .
+sdp:Ramella_I a foaf:Person ;
+              foaf:name "Ramella, Isabella" ;
+              <http://www.w3.org/ns/org#memberOf> sdp:napoli .
 
 sdp:Robbiano_L a foaf:Person ;
                foaf:name "Robbiano, Lorenzo" .
 
-sdp:Schoenemann_H org:memberOf sdp:kaiserslautern ;
+sdp:Schoenemann_H a foaf:Person, sd:Contributor ;
+                  foaf:name "Schönemann, Hans" ;
                   sd:hasContributed "Perl tools: Compute, Adaption of GNU time" ;
+                  <http://www.w3.org/ns/org#memberOf> sdp:kaiserslautern ;
                   foaf:mbox "hannes@mathematik.uni-kl.de" ;
                   foaf:homepage <http://www.mathematik.uni-kl.de/~hannes> ;
-                  sd:lastModified "2004-08-26" ;
-                  a sd:Contributor, foaf:Person ;
-                  foaf:name "Schönemann, Hans" .
+                  sd:lastModified "2004-08-26" .
 
-sdp:Steidel_S org:memberOf sdp:kaiserslautern ;
+sdp:Schrans_S a foaf:Person ;
+              foaf:name "Schrans, S." .
+
+sdp:Steidel_S a foaf:Person, sd:Contributor ;
+              foaf:name "Steidel, Stefan" ;
               sd:hasContributed "Some IntPS examples" ;
+              <http://www.w3.org/ns/org#memberOf> sdp:kaiserslautern ;
               foaf:mbox "steidel@mathematik.uni-kl.de" ;
               foaf:homepage <http://www.mathematik.uni-kl.de/~steidel> ;
-              sd:lastModified "2010-12-29" ;
-              a sd:Contributor, foaf:Person ;
-              foaf:name "Steidel, Stefan" .
+              sd:lastModified "2010-12-29" .
 
 sdp:Stillman_ME a foaf:Person ;
                 foaf:name "Stillman, Michael E." .
@@ -247,28 +276,34 @@ sdp:Sturmfels_B a foaf:Person ;
 sdp:Traverso_C a foaf:Person ;
                foaf:name "Traverso, Carlo" .
 
+sdp:Troost_W a foaf:Person ;
+             foaf:name "Troost, W." .
+
 sdp:Wallack_A a foaf:Person ;
               foaf:name "Wallack, A." .
 
 sdp:Wang_D a foaf:Person ;
            foaf:name "Wang, Dongming" .
 
-sdp:Wenk_M org:memberOf sdp:kaiserslautern ;
-           foaf:mbox "wenk@mathematik.uni-kl.de" ;
-           foaf:nick "wenk" ;
-           foaf:homepage <http://www.mathematik.uni-kl.de/~wenk> ;
-           sd:lastModified "2004-08-26" ;
-           a sd:Contributor, foaf:Person ;
+sdp:Wenk_M a foaf:Person, sd:Contributor ;
            rdfs:comment "Student of Prof. Greuel" ;
-           foaf:name "Wenk, Moritz" .
+           foaf:name "Wenk, Moritz" ;
+           foaf:nick "wenk" ;
+           <http://www.w3.org/ns/org#memberOf> sdp:kaiserslautern ;
+           foaf:mbox "wenk@mathematik.uni-kl.de" ;
+           foaf:homepage <http://www.mathematik.uni-kl.de/~wenk> ;
+           sd:lastModified "2004-08-26" .
 
 sdp:Wichmann_T a foaf:Person ;
                foaf:name "Wichmann, T." .
 
-sdp:Witte_M sd:hasContributed "Data: GEO/Chou" ;
-            sd:lastModified "2004-08-26" ;
-            a sd:Contributor, foaf:Person ;
-            foaf:name "Witte, Malte" .
+sdp:Wilson_R a foaf:Person ;
+             foaf:name "Wilson, Robert" .
+
+sdp:Witte_M a foaf:Person, sd:Contributor ;
+            foaf:name "Witte, Malte" ;
+            sd:hasContributed "Data: GEO/Chou" ;
+            sd:lastModified "2004-08-26" .
 
 sdp:Wu_WT a foaf:Person ;
           foaf:name "Wu, W.-T." .
@@ -276,39 +311,39 @@ sdp:Wu_WT a foaf:Person ;
 sdp:Zharkov_AYu a foaf:Person ;
                 foaf:name "Zharkov, A.Yu." .
 
-sdp:aachen a org:Organization ;
-           skos:prefLabel "Department of Mathematics, RTWH Aachen, Germany" .
+sdp:aachen a <http://www.w3.org/ns/org#Organization> ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Department of Mathematics, RTWH Aachen, Germany" .
 
-sdp:kaiserslautern a org:Organization ;
-                   skos:prefLabel "Department of Mathematics, University of Kaiserslautern, Germany" .
+sdp:kaiserslautern a <http://www.w3.org/ns/org#Organization> ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Department of Mathematics, University of Kaiserslautern, Germany" .
 
-sdp:leipzig a org:Organization ;
-            skos:prefLabel "Universität Leipzig, Institut für Informatik, Germany" .
+sdp:leipzig a <http://www.w3.org/ns/org#Organization> ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Universität Leipzig, Institut für Informatik, Germany" .
 
-sdp:maple foaf:homepage <http://www.maplesoft.com> ;
-          a org:Organization ;
-          skos:prefLabel "Waterloo Maple, Inc." .
+sdp:maple a <http://www.w3.org/ns/org#Organization> ;
+          foaf:homepage <http://www.maplesoft.com> ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Waterloo Maple, Inc." .
 
-sdp:mathematica foaf:homepage <http://www.wolfram.com> ;
-                a org:Organization ;
-                skos:prefLabel "Wolfram Research, Inc." .
+sdp:mathematica a <http://www.w3.org/ns/org#Organization> ;
+                foaf:homepage <http://www.wolfram.com> ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Wolfram Research, Inc." .
 
-sdp:mupad a org:Organization ;
-          skos:prefLabel "MuPAD Research Group within Matlab" .
+sdp:mupad a <http://www.w3.org/ns/org#Organization> ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "MuPAD Research Group within Matlab" .
 
-sdp:napoli a org:Organization ;
-           skos:prefLabel "Dip. di Matematica e Applicazioni, Univ. di Napoli, Italy" .
+sdp:napoli a <http://www.w3.org/ns/org#Organization> ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Dip. di Matematica e Applicazioni, Univ. di Napoli, Italy" .
 
-sdp:paris_VI a org:Organization ;
-             skos:prefLabel "Equipe CALFOR, LIP6/CNRS Univ. Paris VI, France" .
+sdp:paris_VI a <http://www.w3.org/ns/org#Organization> ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Equipe CALFOR, LIP6/CNRS Univ. Paris VI, France" .
 
-sdp:posso a foaf:Group ; 
-  foaf:homepage <http://posso.dm.unipi.it/posso_overview.html> ;
-          skos:prefLabel "PoSSo Team" .
+sdp:posso a foaf:Group ;
+          foaf:homepage <http://posso.dm.unipi.it/posso_overview.html> ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "PoSSo Team" .
 
-sdp:saarbruecken a org:Organization ;
-                 skos:prefLabel "Department of Mathematics, University of Saarbrücken, Germany" .
+sdp:saarbruecken a <http://www.w3.org/ns/org#Organization> ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Department of Mathematics, University of Saarbrücken, Germany" .
 
-sdp:sydney a org:Organization ;
-  foaf:homepage <http://www.maths.usyd.edu.au/res/CompAlg.html> ;
-           skos:prefLabel "Computational Algebra Group at the University of Sydney, Australia" .
+sdp:sydney a <http://www.w3.org/ns/org#Organization> ;
+           foaf:homepage <http://www.maths.usyd.edu.au/res/CompAlg.html> ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Computational Algebra Group at the University of Sydney, Australia" .
