@@ -692,6 +692,16 @@
                                                     sd:homogenize <http://symbolicdata.org/Data/Ideal/Cyclic_4> ;
                                                     sd:hasVariables "w,x,y,z,hv" .
 
+<http://symbolicdata.org/Data/Ideal/Cyclic_4a> a sd:Ideal ;
+                                               sd:createdAt "2013-09-14" ;
+                                               sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
+                                               sd:hasDimension "0" ;
+                                               sd:hasDegreeList "1,2,3,3" ;
+                                               sd:hasLengthsList "2,4,4,4" ;
+                                               sd:hasParameters "w" ;
+                                               sd:parameterize <http://symbolicdata.org/Data/Ideal/Cyclic_4> ;
+                                               sd:hasVariables "x,y,z" .
+
 <http://symbolicdata.org/Data/Ideal/Cyclic_5> a sd:Ideal ;
                                               rdfs:comment "Sensitive to strategies since there is a branch with huge coefficients that may be avoided.", "diff = medium" ;
                                               sd:createdAt "1999-03-26" ;
@@ -1518,6 +1528,7 @@
                                                        sd:hasVariables "y,x,hv" .
 
 <http://symbolicdata.org/Data/Ideal/FourCircles_1> a sd:Ideal ;
+                                                   rdfs:comment "This is Ideal/FourCircles without the first equation." ;
                                                    sd:createdAt "1999-03-26" ;
                                                    sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                                    sd:hasDegreeList "7,7" ;
@@ -3762,7 +3773,7 @@
                                                        sd:hasVariables "x,y,z,c,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Paris.ahml> a sd:Ideal ;
-                                                rdfs:comment "A Problem of A. Levelt" ;
+                                                rdfs:comment "A Problem of A. Levelt", "Generated automatically with Gb." ;
                                                 sd:createdAt "1999-04-22" ;
                                                 sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                 sd:hasDegreeList "4,4,4,4" ;
@@ -3781,6 +3792,7 @@
                                                       sd:hasVariables "x6,x5,x3,x1,x2,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Paris.berth> a sd:Ideal ;
+                                                 rdfs:comment "Generated automatically with Gb." ;
                                                  sd:createdAt "1999-04-22" ;
                                                  sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                  sd:hasDegreeList "10,26" ;
@@ -3799,7 +3811,7 @@
                                                        sd:hasVariables "x,A,B,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Paris.fronville> a sd:Ideal ;
-                                                     rdfs:comment "Alexandra Fronville (Universite Paris 6), XVI Hilbert Problem, Find all the solutions" ;
+                                                     rdfs:comment "Alexandra Fronville (Universite Paris 6), XVI Hilbert Problem, Find all the solutions", "Generated automatically with Gb." ;
                                                      sd:createdAt "1999-04-22" ;
                                                      sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                      sd:hasDegreeList "2,3,4,5,6,7" ;
@@ -3818,6 +3830,7 @@
                                                            sd:hasVariables "Ap,Fpp,Bp,App,Fp,Epp,Ep,dpp,Cp,Bpp,dp,Cpp,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Paris.hawes> a sd:Ideal ;
+                                                 rdfs:comment "Generated automatically with Gb." ;
                                                  sd:createdAt "1999-04-22" ;
                                                  sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                  sd:hasDegreeList "2,2,3,3,4,4" ;
@@ -3836,6 +3849,7 @@
                                                        sd:hasVariables "x,y1,z1,y2,z2,a,b,c,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Paris.hawes3> a sd:Ideal ;
+                                                  rdfs:comment "Generated automatically with Gb." ;
                                                   sd:createdAt "1999-04-22" ;
                                                   sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                   sd:hasDegreeList "2,2,4,4,5,9" ;
@@ -3854,7 +3868,7 @@
                                                         sd:hasVariables "x,y1,z1,y2,z2,a,b,c,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Paris.ilias13> a sd:Ideal ;
-                                                   rdfs:comment "N-Body Problem. Equations: see D. Lazard and I. Kotsireas. Problem: Compute the real roots of the system" ;
+                                                   rdfs:comment "N-Body Problem. Equations: see D. Lazard and I. Kotsireas. Problem: Compute the real roots of the system", "Generated automatically with Gb." ;
                                                    sd:createdAt "1999-04-22" ;
                                                    sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                    sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2,2,2,5,5,5,5" ;
@@ -3873,7 +3887,7 @@
                                                          sd:hasVariables "S1,s1,d1,S2,D2,s2,d2,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Paris.safey> a sd:Ideal ;
-                                                 rdfs:comment "Problem submited by M. Safey (Universite Paris 6)" ;
+                                                 rdfs:comment "Problem submited by M. Safey (Universite Paris 6)", "Generated automatically with Gb." ;
                                                  sd:createdAt "1999-04-22" ;
                                                  sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                  sd:hasDegreeList "16,16,16,16,16,16,16,16,16" ;
@@ -3930,6 +3944,7 @@
                                                sd:hasVariables "x1,x2,x3,x4" .
 
 <http://symbolicdata.org/Data/Ideal/PoSSo.cohn3> a sd:Ideal ;
+                                                 rdfs:comment "Generated automatically with Gb." ;
                                                  sd:createdAt "1999-04-22" ;
                                                  sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                  sd:hasDegreeList "5,6,6,6" ;
@@ -4100,6 +4115,7 @@
                                               sd:hasVariables "x,y,z,t,u" .
 
 <http://symbolicdata.org/Data/Ideal/Robot-Fabrice24> a sd:Ideal ;
+                                                     rdfs:comment "Generated automatically with Gb." ;
                                                      sd:createdAt "1999-04-22" ;
                                                      sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                      sd:hasDegreeList "1,2,2,2,2,2,2,3,3" ;
@@ -4159,26 +4175,37 @@
                                                          sd:hasVariables "sp,st,sf,cp,ct,cf,s2,s1,c2,c1,hv,l1,l2,px,py,pz" .
 
 <http://symbolicdata.org/Data/Ideal/Robot-Romin> a sd:Ideal ;
-                                                 rdfs:comment "The ROMIN robot described in [Gonzalez-Lopez, Recio, 1993]" ;
+                                                 rdfs:comment "The ROMIN robot described in [Gonzalez-Lopez, Recio, 1993]", "2013-09-14 graebe: modified to the parameterized version. The flat version ist now Ideal/Robot-Romin.Flat" ;
                                                  sd:createdAt "1999-03-26" ;
                                                  sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
-                                                 sd:hasDimension "5" ;
                                                  sd:hasDegreeList "2,2,2,2,2,2,2" ;
                                                  sd:hasLengthsList "2,2,3,3,3,3,3" ;
+                                                 sd:hasParameters "a,b,c,l2,l3" ;
                                                  sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Robot-Romin> ;
-                                                 sd:hasVariables "s1,s2,s3,c1,c2,c3,d,a,b,c,l2,l3" .
+                                                 sd:hasVariables "s1,s2,s3,c1,c2,c3,d" .
 
-<http://symbolicdata.org/Data/Ideal/Robot-Romin.Homog> a sd:HomogeneousIdeal, sd:Ideal ;
-                                                       rdfs:comment "Homogenized version of Robot-Romin" ;
-                                                       sd:createdAt "1999-06-04" ;
-                                                       sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
-                                                       sd:hasDegreeList "2,2,2,2,2,2,2" ;
-                                                       sd:hasLengthsList "2,2,3,3,3,3,3" ;
-                                                       sd:homogenizedWith "hv" ;
-                                                       sd:homogenize <http://symbolicdata.org/Data/Ideal/Robot-Romin> ;
-                                                       sd:hasVariables "s1,s2,s3,c1,c2,c3,d,a,b,c,l2,l3,hv" .
+<http://symbolicdata.org/Data/Ideal/Robot-Romin.Flat> a sd:Ideal ;
+                                                      rdfs:comment "2013-09-15 graebe: moved from Robot-Romin, Robot-Romin is now the parameterized version" ;
+                                                      sd:createdAt "1999-03-26" ;
+                                                      sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
+                                                      sd:hasDimension "5" ;
+                                                      sd:hasDegreeList "2,2,2,2,2,2,2" ;
+                                                      sd:hasLengthsList "2,2,3,3,3,3,3" ;
+                                                      sd:flatten <http://symbolicdata.org/Data/Ideal/Robot-Romin> ;
+                                                      sd:hasVariables "s1,s2,s3,c1,c2,c3,d,a,b,c,l2,l3" .
+
+<http://symbolicdata.org/Data/Ideal/Robot-Romin.Flat.Homog> a sd:HomogeneousIdeal, sd:Ideal ;
+                                                            rdfs:comment "Homogenized version of Robot-Romin.Flat" ;
+                                                            sd:createdAt "1999-06-04" ;
+                                                            sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
+                                                            sd:hasDegreeList "2,2,2,2,2,2,2" ;
+                                                            sd:hasLengthsList "2,2,3,3,3,3,3" ;
+                                                            sd:homogenizedWith "hv" ;
+                                                            sd:homogenize <http://symbolicdata.org/Data/Ideal/Robot-Romin.Flat> ;
+                                                            sd:hasVariables "s1,s2,s3,c1,c2,c3,d,a,b,c,l2,l3,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Robot-jcf26> a sd:Ideal ;
+                                                 rdfs:comment "Generated automatically with Gb." ;
                                                  sd:createdAt "1999-04-22" ;
                                                  sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                  sd:hasDegreeList "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,3,4,4" ;
@@ -4204,7 +4231,7 @@
                                             sd:hasVariables "a,b,c,d,e,f,g,h,k,o" .
 
 <http://symbolicdata.org/Data/Ideal/Rose> a sd:Ideal ;
-                                          rdfs:comment "diff = modular easy, char0 medium" ;
+                                          rdfs:comment "diff = modular easy, char0 medium", "The original example was published in [Boege_86a]", "Differs from Ideal/Rose_1 by a multiple of $a^6*u3*u4^2 - a^4*u3*u4^2$" ;
                                           sd:createdAt "1999-03-26" ;
                                           sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                           sd:hasDegreeList "4,6,9" ;
@@ -5025,6 +5052,7 @@
 
 <http://symbolicdata.org/Data/Ideal/Symmetric_5> a sd:HomogeneousIdeal, sd:Ideal ;
                                                  rdfs:comment "From private communications" ;
+                                                 sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Kahn_93a> ;
                                                  sd:createdAt "1999-04-20" ;
                                                  sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                  sd:hasDegreeList "5,5,5,5,5" ;
@@ -5034,6 +5062,7 @@
 
 <http://symbolicdata.org/Data/Ideal/Symmetric_6> a sd:HomogeneousIdeal, sd:Ideal ;
                                                  rdfs:comment "From private communications" ;
+                                                 sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Kahn_93a> ;
                                                  sd:createdAt "1999-04-20" ;
                                                  sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                  sd:hasDegreeList "6,6,6,6,6" ;
@@ -5102,7 +5131,7 @@
                                                     sd:hasVariables "w,p,z,t,s,b,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Twomat3> a sd:Ideal ;
-                                             rdfs:comment "PoSSo Test suite" ;
+                                             rdfs:comment "PoSSo Test suite", "From the PoSSo Test suite" ;
                                              sd:createdAt "1999-04-20" ;
                                              sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                              sd:hasDegreeList "2,2,2,2,2,2,2,4" ;
@@ -5585,6 +5614,12 @@
                                                     sd:hasVariables "d,c,b,a,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Wang-92e> a sd:Ideal ;
+                                              rdfs:comment """
+Origin (maxima code): 
+ p1:(x4+x5)*(x5+x6)*(x4+x6)*x1^2*x2^2*x3^2;
+ p2:p1+l1*(x2^2*x6-1)+l2*(x1^2*x4-1)+l3*(x3^2*x5-1);
+ polys:append(map(lambda([u],diff(p2,u)),[x1,x2,x3,x4,x5,x6,l1,l2,l3]),[y^2-p1]);
+""" ;
                                               sd:createdAt "1999-03-26" ;
                                               sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                               sd:hasDimension "1" ;
@@ -5687,6 +5722,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_11> a sd:Ideal ;
                                                         rdfs:comment "multipleRoots" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Murao_93a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "3,3,4" ;
@@ -5732,6 +5768,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_16> a sd:Ideal ;
                                                         rdfs:comment "n=3" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Murao_93a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "3,5,6" ;
@@ -5777,6 +5814,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_24> a sd:Ideal ;
                                                         rdfs:comment "bezout4" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Emiris_98a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "2,2,2,2" ;
@@ -5786,6 +5824,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_26> a sd:Ideal ;
                                                         rdfs:comment "lamm1" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Wichmann_97a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "8,8" ;
@@ -5795,6 +5834,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_27> a sd:Ideal ;
                                                         rdfs:comment "isaac1" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Wichmann_97a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "2,2,2,2" ;
@@ -5804,6 +5844,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_28> a sd:Ideal ;
                                                         rdfs:comment "dessin2" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Wichmann_97a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2" ;
@@ -5813,6 +5854,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_29> a sd:Ideal ;
                                                         rdfs:comment "dessin1" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Wichmann_97a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "1,1,2,2,3,3,3,3" ;
@@ -5822,6 +5864,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_3> a sd:Ideal ;
                                                        rdfs:comment "Example 1" ;
+                                                       sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Emiris_98a> ;
                                                        sd:createdAt "1999-09-22" ;
                                                        sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                        sd:hasDegreeList "2,2" ;
@@ -5831,6 +5874,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_30> a sd:Ideal ;
                                                         rdfs:comment "caprasse" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Wichmann_97a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "3,3,4,4" ;
@@ -5840,6 +5884,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_31> a sd:Ideal ;
                                                         rdfs:comment "reco1" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Wichmann_97a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "11,11" ;
@@ -5849,6 +5894,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_33> a sd:Ideal ;
                                                         rdfs:comment "walk-s7" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Wichmann_97a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "2,2,2,2,2,2,2" ;
@@ -5858,6 +5904,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_4> a sd:Ideal ;
                                                        rdfs:comment "Example 2" ;
+                                                       sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Emiris_98a> ;
                                                        sd:createdAt "1999-09-22" ;
                                                        sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                        sd:hasDegreeList "2,2,2" ;
@@ -5867,6 +5914,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_40> a sd:Ideal ;
                                                         rdfs:comment "Arnborg-Lazard-System taken from: One cube sugar" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/PoSSo> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "4,5,6" ;
@@ -5876,6 +5924,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_41> a sd:Ideal ;
                                                         rdfs:comment "Jane" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/PoSSo> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "1,2,2" ;
@@ -5885,6 +5934,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_42> a sd:Ideal ;
                                                         rdfs:comment "Methan61" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/PoSSo> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2" ;
@@ -5894,6 +5944,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_43> a sd:Ideal ;
                                                         rdfs:comment "Caprasse" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/PoSSo> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "3,3,4,4" ;
@@ -5903,6 +5954,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_45> a sd:Ideal ;
                                                         rdfs:comment "Giuseppe" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/PoSSo> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "1,2,2,2" ;
@@ -5912,6 +5964,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_46> a sd:Ideal ;
                                                         rdfs:comment "Jsistema" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/PoSSo> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "3,3,3,3" ;
@@ -5930,6 +5983,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_51> a sd:Ideal ;
                                                         rdfs:comment "Niermann" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Wichmann_97a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "4,5,5" ;
@@ -5939,6 +5993,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_54> a sd:Ideal ;
                                                         rdfs:comment "Arnborg-System" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Wichmann_97a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "1,2,3,4,5,6" ;
@@ -5948,6 +6003,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_57> a sd:Ideal ;
                                                         rdfs:comment "dessin1" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Wichmann_97a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "1,1,2,2,3,3,3,3" ;
@@ -5957,6 +6013,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_58> a sd:Ideal ;
                                                         rdfs:comment "reimer4" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Wichmann_97a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "2,3,4,5" ;
@@ -5966,6 +6023,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_59> a sd:Ideal ;
                                                         rdfs:comment "ISAAC-Challenge" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Wichmann_97a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "2,2,2,2" ;
@@ -5975,6 +6033,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_60> a sd:Ideal ;
                                                         rdfs:comment "Groebner Walk Paper (On the Walk): Ex1" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Wichmann_97a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "4,4,4" ;
@@ -5984,6 +6043,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_61> a sd:Ideal ;
                                                         rdfs:comment "Groebner Walk Paper (On the Walk): Ex2" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Wichmann_97a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "4,4,4" ;
@@ -5993,6 +6053,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_62> a sd:Ideal ;
                                                         rdfs:comment "Groebner Walk Paper (On the Walk): Ex3" ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Wichmann_97a> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "4,4,4" ;
@@ -6011,6 +6072,7 @@
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_8> a sd:Ideal ;
                                                        rdfs:comment "intersecting two algebraic curves in the real plane" ;
+                                                       sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Sturmfels_98a> ;
                                                        sd:createdAt "1999-09-22" ;
                                                        sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                        sd:hasDegreeList "4,7" ;
@@ -6059,6 +6121,7 @@
                                                      sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Becker-Niermann.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Bjoerk_8> a sd:IntegerPolynomialSystem ;
+                                              sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bjoerck_91a> ;
                                               sd:createdAt "1999-04-20" ;
                                               sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                               sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Bjoerk_8.xml> .
@@ -6078,6 +6141,8 @@
                                              sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                              sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Butcher.xml> .
 
+<http://symbolicdata.org/Data/IntPS/Canny_93a> sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Canny_93a> .
+
 <http://symbolicdata.org/Data/IntPS/Caprasse> a sd:IntegerPolynomialSystem ;
                                               sd:createdAt "1999-03-26" ;
                                               sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
@@ -6094,6 +6159,7 @@
                                               sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Cassou_1.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Cohn_2> a sd:IntegerPolynomialSystem ;
+                                            sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Cohn_82a> ;
                                             sd:createdAt "1999-04-20" ;
                                             sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                             sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Cohn_2.xml> .
@@ -7199,6 +7265,7 @@
                                                sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Pfister_3.xml> .
 
 <http://symbolicdata.org/Data/IntPS/PoSSo.cohn3> a sd:IntegerPolynomialSystem ;
+                                                 sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Cohn_82a> ;
                                                  sd:createdAt "1999-04-22" ;
                                                  sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                  sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/PoSSo.cohn3.xml> .
@@ -7324,121 +7391,145 @@
                                                      sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.alex_3.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.ecyclic_5> a sd:IntegerPolynomialSystem ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.ecyclic_5.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.ecyclic_6> a sd:IntegerPolynomialSystem ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.ecyclic_6.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.ecyclic_7> a sd:IntegerPolynomialSystem ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.ecyclic_7.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.gerhard_1> a sd:IntegerPolynomialSystem ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.gerhard_1.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.gerhard_2> a sd:IntegerPolynomialSystem ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.gerhard_2.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.gerhard_3> a sd:IntegerPolynomialSystem ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.gerhard_3.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.rcyclic_10> a sd:IntegerPolynomialSystem ;
+                                                         sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.rcyclic_10.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.rcyclic_11> a sd:IntegerPolynomialSystem ;
+                                                         sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.rcyclic_11.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.rcyclic_12> a sd:IntegerPolynomialSystem ;
+                                                         sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.rcyclic_12.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.rcyclic_13> a sd:IntegerPolynomialSystem ;
+                                                         sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.rcyclic_13.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.rcyclic_14> a sd:IntegerPolynomialSystem ;
+                                                         sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.rcyclic_14.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.rcyclic_15> a sd:IntegerPolynomialSystem ;
+                                                         sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.rcyclic_15.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.rcyclic_16> a sd:IntegerPolynomialSystem ;
+                                                         sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.rcyclic_16.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.rcyclic_17> a sd:IntegerPolynomialSystem ;
+                                                         sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.rcyclic_17.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.rcyclic_18> a sd:IntegerPolynomialSystem ;
+                                                         sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.rcyclic_18.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.rcyclic_19> a sd:IntegerPolynomialSystem ;
+                                                         sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.rcyclic_19.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.rcyclic_8> a sd:IntegerPolynomialSystem ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.rcyclic_8.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.rcyclic_9> a sd:IntegerPolynomialSystem ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.rcyclic_9.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.schwarz_10> a sd:IntegerPolynomialSystem ;
+                                                         sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.schwarz_10.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.schwarz_11> a sd:IntegerPolynomialSystem ;
+                                                         sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.schwarz_11.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.schwarz_6> a sd:IntegerPolynomialSystem ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.schwarz_6.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.schwarz_7> a sd:IntegerPolynomialSystem ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.schwarz_7.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.schwarz_8> a sd:IntegerPolynomialSystem ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.schwarz_8.xml> .
 
 <http://symbolicdata.org/Data/IntPS/Singular.schwarz_9> a sd:IntegerPolynomialSystem ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Bachmann_98a> ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Singular.schwarz_9.xml> .
@@ -7674,6 +7765,7 @@
                                            sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/Wu-90.xml> .
 
 <http://symbolicdata.org/Data/IntPS/ZeroDim.example_1> a sd:IntegerPolynomialSystem ;
+                                                       sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/Cox_97a> ;
                                                        sd:createdAt "1999-09-21" ;
                                                        sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                        sd:relatedXMLResource <http://symbolicdata.org/XMLResources/IntPS/ZeroDim.example_1.xml> .

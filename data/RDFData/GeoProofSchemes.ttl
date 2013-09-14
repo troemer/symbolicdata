@@ -2535,7 +2535,7 @@
 
 <http://symbolicdata.org/Data/GeoProofSchemes/>
     a owl:Ontology ;
-    rdfs:label "GeoProofSchemes" .
+    rdfs:label "SD GeoProofSchemes" .
 
 sd:GeoProofScheme
     a owl:Class ;

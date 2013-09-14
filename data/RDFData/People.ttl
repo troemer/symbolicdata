@@ -22,9 +22,12 @@ sdp:Apel_J a foaf:Person ;
 
 sdp:Bachmann_O a foaf:Person, sd:Contributor ;
                foaf:name "Bachmann, Olaf" ;
-               sd:hasContributed "Version 1 - Perl tools: basic modules, Data, Record, IntPS, Html, Compute environment, Data: BIB, IntPS, Benchmark runs" ;
+               sd:hasContributed "Version 1: basic Perl tools, Design of Data and Records, Polynomial Systems, Html template design, Compute environment, Bibliography, Benchmark runs" ;
                foaf:nick "obachman" ;
                sd:lastModified "2010-12-29" .
+
+sdp:Berth_M a foaf:Person ;
+            foaf:name "Berth, Matthias" .
 
 sdp:Bjoerk_G a foaf:Person ;
              foaf:name "Björck, G." .
@@ -34,7 +37,7 @@ sdp:Boege_W a foaf:Person ;
 
 sdp:Brickenstein_M a foaf:Person, sd:Contributor ;
                    foaf:name "Brickenstein, Michael" ;
-                   sd:hasContributed "IntPS satlib examples" ;
+                   sd:hasContributed "Version 2: IntPS satlib examples" ;
                    foaf:nick "mbrickenstein" ;
                    <http://www.w3.org/ns/org#memberOf> sdp:kaiserslautern ;
                    sd:lastModified "2008-02-27" .
@@ -50,12 +53,12 @@ sdp:Chou_SC a foaf:Person ;
 
 sdp:Cioffi_F a foaf:Person, sd:Contributor ;
              foaf:name "Cioffi, Francesca" ;
-             sd:hasContributed "Data: IntPS/Curves" ;
+             sd:hasContributed "Version 1: IntPS/Curves" ;
              foaf:nick "cioffi" ;
              <http://www.w3.org/ns/org#memberOf> sdp:napoli ;
-             foaf:mbox "cioffifr@unina.it" ;
-             foaf:homepage <http://cds.unina.it/~cioffifr> ;
-             sd:lastModified "2004-08-26" .
+             foaf:mbox "francesca.cioffi@unina.it" ;
+             foaf:homepage <https://www.docenti.unina.it/FRANCESCA.CIOFFI> ;
+             sd:lastModified "2013-09-14" .
 
 sdp:Cohn_H a foaf:Person ;
            foaf:name "Cohn, H." .
@@ -83,15 +86,18 @@ sdp:Emiris_IZ a foaf:Person ;
 
 sdp:Faugere_JC a foaf:Person, sd:Contributor ;
                foaf:name "Faugére, Jean-Charles" ;
-               sd:hasContributed "Data: IntPS" ;
+               sd:hasContributed "Version 1: Polynomial Systems" ;
                foaf:nick "jcf" ;
                <http://www.w3.org/ns/org#memberOf> sdp:paris_VI ;
-               foaf:mbox "jcf@posso.lip6.fr" ;
-               foaf:homepage <http://posso.lip6.fr/~jcf> ;
-               sd:lastModified "2004-08-26" .
+               foaf:mbox "Jean-Charles.Faugere@inria.fr" ;
+               foaf:homepage <http://www-calfor.lip6.fr/~jcf> ;
+               sd:lastModified "2013-09-14" .
 
 sdp:Froeberg_G a foaf:Person ;
                foaf:name "Fröberg, G." .
+
+sdp:Fronville_A a foaf:Person ;
+                foaf:name "Fronville, Alexandra" .
 
 sdp:Fujiki_NM a foaf:Person ;
               foaf:name "Fujiki, N. M." .
@@ -122,7 +128,7 @@ sdp:Giovini_A a foaf:Person ;
 
 sdp:Graebe_HG a foaf:Person, sd:Contributor ;
               foaf:name "Gräbe, Hans-Gert" ;
-              sd:hasContributed "Perl tools: basic modules, Meta, BIB, References, Syntax,, SQL, GEO, Data: BIB, IntPS, GEO" ;
+              sd:hasContributed "Version 2: Redesign", "Version 3: Redesign, Bibliography, GeoProofSchemes, Git Repo, Wiki", "Version 1: basic Perl tools, References, Polynomial Systems, GeoProofSchemes" ;
               foaf:nick "graebe" ;
               <http://www.w3.org/ns/org#memberOf> sdp:leipzig ;
               foaf:mbox "graebe@informatik.uni-leipzig.de" ;
@@ -136,12 +142,15 @@ sdp:Greuel_GM a foaf:Person ;
               foaf:name "Greuel, Gert-Martin" ;
               <http://www.w3.org/ns/org#memberOf> sdp:kaiserslautern .
 
+sdp:Hawes_W a foaf:Person ;
+            foaf:name "Hawes, W." .
+
 sdp:Hearn_AC a foaf:Person ;
              foaf:name "Hearn, Anthony C." .
 
 sdp:Heinle_A a foaf:Person, sd:Contributor ;
              foaf:name "Heinle, Albert" ;
-             sd:hasContributed "Data: FreeAlgebra" ;
+             sd:hasContributed "Cersion 3: FreeAlgebra" ;
              <http://www.w3.org/ns/org#memberOf> sdp:aachen ;
              foaf:mbox "Albert.Heinle@math.rwth-aachen.de" ;
              foaf:homepage <http://www.math.rwth-aachen.de/~Albert.Heinle> ;
@@ -149,11 +158,11 @@ sdp:Heinle_A a foaf:Person, sd:Contributor ;
 
 sdp:Hemmecke_Ralf a foaf:Person, sd:Contributor ;
                   foaf:name "Hemmecke, Ralf" ;
-                  sd:hasContributed "Git usage" .
+                  sd:hasContributed "Version 1: PolynomialSystems", "Version 3: Git usage" .
 
 sdp:Hemmecke_Raymond a foaf:Person, sd:Contributor ;
                      foaf:name "Hemmecke, Raymond" ;
-                     sd:hasContributed "Data: TestSets" ;
+                     sd:hasContributed "Version 1: TestSets" ;
                      foaf:mbox "raymond@hemmecke.de" ;
                      foaf:homepage <http://www.hemmecke.de/raymond> ;
                      sd:lastModified "2004-08-26" .
@@ -184,6 +193,12 @@ sdp:Kredel_H a foaf:Person ;
 
 sdp:Kreps_DM a foaf:Person ;
              foaf:name "Kreps, David M." .
+
+sdp:Krider_ES a foaf:Person ;
+              foaf:name "Krider, Elizabeth S." .
+
+sdp:Lazard_D a foaf:Person ;
+             foaf:name "Lazard, Daniel" .
 
 sdp:Levandovskyy_V a foaf:Person, sd:Contributor ;
                    foaf:name "Levandovskyy, Viktor" ;
@@ -250,7 +265,7 @@ sdp:Robbiano_L a foaf:Person ;
 
 sdp:Schoenemann_H a foaf:Person, sd:Contributor ;
                   foaf:name "Schönemann, Hans" ;
-                  sd:hasContributed "Perl tools: Compute, Adaption of GNU time" ;
+                  sd:hasContributed "Version 1: Perl tool Compute, Adaption of GNU time" ;
                   <http://www.w3.org/ns/org#memberOf> sdp:kaiserslautern ;
                   foaf:mbox "hannes@mathematik.uni-kl.de" ;
                   foaf:homepage <http://www.mathematik.uni-kl.de/~hannes> ;
@@ -261,7 +276,7 @@ sdp:Schrans_S a foaf:Person ;
 
 sdp:Steidel_S a foaf:Person, sd:Contributor ;
               foaf:name "Steidel, Stefan" ;
-              sd:hasContributed "Some IntPS examples" ;
+              sd:hasContributed "Version 2: Some IntPS examples" ;
               <http://www.w3.org/ns/org#memberOf> sdp:kaiserslautern ;
               foaf:mbox "steidel@mathematik.uni-kl.de" ;
               foaf:homepage <http://www.mathematik.uni-kl.de/~steidel> ;
@@ -302,7 +317,7 @@ sdp:Wilson_R a foaf:Person ;
 
 sdp:Witte_M a foaf:Person, sd:Contributor ;
             foaf:name "Witte, Malte" ;
-            sd:hasContributed "Data: GEO/Chou" ;
+            sd:hasContributed "Version 1: Chou's Geo Examples" ;
             sd:lastModified "2004-08-26" .
 
 sdp:Wu_WT a foaf:Person ;
