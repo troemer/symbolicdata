@@ -2,9 +2,10 @@
 #
 # author: graebe
 # createdAt: 2013-08-25
-# lastModified: 2013-08-25
+# lastModified: 2013-09-15
 
 # purpose: Support to run a Sparql query with perl.
+# query goes to the loaclhost, remoteQuery to symbolicdata.org
 
 package SparqlQuery;
 
@@ -18,11 +19,21 @@ my $ua = LWP::UserAgent->new;
 
 # ------- Parse ResultSet functions -------
 
+sub remoteQuery {
+  my $query=shift;
+  # print $query;
+  my $url = "http://symbolicdata.org:8890/sparql?query=".uri_escape($query);
+  # print $url;
+  my $req = HTTP::Request->new(GET => $url);
+  my $res = $ua->request($req);
+  if ($res->is_success) { return $res->content; } 
+  else { print $res->status_line, "\n"; die; }
+}
+
 sub query {
   my $query=shift;
   # print $query;
   my $url = "http://localhost:8890/sparql?query=".uri_escape($query);
-  # $url.="&format=text/rdf"; # does not work.
   # print $url;
   my $req = HTTP::Request->new(GET => $url);
   my $res = $ua->request($req);

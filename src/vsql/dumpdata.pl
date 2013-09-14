@@ -12,12 +12,17 @@
 use strict;
 use SparqlQuery;
 
-saveGraphAsSortedNtriples("People","People.n3");
-saveGraphAsSortedNtriples("Bibliography","BIB-All.n3");
+saveGraphAsSortedNtriples("Annotations","Annotations.n3");
+saveGraphAsSortedNtriples("Bibliography","Bibliography.n3");
 saveGraphAsSortedNtriples("FreeAlgebras","FreeAlgebras.n3");
 saveGraphAsSortedNtriples("GAlgebras","GAlgebras.n3");
+saveGraphAsSortedNtriples("GeoCode","GeoCode.n3");
+saveGraphAsSortedNtriples("GeometryProblems","GeometryProblems.n3");
+saveGraphAsSortedNtriples("GeoProofSchemes","GeoProofSchemes.n3");
+saveGraphAsSortedNtriples("People","People.n3");
 saveGraphAsSortedNtriples("PolynomialSystems","PolynomialSystems.n3");
 saveGraphAsSortedNtriples("Systems","Systems.n3");
+saveGraphAsSortedNtriples("TestSets","TestSets.n3");
 
 ## end main ##
 
