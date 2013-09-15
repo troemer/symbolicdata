@@ -356,14 +356,6 @@ sdb:Noonburg_88a a sd:Reference ;
                  dct:issued "1988"^^dct:W3CDTF ;
                  sd:lastModified "2013-09-13" .
 
-sdb:PoSSo a sd:Reference ;
-          sd:createdAt "1999-09-21" ;
-          sd:createdBy sdp:Wenk_M ;
-          dct:creator sdp:posso ;
-          dct:title "Polynomial System Solving" ;
-          dct:issued "1995"^^dct:W3CDTF ;
-          sd:lastModified "2004-08-27" .
-
 sdb:Schrans_90a a sd:Reference ;
                 rdfs:comment "Nuclear Phys. B, Vol. 345, No. 2#C3, 1990, pp. 584#C606." ;
                 sd:createdAt "2013-09-13" ;
@@ -504,3 +496,48 @@ sdb:Wu_84b a sd:Reference ;
 
 sd:Reference a owl:Class ;
              rdfs:label "Reference to a Publication" .
+
+sdb:Amrhein_96a a sd:Reference ;
+sd:createdAt "2013-09-15" ;
+sd:createdBy sdp:Graebe_HG ;
+dct:creator sdp:Amrhein_B,sdp:Gloor_O, sdp:Kuechlin_W ;
+dct:title "Walking Faster" ;
+rdfs:comment "DISCO 1996, LNCS";
+dct:issued "1996"^^dct:W3CDTF ;
+sd:lastModified "2013-09-15" .
+ 
+sdb:Eisenbud_96a a sd:Reference ;
+sd:createdAt "2013-09-15" ;
+sd:createdBy sdp:Graebe_HG ;
+dct:creator sdp:Eisenbud_D, sdp:Sturmfels_B ;
+dct:title "Binomial ideals" ;
+rdfs:comment "Duke Mathematical Journal 84 (1), 1-45 (1996)";
+dct:issued "1996"^^dct:W3CDTF ;
+sd:lastModified "2013-09-15" .
+
+sdb:Decker_98a a sd:Reference ;
+sd:createdAt "2013-09-15" ;
+sd:createdBy sdp:Graebe_HG ;
+dct:creator sdp:Decker_W, sdp:Greuel_GM, sdp:Pfister_G ;
+dct:title "Primary Decomposition: Algorithms and Comparisons" ;
+rdfs:comment "In: Algorithmic Algebra and Number Theory, Springer, 187-220 (1998)";
+dct:issued "1998"^^dct:W3CDTF ;
+sd:lastModified "2013-09-15" .
+
+sdb:Bini_96a a sd:Reference ;
+sd:createdAt "2013-09-15" ;
+sd:createdBy sdp:Graebe_HG ;
+dct:creator sdp:Bini_D, sdp:Mourrain_B ;
+dct:title "Polynomial test suite. Frisco project (LTR 21.024)" ;
+rdfs:comment "http://www-sop.inria.fr/saga/POL/ (2013)";
+dct:issued "1996"^^dct:W3CDTF ;
+sd:lastModified "2013-09-15" .
+
+sdb:Pfister_07a a sd:Reference ;
+sd:createdAt "2013-09-15" ;
+sd:createdBy sdp:Graebe_HG ;
+dct:creator sdp:Pfister_G ;
+dct:title "On Modular Computation of Standard bases" ;
+rdfs:comment "Analele Stiintifice ale Universitatii Ovidius, Mathematical Series XV (1), 129--137 (2007)";
+dct:issued "2007"^^dct:W3CDTF ;
+sd:lastModified "2013-09-15" .

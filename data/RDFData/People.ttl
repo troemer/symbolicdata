@@ -362,3 +362,11 @@ sdp:saarbruecken a <http://www.w3.org/ns/org#Organization> ;
 sdp:sydney a <http://www.w3.org/ns/org#Organization> ;
            foaf:homepage <http://www.maths.usyd.edu.au/res/CompAlg.html> ;
            <http://www.w3.org/2004/02/skos/core#prefLabel> "Computational Algebra Group at the University of Sydney, Australia" .
+
+sdp:Amrhein_B a foaf:Person ; foaf:name "Amrhein, Beatrice" .
+sdp:Gloor_O a foaf:Person ; foaf:name "Gloor, Oliver" .
+sdp:Kuechlin_W a foaf:Person ; foaf:name "Küchlin, Wolfgang" .
+sdp:Bini_D a foaf:Person ; foaf:name "Bini, D." .
+sdp:Mourrain_B a foaf:Person ; foaf:name "Mourrain, B." .
+sdp:Rouillier_F a foaf:Person ; foaf:name "Rouillier, F." .
+sdp:Eisenbud_D a foaf:Person ; foaf:name "Eisenbud, D." .

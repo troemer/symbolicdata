@@ -7,14 +7,12 @@
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 
 <http://symbolicdata.org/Data/Ideal/Amrhein> a sd:Ideal ;
-                                             rdfs:comment "cf. Amrhein, B.; Gloor, O.; Küchlin, W.: Walking faster. DISCO 1996, LNCS (1996)." ;
                                              sd:createdAt "2010-05-11" ;
                                              sd:createdBy <http://symbolicdata.org/Data/Person/Steidel_S> ;
                                              sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Amrhein> ;
                                              sd:hasVariables "a,b,c,d,e,f" .
 
 <http://symbolicdata.org/Data/Ideal/Becker-Niermann> a sd:Ideal ;
-                                                     rdfs:comment "cf. Decker, W.; Greuel, G.-M.; Pfister, G.: Primary Decomposition: Algorithms and Comparisons. In: Algorithmic Algebra and Number Theory, Springer, 187--220 (1998)." ;
                                                      sd:createdAt "2010-05-11" ;
                                                      sd:createdBy <http://symbolicdata.org/Data/Person/Steidel_S> ;
                                                      sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Becker-Niermann> ;
@@ -140,7 +138,7 @@
                                                   sd:hasVariables "b,c,d,e,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Cassou_1> a sd:Ideal ;
-                                              rdfs:comment "Example Cassou from the Frisco Test Suite with c \\to c+2", "cf. Bini, D.; Mourrain, B.: Polynomial test suite. Frisco project (LTR 21.024). http://www-sop.inria.fr/saga/POL/ (2010)." ;
+                                              rdfs:comment "Example Cassou from the Frisco Test Suite with c \\to c+2" ;
                                               sd:createdAt "2010-05-11" ;
                                               sd:createdBy <http://symbolicdata.org/Data/Person/Steidel_S> ;
                                               sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Cassou_1> ;
@@ -1442,7 +1440,7 @@
                                              sd:hasVariables "p,q,r,s" .
 
 <http://symbolicdata.org/Data/Ideal/Fee_1> a sd:Ideal ;
-                                           rdfs:comment "\"Fee_2\"(b=2)" ;
+                                           rdfs:comment "Fee_2(b=2)" ;
                                            sd:createdAt "1999-05-22" ;
                                            sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                            sd:hasDegreeList "2,3,4,4" ;
@@ -1501,7 +1499,6 @@
                                                  sd:hasVariables "q,c,p,d,hv" .
 
 <http://symbolicdata.org/Data/Ideal/FourBodyProblem> a sd:Ideal ;
-                                                     rdfs:comment "cf. Bini, D.; Mourrain, B.: Polynomial test suite. Frisco project (LTR 21.024). http://www-sop.inria.fr/saga/POL/ (2010)." ;
                                                      sd:createdAt "2010-05-11" ;
                                                      sd:createdBy <http://symbolicdata.org/Data/Person/Steidel_S> ;
                                                      sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/FourBodyProblem> ;
@@ -3428,7 +3425,7 @@
                                                     sd:hasVariables "l,s,z,y,x,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Gerdt-93a> a sd:Ideal ;
-                                               rdfs:comment "Modification of original example IntPS/Gerdt-93 by changing one exponent, introducing a new variable h. The example was considered as ideal over Z with another integer generator 2*3*5*13*17*181, 2*3*5*13*17*31*181, 2*3*5*13*17*31*37*181" ;
+                                               rdfs:comment "Modification of original example Gerdt-93 by changing one exponent, introducing a new variable h. The example was considered as ideal over Z with another integer generator 2*3*5*13*17*181, 2*3*5*13*17*31*181, 2*3*5*13*17*31*37*181" ;
                                                sd:createdAt "2010-08-10" ;
                                                sd:createdBy <http://symbolicdata.org/Data/Person/Steidel_S> ;
                                                sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Gerdt-93a> ;
@@ -3456,7 +3453,7 @@
                                                      sd:hasVariables "a0,a2,a3,a4,a5,b0,b1,b2,b3,b4,b5,c0,c1,c2,c3,c4,c5,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Gonnet-83_1> a sd:Ideal ;
-                                                 rdfs:comment "diff = medium", "Quasi-homogenized \"Gonnet-83\" with deg a_i = deg b_i = 1, deg c_i = 2" ;
+                                                 rdfs:comment "diff = medium", "Gonnet-83, quasi-homogenized with deg a_i = deg b_i = 1, deg c_i = 2" ;
                                                  sd:createdAt "1999-03-26" ;
                                                  sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                                  sd:hasDimension "7" ;
@@ -3516,7 +3513,7 @@
                                                     sd:hasVariables "c2,c3,c4,b4,b3,b2,b1,a21,a31,a32,a41,a42,a43,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Hairer_2_1> a sd:Ideal ;
-                                                rdfs:comment "diff = medium", "\"Hairer_2\" + (c4 - 1)" ;
+                                                rdfs:comment "diff = medium", "Hairer_2 + (c4 - 1)" ;
                                                 sd:createdAt "1999-03-26" ;
                                                 sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                                 sd:hasDimension "2" ;
@@ -3713,7 +3710,6 @@
                                                      sd:hasVariables "u0,u1,u2,u3,u4,u5,u6,u7,u8,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Krider> a sd:Ideal ;
-                                            rdfs:comment "supplied by Elizabeth S. Krider <ekrider@cco.caltech.edu> on Sat, 01 Jun 1996 to news:math.symbolic" ;
                                             sd:createdAt "1999-03-26" ;
                                             sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                             sd:hasDimension "9" ;
@@ -3811,7 +3807,7 @@
                                                        sd:hasVariables "x,A,B,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Paris.fronville> a sd:Ideal ;
-                                                     rdfs:comment "Alexandra Fronville (Universite Paris 6), XVI Hilbert Problem, Find all the solutions", "Generated automatically with Gb." ;
+                                                     rdfs:comment "Generated automatically with Gb." ;
                                                      sd:createdAt "1999-04-22" ;
                                                      sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                      sd:hasDegreeList "2,3,4,5,6,7" ;
@@ -3868,7 +3864,7 @@
                                                         sd:hasVariables "x,y1,z1,y2,z2,a,b,c,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Paris.ilias13> a sd:Ideal ;
-                                                   rdfs:comment "N-Body Problem. Equations: see D. Lazard and I. Kotsireas. Problem: Compute the real roots of the system", "Generated automatically with Gb." ;
+                                                   rdfs:comment "Generated automatically with Gb." ;
                                                    sd:createdAt "1999-04-22" ;
                                                    sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                    sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2,2,2,5,5,5,5" ;
@@ -3963,7 +3959,6 @@
                                                        sd:hasVariables "x,y,z,t,hv" .
 
 <http://symbolicdata.org/Data/Ideal/PoSSo.rkat10> a sd:Ideal ;
-                                                  rdfs:comment "Generated from katsura.txt in Maple. Problem: find the real roots 0 <= xi <= 1" ;
                                                   sd:createdAt "1999-04-22" ;
                                                   sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                   sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,2" ;
@@ -3982,7 +3977,6 @@
                                                         sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,hv" .
 
 <http://symbolicdata.org/Data/Ideal/PoSSo.rkat11> a sd:Ideal ;
-                                                  rdfs:comment "Generated from katsura.txt in Maple. Problem: find the real roots 0 <= xi <= 1" ;
                                                   sd:createdAt "1999-04-22" ;
                                                   sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                   sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,2,2" ;
@@ -4001,7 +3995,6 @@
                                                         sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,hv" .
 
 <http://symbolicdata.org/Data/Ideal/PoSSo.rkat12> a sd:Ideal ;
-                                                  rdfs:comment "Generated from katsura.txt in Maple. Problem: find the real roots 0 <= xi <= 1" ;
                                                   sd:createdAt "1999-04-22" ;
                                                   sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                   sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,2,2,2" ;
@@ -4020,7 +4013,6 @@
                                                         sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,hv" .
 
 <http://symbolicdata.org/Data/Ideal/PoSSo.rkat13> a sd:Ideal ;
-                                                  rdfs:comment "Generated from katsura.txt in Maple. Problem: find the real roots 0 <= xi <= 1" ;
                                                   sd:createdAt "1999-04-22" ;
                                                   sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                   sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2,2,2,2,2" ;
@@ -4039,7 +4031,6 @@
                                                         sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,hv" .
 
 <http://symbolicdata.org/Data/Ideal/PoSSo.rkat9> a sd:Ideal ;
-                                                 rdfs:comment "Generated from katsura.txt in Maple.  Problem: find the real roots 0 <= xi <= 1" ;
                                                  sd:createdAt "1999-04-22" ;
                                                  sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                  sd:hasDegreeList "1,2,2,2,2,2,2,2,2,2" ;
@@ -4108,7 +4099,7 @@
                                                                sd:hasVariables "x4,x3,x2,x1,hv,a,b,c,d,hw" .
 
 <http://symbolicdata.org/Data/Ideal/Reimer_5> a sd:Ideal ;
-                                              rdfs:comment "cf. Bini, D.; Mourrain, B.: Polynomial test suite. Frisco project (LTR 21.024). http://www-sop.inria.fr/saga/POL/ (2010).", "Example Reimer 5 from the Frisco Test Suite" ;
+                                              rdfs:comment "Example Reimer 5 from the Frisco Test Suite" ;
                                               sd:createdAt "2010-05-11" ;
                                               sd:createdBy <http://symbolicdata.org/Data/Person/Steidel_S> ;
                                               sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Reimer_5> ;
@@ -4134,7 +4125,6 @@
                                                            sd:hasVariables "x1,x2,x3,y1,y2,y3,z1,z2,z3,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Robot-RR> a sd:Ideal ;
-                                              rdfs:comment "Origin: Inverse robot kinematics of an RR toy robot [Wang:95a]" ;
                                               sd:createdAt "1999-03-26" ;
                                               sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                               sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2,2,2,3,3,3,3" ;
@@ -4175,7 +4165,7 @@
                                                          sd:hasVariables "sp,st,sf,cp,ct,cf,s2,s1,c2,c1,hv,l1,l2,px,py,pz" .
 
 <http://symbolicdata.org/Data/Ideal/Robot-Romin> a sd:Ideal ;
-                                                 rdfs:comment "The ROMIN robot described in [Gonzalez-Lopez, Recio, 1993]", "2013-09-14 graebe: modified to the parameterized version. The flat version ist now Ideal/Robot-Romin.Flat" ;
+                                                 rdfs:comment "2013-09-14 graebe: modified to the parameterized version. The flat version ist now Ideal/Robot-Romin.Flat" ;
                                                  sd:createdAt "1999-03-26" ;
                                                  sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                                  sd:hasDegreeList "2,2,2,2,2,2,2" ;
@@ -4224,14 +4214,13 @@
                                                        sd:hasVariables "px2,px3,px4,px5,px6,py3,py4,py5,pz4,pz5,bx2,bx3,bx4,bx5,by3,by4,by5,bz4,bz5,D1,D2,D3,D4,D5,D6,x1,x2,x3,y1,y2,y3,z1,z2,z3,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Roczen> a sd:Ideal ;
-                                            rdfs:comment "cf. Decker, W.; Greuel, G.-M.; Pfister, G.: Primary Decomposition: Algorithms and Comparisons. In: Algorithmic Algebra and Number Theory, Springer, 187--220 (1998)." ;
                                             sd:createdAt "2010-05-11" ;
                                             sd:createdBy <http://symbolicdata.org/Data/Person/Steidel_S> ;
                                             sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Roczen> ;
                                             sd:hasVariables "a,b,c,d,e,f,g,h,k,o" .
 
 <http://symbolicdata.org/Data/Ideal/Rose> a sd:Ideal ;
-                                          rdfs:comment "diff = modular easy, char0 medium", "The original example was published in [Boege_86a]", "Differs from Ideal/Rose_1 by a multiple of $a^6*u3*u4^2 - a^4*u3*u4^2$" ;
+                                          rdfs:comment "diff = modular easy, char0 medium", "Differs from Ideal/Rose_1 by a multiple of $a^6*u3*u4^2 - a^4*u3*u4^2$" ;
                                           sd:createdAt "1999-03-26" ;
                                           sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                           sd:hasDegreeList "4,6,9" ;
@@ -4251,7 +4240,6 @@
                                                 sd:hasVariables "u3,u4,a,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Rose_1> a sd:Ideal ;
-                                            rdfs:comment "The original example published in [Boege:86]" ;
                                             sd:createdAt "1999-03-26" ;
                                             sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                             sd:hasDegreeList "4,6,8" ;
@@ -4271,7 +4259,6 @@
                                                   sd:hasVariables "u3,u4,a,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Schiele> a sd:Ideal ;
-                                             rdfs:comment "Find solutions for the angles sin=s_i, cos=c_i depending on p." ;
                                              sd:createdAt "1999-03-26" ;
                                              sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                              sd:hasDegreeList "2,2,8,8" ;
@@ -4331,7 +4318,7 @@
                                                               sd:hasVariables "s1,s2,c1,c2,hv,p,hw" .
 
 <http://symbolicdata.org/Data/Ideal/Schiele_1> a sd:Ideal ;
-                                               rdfs:comment "Obtained from \"Schiele\" by half-tan-substitution." ;
+                                               rdfs:comment "Obtained from Schiele by half-tan-substitution." ;
                                                sd:createdAt "1999-03-26" ;
                                                sd:hasDegreeList "6,11" ;
                                                sd:hasLengthsList "8,16" ;
@@ -4390,7 +4377,7 @@
                                                                 sd:hasVariables "x,y,hv,p,hw" .
 
 <http://symbolicdata.org/Data/Ideal/Schiele_1_1> a sd:Ideal ;
-                                                 rdfs:comment "\"Schiele_1\"(p=1)" ;
+                                                 rdfs:comment "Schiele_1(p=1)" ;
                                                  sd:createdAt "1999-03-26" ;
                                                  sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                                  sd:hasDegreeList "6,11" ;
@@ -4410,7 +4397,7 @@
                                                        sd:hasVariables "x,y,hv" .
 
 <http://symbolicdata.org/Data/Ideal/SignalTheory.f633> a sd:Ideal ;
-                                                       rdfs:comment "Problem: Find all the complex solutions of modulus 1", "This system is patented by CCETT (French Telecom) and Univ. Rennes", "Generated automatically with Gb.", "JC Faugere, F. Moreau de Saint Martin and F. Rouillier", "FGb file format Filter Bank: f633" ;
+                                                       rdfs:comment "Filter Bank: f633", "Generated automatically with Gb." ;
                                                        sd:createdAt "1999-04-22" ;
                                                        sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                        sd:hasDegreeList "1,1,2,2,2,2,2,2,2" ;
@@ -4429,7 +4416,7 @@
                                                              sd:hasVariables "U6,U5,U4,U3,U2,u6,u5,u4,u3,u2,hv" .
 
 <http://symbolicdata.org/Data/Ideal/SignalTheory.f744> a sd:Ideal ;
-                                                       rdfs:comment "Problem: Find all the complex solutions of modulus 1", "This system is patented by CCETT (French Telecom) and Univ. Rennes", "Generated automatically with Gb.", "JC Faugere, F. Moreau de Saint Martin and F. Rouillier", "FGb file format Filter Bank: f744" ;
+                                                       rdfs:comment "Filter Bank: f744", "Generated automatically with Gb." ;
                                                        sd:createdAt "1999-04-22" ;
                                                        sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                        sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2,3,3" ;
@@ -4448,7 +4435,7 @@
                                                              sd:hasVariables "U7,U6,U5,U4,U3,U2,u7,u6,u5,u4,u3,u2,hv" .
 
 <http://symbolicdata.org/Data/Ideal/SignalTheory.f855> a sd:Ideal ;
-                                                       rdfs:comment "Problem: Find all the complex solutions of modulus 1", "This system is patented by CCETT (French Telecom) and Univ. Rennes", "Generated automatically with Gb.", "JC Faugere, F. Moreau de Saint Martin and F. Rouillier", "Filter Bank: f855" ;
+                                                       rdfs:comment "Filter Bank: f855", "Generated automatically with Gb." ;
                                                        sd:createdAt "1999-04-22" ;
                                                        sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                        sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2,2,3,3,4,4" ;
@@ -4467,7 +4454,7 @@
                                                              sd:hasVariables "X8,X7,X6,X5,X4,X3,X2,x8,x7,x6,x5,x4,x3,x2,hv" .
 
 <http://symbolicdata.org/Data/Ideal/SignalTheory.f966> a sd:Ideal ;
-                                                       rdfs:comment "Filter Bank: f966", "Problem: Find all the complex solutions of modulus 1", "This system is patented by CCETT (French Telecom) and Univ. Rennes", "Generated automatically with Gb.", "JC Faugere, F. Moreau de Saint Martin and F. Rouillier" ;
+                                                       rdfs:comment "Filter Bank: f966", "Generated automatically with Gb." ;
                                                        sd:createdAt "1999-04-22" ;
                                                        sd:createdBy <http://symbolicdata.org/Data/Person/Faugere_JC> ;
                                                        sd:hasDegreeList "1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,4,4" ;
@@ -4486,7 +4473,6 @@
                                                              sd:hasVariables "U9,U8,U7,U6,U5,U4,U3,U2,u9,u8,u7,u6,u5,u4,u3,u2,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.alex_1> a sd:Ideal ;
-                                                     rdfs:comment "Singular" ;
                                                      sd:createdAt "1999-04-20" ;
                                                      sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                      sd:hasDegreeList "11,11,14" ;
@@ -4505,7 +4491,6 @@
                                                            sd:hasVariables "x,t,y,z,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.alex_2> a sd:Ideal ;
-                                                     rdfs:comment "Singular" ;
                                                      sd:createdAt "1999-04-20" ;
                                                      sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                      sd:hasDegreeList "11,11,12" ;
@@ -4524,7 +4509,6 @@
                                                            sd:hasVariables "t,x,y,z,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.alex_3> a sd:Ideal ;
-                                                     rdfs:comment "Singular" ;
                                                      sd:createdAt "1999-04-20" ;
                                                      sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                      sd:hasDegreeList "9,9,14" ;
@@ -4600,7 +4584,6 @@
                                                               sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16,x17,x18,x19,x20,x21,x22,x23,x24,x25,x26,x27,x28,x29,x30,x31,x32,x33,x34,x35,x36,x37,x38,x39,x40,x41,x42,x43,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.gerhard_1> a sd:HomogeneousIdeal, sd:Ideal ;
-                                                        rdfs:comment "Singular" ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:hasDegreeList "3,5,10" ;
@@ -4609,7 +4592,6 @@
                                                         sd:hasVariables "w,t,x,y,z" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.gerhard_2> a sd:HomogeneousIdeal, sd:Ideal ;
-                                                        rdfs:comment "Singular" ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:hasDegreeList "9,9,9" ;
@@ -4618,7 +4600,6 @@
                                                         sd:hasVariables "w,x,y,z" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.gerhard_3> a sd:HomogeneousIdeal, sd:Ideal ;
-                                                        rdfs:comment "Singular" ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:hasDegreeList "17,22,23" ;
@@ -4627,7 +4608,7 @@
                                                         sd:hasVariables "w,x,y,z" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_10> a sd:HomogeneousIdeal, sd:Ideal ;
-                                                         rdfs:comment "generated with Singular gcyclic(10, 3, \"r\")", "generated with Singular gcyclic(10, 3, &quot;r&quot;)" ;
+                                                         rdfs:comment "generated with Singular gcyclic(10, 3, \"r\")" ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:hasDegreeList "1,2,3,4,5,6,7,8,9" ;
@@ -4636,7 +4617,7 @@
                                                          sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_11> a sd:HomogeneousIdeal, sd:Ideal ;
-                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")", "generated with Singular gcyclic(i,3,&quot;r&quot;)" ;
+                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")" ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:hasDegreeList "1,2,3,4,5,6,7,8,9,10" ;
@@ -4645,7 +4626,7 @@
                                                          sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_12> a sd:HomogeneousIdeal, sd:Ideal ;
-                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")", "generated with Singular gcyclic(i,3,&quot;r&quot;)" ;
+                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")" ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:hasDegreeList "1,2,3,4,5,6,7,8,9,10,11" ;
@@ -4654,7 +4635,7 @@
                                                          sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_13> a sd:HomogeneousIdeal, sd:Ideal ;
-                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")", "generated with Singular gcyclic(i,3,&quot;r&quot;)" ;
+                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")" ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:hasDegreeList "1,2,3,4,5,6,7,8,9,10,11,12" ;
@@ -4663,7 +4644,7 @@
                                                          sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_14> a sd:HomogeneousIdeal, sd:Ideal ;
-                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")", "generated with Singular gcyclic(i,3,&quot;r&quot;)" ;
+                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")" ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:hasDegreeList "1,2,3,4,5,6,7,8,9,10,11,12,13" ;
@@ -4672,7 +4653,7 @@
                                                          sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_15> a sd:HomogeneousIdeal, sd:Ideal ;
-                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")", "generated with Singular gcyclic(i,3,&quot;r&quot;)" ;
+                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")" ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:hasDegreeList "1,2,3,4,5,6,7,8,9,10,11,12,13,14" ;
@@ -4681,7 +4662,7 @@
                                                          sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_16> a sd:HomogeneousIdeal, sd:Ideal ;
-                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")", "generated with Singular gcyclic(i,3,&quot;r&quot;)" ;
+                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")" ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:hasDegreeList "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15" ;
@@ -4690,7 +4671,7 @@
                                                          sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_17> a sd:HomogeneousIdeal, sd:Ideal ;
-                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")", "generated with Singular gcyclic(i,3,&quot;r&quot;)" ;
+                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")" ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:hasDegreeList "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16" ;
@@ -4699,7 +4680,7 @@
                                                          sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16,x17" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_18> a sd:HomogeneousIdeal, sd:Ideal ;
-                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")", "generated with Singular gcyclic(i,3,&quot;r&quot;)" ;
+                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")" ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:hasDegreeList "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17" ;
@@ -4708,7 +4689,7 @@
                                                          sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16,x17,x18" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_19> a sd:HomogeneousIdeal, sd:Ideal ;
-                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")", "generated with Singular gcyclic(i,3,&quot;r&quot;)" ;
+                                                         rdfs:comment "generated with Singular gcyclic(i,3,\"r\")" ;
                                                          sd:createdAt "1999-04-20" ;
                                                          sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                          sd:hasDegreeList "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18" ;
@@ -4717,7 +4698,7 @@
                                                          sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16,x17,x18,x19" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_8> a sd:HomogeneousIdeal, sd:Ideal ;
-                                                        rdfs:comment "generated with Singular gcyclic(i,3,\"r\")", "generated with Singular gcyclic(i,3,&quot;r&quot;)" ;
+                                                        rdfs:comment "generated with Singular gcyclic(i,3,\"r\")" ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:hasDegreeList "1,2,3,4,5,6,7" ;
@@ -4726,7 +4707,7 @@
                                                         sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8" .
 
 <http://symbolicdata.org/Data/Ideal/Singular.rcyclic_9> a sd:HomogeneousIdeal, sd:Ideal ;
-                                                        rdfs:comment "generated with Singular gcyclic(i,3,\"r\")", "generated with Singular gcyclic(i,3,&quot;r&quot;)" ;
+                                                        rdfs:comment "generated with Singular gcyclic(i,3,\"r\")" ;
                                                         sd:createdAt "1999-04-20" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                                         sd:hasDegreeList "1,2,3,4,5,6,7,8" ;
@@ -4839,14 +4820,13 @@
                                                               sd:hasVariables "x1,x2,x3,x4,x5,x6,x7,x8,x9,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Steidel_1> a sd:Ideal ;
-                                               rdfs:comment "cf. Pfister, G.: On Modular Computation of Standard bases. Analele Stiintifice ale Universitatii Ovidius, Mathematical Series XV (1), 129--137 (2007)." ;
                                                sd:createdAt "2010-05-11" ;
                                                sd:createdBy <http://symbolicdata.org/Data/Person/Steidel_S> ;
                                                sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Steidel_1> ;
                                                sd:hasVariables "x,y,z" .
 
 <http://symbolicdata.org/Data/Ideal/Steidel_6> a sd:Ideal ;
-                                               rdfs:comment "Permanental ideal generated by the 2x2-subpermanents of a generic 3x3-matrix", "cf. Eisenbud, D.; Sturmfels, B.: Binomial ideals. Duke Mathematical Journal 84 (1), 1--45 (1996)." ;
+                                               rdfs:comment "Permanental ideal generated by the 2x2-subpermanents of a generic 3x3-matrix" ;
                                                sd:createdAt "2010-08-10" ;
                                                sd:createdBy <http://symbolicdata.org/Data/Person/Steidel_S> ;
                                                sd:relatedPolynomialSystem <http://symbolicdata.org/Data/IntPS/Steidel_6> ;
@@ -5131,7 +5111,7 @@
                                                     sd:hasVariables "w,p,z,t,s,b,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Twomat3> a sd:Ideal ;
-                                             rdfs:comment "PoSSo Test suite", "From the PoSSo Test suite" ;
+                                             rdfs:comment "From the PoSSo Test suite" ;
                                              sd:createdAt "1999-04-20" ;
                                              sd:createdBy <http://symbolicdata.org/Data/Person/Bachmann_O> ;
                                              sd:hasDegreeList "2,2,2,2,2,2,2,4" ;
@@ -5170,7 +5150,7 @@
                                                    sd:hasVariables "w,v,u,y,x,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Vermeer_1> a sd:Ideal ;
-                                               rdfs:comment "Wang7, but only one factor from the last polynomial." ;
+                                               rdfs:comment "Wang7, but only one factor from the last polynomial, see Vermeer_2 for the other factor" ;
                                                sd:createdAt "1999-03-26" ;
                                                sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                                sd:hasDimension "1" ;
@@ -5190,7 +5170,7 @@
                                                      sd:hasVariables "w,v,u,y,x,hv" .
 
 <http://symbolicdata.org/Data/Ideal/Vermeer_2> a sd:Ideal ;
-                                               rdfs:comment "\"Wang7\", but only one factor form the last eqn." ;
+                                               rdfs:comment "Wang7, but only one factor from the last eqn., see Vermeer_1 for the other factor" ;
                                                sd:createdAt "1999-03-26" ;
                                                sd:createdBy <http://symbolicdata.org/Data/Person/Graebe_HG> ;
                                                sd:hasDimension "1" ;
@@ -5914,7 +5894,7 @@ Origin (maxima code):
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_40> a sd:Ideal ;
                                                         rdfs:comment "Arnborg-Lazard-System taken from: One cube sugar" ;
-                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/PoSSo> ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/Annotation/PoSSo> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "4,5,6" ;
@@ -5924,7 +5904,7 @@ Origin (maxima code):
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_41> a sd:Ideal ;
                                                         rdfs:comment "Jane" ;
-                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/PoSSo> ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/Annotation/PoSSo> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "1,2,2" ;
@@ -5934,7 +5914,7 @@ Origin (maxima code):
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_42> a sd:Ideal ;
                                                         rdfs:comment "Methan61" ;
-                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/PoSSo> ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/Annotation/PoSSo> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "2,2,2,2,2,2,2,2,2,2" ;
@@ -5944,7 +5924,7 @@ Origin (maxima code):
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_43> a sd:Ideal ;
                                                         rdfs:comment "Caprasse" ;
-                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/PoSSo> ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/Annotation/PoSSo> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "3,3,4,4" ;
@@ -5954,7 +5934,7 @@ Origin (maxima code):
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_45> a sd:Ideal ;
                                                         rdfs:comment "Giuseppe" ;
-                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/PoSSo> ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/Annotation/PoSSo> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "1,2,2,2" ;
@@ -5964,7 +5944,7 @@ Origin (maxima code):
 
 <http://symbolicdata.org/Data/Ideal/ZeroDim.example_46> a sd:Ideal ;
                                                         rdfs:comment "Jsistema" ;
-                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/BIB/PoSSo> ;
+                                                        sd:hasPrimarySource <http://symbolicdata.org/Data/Annotation/PoSSo> ;
                                                         sd:createdAt "1999-09-22" ;
                                                         sd:createdBy <http://symbolicdata.org/Data/Person/Wenk_M> ;
                                                         sd:hasDegreeList "3,3,3,3" ;

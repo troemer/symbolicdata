@@ -15,8 +15,8 @@
 die "Environment variable SD not set" unless $ENV{'SD'};
 
 my $RDFData="$ENV{'SD'}/data/RDFData";
-# cleardata();
-loaddata();
+# print cleardata();
+print loaddata();
 
 ## end main ## 
 
@@ -51,7 +51,7 @@ sub loaddata {
   $out.=createLoadCommand("PolynomialSystems","PolynomialSystems.ttl");
   $out.=createLoadCommand("Systems","Systems.ttl");
   $out.=createLoadCommand("TestSets","TestSets.ttl");
-  print $out;
+  return $out;
 }
 
 sub createLoadCommand {
