@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage{a4wide,german,url}
+\usepackage[utf8]{inputenc}
+
+\newcommand{\SD}{{\sc Symbolic\-Data}}
+\parindent0pt
+\parskip4pt
+
+\begin{document}
+
+\section*{\centering Beitrag zum Teil „Berichte von Konferenzen“}
+
+\subsection*{Workshop on SymbolicData Design}
+
+Leipzig, 27. -- 28. August 2013
+
+\url{http://symbolicdata.org/wiki/Events.2013-08}
+
+The workshop was designed as final milestone of the E-Science Benchmarking
+Project promoted for 12 month within the \emph{E-Science Saxony Framework}.
+Unfortunately, the event was completely ignored by the Computer Algebra
+Communities, so that we had no opportunity to present the results of the
+project to a larger audience.  Instead we had intense discussions with people
+from the \emph{swmath} project (\url{http://www.swmath.org}, a project of the
+\emph{Zentralblatt Mathematik} towards an information service for mathematical
+software) about trends in Semantic Web Technologies that are suitable to
+support future common efforts towards a semantic aware IT infrastructure for
+Computer Algebra.
+
+In a first talk \emph{Hans-Gert Gräbe} presented the state of the SymbolicData
+project.  Note that at the end of September 2013 version 3 of SymbolicData was
+released, thus finishing a major redesign of SymbolicData, that marks a
+milestone across the implementation of semantic techniques within Computer
+Algebra.  We strongly use RDF and Linked Data principles in the organisation
+of the data. These principles are also reflected in the presentation of the
+data at \texttt{symbolicdata.org}. All resources are delivered via
+\texttt{http/rdf+xml} and a Sparql endpoint allows for navigation in the
+metadata. This can be installed also on a localhost and thus can be integrated
+into a local benchmarking or profiling infrastructure (best using python as
+scripting language and a web server at localhost). A more detailed description
+of the new release is available from the SymbolicData web pages and will be
+given also in the next issue of the \emph{Computeralgebra Rundbrief}.
+
+\emph{Andreas Nareike} presented in a second talk his prototypical integration
+of the Polynomial Systems subproject with sagemath and SymbolicData as a sage
+package \emph{sdsage} that smoothly integrates both the global SD network
+infrastructure and a local installation into the sagemath process. One can
+load data and metadata transparently into sage objects and process them as
+mathematical objects in the usual way within sage. 
+
+\emph{Ulf Schöneberg} gave a talk about effort at the ZBMath to discover and
+understand mathematical formulas in Zentralblatt mathematical reviews, mixing
+classical colocation approaches with semantic enriched opportunities of latex
+mark-up. This research is part of larger efforts within, e.g., the OpenMath
+activities.
+
+We discussed in great detail the potential interplay between
+\begin{itemize}
+\item the efforts at ZBMath to organize access to data in well established RDF
+  based formats,
+\item the SymbolicData intercommunity efforts and experience with Linked Data
+  standards, Sparql endpoints, Virtuoso and Ontowiki based local
+  installations,
+\item ongoing efforts of the DNB and other libraries (SLUB Dresden, UB
+  Leipzig) to reshape their catalogue data towards Linked Data standards and
+  get them interoperating within the GND project,
+\item perspectives to join forces with these library projects to strengthen
+  the IT infrastructure for Computer Algebra Communities.
+\end{itemize}
+\begin{flushright}
+    Hans-Gert Gr"abe (Leipzig)\footnote{to be published in
+      „Computeralgebra-Rundbrief“ 53, Oktober 2013}
+  \end{flushright}
+\end{document}
