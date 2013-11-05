@@ -48,7 +48,7 @@ import xml.dom.minidom as dom
 #does exist in the expected path "../XMLResources/". If not, the
 #user will be asked later for the path.
 
-stdxmlDataPathDir = os.path.join("..","XMLResources")
+stdxmlDataPathDir = os.path.join("..", "..", "data", "XMLResources")
 isXMLRessourcesDirectory = \
     os.path.isdir(stdxmlDataPathDir)
     # To make it more platform independent. What stands here would be in unix terms
