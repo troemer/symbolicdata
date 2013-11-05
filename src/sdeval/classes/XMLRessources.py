@@ -12,9 +12,9 @@ class XMLRessources(object):
     """
 
     __requiredTables = ["IntPS",
-                      "FreeAlgebra",
+                      "FreeAlgebras",
                       "ModPS",
-                      "GAlgebra"]
+                      "GAlgebras"]
     """
     At least one of those tables should be contained in XMLRessources for being able to work with this table.
     This will be checked when creating this instance
