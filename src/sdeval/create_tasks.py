@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 #.. moduleauthor:: Albert Heinle <albert.heinle@rwth-aachen.de>
 
 """
