@@ -30,8 +30,10 @@ def generateCode(vars, basis, uptoDeg):
     result += "int num_vars = nvars(r);\n"
     result += "int d = %i;\n" % uptoDeg
     result += "def R = makeLetterplaceRing(d);\n setring(R);\n"
-    result += "ideal I = %s;\n" % ",\n".join(FAPolyToSingularStyle(v,vars) for v in basis)
+    result += "ideal I = %s;\n" % \
+                     ",\n".join(FAPolyToSingularStyle(v,vars) for v in basis)
     result += "option(prot);\noption(redTail);\noption(redSB);\n"
+    result += "option(notBuckets);\n"
     result += "ideal J = system(\"freegbdvc\", I, d, num_vars);\n"
     result += "print (\">>Output Start\");\n"
     result += "print (J, \"%s\");\n"
