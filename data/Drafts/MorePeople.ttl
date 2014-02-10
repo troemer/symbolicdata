@@ -1,0 +1,60 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+
+sdp:Frei_C a foaf:Person ; 
+foaf:familyName "Frei" ; 
+foaf:givenName "Christopher" ; 
+foaf:name "Frei, Christopher" .
+
+sdp:Liedtke_C a foaf:Person ; 
+foaf:familyName "Liedtke" ; 
+foaf:givenName "Christian" ; 
+foaf:name "Liedtke, Christian" . 
+
+sdp:Derenthal_U a foaf:Person ; 
+sd:DienstAdresse """
+Ludwig-Maximilians-Universität München 
+Mathematisches Institut 
+Theresienstr. 39 
+80333 München
+""" ;
+foaf:familyName "Derenthal" ; 
+foaf:givenName "Ulrich" ; 
+foaf:mbox "ulrich.derenthal@mathematik.uni-muenchen.de" ; 
+foaf:name "Derenthal, Ulrich";
+foaf:homepage <http://www.mathematik.uni-muenchen.de/~ulrich/>  . 
+
+sdp:Baumeister_B a foaf:Person ; 
+foaf:familyName "Baumeister" ; 
+foaf:givenName "Barbara" ; 
+foaf:name "Baumeister, Barbara" . 
+
+sdp:Hubery_A  a foaf:Person ; 
+foaf:familyName "Hubery" ; 
+foaf:givenName "Andrew" ; 
+foaf:name "Hubery, Andrew" . 
+
+sdp:Krause_H   a foaf:Person ; 
+foaf:familyName "Krause" ; 
+foaf:givenName "Henning" ; 
+foaf:name "Krause, Henning" . 
+
+sdp:Stump_C  a foaf:Person ; 
+foaf:familyName "Stump" ; 
+foaf:givenName "Christian" ; 
+foaf:name "Stump, Christian" . 
+
+sdp:Haase_C  a foaf:Person ; 
+foaf:familyName "Haase" ; 
+foaf:givenName "Christian" ; 
+foaf:name "Haase, Christian" . 
+
+sdp:Markwig_H  a foaf:Person ; 
+foaf:familyName "Markwig" ; 
+foaf:givenName "Hannah" ; 
+foaf:name "Markwig, Hannah" . 
+

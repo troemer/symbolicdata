@@ -1,0 +1,358 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+
+<http://symbolicdata.org/Data/CAR-Beitraege/>
+    a owl:Ontology ;
+    rdfs:label "Beiträge aus dem CA-Rundbrief" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1001> a sd:Reference; 
+dct:creator "John Abbott", "Anna M. Bigatti" ; 
+dct:title "New flavours of CoCoA" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 50, 9-12" ; 
+dct:subject "CoCoA", "Systeme" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1002> a sd:Reference; 
+dct:creator "Michael Cuntz" ; 
+dct:title "Klassifikation simplizialer Arrangements mit dem Computer" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 50, 13-16" ; 
+dct:subject "Arrangements" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1003> a sd:Reference; 
+dct:creator "Gilbert Greefrath", "Jan Hendrik Müller" ; 
+dct:title "Computeralgebra in der Schule - Stand der Dinge!?" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 50, 17-21" ; 
+dct:subject "Schule", "Unterrichtsidee" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1004> a sd:Reference; 
+dct:creator "Erwin A.T. Wosch", "Dieter G. Senk" ; 
+dct:title "Von der Computeralgebra zur Anlagenautomatisierung" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 49, 12-14" ; 
+dct:subject "Anwendung", "Industrie" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1005> a sd:Reference; 
+dct:creator "William B. Hart" ; 
+dct:title "FLINT. Fast Library for Number Theory" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 49, 15-17" ; 
+dct:subject "Pakete", "Zahlentheorie" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1006> a sd:Reference; 
+dct:creator "Reinhard Schmidt" ; 
+dct:title "GeoGebra - Die neuen Möglichkeiten des Alleskönners" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 49, 18-21" ; 
+dct:subject "Schule", "Dynamische Geometrie" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1007> a sd:Reference; 
+dct:creator "Guido Pinkernell", "Clemens Diemer" ; 
+dct:title "Mach den Otto zur Null. Ein spielerischer Einstieg in die Algebra mit dem Computeralgebrasystem" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 49, 22-26" ; 
+dct:subject "Schule", "Unterrichtsidee" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1008> a sd:Reference; 
+dct:creator "Thomas Reiter" ; 
+dct:title "Code-Generierung für die numerische Auswertung von mathematischen Ausdrücken mit haggies" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 48, 10-12" ; 
+dct:subject "Systeme, Codegenerierung" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1009> a sd:Reference; 
+dct:creator "Michael Brickenstein", "Alexander Dreyer" ; 
+dct:title "Verifikation digitaler Systeme mit PolyBori - Ein Fallbeispiel" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 48, 13-16" ; 
+dct:subject "Pakete", "Chipdesign" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1010> a sd:Reference; 
+dct:creator "Jörg Meyer" ; 
+dct:title "Wurzeln einer Matrix" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 48, 17-19" ; 
+dct:subject "Anwendung", "Schule" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1011> a sd:Reference; 
+dct:creator "Hans-Wolfgang Henn", "Frauke Link" ; 
+dct:title "Computereinsatz in der Veranstaltung Didaktik der Analytischen Geometrie und Linearen Algebra" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 48, 20-22" ; 
+dct:subject "Lehrerbildung" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1012> a sd:Reference; 
+dct:creator "Gabor Wiese" ; 
+dct:title "Die Serresche Modularitätsvermutung und Computeralgebra" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 47, 9-13" ; 
+dct:subject "Zahlentheorie" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1013> a sd:Reference; 
+dct:creator "Reinhard Oldenburg" ; 
+dct:title "Was Schüler über CAS wissen – was Schüler über CAS wissen sollten" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 47, 14-17" ; 
+dct:subject "Schule" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1014> a sd:Reference; 
+dct:creator "Markus Wessler" ; 
+dct:title "CAS-Einsatz im betriebswirtschaftlichen Umfeld" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 47, 18-22" ; 
+dct:subject "Anwendung" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1015> a sd:Reference; 
+dct:creator "Thorsten Kleinjung" ; 
+dct:title "Die Faktorisierung von RSA-768" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 46, 8-10" ; 
+dct:subject "Zahlentheorie" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1016> a sd:Reference; 
+dct:creator "Eva Rudolph" ; 
+dct:title "MAPLE fur alle – geht das?" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 46, 11-12" ; 
+dct:subject "Schule" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1017> a sd:Reference; 
+dct:creator "Guido Pinkernell" ; 
+dct:title "Qualitatives Modellieren mit der Funktionenbox und anderen schwarzen Kästen" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 46, 13-17" ; 
+dct:subject "Schule" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1018> a sd:Reference; 
+dct:creator "David H. Bailey", "Jonathan M. Borwein" ; 
+dct:title "PSQL" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 45, 8-11" ; 
+dct:subject "Pakete, Zahlentheorie" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1019> a sd:Reference; 
+dct:creator "Hans-Michael Elvenich" ; 
+dct:title "2<sup>37.156.667</sup>-1 ist eine Primzahl!" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 45, 12-13" ; 
+dct:subject "Mersennezahlen", "GIMPS" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1020> a sd:Reference; 
+dct:creator "Andreas Enge" ; 
+dct:title "Komplexe Multiplikation" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 45, 13-17" ; 
+dct:subject "Elliptische Kurven" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1021> a sd:Reference; 
+dct:creator "Peter Horn", "Dan Roozemund" ; 
+dct:title "Das SCIEnce EU Programm" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 45, 18-21" ; 
+dct:subject "EU-Programme", "SAGE", "SC-Infrastruktur", "OpenMath" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1022> a sd:Reference; 
+dct:creator "Thomas Richard" ; 
+dct:title "Neues aus Waterloo" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 45, 22-24" ; 
+dct:subject "Systeme", "Maple" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1023> a sd:Reference; 
+dct:creator "Jan-Hendrik Müller" ; 
+dct:title "CAS-Einsatz aus Sicht der Schule" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 45, 24-26" ; 
+dct:subject "Schule" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1024> a sd:Reference; 
+dct:creator "Andrea Hoffkamp" ; 
+dct:title "Funktionales Denken und Analysispropädeutik - Ein Beitrag zu einem qualitativen Einstieg in die Schulanalysis durch Computereinsatz" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 45, 27-29" ; 
+dct:subject "Schule" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1025> a sd:Reference; 
+dct:creator "Thomas Markwig" ; 
+dct:title "Tropische Geometrie" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 44, 10-13" ; 
+dct:subject "Algebraische Geometrie" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1026> a sd:Reference; 
+dct:creator "unknown" ; 
+dct:title "Reduce - Freie Software seit 2009" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 44, 14-15" ; 
+dct:subject "Systeme", "Reduce" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1027> a sd:Reference; 
+dct:creator "Martin Albrecht", "Harald Schila" ; 
+dct:title "Sage" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 44, 15-17" ; 
+dct:subject "Systeme", "SAGE" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1028> a sd:Reference; 
+dct:creator "Jörg Meyer" ; 
+dct:title "Konfidenzintervalle und CAS" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 44, 18-20" ; 
+dct:subject "Systeme", "Maxima", "Ausbildung" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1029> a sd:Reference; 
+dct:creator "Gert-Martin Greuel" ; 
+dct:title "Algebraische Geometrie im Jahr der Mathematik 2008. Eine Zwischenbilanz der Ausstellung IMAGINARY" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 43, 10-12" ; 
+dct:subject "Algebraische Geometrie", "Öffentlichkeitsarbeit", "Visualisierung" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1030> a sd:Reference; 
+dct:creator "Neil D. Christensen", "Claude Duhr" ; 
+dct:title "From the Lagrangian to Feynman Rules with FeynRules" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 43, 13-15" ; 
+dct:subject "Anwendung", "Pakete", "Physik" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1031> a sd:Reference; 
+dct:creator "Frederik Vercauteren" ; 
+dct:title "Counting points on curves over finite fields" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 43, 16-19" ; 
+dct:subject "Algebraische Geometrie" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1032> a sd:Reference; 
+dct:creator "Claus Fieker", "Jürgen Klüners" ; 
+dct:title "Galoisgruppen in Magma" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 43, 19-20" ; 
+dct:subject "Zahlentheorie", "Systeme", "Magma" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1033> a sd:Reference; 
+dct:creator "Frank Lübeck" ; 
+dct:title "Vorstellung des GAP-Projektes" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 43, 21-23" ; 
+dct:subject "Gruppentheorie", "Systeme", "GAP" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1034> a sd:Reference; 
+dct:creator "Thomas Richard" ; 
+dct:title "Neues aus Waterloo" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 43, 23-25" ; 
+dct:subject "Systeme", "Maple" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1035> a sd:Reference; 
+dct:creator "H.Körner" ; 
+dct:title "Der Schulversuch CAliMERO" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 43, 26-30" ; 
+dct:subject "Schule" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1036> a sd:Reference; 
+dct:creator "Frauke Arndt", "Hans-Wolfgang Henn" ; 
+dct:title "Integration der Nutzung eines CAS in der Veranstaltung „Elementare Analysis“" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 43, 31-35" ; 
+dct:subject "Lehrerbildung" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1037> a sd:Reference; 
+dct:creator "Ralf Schaper" ; 
+dct:title "The Wolfram Demonstrations Project" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 42, 17-18" ; 
+dct:subject "Systeme", "Mathematica" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1038> a sd:Reference; 
+dct:creator "Bernd Thaller" ; 
+dct:title "Visualisierung quantendynamischer Phänomene" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 41, 11-15" ; 
+dct:subject "Anwendung", "Physik", "Visualisierung" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1039> a sd:Reference; 
+dct:creator "Kasper Peeters" ; 
+dct:title "Symbolic field theory with <tt>Cadabra</tt>" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 41, 16-19" ; 
+dct:subject "Zahlentheorie", "Pakete" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1040> a sd:Reference; 
+dct:creator "A. Klein" ; 
+dct:title "Computeralgebra in Emacs" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 41, 20-21" ; 
+dct:subject "Systeme", "Frontend" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1041> a sd:Reference; 
+dct:creator "Thomas Richard" ; 
+dct:title "Neues aus Waterloo" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 41, 22-25" ; 
+dct:subject "Systeme", "Maple" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1042> a sd:Reference; 
+dct:creator "Wolfgang Moldenhauer" ; 
+dct:title "Computeralgebrasysteme im mathematisch-naturwissenschaftlichen Unterricht in Thüringen" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 41, 26-29" ; 
+dct:subject "Schule" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1043> a sd:Reference; 
+dct:creator "Anne Frühbis-Kruger" ; 
+dct:title "Algorithmische Desingularisierung in Charakteristik Null" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 40, 9-11" ; 
+dct:subject "Algebraische Geometrie" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1044> a sd:Reference; 
+dct:creator "R. Harlander", "Matthias Steinhauser" ; 
+dct:title "Automated Asymptotic Expansions" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 40, 12-14" ; 
+dct:subject "Anwendung", "Physik", "Feynman-Diagramme" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1045> a sd:Reference; 
+dct:creator "Klaus Dürrschnabel" ; 
+dct:title "Kooperation Schule-Hochschule. Aktivitäten in Baden-Württemberg" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 40, 15-18" ; 
+dct:subject "Ausbildung" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1046> a sd:Reference; 
+dct:creator "Sara Robinson" ; 
+dct:title "Toward an Optimal Algorithm for Matrix Multiplication" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 39, 8-11" ; 
+dct:subject "Komplexitätstheorie" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1047> a sd:Reference; 
+dct:creator "Michal Czakon" ; 
+dct:title "Mellin-Barnes Integrals in Elementary Particle Physics" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 39, 11-13" ; 
+dct:subject "Anwendung", "Physik" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1048> a sd:Reference; 
+dct:creator "Florian Heß" ; 
+dct:title "Kryptographie mit elliptischen Kurven" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 39, 14-18" ; 
+dct:subject "Zahlentheorie", "Kryptographie" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1049> a sd:Reference; 
+dct:creator "H.-M. Staudenmaier", "M. Steinhauser", "M. Tentukov", "J. A. M. Vermaseren" ; 
+dct:title "ParFORM" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 39, 19-21" ; 
+dct:subject "Pakete", "Anwendung", "Physik" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1050> a sd:Reference; 
+dct:creator "Phil Todd" ; 
+dct:title "Geometry Expressions – An Interactive Constraint Based Symbolic Geometry System" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 39, 22" ; 
+dct:subject "Dynamische Geometrie" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1051> a sd:Reference; 
+dct:creator "Anne Frühbis-Kruger", "Hans Schönemann" ; 
+dct:title "SINGULAR 3.0 - Einige kommutative und nicht-kommutative Neuigkeiten" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 39, 23" ; 
+dct:subject "Systeme", "Singular" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1052> a sd:Reference; 
+dct:creator "Andreas Sorgatz" ; 
+dct:title "MuPAD Pro 4 – Die nächste Generation" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 39, 23-24" ; 
+dct:subject "Systeme", "MuPAD" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1053> a sd:Reference; 
+dct:creator "Stefan Luislampe" ; 
+dct:title "TI-Nspire<sup>TM</sup> CAS – ein neues Werkzeug fur den Mathematikunterricht?" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 39, 25-26" ; 
+dct:subject "Schule" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1054> a sd:Reference; 
+dct:creator "Gilbert Greefrath" ; 
+dct:title "Handheld oder PC-Computeralgebrasoftware – oder beides? Das Beispiel CASIO ClassPad" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 39, 27-31" ; 
+dct:subject "Schule" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1055> a sd:Reference; 
+dct:creator "Jens-Peer Kuska" ; 
+dct:title "MathGL3d – eine interaktive 3D-Graphik für Mathematica" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 38, 8-9" ; 
+dct:subject "Visualisierung", "Systeme", "Mathematica", "Anwendung" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1056> a sd:Reference; 
+dct:creator "Thomas Richard" ; 
+dct:title "Neues aus Waterloo" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 38, 10-12" ; 
+dct:subject "Dynamische Geometrie" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1057> a sd:Reference; 
+dct:creator "Reimund Vehling" ; 
+dct:title "Wieso ist die Keplersche Fassregel für Polynome 3. Grades exakt?" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 38, 13-16" ; 
+dct:subject "Anwendung", "Schule" .
+
+<http://symbolicdata.org/Data/BIB/CAR.1058> a sd:Reference; 
+dct:creator "Hans-Wolfgang Henn" ; 
+dct:title "Lehrerausbildung an der Universität Dortmund" ; 
+dct:bibliographicCitation "CA-Rundbrief, Heft 38, 16-21" ; 
+dct:subject "Lehrerbildung" .
+

@@ -1,0 +1,420 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix sdg: <http://symbolicdata.org/Data/Group/> .
+
+<http://symbolicdata.org/Data/CAFG-Arbeitsgruppen/>
+    a owl:Ontology ;
+    rdfs:comment "This is a preliminary version only on People and Groups in the Knowledge Base of the German CA-Fachgruppe" ;
+    rdfs:label "CAFG: Personen und Gruppen" .
+
+sdg:Aachen_Hartmann
+    sd:Arbeitsgebiete "Algorithmische Algebra", "Differential-Galoistheorie", "Invariantentheorie" ;
+    sd:hasMembers sdp:Hartmann_J ;
+    sd:location "RWTH Aachen" ;
+    a foaf:Group ;
+    foaf:homepage <http://www.algebra.rwth-aachen.de/> .
+
+sdg:Aachen_Hiss
+    sd:Arbeitsgebiete "Algorithmische Algebra", "Darstellungstheorie" ;
+    sd:hasMembers sdp:Hiss_G, sdp:Nebe_G, sdp:Zerz_E ;
+    sd:location "RWTH Aachen" ;
+    a foaf:Group ;
+    foaf:homepage <http://www.math.rwth-aachen.de/> .
+
+sdg:Aachen_Plesken
+    sd:Arbeitsgebiete "Algorithmische Algebra", "Anwendungen auf Differentialgleichungen und Kristallographische Gruppen" ;
+    sd:hasMembers sdp:Plesken_W ;
+    sd:location "RWTH Aachen" ;
+    a foaf:Group ;
+    foaf:homepage <http://wwwb.math.rwth-aachen.de/> .
+
+sdg:Bayreuth_Kerber
+    sd:Arbeitsgebiete "Algorithmische Diskrete Strukturen" ;
+    sd:hasMembers sdp:Kerber_A ;
+    sd:location "Uni Bayreuth" ;
+    a foaf:Group ;
+    foaf:homepage <http://www.mathe2.uni-bayreuth.de/oldindex.html> .
+
+sdg:Bayreuth_Stoll
+    sd:Arbeitsgebiete "Algorithmische Arithmetische Geometrie" ;
+    sd:hasMembers sdp:Stoll_M ;
+    sd:location "Uni Bayreuth" ;
+    a foaf:Group ;
+    foaf:homepage <http://www.mathe2.uni-bayreuth.de/stoll/> .
+
+sdg:Berlin_Pohst
+    sd:Arbeitsgebiete "Algorithmische Algebra und Zahlentheorie" ;
+    sd:hasMembers sdp:Pohst_M ;
+    sd:location "TU Berlin" ;
+    a foaf:Group ;
+    foaf:homepage <http://www.math.tu-berlin.de/algebra> .
+
+sdg:Bonn_vonzurGathen
+    sd:Arbeitsgebiete "Algorithmische Algebra und Zahlentheorie" ;
+    sd:hasMembers sdp:vonzurGathen_J ;
+    sd:location "Bonn-Aachen International Center for Information Technology" ;
+    a foaf:Group ;
+    foaf:homepage <http://cosec.bit.uni-bonn.de/cosec/members/gathen> .
+
+sdg:Braunschweig_Eick
+    sd:Arbeitsgebiete "Algorithmische Gruppentheorie" ;
+    sd:hasMembers sdp:Eick_B ;
+    sd:location "Uni Braunschweig" ;
+    a foaf:Group ;
+    foaf:homepage <http://www-public.tu-bs.de:8080/%7Ebeick> .
+
+sdg:Darmstadt_Buchmann
+    sd:Arbeitsgebiete "Kryptographie und Computeralgebra" ;
+    sd:hasMembers sdp:Buchmann_J ;
+    sd:location "Uni Darmstadt" ;
+    a foaf:Group ;
+    foaf:homepage <http://www.informatik.tu-darmstadt.de/TI/Welcome.html> .
+
+sdg:Dortmund_Moeller
+    sd:Arbeitsgebiete "Gröbnerbasen" ;
+    sd:hasMembers sdp:Moeller_HM ;
+    sd:location "Uni Dortmund" ;
+    a foaf:Group ;
+    foaf:homepage <http://www.mathematik.uni-dortmund.de/lsviii/moeller/moeller.html> .
+
+sdg:Hannover_FruehbisKrueger
+    sd:Arbeitsgebiete "Computational Algebraic Geometry and Singularities" ;
+    sd:hasMembers sdp:FruehbisKrueger_A ;
+    sd:location "Leibniz-Universität Hannover" ;
+    a foaf:Group .
+
+sdg:Heidelberg_Matzat
+    sd:Arbeitsgebiete "Algorithmische Algebra und Zahlentheorie" ;
+    sd:hasMembers sdp:Matzat_BH ;
+    sd:location "Uni Heidelberg" ;
+    a foaf:Group ;
+    foaf:homepage <http://www.iwr.uni-heidelberg.de/groups/compalg> .
+
+sdg:Kaiserslautern_Singular
+    sd:Arbeitsgebiete "Algorithmische algebraische Geometrie", "Computational Algebraic Geometry and Singularities" ;
+    sd:hasMembers sdp:Greuel_GM, sdp:Malle_G, sdp:Pfister_G ;
+    sd:location "TU Kaiserslautern" ;
+    a foaf:Group .
+
+sdg:Kassel_CompMath
+    sd:Arbeitsgebiete "Algorithmische Zahlentheorie", "Computational Mathematics", "Computeralgebra" ;
+    sd:hasMembers sdp:Koepf_W, sdp:Rueck_HG, sdp:Seiler_W ;
+    sd:location "Uni Kassel" ;
+    a foaf:Group ;
+    foaf:homepage <http://www.mathematik.uni-kassel.de/compmath> .
+
+sdg:Kiel_Berghammer
+    sd:Arbeitsgebiete "Rechnergestützte Programmentwicklung" ;
+    sd:hasMembers sdp:Berghammer_R ;
+    sd:location "Uni Kiel, Institut für Informatik" ;
+    a foaf:Group ;
+    foaf:homepage <http://www.informatik.uni-kiel.de/Berghammer> .
+
+sdg:Paderborn_Buergisser
+    sd:Arbeitsgebiete "Algebraic Complexity and Algorithmic Algebra" ;
+    sd:hasMembers sdp:Buergisser_P ;
+    sd:location "Uni Paderborn" ;
+    a foaf:Group ;
+    foaf:homepage <http://math-www.upb.de/agpb/> .
+
+sdg:Paderborn_Klueners
+    sd:Arbeitsgebiete "Computeralgebra und Zahlentheorie" ;
+    sd:hasMembers sdp:Klueners_J ;
+    sd:location "Uni Paderborn" ;
+    a foaf:Group ;
+    foaf:homepage <http://www2.math.uni-paderborn.de/people/juergen-klueners.html> .
+
+sdg:Passau_Kreuzer
+    sd:Arbeitsgebiete "Symbolic Computation" ;
+    sd:hasMembers sdp:Kreuzer_M ;
+    sd:location "Uni Passau" ;
+    a foaf:Group ;
+    foaf:homepage <http://staff.fim.uni-passau.de/~kreuzer> .
+
+sdg:Passau_Weispfenning
+    sd:Arbeitsgebiete "Algorithmische Algebra", "Gröbnerbasen" ;
+    sd:hasMembers sdp:Weispfenning_V ;
+    sd:location "Uni Passau" ;
+    a foaf:Group ;
+    foaf:homepage <http://www.fmi.uni-passau.de/algebra/staff/weispfen.php3> .
+
+sdg:TUM_Kemper
+    sd:Arbeitsgebiete "Algorithmische Algebra", "Darstellungstheorie", "Invariantentheorie" ;
+    sd:hasMembers sdp:Kemper_G ;
+    sd:location "TU München" ;
+    a foaf:Group ;
+    foaf:homepage <http://www-m11.ma.tum.de/> .
+
+sdp:Berghammer_R
+    a foaf:Person ;
+    foaf:mbox "rub@informatik.uni-kiel.de" ;
+    foaf:name "Berghammer, Rudolf" .
+
+sdp:Buchmann_J
+    a foaf:Person ;
+    foaf:mbox "mailto:buchmann@cdc.informatik.tu-darmstadt.de" ;
+    foaf:name "Buchmann, Johannes" .
+
+sdp:Buergisser_P
+    a foaf:Person ;
+    foaf:homepage <http://math-www.uni-paderborn.de/agpb/members.html> ;
+    foaf:name "Bürgisser, Peter" .
+
+sdp:Cuntz_M
+    a foaf:Person ;
+    foaf:homepage <http://www.mathematik.uni-kl.de/~cuntz/de/index.html> ;
+    foaf:mbox "cuntz@mathematik.uni-kl.de" ;
+    foaf:name "Cuntz, Michael" .
+
+sdp:Eick_B
+    a foaf:Person ;
+    foaf:homepage <http://www.tu-bs.de/> ;
+    foaf:mbox "beick@tu-bs.de" ;
+    foaf:name "Eick, Bettina" .
+
+sdp:Fieker_C
+    a foaf:Person ;
+    foaf:homepage <http://www.mathematik.uni-kl.de/agag/mitglieder/professoren/prof-dr-claus-fieker/> ;
+    foaf:mbox "fieker@mathematik.uni-kl.de" ;
+    foaf:name "Fieker, Claus" .
+
+sdp:FruehbisKrueger_A
+    a foaf:Person ;
+    foaf:homepage <http://www.iag.uni-hannover.de/~anne> ;
+    foaf:mbox "anne@math.uni-hannover.de" ;
+    foaf:name "Frühbis-Krüger, Anne" .
+
+sdp:Grabmeier_J
+    a foaf:Person ;
+    foaf:homepage <http://www.fh-deggendorf.de/home/jgrabmeier> ;
+    foaf:mbox "johannes.grabmeier@fh-deggendorf.de" ;
+    foaf:name "Grabmeier, Johannes" .
+
+sdp:Graebe_HG
+    a foaf:Person ;
+    foaf:homepage <http://bis.informatik.uni-leipzig.de/HansGertGraebe> ;
+    foaf:mbox "graebe@informatik.uni-leipzig.de" ;
+    foaf:name "Gräbe, Hans-Gert" .
+
+sdp:Greefrath_G
+    a foaf:Person ;
+    foaf:homepage <http://www.greefrath.de> ;
+    foaf:mbox "greefrath@uni-muenster.de" ;
+    foaf:name "Greefrath, Gilbert" .
+
+sdp:Greuel_GM
+    a foaf:Person ;
+    foaf:mbox "greuel@mathematik.uni-kl.de" ;
+    foaf:name "Greuel, Gerd-Martin" .
+
+sdp:Hackl_K
+    a foaf:Person ;
+    foaf:homepage <http://www.rub.de/lam> ;
+    foaf:mbox "klaus.hackl@rub.de" ;
+    foaf:name "Hackl, Klaus" .
+
+sdp:Hahn_T
+    a foaf:Person ;
+    foaf:homepage <http://wwwth.mppmu.mpg.de/members/hahn> ;
+    foaf:mbox "hahn@feynarts.de" ;
+    foaf:name "Hahn, Thomas" .
+
+sdp:Hantzschmann_Karl
+    a foaf:Person ;
+    foaf:mbox "hantzschmann@informatik.uni-rostock.de" ;
+    foaf:name "Hantzschmann, Karl" .
+
+sdp:Hartmann_J
+    a foaf:Person ;
+    foaf:mbox "hartmann@matha.rwth-aachen.de" ;
+    foaf:name "Hartman, Julia" .
+
+sdp:Heinrich_ED
+    a foaf:Person ;
+    foaf:homepage <http://www.in.fh-konstanz.de/inhalte/de/KONTAKT/persseiten_nbc/heinrich.html> ;
+    foaf:mbox "heinrich@htwg-konstanz.de" ;
+    foaf:name "Heinrich, Elkedagmar" .
+
+sdp:Henn_HW
+    a foaf:Person ;
+    foaf:homepage <http://www.wolfgang-henn.de> ;
+    foaf:mbox "wolfgang.henn@uni-dortmund.de" ;
+    foaf:name "Henn, Hans-Wolfgang" .
+
+sdp:Hess_F
+    a foaf:Person ;
+    foaf:homepage <http://www.staff.uni-oldenburg.de/florian.hess> ;
+    foaf:mbox "florian.hess@uni-oldenburg.de" ;
+    foaf:name "Heß, Florian" .
+
+sdp:Hiss_G
+    a foaf:Person ;
+    foaf:homepage <http://www.math.rwth-aachen.de/LDFM/homes/Gerhard.Hiss> ;
+    foaf:mbox "Gerhard.Hiss@Math.RWTH-Aachen.de" ;
+    foaf:name "Hiß, Gerhard" .
+
+sdp:Kemper_G
+    a foaf:Person ;
+    foaf:homepage <http://www-m11.ma.tum.de/~kemper> ;
+    foaf:mbox "kemper@ma.tum.de" ;
+    foaf:name "Kemper, Gregor" .
+
+sdp:Kerber_A
+    a foaf:Person ;
+    foaf:mbox "kerber@uni-bayreuth.de" ;
+    foaf:name "Kerber, Adalbert" .
+
+sdp:Klinge_S
+    a foaf:Person ;
+    foaf:BirthName "Ilic" ;
+    foaf:homepage <http://www.am.bi.ruhr-uni-bochum.de/Mitarbeiter/Ilic/index.html> ;
+    foaf:mbox "sandra.klinge@rub.de" ;
+    foaf:name "Klinge, Sandra" .
+
+sdp:Klueners_J
+    a foaf:Person ;
+    foaf:homepage <http://www2.math.uni-paderborn.de/people/juergen-klueners.html> ;
+    foaf:mbox "klueners@math.uni-paderborn.de" ;
+    foaf:name "Klüners, Jürgen" .
+
+sdp:Knechtel_H
+    a foaf:Person ;
+    foaf:mbox "HKnechtel@aol.com" ;
+    foaf:name "Knechtel, Heiko" .
+
+sdp:Koepf_W
+    a foaf:Person ;
+    foaf:homepage <http://www.mathematik.uni-kassel.de/~koepf> ;
+    foaf:mbox "koepf@mathematik.uni-kassel.de" ;
+    foaf:name "Koepf, Wolfram" .
+
+sdp:Kortenkamp_U
+    a foaf:Person ;
+    foaf:homepage <http://kortenkamps.net> ;
+    foaf:mbox "kortenkamp@cinderella.de" ;
+    foaf:name "Kortenkamp, Ulrich" .
+
+sdp:Kreuzer_M
+    a foaf:Person ;
+    foaf:homepage <http://staff.fim.uni-passau.de/~kreuzer> ;
+    foaf:mbox "Martin.Kreuzer@uni-passau.de" ;
+    foaf:name "Kreuzer, Martin" .
+
+sdp:Kyureghyan_G
+    a foaf:Person ;
+    foaf:homepage <http://fma2.math.uni-magdeburg.de/~gkyureg> ;
+    foaf:mbox "gohar.kyureghyan@ovgu.de" ;
+    foaf:name "Kyureghyan, Gohar" .
+
+sdp:Laue_R
+    a foaf:Person ;
+    foaf:homepage <http://www.mathe2.uni-bayreuth.de/people/laue.html> ;
+    foaf:mbox "laue@uni-bayreuth.de" ;
+    foaf:name "Laue, Reinhard" .
+
+sdp:Malle_G
+    a foaf:Person ;
+    foaf:homepage <http://www.mathematik.uni-kl.de/~malle> ;
+    foaf:mbox "malle@mathematik.uni-kl.de" ;
+    foaf:name "Malle, Gunter" .
+
+sdp:Matzat_BH
+    a foaf:Person ;
+    foaf:mbox "matzat@iwr.uni-heidelberg.de" ;
+    foaf:name "Matzat, B. Heinrich" .
+
+sdp:Mayr_EW
+    a foaf:Person ;
+    foaf:homepage <http://www.in.tum.de/~mayr> ;
+    foaf:mbox "mayr@in.tum.de" ;
+    foaf:name "Mayr, Ernst W." .
+
+sdp:Meyer_J
+    a foaf:Person ;
+    foaf:mbox "J.M.Meyer@t-online.de" ;
+    foaf:name "Meyer, Jörg" .
+
+sdp:Moeller_HM
+    a foaf:Person ;
+    foaf:mbox "Moeller@math.uni-dortmund.de" ;
+    foaf:name "Möller, H. Michael" .
+
+sdp:Mueller_JH
+    a foaf:Person ;
+    foaf:mbox "jan.mueller@math.uni-dortmund.de" ;
+    foaf:name "Müller, Jan Hendrik" .
+
+sdp:Nebe_G
+    a foaf:Person ;
+    foaf:mbox "Gabriele.Nebe@Math.RWTH-Aachen.De" ;
+    foaf:name "Nebe, Gabriele" .
+
+sdp:Pfister_G
+    a foaf:Person ;
+    foaf:mbox "pfister@mathematik.uni-kl.de" ;
+    foaf:name "Pfister, Gerhard" .
+
+sdp:Plesken_W
+    a foaf:Person ;
+    foaf:mbox "plesken@momo.math.rwth-aachen.de" ;
+    foaf:name "Plesken, Wilhelm" .
+
+sdp:Pohst_M
+    a foaf:Person ;
+    foaf:mbox "pohst@math.tu-berlin.de" ;
+    foaf:name "Pohst, Michael" .
+
+sdp:Rueck_HG
+    a foaf:Person ;
+    foaf:homepage <http://www.mathematik.uni-kassel.de/~rueck> ;
+    foaf:name "Rück, Hans-Georg" .
+
+sdp:Schwardmann_U
+    a foaf:Person ;
+    foaf:homepage <http://www.gwdg.de/~uschwar1> ;
+    foaf:name "Schwardmann, Ulrich" .
+
+sdp:Seiler_W
+    a foaf:Person ;
+    foaf:homepage <http://www.mathematik.uni-kassel.de/~seiler> ;
+    foaf:name "Seiler, Werner" .
+
+sdp:Sorgatz_A
+    a foaf:Person ;
+    foaf:mbox "sorgatz@sciface.com" ;
+    foaf:name "Sorgatz, Andreas" .
+
+sdp:Stoll_M
+    a foaf:Person ;
+    foaf:mbox "Michael.Stoll@uni-bayreuth.de" ;
+    foaf:name "Stoll, Michael" .
+
+sdp:Weispfenning_V
+    a foaf:Person ;
+    foaf:homepage <http://www.fmi.uni-passau.de/algebra/staff/weispfen.php3> ;
+    foaf:name "Weispfenning, Volker" .
+
+sdp:Werner_W
+    a foaf:Person ;
+    foaf:mbox "werner@fh-heilbronn.de" ;
+    foaf:name "Werner, Wilhelm" .
+
+sdp:Wessler_M
+    a foaf:Person ;
+    foaf:mbox "markus.wessler@hm.edu" ;
+    foaf:name "Wessler, Markus" .
+
+sdp:Zerz_E
+    a foaf:Person ;
+    foaf:homepage <http://www.math.rwth-aachen.de/~Eva.Zerz> ;
+    foaf:mbox "eva.zerz@math.rwth-aachen.de" ;
+    foaf:name "Zerz, Eva" .
+
+sdp:vonzurGathen_J
+    a foaf:Person ;
+    foaf:name "von zur Gathen, Joachim" .
+
