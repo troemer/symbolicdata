@@ -58,3 +58,8 @@ foaf:familyName "Markwig" ;
 foaf:givenName "Hannah" ; 
 foaf:name "Markwig, Hannah" . 
 
+sdp:Distler_A  a foaf:Person ; 
+foaf:familyName "Distler" ; 
+foaf:givenName "Andreas" ; 
+foaf:name "Distler, Andreas" . 
+
