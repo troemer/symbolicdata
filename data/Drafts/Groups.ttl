@@ -11,7 +11,7 @@
 @prefix org: <http://www.w3.org/ns/org#> .
 
 sdgroup:Aachen_Hartmann
-    sd:Arbeitsgebiete "Algorithmische Algebra", "Differential-Galoistheorie", "Invariantentheorie" ;
+    foaf:topic_interest "Algorithmische Algebra", "Differential-Galoistheorie", "Invariantentheorie" ;
     skos:prefLabel "Arbeitsgruppe Hartmann, RTWH Aachen, Germany" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/RWTH-Aachen/DepMath> ;
     a org:Organization ;
@@ -20,8 +20,7 @@ sdgroup:Aachen_Hartmann
     foaf:homepage <http://www.algebra.rwth-aachen.de/> .
 
 sdgroup:Aachen_Hiss
-    sd:Arbeitsgebiete "Algorithmische Algebra", "Darstellungstheorie" ;
-    sd:location "RWTH Aachen" ;
+    foaf:topic_interest "Algorithmische Algebra", "Darstellungstheorie" ;
     skos:prefLabel "Arbeitsgruppe Hiss, RTWH Aachen, Germany" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/RWTH-Aachen/DepMath> ;
     a org:Organization ;
@@ -30,7 +29,7 @@ sdgroup:Aachen_Hiss
     foaf:homepage <http://www.math.rwth-aachen.de/> .
 
 sdgroup:Aachen_Plesken
-    sd:Arbeitsgebiete "Algorithmische Algebra", "Differentialgleichungen", "Kristallographische Gruppen" ;
+    foaf:topic_interest "Algorithmische Algebra", "Differentialgleichungen", "Kristallographische Gruppen" ;
     skos:prefLabel "Arbeitsgruppe Plesken, RTWH Aachen, Germany" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/RWTH-Aachen/DepMath> ;
     a org:Organization ;
@@ -39,7 +38,7 @@ sdgroup:Aachen_Plesken
     foaf:homepage <http://wwwb.math.rwth-aachen.de/> .
 
 sdgroup:Bayreuth_Kerber
-    sd:Arbeitsgebiete "Algorithmische Diskrete Strukturen" ;
+    foaf:topic_interest "Algorithmische Diskrete Strukturen" ;
     skos:prefLabel "Arbeitsgruppe Kerber, Uni Bayreuth, Germany" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Bayreuth> ;
     a org:Organization ;
@@ -48,7 +47,7 @@ sdgroup:Bayreuth_Kerber
     foaf:homepage <http://www.mathe2.uni-bayreuth.de/oldindex.html> .
 
 sdgroup:Bayreuth_Stoll
-    sd:Arbeitsgebiete "Algorithmische Arithmetische Geometrie" ;
+    foaf:topic_interest "Algorithmische Arithmetische Geometrie" ;
     skos:prefLabel "Arbeitsgruppe Stoll, Uni Bayreuth, Germany" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Bayreuth> ;
     a org:Organization ;
@@ -57,8 +56,7 @@ sdgroup:Bayreuth_Stoll
     foaf:homepage <http://www.mathe2.uni-bayreuth.de/stoll/> .
 
 sdgroup:Berlin_Pohst
-    sd:Arbeitsgebiete "Algorithmische Algebra", "Zahlentheorie" ;
-    sd:location "TU Berlin" ;
+    foaf:topic_interest "Algorithmische Algebra", "Zahlentheorie" ;
     skos:prefLabel "Arbeitsgruppe Pohst, TU Berlin, Germany" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/TU-Berlin> ;
     a org:Organization ;
@@ -67,8 +65,7 @@ sdgroup:Berlin_Pohst
     foaf:homepage <http://www.math.tu-berlin.de/algebra> .
 
 sdgroup:Bonn_vonzurGathen
-    sd:Arbeitsgebiete "Algorithmische Algebra", "Zahlentheorie" ;
-    sd:location "Bonn-Aachen International Center for Information Technology" ;
+    foaf:topic_interest "Algorithmische Algebra", "Zahlentheorie" ;
     skos:prefLabel "Bonn-Aachen International Center for Information Technology" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Bonn> ;
     a org:Organization ;
@@ -77,13 +74,13 @@ sdgroup:Bonn_vonzurGathen
     foaf:homepage <http://cosec.bit.uni-bonn.de/cosec/members/gathen> .
 
 sdgroup:Braunschweig_Eick
-    sd:Arbeitsgebiete "Algorithmische Gruppentheorie" ;
+    foaf:topic_interest "Algorithmische Gruppentheorie" ;
     skos:prefLabel "Arbeitsgruppe Algebra und diskrete Mathematik, TU Braunschweig, Germany" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/TU-Braunschweig> ;
     a org:Organization ;
     sd:hasTag sdt:CAFG-Listing ;
     org:hasMember sdp:Eick_B ;
-    foaf:homepage <http://www-public.tu-bs.de:8080/%7Ebeick> .
+    foaf:homepage <www.icm.tu-bs.de/~beick> .
 
 sdgroup:CAG-Sydney
     a org:Organization ;
@@ -92,8 +89,7 @@ sdgroup:CAG-Sydney
     foaf:homepage <http://www.maths.usyd.edu.au/res/CompAlg.html> .
 
 sdgroup:Darmstadt_Buchmann
-    sd:Arbeitsgebiete "Kryptographie", "Computeralgebra" ;
-    sd:location "Uni Darmstadt" ;
+    foaf:topic_interest "Kryptographie", "Computeralgebra" ;
     skos:prefLabel "Arbeitsgruppe Buchmann, Uni Darmstadt, Germany" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Darmstadt> ;
     a org:Organization ;
@@ -102,8 +98,7 @@ sdgroup:Darmstadt_Buchmann
     foaf:homepage <http://www.informatik.tu-darmstadt.de/TI/Welcome.html> .
 
 sdgroup:Dortmund_Moeller
-    sd:Arbeitsgebiete "Gröbnerbasen" ;
-    sd:location "Uni Dortmund" ;
+    foaf:topic_interest "Gröbnerbasen" ;
     skos:prefLabel "Arbeitsgruppe Möller, Uni Dortmund, Germany" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Dortmund> ;
     a org:Organization ;
@@ -112,15 +107,16 @@ sdgroup:Dortmund_Moeller
     foaf:homepage <http://www.mathematik.uni-dortmund.de/lsviii/moeller/moeller.html> .
 
 sdgroup:Hannover_FruehbisKrueger
-    sd:Arbeitsgebiete "Computational Algebraic Geometry", "Singularities" ;
-    skos:prefLabel "Computational Algebraic Geometry and Singularities, Leibniz-Universität Hannover, Germany" ;
+    foaf:topic_interest "Computational Algebraic Geometry", "Singularities" ;
+    skos:prefLabel "Institut für algebraische Geometrie, Leibniz-Universität Hannover, Germany" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Hannover> ;
+    foaf:homepage <http://www2.iag.uni-hannover.de/de/index.php> ;
     a org:Organization ;
     sd:hasTag sdt:CAFG-Listing ;
     org:hasMember sdp:FruehbisKrueger_A .
 
 sdgroup:Heidelberg_Matzat
-    sd:Arbeitsgebiete "Algorithmische Algebra", "Zahlentheorie" ;
+    foaf:topic_interest "Algorithmische Algebra", "Zahlentheorie" ;
     skos:prefLabel "Arbeitsgruppe Matzat, Uni Heidelberg, Germany" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Heidelberg> ;
     a org:Organization ;
@@ -129,15 +125,16 @@ sdgroup:Heidelberg_Matzat
     foaf:homepage <http://www.iwr.uni-heidelberg.de/groups/compalg> .
 
 sdgroup:Kaiserslautern_Singular
-    sd:Arbeitsgebiete "Algorithmische algebraische Geometrie", "Computational Algebraic Geometry", "Singularities" ;
+    foaf:topic_interest "Algorithmische algebraische Geometrie", "Computational Algebraic Geometry", "Singularities" ;
     skos:prefLabel "Singular-Arbeitsgruppe, Uni Kaiserslautern, Germany" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Kaiserslautern> ;
+    foaf:homepage <http://www.singular.uni-kl.de/> ;
     a org:Organization ;
     sd:hasTag sdt:CAFG-Listing ;
     org:hasMember sdp:Wenk_M, sdp:Steidel_S, sdp:Schoenemann_H, sdp:Decker_W, sdp:Brickenstein_M, sdp:Greuel_GM, sdp:Malle_G, sdp:Pfister_G .
 
 sdgroup:Kassel_CompMath
-    sd:Arbeitsgebiete "Algorithmische Zahlentheorie", "Computational Mathematics", "Computeralgebra" ;
+    foaf:topic_interest "Algorithmische Zahlentheorie", "Computational Mathematics", "Computeralgebra" ;
     a org:Organization ;
     skos:prefLabel "Arbeitsgruppe Computational Mathematics, Uni Kassel, Germany" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Kassel> ;
@@ -146,7 +143,7 @@ sdgroup:Kassel_CompMath
     foaf:homepage <http://www.mathematik.uni-kassel.de/compmath> .
 
 sdgroup:Kiel_Berghammer
-    sd:Arbeitsgebiete "Rechnergestützte Programmentwicklung" ;
+    foaf:topic_interest "Rechnergestützte Programmentwicklung" ;
     skos:prefLabel "Arbeitsgruppe Berghammer, Uni Kiel, Institut für Informatik, Germany" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Kiel> ;
     a org:Organization ;
@@ -161,8 +158,7 @@ sdgroup:MupadResearch
     foaf:homepage <http://www.mathworks.de/discovery/mupad.html> .
 
 sdgroup:Paderborn_Buergisser
-    sd:Arbeitsgebiete "Algebraic Complexity and Algorithmic Algebra" ;
-    sd:location "Uni Paderborn" ;
+    foaf:topic_interest "Algebraic Complexity and Algorithmic Algebra" ;
     skos:prefLabel "Arbeitsgruppe Bürgisser, Uni Paderborn, Germany" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Paderborn> ;
     a org:Organization ;
@@ -171,7 +167,7 @@ sdgroup:Paderborn_Buergisser
     foaf:homepage <http://math-www.upb.de/agpb/> .
 
 sdgroup:Paderborn_Klueners
-    sd:Arbeitsgebiete "Computeralgebra", "Zahlentheorie" ;
+    foaf:topic_interest "Computeralgebra", "Zahlentheorie" ;
     a org:Organization ;
     sd:hasTag sdt:CAFG-Listing ;
     skos:prefLabel "Arbeitsgruppe Klüners, Uni Paderborn, Germany" ;
@@ -186,8 +182,7 @@ skos:hasMember sdp:Faugere_JC;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Paris-VI> .
 
 sdgroup:Passau_Kreuzer
-    sd:Arbeitsgebiete "Symbolic Computation" ;
-    sd:location "Uni Passau" ;
+    foaf:topic_interest "Symbolic Computation" ;
     sd:hasTag sdt:CAFG-Listing ;
     skos:prefLabel "Arbeitsgruppe Kreutzer, Uni Passau, Germany" ;
     org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Passau> ;
@@ -196,8 +191,7 @@ sdgroup:Passau_Kreuzer
     foaf:homepage <http://staff.fim.uni-passau.de/~kreuzer> .
 
 sdgroup:Passau_Weispfenning
-    sd:Arbeitsgebiete "Algorithmische Algebra", "Gröbnerbasen" ;
-    sd:location "Uni Passau" ;
+    foaf:topic_interest "Algorithmische Algebra", "Gröbnerbasen" ;
     a org:Organization ;
     sd:hasTag sdt:CAFG-Listing ;
     skos:prefLabel "Arbeitsgruppe Weispfenning, Uni Passau, Germany" ;
@@ -211,8 +205,7 @@ sdgroup:PossoTeam
     foaf:homepage <http://posso.dm.unipi.it/posso_overview.html> .
 
 sdgroup:TUM_Kemper
-    sd:Arbeitsgebiete "Algorithmische Algebra", "Darstellungstheorie", "Invariantentheorie" ;
-    sd:location "TU München" ;
+    foaf:topic_interest "Algorithmische Algebra", "Darstellungstheorie", "Invariantentheorie" ;
     a org:Organization ;
     sd:hasTag sdt:CAFG-Listing ;
     skos:prefLabel "Arbeitsgruppe Kemper, TU München, Germany" ;

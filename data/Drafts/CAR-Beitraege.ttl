@@ -10,7 +10,7 @@
    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    cc:attributionURL <http://symbolicdata.org> ;
    cc:attributionName "The SymbolicData Project";
-    rdfs:label "Beiträge aus dem CA-Rundbrief" .
+    rdfs:label "CAFG: Beiträge aus dem CA-Rundbrief" .
 
 <http://symbolicdata.org/Data/BIB/CAR.1001> a sd:Reference; 
 dct:creator sdp:Abbott_J, sdp:Bigatti_AM ; 

@@ -5,6 +5,7 @@
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
 @prefix cc: <http://creativecommons.org/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 sd:Contributor
     a owl:Class ;
@@ -35,7 +36,7 @@ sdp:Apel_J
 
 sdp:Bachmann_O
     sd:hasContributed "Version 1: basic Perl tools, Design of Data and Records, Polynomial Systems, Html template design, Compute environment, Bibliography, Benchmark runs" ;
-    sd:lastModified "2010-12-29" ;
+    sd:lastModified "2010-12-29"^^xsd:date ;
     a sd:Contributor, foaf:Person ;
     foaf:name "Bachmann, Olaf" ;
     foaf:nick "obachman" .
@@ -70,7 +71,7 @@ sdp:Boege_W
 
 sdp:Brickenstein_M
     sd:hasContributed "Version 2: IntPS satlib examples" ;
-    sd:lastModified "2008-02-27" ;
+    sd:lastModified "2008-02-27"^^xsd:date ;
     a sd:Contributor, foaf:Person ;
     foaf:name "Brickenstein, Michael" ;
     foaf:nick "mbrickenstein" .
@@ -97,7 +98,7 @@ sdp:Chou_SC
 
 sdp:Cioffi_F
     sd:hasContributed "Version 1: IntPS/Curves" ;
-    sd:lastModified "2013-09-14" ;
+    sd:lastModified "2013-09-14"^^xsd:date ;
     a sd:Contributor, foaf:Person ;
     foaf:homepage <https://www.docenti.unina.it/FRANCESCA.CIOFFI> ;
     foaf:mbox "francesca.cioffi@unina.it" ;
@@ -126,7 +127,7 @@ sdp:Decker_W
 
 sdp:Dengel_M
     sd:hasContributed "Version 1: Html presentation, frames and JavaScript" ;
-    sd:lastModified "2004-08-26" ;
+    sd:lastModified "2004-08-26"^^xsd:date ;
     a sd:Contributor, foaf:Person ;
     foaf:homepage <http://loge.math.uni-sb.de/~dengel> ;
     foaf:mbox "mdengel@math.uni-sb.de" ;
@@ -154,7 +155,7 @@ sdp:Emiris_IZ
 
 sdp:Faugere_JC
     sd:hasContributed "Version 1: Polynomial Systems" ;
-    sd:lastModified "2013-09-14" ;
+    sd:lastModified "2013-09-14"^^xsd:date ;
     a sd:Contributor, foaf:Person ;
     foaf:homepage <http://www-calfor.lip6.fr/~jcf> ;
     foaf:mbox "Jean-Charles.Faugere@inria.fr" ;
@@ -227,7 +228,7 @@ sdp:Grabmeier_J
 
 sdp:Graebe_HG
     sd:hasContributed "Version 1: basic Perl tools, References, Polynomial Systems, GeoProofSchemes", "Version 2: Redesign", "Version 3: Redesign, Bibliography, GeoProofSchemes, Git Repo, Wiki" ;
-    sd:lastModified "2004-08-26" ;
+    sd:lastModified "2004-08-26"^^xsd:date ;
     a sd:Contributor, foaf:Person ;
     foaf:homepage <http://www.informatik.uni-leipzig.de/~graebe> ;
     foaf:mbox "graebe@informatik.uni-leipzig.de" ;
@@ -276,7 +277,7 @@ sdp:Hearn_AC
 
 sdp:Heinle_A
     sd:hasContributed "Version 3: FreeAlgebra" ;
-    sd:lastModified "2012-11-18" ;
+    sd:lastModified "2012-11-18"^^xsd:date ;
     a sd:Contributor, foaf:Person ;
     foaf:name "Heinle, Albert" .
 
@@ -291,7 +292,7 @@ sdp:Hemmecke_Ralf
 
 sdp:Hemmecke_Raymond
     sd:hasContributed "Version 1: TestSets" ;
-    sd:lastModified "2004-08-26" ;
+    sd:lastModified "2004-08-26"^^xsd:date ;
     a sd:Contributor, foaf:Person ;
     foaf:homepage <http://www.hemmecke.de/raymond> ;
     foaf:mbox "raymond@hemmecke.de" ;
@@ -407,7 +408,7 @@ sdp:Lazard_D
 
 sdp:Levandovskyy_V
     sd:hasContributed "Data: GAlgebra, FreeAlgebra" ;
-    sd:lastModified "2004-08-26" ;
+    sd:lastModified "2004-08-26"^^xsd:date ;
     a sd:Contributor, foaf:Person ;
     foaf:homepage <http://www.math.rwth-aachen.de/~Viktor.Levandovskyy> ;
     foaf:mbox "levandov@math.rwth-aachen.de" ;
@@ -536,7 +537,7 @@ sdp:Rueck_HG
 
 sdp:Schoenemann_H
     sd:hasContributed "Version 1: Perl tool Compute, Adaption of GNU time" ;
-    sd:lastModified "2004-08-26" ;
+    sd:lastModified "2004-08-26"^^xsd:date ;
     a sd:Contributor, foaf:Person ;
     foaf:homepage <http://www.mathematik.uni-kl.de/~hannes> ;
     foaf:mbox "hannes@mathematik.uni-kl.de" ;
@@ -560,7 +561,7 @@ sdp:Sorgatz_A
 
 sdp:Steidel_S
     sd:hasContributed "Version 2: Some IntPS examples" ;
-    sd:lastModified "2010-12-29" ;
+    sd:lastModified "2010-12-29"^^xsd:date ;
     a sd:Contributor, foaf:Person ;
     foaf:homepage <http://www.mathematik.uni-kl.de/~steidel> ;
     foaf:mbox "steidel@mathematik.uni-kl.de" ;
@@ -603,7 +604,7 @@ sdp:Weispfenning_V
     foaf:name "Weispfenning, Volker" .
 
 sdp:Wenk_M
-    sd:lastModified "2004-08-26" ;
+    sd:lastModified "2004-08-26"^^xsd:date ;
     a sd:Contributor, foaf:Person ;
     foaf:homepage <http://www.mathematik.uni-kl.de/~wenk> ;
     foaf:mbox "wenk@mathematik.uni-kl.de" ;
@@ -628,7 +629,7 @@ sdp:Wilson_R
 
 sdp:Witte_M
     sd:hasContributed "Version 1: Chou's Geo Examples" ;
-    sd:lastModified "2004-08-26" ;
+    sd:lastModified "2004-08-26"^^xsd:date ;
     a sd:Contributor, foaf:Person ;
     foaf:name "Witte, Malte" .
 

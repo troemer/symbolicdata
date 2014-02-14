@@ -15,12 +15,6 @@
     rdfs:comment "More detailed informations about CA people, collected by the German Fachgruppe. All people URIs are listed also in People.ttl. Information in that knowledge graph is intended for internal use only." ;
     rdfs:label "CAFG: Internes" .
 
-sdp:Baumeister_B
-    a foaf:Person ;
-    foaf:familyName "Baumeister" ;
-    foaf:givenName "Barbara" ;
-    foaf:name "Baumeister, Barbara" .
-
 sdp:Berghammer_R
     foaf:familyName "Berghammer" ;
     foaf:givenName "Rudolf" ;
@@ -30,7 +24,7 @@ sdp:Berghammer_R
 sdp:Buchmann_J
     foaf:familyName "Buchmann" ;
     foaf:givenName "Johannes" ;
-    foaf:mbox "mailto:buchmann@cdc.informatik.tu-darmstadt.de" ;
+    foaf:mbox "buchmann@cdc.informatik.tu-darmstadt.de" ;
     foaf:title "Prof. Dr." .
 
 sdp:Buergisser_P
@@ -54,12 +48,6 @@ sdp:Derenthal_U
     foaf:mbox "ulrich.derenthal@mathematik.uni-muenchen.de" ;
     foaf:name "Derenthal, Ulrich" .
 
-sdp:Distler_A
-    a foaf:Person ;
-    foaf:familyName "Distler" ;
-    foaf:givenName "Andreas" ;
-    foaf:name "Distler, Andreas" .
-
 sdp:Eick_B
     sd:hasTag sdt:FGL2005, sdt:FGL2014 ;
     foaf:familyName "Eick" ;
@@ -77,12 +65,6 @@ sdp:Fieker_C
     foaf:mbox "fieker@mathematik.uni-kl.de" ;
     foaf:phone "0631-205-2392" ;
     foaf:title "Prof. Dr." .
-
-sdp:Frei_C
-    a foaf:Person ;
-    foaf:familyName "Frei" ;
-    foaf:givenName "Christopher" ;
-    foaf:name "Frei, Christopher" .
 
 sdp:FruehbisKrueger_A
     sd:hasTag sdt:FGL2011, sdt:FGL2014 ;
@@ -107,6 +89,7 @@ sdp:Graebe_HG
     foaf:familyName "Gräbe" ;
     foaf:givenName "Hans-Gert" ;
     foaf:image "graebe.jpg" ;
+    foaf:homepage <http://bis.informatik.uni-leipzig.de/HansGertGraebe> ;
     foaf:mbox "graebe@informatik.uni-leipzig.de" ;
     foaf:phone "0341-97-32248" ;
     foaf:title "Prof. Dr." .
@@ -124,12 +107,6 @@ sdp:Greuel_GM
     foaf:givenName "Gerd-Martin" ;
     foaf:mbox "greuel@mathematik.uni-kl.de" ;
     foaf:title "Prof. Dr." .
-
-sdp:Haase_C
-    a foaf:Person ;
-    foaf:familyName "Haase" ;
-    foaf:givenName "Christian" ;
-    foaf:name "Haase, Christian" .
 
 sdp:Hackl_K
     sd:hasTag sdt:FGL2002, sdt:FGL2005, sdt:FGL2008 ;
@@ -200,12 +177,6 @@ sdp:Hiss_G
     foaf:phone "0241-80-94543" ;
     foaf:title "Prof. Dr." .
 
-sdp:Hubery_A
-    a foaf:Person ;
-    foaf:familyName "Hubery" ;
-    foaf:givenName "Andrew" ;
-    foaf:name "Hubery, Andrew" .
-
 sdp:Kemper_G
     sd:hasTag sdt:FGL2008, sdt:FGL2011, sdt:FGL2014 ;
     foaf:familyName "Kemper" ;
@@ -267,12 +238,6 @@ sdp:Kortenkamp_U
     foaf:phone "07171-983-461" ;
     foaf:title "Prof. Dr." .
 
-sdp:Krause_H
-    a foaf:Person ;
-    foaf:familyName "Krause" ;
-    foaf:givenName "Henning" ;
-    foaf:name "Krause, Henning" .
-
 sdp:Kreuzer_M
     sd:hasTag sdt:FGL2008, sdt:FGL2011, sdt:FGL2014 ;
     foaf:familyName "Kreuzer" ;
@@ -300,12 +265,6 @@ sdp:Laue_R
     foaf:phone "0921-55-3275" ;
     foaf:title "Prof. Dr." .
 
-sdp:Liedtke_C
-    a foaf:Person ;
-    foaf:familyName "Liedtke" ;
-    foaf:givenName "Christian" ;
-    foaf:name "Liedtke, Christian" .
-
 sdp:Malle_G
     sd:hasTag sdt:FGL2002, sdt:FGL2005, sdt:FGL2008, sdt:FGL2011 ;
     foaf:familyName "Malle" ;
@@ -314,12 +273,6 @@ sdp:Malle_G
     foaf:mbox "malle@mathematik.uni-kl.de" ;
     foaf:phone "0631-205-2264" ;
     foaf:title "Prof. Dr." .
-
-sdp:Markwig_H
-    a foaf:Person ;
-    foaf:familyName "Markwig" ;
-    foaf:givenName "Hannah" ;
-    foaf:name "Markwig, Hannah" .
 
 sdp:Matzat_BH
     sd:hasTag sdt:FGL2002, sdt:FGL2005 ;
@@ -390,11 +343,6 @@ sdp:Pohst_M
     foaf:mbox "pohst@math.tu-berlin.de" ;
     foaf:title "Prof. Dr." .
 
-sdp:Rueck_HG
-    foaf:familyName "Rück" ;
-    foaf:givenName "Hans-Georg" ;
-    foaf:title "Prof. Dr." .
-
 sdp:Schwardmann_U
     sd:hasTag sdt:FGL2002 ;
     foaf:familyName "Schwardmann" ;
@@ -402,11 +350,6 @@ sdp:Schwardmann_U
     foaf:image "schwardmann.jpg" ;
     foaf:phone "0551-201-1542" ;
     foaf:title "Dr." .
-
-sdp:Seiler_W
-    foaf:familyName "Seiler" ;
-    foaf:givenName "Werner" ;
-    foaf:title "Prof. Dr." .
 
 sdp:Sorgatz_A
     sd:hasTag sdt:FGL2002, sdt:FGL2005 ;
@@ -421,17 +364,6 @@ sdp:Stoll_M
     foaf:familyName "Stoll" ;
     foaf:givenName "Michael" ;
     foaf:mbox "Michael.Stoll@uni-bayreuth.de" ;
-    foaf:title "Prof. Dr." .
-
-sdp:Stump_C
-    a foaf:Person ;
-    foaf:familyName "Stump" ;
-    foaf:givenName "Christian" ;
-    foaf:name "Stump, Christian" .
-
-sdp:Weispfenning_V
-    foaf:familyName "Weispfenning" ;
-    foaf:givenName "Volker" ;
     foaf:title "Prof. Dr." .
 
 sdp:Werner_W
@@ -460,11 +392,6 @@ sdp:Zerz_E
     foaf:image "zerz.jpg" ;
     foaf:mbox "eva.zerz@math.rwth-aachen.de" ;
     foaf:phone "0241-80-94544" ;
-    foaf:title "Prof. Dr." .
-
-sdp:vonzurGathen_J
-    foaf:familyName "von zur Gathen" ;
-    foaf:givenName "Joachim" ;
     foaf:title "Prof. Dr." .
 
 sdt:FGL2002
