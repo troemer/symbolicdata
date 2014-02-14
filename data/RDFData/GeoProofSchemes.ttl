@@ -2535,6 +2535,9 @@
 
 <http://symbolicdata.org/Data/GeoProofSchemes/>
     a owl:Ontology ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project";
     rdfs:label "SD GeoProofSchemes" .
 
 sd:GeoProofScheme

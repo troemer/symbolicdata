@@ -1,0 +1,70 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+List of all prefixes
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+PREFIX sdp: <http://symbolicdata.org/Data/People/> 
+PREFIX sdpol: <http://symbolicdata.org/Data/PolynomialSystems/> 
+
+---------------------------------
+
+PREFIX sd: <http://symbolicdata.org/Data/Model/> 
+
+construct { ?a ?b ?c . }  WHERE {
+  ?a a sd:Contributor .
+  ?a ?b ?c
+}
+
+-- Suche in den BIB Entries
+http://symbolicdata.org:8890/sparql
+
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+select count(distinct ?a) 
+where {
+?a a sd:Reference .
+}
+
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+select count(distinct ?a) 
+where {
+?a a sd:Reference .
+?a sd:hasZBentry ?b .
+}
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+select ?a ?t count(distinct ?cn)
+where {
+?a a sd:Reference .
+optional { ?a dct:title ?t . }
+optional { ?a dct:creator ?c . 
+  ?c foaf:name ?cn . }
+optional { ?a sd:hasZBentry ?b . }
+filter (!bound(?b)) 
+}
+
+-- Personen aus der CAFG-Datenbank extrahieren
+http://symbolicdata.org:8890/sparql
+
+select ?a ?t 
+from <http://symbolicdata.org/Data/CAFG-Arbeitsgruppen/>
+where {
+?a a foaf:Person .
+optional { ?a foaf:name ?t . }
+}
+
+construct { 
+  ?a a foaf:Person . 
+  ?a foaf:name ?t .
+} 
+from <http://symbolicdata.org/Data/CAFG-Arbeitsgruppen/>
+where {
+?a a foaf:Person .
+optional { ?a foaf:name ?t . }
+}

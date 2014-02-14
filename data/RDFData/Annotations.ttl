@@ -6,7 +6,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 
-<> a owl:Ontology ; rdfs:label "SD Annotations" .
+<> a owl:Ontology ; 
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project"; rdfs:label "SD Annotations" .
 
 sd:Annotation a owl:Class ; rdfs:label "Annotation" .
 

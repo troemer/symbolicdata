@@ -4,6 +4,9 @@
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 
 <http://symbolicdata.org/Data/GeoCode/> a owl:Ontology ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project";
     rdfs:label "GeoCode Function Specifications" .
 
 sd:GeoCodeFunction a owl:Class ; rdfs:label "GeoCode Function" .

@@ -491,6 +491,9 @@ sdb:Wu_84b a sd:Reference ;
            sd:hasZBentry <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0376.68057&format=complete>, <http://www.zentralblatt-math.org/zmath/en/search/?q=an:0578.68078&format=complete> .
 
 <> a owl:Ontology ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project";
    rdfs:label "SD Bibliographical Data" ;
    rdfs:comment "Bibliography of the Symbolic Data Collection" .
 

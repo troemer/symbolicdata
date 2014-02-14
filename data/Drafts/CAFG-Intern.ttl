@@ -5,11 +5,21 @@
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
 @prefix sdt: <http://symbolicdata.org/Data/Tag/> .
+@prefix cc: <http://creativecommons.org/ns#> .
 
 <http://symbolicdata.org/Data/CAFG-Intern/>
+    cc:attributionName "The SymbolicData Project" ;
+    cc:attributionURL <http://symbolicdata.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     a owl:Ontology ;
-    rdfs:comment "Specific Informations of the German CA-Fachgruppe" ;
+    rdfs:comment "More detailed informations about CA people, collected by the German Fachgruppe. All people URIs are listed also in People.ttl. Information in that knowledge graph is intended for internal use only." ;
     rdfs:label "CAFG: Internes" .
+
+sdp:Baumeister_B
+    a foaf:Person ;
+    foaf:familyName "Baumeister" ;
+    foaf:givenName "Barbara" ;
+    foaf:name "Baumeister, Barbara" .
 
 sdp:Berghammer_R
     foaf:familyName "Berghammer" ;
@@ -29,12 +39,6 @@ sdp:Buergisser_P
     foaf:title "Prof. Dr." .
 
 sdp:Cuntz_M
-    sd:DienstAdresse """
-Fachbereich Mathematik
-Universität Kaiserslautern
-Postfach 3049
-67653 Kaiserslautern
-""" ;
     sd:hasTag sdt:FGL2011 ;
     foaf:familyName "Cuntz" ;
     foaf:givenName "Michael" ;
@@ -42,13 +46,21 @@ Postfach 3049
     foaf:mbox "cuntz@mathematik.uni-kl.de" ;
     foaf:phone "0631-205-2515" .
 
+sdp:Derenthal_U
+    a foaf:Person ;
+    foaf:familyName "Derenthal" ;
+    foaf:givenName "Ulrich" ;
+    foaf:homepage <http://www.mathematik.uni-muenchen.de/~ulrich/> ;
+    foaf:mbox "ulrich.derenthal@mathematik.uni-muenchen.de" ;
+    foaf:name "Derenthal, Ulrich" .
+
+sdp:Distler_A
+    a foaf:Person ;
+    foaf:familyName "Distler" ;
+    foaf:givenName "Andreas" ;
+    foaf:name "Distler, Andreas" .
+
 sdp:Eick_B
-    sd:DienstAdresse """
-Arbeitsgruppe Algebra und diskrete Mathematik
-Institut Computational Mathematics
-Technische Universität Braunschweig
-38106 Braunschweig
-""" ;
     sd:hasTag sdt:FGL2005, sdt:FGL2014 ;
     foaf:familyName "Eick" ;
     foaf:givenName "Bettina" ;
@@ -58,12 +70,6 @@ Technische Universität Braunschweig
     foaf:title "Prof. Dr." .
 
 sdp:Fieker_C
-    sd:DienstAdresse """
-Technische Universität Kaiserslautern
-Fachbereich Mathematik
-Postfach 3049
-67653 Kaiserslautern
-""" ;
     sd:hasTag sdt:FGL2014 ;
     foaf:familyName "Fieker" ;
     foaf:givenName "Claus" ;
@@ -72,13 +78,13 @@ Postfach 3049
     foaf:phone "0631-205-2392" ;
     foaf:title "Prof. Dr." .
 
+sdp:Frei_C
+    a foaf:Person ;
+    foaf:familyName "Frei" ;
+    foaf:givenName "Christopher" ;
+    foaf:name "Frei, Christopher" .
+
 sdp:FruehbisKrueger_A
-    sd:DienstAdresse """
-Institut f. Algebraische Geometrie
-Leibniz Universität Hannover
-Welfengarten 1
-30167 Hannover
-""" ;
     sd:hasTag sdt:FGL2011, sdt:FGL2014 ;
     foaf:familyName "Frühbis-Krüger" ;
     foaf:givenName "Anne" ;
@@ -88,11 +94,6 @@ Welfengarten 1
     foaf:title "Prof. Dr." .
 
 sdp:Grabmeier_J
-    sd:DienstAdresse """
-Fachhochschule Deggendorf
-Edlmairstr. 6+8
-D-94469 Deggendorf
-""" ;
     sd:hasTag sdt:FGL2002, sdt:FGL2005 ;
     foaf:familyName "Grabmeier" ;
     foaf:givenName "Johannes" ;
@@ -102,11 +103,6 @@ D-94469 Deggendorf
     foaf:title "Prof. Dr." .
 
 sdp:Graebe_HG
-    sd:DienstAdresse """
-Universität Leipzig
-Institut für Informatik
-04009 Leipzig
-""" ;
     sd:hasTag sdt:FGL2008 ;
     foaf:familyName "Gräbe" ;
     foaf:givenName "Hans-Gert" ;
@@ -116,12 +112,6 @@ Institut für Informatik
     foaf:title "Prof. Dr." .
 
 sdp:Greefrath_G
-    sd:DienstAdresse """
-Westfälische Wilhelms-Universität Münster
-Institut für Didaktik der Mathematik und der Informatik
-Fliednerstr. 21
-48149 Münster
-""" ;
     sd:hasTag sdt:FGL2011 ;
     foaf:familyName "Greefrath" ;
     foaf:givenName "Gilbert" ;
@@ -135,13 +125,13 @@ sdp:Greuel_GM
     foaf:mbox "greuel@mathematik.uni-kl.de" ;
     foaf:title "Prof. Dr." .
 
+sdp:Haase_C
+    a foaf:Person ;
+    foaf:familyName "Haase" ;
+    foaf:givenName "Christian" ;
+    foaf:name "Haase, Christian" .
+
 sdp:Hackl_K
-    sd:DienstAdresse """
-Ruhr-Universität Bochum
-Lehrstuhl für Allgemeine Mechanik
-Universitätsstr. 150
-44780 Bochum
-""" ;
     sd:hasTag sdt:FGL2002, sdt:FGL2005, sdt:FGL2008 ;
     foaf:familyName "Hackl" ;
     foaf:givenName "Klaus" ;
@@ -151,11 +141,6 @@ Universitätsstr. 150
     foaf:title "Prof. Dr." .
 
 sdp:Hahn_T
-    sd:DienstAdresse """
-Max-Planck-Institut für Physik
-Föhringer Ring 6
-80805 München
-""" ;
     sd:hasTag sdt:FGL2002, sdt:FGL2005, sdt:FGL2008, sdt:FGL2011 ;
     foaf:familyName "Hahn" ;
     foaf:givenName "Thomas" ;
@@ -165,11 +150,6 @@ Föhringer Ring 6
     foaf:title "Dr." .
 
 sdp:Hantzschmann_Karl
-    sd:DienstAdresse """
-FB Informatik d. Univ. Rostock
-Albert-Einstein-Straße 21
-18059 Rostock
-""" ;
     sd:hasTag sdt:FGL2002 ;
     foaf:familyName "Hantzschmann" ;
     foaf:givenName "Karl" ;
@@ -185,12 +165,6 @@ sdp:Hartmann_J
     foaf:title "Prof. Dr." .
 
 sdp:Heinrich_ED
-    sd:DienstAdresse """
-Hochschule f. Technik, Wirtschaft und Gestaltung Konstanz
-Fachbereich Informatik
-Brauneggerstr. 55
-78462 Konstanz
-""" ;
     sd:hasTag sdt:FGL2005, sdt:FGL2008, sdt:FGL2011 ;
     foaf:familyName "Heinrich" ;
     foaf:givenName "Elkedagmar" ;
@@ -200,11 +174,6 @@ Brauneggerstr. 55
     foaf:title "Prof. Dr." .
 
 sdp:Henn_HW
-    sd:DienstAdresse """
-Technische Universität Dortmund
-Fachbereich Mathematik
-44227 Dortmund
-""" ;
     sd:hasTag sdt:FGL2002, sdt:FGL2005, sdt:FGL2008 ;
     foaf:familyName "Henn" ;
     foaf:givenName "Hans-Wolfgang" ;
@@ -214,11 +183,6 @@ Fachbereich Mathematik
     foaf:title "Prof. Dr." .
 
 sdp:Hess_F
-    sd:DienstAdresse """
-Carl-von-Ossietzky-Universität Oldenburg
-Institut für Mathematik
-26111 Oldenburg
-""" ;
     sd:hasTag sdt:FGL2008, sdt:FGL2011, sdt:FGL2014 ;
     foaf:familyName "Heß" ;
     foaf:givenName "Florian" ;
@@ -228,12 +192,6 @@ Institut für Mathematik
     foaf:title "Prof. Dr." .
 
 sdp:Hiss_G
-    sd:DienstAdresse """
-Lehrstuhl D für Mathematik
-RWTH Aachen
-Templergraben 64
-52062 Aachen
-""" ;
     sd:hasTag sdt:FGL2002, sdt:FGL2005 ;
     foaf:familyName "Hiß" ;
     foaf:givenName "Gerhard" ;
@@ -242,13 +200,13 @@ Templergraben 64
     foaf:phone "0241-80-94543" ;
     foaf:title "Prof. Dr." .
 
+sdp:Hubery_A
+    a foaf:Person ;
+    foaf:familyName "Hubery" ;
+    foaf:givenName "Andrew" ;
+    foaf:name "Hubery, Andrew" .
+
 sdp:Kemper_G
-    sd:DienstAdresse """
-Technische Universität München
-Zentrum Mathematik - M11
-Boltzmannstraße 3
-85748 Garching
-""" ;
     sd:hasTag sdt:FGL2008, sdt:FGL2011, sdt:FGL2014 ;
     foaf:familyName "Kemper" ;
     foaf:givenName "Gregor" ;
@@ -264,12 +222,6 @@ sdp:Kerber_A
     foaf:title "Prof. Dr." .
 
 sdp:Klinge_S
-    sd:DienstAdresse """
-Lehrstuhl für Mechanik - Materialtheorie
-Ruhr-Universität Bochum
-Universitätstrasse 150
-44780 Bochum
-""" ;
     sd:hasTag sdt:FGL2011, sdt:FGL2014 ;
     foaf:familyName "Klinge" ;
     foaf:givenName "Sandra" ;
@@ -279,12 +231,6 @@ Universitätstrasse 150
     foaf:title "Dr.-Ing." .
 
 sdp:Klueners_J
-    sd:DienstAdresse """
-Universität Paderborn
-Mathematisches Institut
-Warburger Str. 100
-33098 Paderborn
-""" ;
     sd:hasTag sdt:FGL2011, sdt:FGL2014 ;
     foaf:familyName "Klüners" ;
     foaf:givenName "Jürgen" ;
@@ -294,10 +240,7 @@ Warburger Str. 100
     foaf:title "Prof. Dr." .
 
 sdp:Knechtel_H
-    sd:PrivatAdresse """
-An der Tränke 2a
-31675 Bückeburg
-""" ;
+    sd:PrivatAdresse "An der Tränke 2a, 31675 Bückeburg" ;
     sd:hasTag sdt:FGL2002, sdt:FGL2005 ;
     foaf:familyName "Knechtel" ;
     foaf:givenName "Heiko" ;
@@ -307,13 +250,6 @@ An der Tränke 2a
     foaf:title "OStD" .
 
 sdp:Koepf_W
-    sd:DienstAdresse """
-Universität Kassel
-Fachbereich Mathematik und Naturwissenschaften
-Institut für Mathematik
-Heinrich-Plett-Straße 40
-34132 Kassel
-""" ;
     sd:hasTag sdt:FGL2002, sdt:FGL2005, sdt:FGL2008, sdt:FGL2011, sdt:FGL2014 ;
     foaf:familyName "Koepf" ;
     foaf:givenName "Wolfram" ;
@@ -331,13 +267,13 @@ sdp:Kortenkamp_U
     foaf:phone "07171-983-461" ;
     foaf:title "Prof. Dr." .
 
+sdp:Krause_H
+    a foaf:Person ;
+    foaf:familyName "Krause" ;
+    foaf:givenName "Henning" ;
+    foaf:name "Krause, Henning" .
+
 sdp:Kreuzer_M
-    sd:DienstAdresse """
-Universität Passau
-Fakultät für Mathematik und Informatik
-Innstraße 33
-94030 Passau
-""" ;
     sd:hasTag sdt:FGL2008, sdt:FGL2011, sdt:FGL2014 ;
     foaf:familyName "Kreuzer" ;
     foaf:givenName "Martin" ;
@@ -347,12 +283,6 @@ Innstraße 33
     foaf:title "Prof. Dr." .
 
 sdp:Kyureghyan_G
-    sd:DienstAdresse """
-Otto-von-Guericke Universität Magdeburg
-Institut für Algebra und Geometrie
-Universitätsplatz 2
-39106 Magdeburg
-""" ;
     sd:hasTag sdt:FGL2011 ;
     foaf:familyName "Kyureghyan" ;
     foaf:givenName "Gohar" ;
@@ -362,11 +292,6 @@ Universitätsplatz 2
     foaf:title "Dr." .
 
 sdp:Laue_R
-    sd:DienstAdresse """
-Universität Bayreuth
-Mathematisches Institut
-95440 Bayreuth
-""" ;
     sd:hasTag sdt:FGL2005 ;
     foaf:familyName "Laue" ;
     foaf:givenName "Reinhard" ;
@@ -375,13 +300,13 @@ Mathematisches Institut
     foaf:phone "0921-55-3275" ;
     foaf:title "Prof. Dr." .
 
+sdp:Liedtke_C
+    a foaf:Person ;
+    foaf:familyName "Liedtke" ;
+    foaf:givenName "Christian" ;
+    foaf:name "Liedtke, Christian" .
+
 sdp:Malle_G
-    sd:DienstAdresse """
-Technische Universität Kaiserslautern
-Fachbereich Mathematik
-Gottlieb-Daimler-Straße
-67663 Kaiserslautern
-""" ;
     sd:hasTag sdt:FGL2002, sdt:FGL2005, sdt:FGL2008, sdt:FGL2011 ;
     foaf:familyName "Malle" ;
     foaf:givenName "Gunter" ;
@@ -390,12 +315,13 @@ Gottlieb-Daimler-Straße
     foaf:phone "0631-205-2264" ;
     foaf:title "Prof. Dr." .
 
+sdp:Markwig_H
+    a foaf:Person ;
+    foaf:familyName "Markwig" ;
+    foaf:givenName "Hannah" ;
+    foaf:name "Markwig, Hannah" .
+
 sdp:Matzat_BH
-    sd:DienstAdresse """
-IWR, Univ. Heidelberg,
-Im Neuenheimer Feld 368
-69120 Heidelberg
-""" ;
     sd:hasTag sdt:FGL2002, sdt:FGL2005 ;
     foaf:familyName "Matzat" ;
     foaf:givenName "B. Heinrich" ;
@@ -405,13 +331,6 @@ Im Neuenheimer Feld 368
     foaf:title "Prof. Dr." .
 
 sdp:Mayr_EW
-    sd:DienstAdresse """
-Lehrstuhl für effiziente Algorithmen
-Fakultät für Informatik
-Technische Universität München
-Boltzmannstraße 3
-85748 Garching
-""" ;
     sd:hasTag sdt:FGL2008, sdt:FGL2011, sdt:FGL2014 ;
     foaf:familyName "Mayr" ;
     foaf:givenName "Ernst W." ;
@@ -421,10 +340,7 @@ Boltzmannstraße 3
     foaf:title "Prof. Dr." .
 
 sdp:Meyer_J
-    sd:PrivatAdresse """
-Schäfertrift 16
-31789 Hameln
-""" ;
+    sd:PrivatAdresse "Schäfertrift 16, 31789 Hameln" ;
     sd:hasTag sdt:FGL2008 ;
     foaf:familyName "Meyer" ;
     foaf:givenName "Jörg" ;
@@ -434,11 +350,6 @@ Schäfertrift 16
     foaf:title "StD Dr." .
 
 sdp:Moeller_HM
-    sd:DienstAdresse """
-FB Mathematik d. Univ. Dortmund
-Vogelpothsweg 87
-44221 Dortmund
-""" ;
     sd:hasTag sdt:FGL2002 ;
     foaf:familyName "Möller" ;
     foaf:givenName "H. Michael" ;
@@ -485,11 +396,6 @@ sdp:Rueck_HG
     foaf:title "Prof. Dr." .
 
 sdp:Schwardmann_U
-    sd:DienstAdresse """
-GWDG
-Am Fassberg
-37077 Göttingen
-""" ;
     sd:hasTag sdt:FGL2002 ;
     foaf:familyName "Schwardmann" ;
     foaf:givenName "Ulrich" ;
@@ -503,11 +409,6 @@ sdp:Seiler_W
     foaf:title "Prof. Dr." .
 
 sdp:Sorgatz_A
-    sd:DienstAdresse """
-SciFace Software GmbH & Co. KG
-Technologiepark 11
-33100 Paderborn
-""" ;
     sd:hasTag sdt:FGL2002, sdt:FGL2005 ;
     foaf:familyName "Sorgatz" ;
     foaf:givenName "Andreas" ;
@@ -522,18 +423,18 @@ sdp:Stoll_M
     foaf:mbox "Michael.Stoll@uni-bayreuth.de" ;
     foaf:title "Prof. Dr." .
 
+sdp:Stump_C
+    a foaf:Person ;
+    foaf:familyName "Stump" ;
+    foaf:givenName "Christian" ;
+    foaf:name "Stump, Christian" .
+
 sdp:Weispfenning_V
     foaf:familyName "Weispfenning" ;
     foaf:givenName "Volker" ;
     foaf:title "Prof. Dr." .
 
 sdp:Werner_W
-    sd:DienstAdresse """
-FB Med. Informatik
-Universität Heidelberg/FH Heilbronn
-Max-Planck-Straße 39
-74081 Heilbronn
-""" ;
     sd:hasTag sdt:FGL2002 ;
     foaf:familyName "Werner" ;
     foaf:givenName "Wilhelm" ;
@@ -543,10 +444,7 @@ Max-Planck-Straße 39
     foaf:title "Prof. Dr." .
 
 sdp:Wessler_M
-    sd:PrivatAdresse """
-Kopernikusstr. 6
-81679 München
-""" ;
+    sd:PrivatAdresse "Kopernikusstr. 6, 81679 München" ;
     sd:hasTag sdt:FGL2005, sdt:FGL2008 ;
     foaf:familyName "Wessler" ;
     foaf:givenName "Markus" ;
@@ -556,12 +454,6 @@ Kopernikusstr. 6
     foaf:title "Prof. Dr." .
 
 sdp:Zerz_E
-    sd:DienstAdresse """
-Lehrstuhl D für Mathematik
-RWTH Aachen
-Templergraben 64
-52062 Aachen
-""" ;
     sd:hasTag sdt:FGL2008, sdt:FGL2011, sdt:FGL2014 ;
     foaf:familyName "Zerz" ;
     foaf:givenName "Eva" ;

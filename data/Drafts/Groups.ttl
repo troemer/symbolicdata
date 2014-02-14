@@ -1,0 +1,396 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdt: <http://symbolicdata.org/Data/Tag/> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix sdgroup: <http://symbolicdata.org/Data/Group/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+
+sdgroup:Aachen_Hartmann
+    sd:Arbeitsgebiete "Algorithmische Algebra", "Differential-Galoistheorie", "Invariantentheorie" ;
+    skos:prefLabel "Arbeitsgruppe Hartmann, RTWH Aachen, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/RWTH-Aachen/DepMath> ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    org:hasMember sdp:Hartmann_J ;
+    foaf:homepage <http://www.algebra.rwth-aachen.de/> .
+
+sdgroup:Aachen_Hiss
+    sd:Arbeitsgebiete "Algorithmische Algebra", "Darstellungstheorie" ;
+    sd:location "RWTH Aachen" ;
+    skos:prefLabel "Arbeitsgruppe Hiss, RTWH Aachen, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/RWTH-Aachen/DepMath> ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    org:hasMember sdp:Hiss_G, sdp:Nebe_G, sdp:Zerz_E ;
+    foaf:homepage <http://www.math.rwth-aachen.de/> .
+
+sdgroup:Aachen_Plesken
+    sd:Arbeitsgebiete "Algorithmische Algebra", "Differentialgleichungen", "Kristallographische Gruppen" ;
+    skos:prefLabel "Arbeitsgruppe Plesken, RTWH Aachen, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/RWTH-Aachen/DepMath> ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    org:hasMember sdp:Plesken_W ;
+    foaf:homepage <http://wwwb.math.rwth-aachen.de/> .
+
+sdgroup:Bayreuth_Kerber
+    sd:Arbeitsgebiete "Algorithmische Diskrete Strukturen" ;
+    skos:prefLabel "Arbeitsgruppe Kerber, Uni Bayreuth, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Bayreuth> ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    org:hasMember sdp:Kerber_A ;
+    foaf:homepage <http://www.mathe2.uni-bayreuth.de/oldindex.html> .
+
+sdgroup:Bayreuth_Stoll
+    sd:Arbeitsgebiete "Algorithmische Arithmetische Geometrie" ;
+    skos:prefLabel "Arbeitsgruppe Stoll, Uni Bayreuth, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Bayreuth> ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    org:hasMember sdp:Stoll_M ;
+    foaf:homepage <http://www.mathe2.uni-bayreuth.de/stoll/> .
+
+sdgroup:Berlin_Pohst
+    sd:Arbeitsgebiete "Algorithmische Algebra", "Zahlentheorie" ;
+    sd:location "TU Berlin" ;
+    skos:prefLabel "Arbeitsgruppe Pohst, TU Berlin, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/TU-Berlin> ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    org:hasMember sdp:Pohst_M ;
+    foaf:homepage <http://www.math.tu-berlin.de/algebra> .
+
+sdgroup:Bonn_vonzurGathen
+    sd:Arbeitsgebiete "Algorithmische Algebra", "Zahlentheorie" ;
+    sd:location "Bonn-Aachen International Center for Information Technology" ;
+    skos:prefLabel "Bonn-Aachen International Center for Information Technology" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Bonn> ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    org:hasMember sdp:vonzurGathen_J ;
+    foaf:homepage <http://cosec.bit.uni-bonn.de/cosec/members/gathen> .
+
+sdgroup:Braunschweig_Eick
+    sd:Arbeitsgebiete "Algorithmische Gruppentheorie" ;
+    skos:prefLabel "Arbeitsgruppe Algebra und diskrete Mathematik, TU Braunschweig, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/TU-Braunschweig> ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    org:hasMember sdp:Eick_B ;
+    foaf:homepage <http://www-public.tu-bs.de:8080/%7Ebeick> .
+
+sdgroup:CAG-Sydney
+    a org:Organization ;
+    skos:prefLabel "Computational Algebra Group at the University of Sydney, Australia" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Sydney> ;
+    foaf:homepage <http://www.maths.usyd.edu.au/res/CompAlg.html> .
+
+sdgroup:Darmstadt_Buchmann
+    sd:Arbeitsgebiete "Kryptographie", "Computeralgebra" ;
+    sd:location "Uni Darmstadt" ;
+    skos:prefLabel "Arbeitsgruppe Buchmann, Uni Darmstadt, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Darmstadt> ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    org:hasMember sdp:Buchmann_J ;
+    foaf:homepage <http://www.informatik.tu-darmstadt.de/TI/Welcome.html> .
+
+sdgroup:Dortmund_Moeller
+    sd:Arbeitsgebiete "Gröbnerbasen" ;
+    sd:location "Uni Dortmund" ;
+    skos:prefLabel "Arbeitsgruppe Möller, Uni Dortmund, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Dortmund> ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    org:hasMember sdp:Moeller_HM ;
+    foaf:homepage <http://www.mathematik.uni-dortmund.de/lsviii/moeller/moeller.html> .
+
+sdgroup:Hannover_FruehbisKrueger
+    sd:Arbeitsgebiete "Computational Algebraic Geometry", "Singularities" ;
+    skos:prefLabel "Computational Algebraic Geometry and Singularities, Leibniz-Universität Hannover, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Hannover> ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    org:hasMember sdp:FruehbisKrueger_A .
+
+sdgroup:Heidelberg_Matzat
+    sd:Arbeitsgebiete "Algorithmische Algebra", "Zahlentheorie" ;
+    skos:prefLabel "Arbeitsgruppe Matzat, Uni Heidelberg, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Heidelberg> ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    org:hasMember sdp:Matzat_BH ;
+    foaf:homepage <http://www.iwr.uni-heidelberg.de/groups/compalg> .
+
+sdgroup:Kaiserslautern_Singular
+    sd:Arbeitsgebiete "Algorithmische algebraische Geometrie", "Computational Algebraic Geometry", "Singularities" ;
+    skos:prefLabel "Singular-Arbeitsgruppe, Uni Kaiserslautern, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Kaiserslautern> ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    org:hasMember sdp:Wenk_M, sdp:Steidel_S, sdp:Schoenemann_H, sdp:Decker_W, sdp:Brickenstein_M, sdp:Greuel_GM, sdp:Malle_G, sdp:Pfister_G .
+
+sdgroup:Kassel_CompMath
+    sd:Arbeitsgebiete "Algorithmische Zahlentheorie", "Computational Mathematics", "Computeralgebra" ;
+    a org:Organization ;
+    skos:prefLabel "Arbeitsgruppe Computational Mathematics, Uni Kassel, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Kassel> ;
+    org:hasMember sdp:Koepf_W, sdp:Rueck_HG, sdp:Seiler_W ;
+    sd:hasTag sdt:CAFG-Listing ;
+    foaf:homepage <http://www.mathematik.uni-kassel.de/compmath> .
+
+sdgroup:Kiel_Berghammer
+    sd:Arbeitsgebiete "Rechnergestützte Programmentwicklung" ;
+    skos:prefLabel "Arbeitsgruppe Berghammer, Uni Kiel, Institut für Informatik, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Kiel> ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    org:hasMember sdp:Berghammer_R ;
+    foaf:homepage <http://www.informatik.uni-kiel.de/Berghammer> .
+
+sdgroup:MupadResearch
+    a org:Organization ;
+    skos:prefLabel "MuPAD Research Group within MathWorks" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/MathWorks> ;
+    foaf:homepage <http://www.mathworks.de/discovery/mupad.html> .
+
+sdgroup:Paderborn_Buergisser
+    sd:Arbeitsgebiete "Algebraic Complexity and Algorithmic Algebra" ;
+    sd:location "Uni Paderborn" ;
+    skos:prefLabel "Arbeitsgruppe Bürgisser, Uni Paderborn, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Paderborn> ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    org:hasMember sdp:Buergisser_P ;
+    foaf:homepage <http://math-www.upb.de/agpb/> .
+
+sdgroup:Paderborn_Klueners
+    sd:Arbeitsgebiete "Computeralgebra", "Zahlentheorie" ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    skos:prefLabel "Arbeitsgruppe Klüners, Uni Paderborn, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Paderborn> ;
+    org:hasMember sdp:Klueners_J ;
+    foaf:homepage <http://www2.math.uni-paderborn.de/people/juergen-klueners.html> .
+
+<http://symbolicdata.org/Data/Group/Paris.CALFOR>
+    a org:Organization ; foaf:homepage <http://www-calfor.lip6.fr> ;
+skos:hasMember sdp:Faugere_JC; 
+    skos:prefLabel "Equipe CALFOR, LIP6/CNRS Univ. Paris VI, France" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Paris-VI> .
+
+sdgroup:Passau_Kreuzer
+    sd:Arbeitsgebiete "Symbolic Computation" ;
+    sd:location "Uni Passau" ;
+    sd:hasTag sdt:CAFG-Listing ;
+    skos:prefLabel "Arbeitsgruppe Kreutzer, Uni Passau, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Passau> ;
+    a org:Organization ;
+    org:hasMember sdp:Kreuzer_M ;
+    foaf:homepage <http://staff.fim.uni-passau.de/~kreuzer> .
+
+sdgroup:Passau_Weispfenning
+    sd:Arbeitsgebiete "Algorithmische Algebra", "Gröbnerbasen" ;
+    sd:location "Uni Passau" ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    skos:prefLabel "Arbeitsgruppe Weispfenning, Uni Passau, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Passau> ;
+    org:hasMember sdp:Weispfenning_V ;
+    foaf:homepage <http://www.fmi.uni-passau.de/algebra/staff/weispfen.php3> .
+
+sdgroup:PossoTeam
+    a org:Organization ;
+    skos:prefLabel "PoSSo Team" ;
+    foaf:homepage <http://posso.dm.unipi.it/posso_overview.html> .
+
+sdgroup:TUM_Kemper
+    sd:Arbeitsgebiete "Algorithmische Algebra", "Darstellungstheorie", "Invariantentheorie" ;
+    sd:location "TU München" ;
+    a org:Organization ;
+    sd:hasTag sdt:CAFG-Listing ;
+    skos:prefLabel "Arbeitsgruppe Kemper, TU München, Germany" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/TU-Muenchen> ;
+    org:hasMember sdp:Kemper_G ;
+    foaf:homepage <http://www-m11.ma.tum.de/> .
+
+<http://symbolicdata.org/Data/Groups/>
+    cc:attributionName "The SymbolicData Project" ;
+    cc:attributionURL <http://symbolicdata.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    a owl:Ontology ;
+    rdfs:comment "This is a draft version" ;
+    rdfs:label "SD Working Groups and Organizations" .
+
+<http://symbolicdata.org/Data/Organization/Maplesoft>
+    a org:FormalOrganization ;
+    skos:prefLabel "Waterloo Maple, Inc." ;
+    foaf:homepage <http://www.maplesoft.com> .
+
+<http://symbolicdata.org/Data/Organization/MathWorks>
+    a org:FormalOrganization ;
+    skos:prefLabel "MathWorks" ;
+    foaf:homepage <http://www.mathworks.de> .
+
+<http://symbolicdata.org/Data/Organization/RWTH-Aachen>
+    a org:FormalOrganization ;
+    skos:prefLabel "RTWH Aachen, Germany" .
+
+<http://symbolicdata.org/Data/Organization/RWTH-Aachen/DepMath>
+    a org:FormalOrganization ;
+skos:hasMember sdp:Levandovskyy_V ; 
+sd:hasAddress "Lehrstuhl D für Mathematik, RWTH Aachen, Templergraben 64, D-52062 Aachen" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/RWTH-Aachen> ;
+    skos:prefLabel "Department of Mathematics, RTWH Aachen, Germany" .
+
+<http://symbolicdata.org/Data/Organization/Uni-Kaiserslautern>
+    a org:FormalOrganization ;
+    skos:prefLabel "University of Kaiserslautern, Germany" .
+
+<http://symbolicdata.org/Data/Organization/Uni-Leipzig>
+    a org:FormalOrganization ;
+skos:hasMember sdp:Graebe_HG ; 
+    skos:prefLabel "University Leipzig, Germany" .
+
+<http://symbolicdata.org/Data/Organization/Uni-Napoli>
+    a org:FormalOrganization ;
+skos:hasMember sdp:Cioffi_F, sdp:Orecchia_F, sdp:Ramella_I; 
+    skos:prefLabel "Univ. di Napoli, Italy" .
+
+<http://symbolicdata.org/Data/Organization/Uni-Paris-VI>
+    a org:FormalOrganization ;
+    skos:prefLabel "Univ. Paris VI, France" .
+
+<http://symbolicdata.org/Data/Organization/Uni-Saarbruecken>
+    a org:FormalOrganization ;
+    org:hasMember sdp:Dengel_M ;
+    skos:prefLabel "University of Saarbrücken, Germany" .
+
+<http://symbolicdata.org/Data/Organization/Uni-Sydney>
+    a org:FormalOrganization ;
+    skos:prefLabel "University of Sydney, Australia" .
+
+<http://symbolicdata.org/Data/Organization/WolframResearch>
+    a org:FormalOrganization ;
+    skos:prefLabel "Wolfram Research, Inc." ;
+    foaf:homepage <http://www.wolfram.com> .
+
+<http://symbolicdata.org/Data/Organization/Uni-Bayreuth> a org:FormalOrganization ; 
+skos:prefLabel "Uni Bayreuth" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Bayreuth/MI> a org:FormalOrganization ; 
+skos:prefLabel "Mathematisches Institut, Universität Bayreuth" ;
+skos:hasMember sdp:Laue_R; 
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Bayreuth> ;
+sd:hasAddress "Universität Bayreuth, Mathematisches Institut, D-95440 Bayreuth" . 
+
+<http://symbolicdata.org/Data/Organization/TU-Berlin> a org:FormalOrganization ; 
+skos:prefLabel "TU Berlin" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Bonn> a org:FormalOrganization ; 
+skos:prefLabel "Uni Bonn" . 
+
+<http://symbolicdata.org/Data/Organization/TU-Braunschweig>  a org:FormalOrganization ; 
+skos:prefLabel "TU Braunschweig" . 
+
+<http://symbolicdata.org/Data/Organization/TU-Braunschweig/ICM>  a org:FormalOrganization ; 
+skos:prefLabel "Institut of Computational Mathematics, TU Braunschweig" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/TU-Braunschweig> ;
+sd:hasAddress "Institut Computational Mathematics, Technische Universität Braunschweig, D-38106 Braunschweig" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Darmstadt>  a org:FormalOrganization ; 
+skos:prefLabel "Uni Darmstadt" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Dortmund> a org:FormalOrganization ; 
+skos:prefLabel "Uni Dortmund" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Dortmund/FBMath> a org:FormalOrganization ; 
+skos:prefLabel "FB Mathematik d. Univ. Dortmund" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Dortmund> ;
+skos:hasMember sdp:Moeller_HM ;
+sd:hasAddress "FB Mathematik d. Univ. Dortmund, Vogelpothsweg 87, D-44221 Dortmund" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Hannover> a org:FormalOrganization ; 
+skos:prefLabel "Leibniz-Universität Hannover" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Hannover/IAG> a org:FormalOrganization ; 
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Hannover> ;
+skos:prefLabel "Institut f. Algebraische Geometrie, Leibniz Universität Hannover" ;
+sd:hasAddress "Institut f. Algebraische Geometrie, Leibniz Universität Hannover, Welfengarten 1, D-30167 Hannover" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Heidelberg> a org:FormalOrganization ; 
+skos:prefLabel "Uni Heidelberg" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Heidelberg/IWR> a org:FormalOrganization ; 
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Heidelberg> ;
+skos:prefLabel "IWR, Univ. Heidelberg" ;
+skos:hasMember sdp:Matzat_BH; 
+sd:hasAddress "IWR, Univ. Heidelberg, Im Neuenheimer Feld 368, D-69120 Heidelberg" . 
+
+<http://symbolicdata.org/Data/Organization/TU-Kaiserslautern> a org:FormalOrganization ; 
+skos:prefLabel "TU Kaiserslautern" . 
+
+<http://symbolicdata.org/Data/Organization/TU-Kaiserslautern/DepMath> a org:FormalOrganization ; 
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/TU-Kaiserslautern> ;
+skos:prefLabel "Department of Mathematics, TU Kaiserslautern" ;
+skos:hasMember sdp:Fieker_C, sdp:Malle_G; 
+sd:hasAddress "Technische Universität Kaiserslautern, Fachbereich Mathematik, Postfach 3049, D-67653 Kaiserslautern" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Kassel> a org:FormalOrganization ; 
+skos:prefLabel "Uni Kassel" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Kassel/IM> a org:FormalOrganization ;  
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Kassel> ;
+skos:prefLabel "Institut für Mathematik, Uni Kassel" ;
+sd:hasAddress "Universität Kassel, Institut für Mathematik, Heinrich-Plett-Straße 40, D-34132 Kassel" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Kiel> a org:FormalOrganization ; 
+skos:prefLabel "Uni Kiel" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Kaiserslautern> a org:FormalOrganization ; 
+skos:prefLabel "Uni Kaiserslautern" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Kaiserslautern/DepMath> a org:FormalOrganization ; 
+skos:prefLabel "Department of Mathematics, Uni Kaiserslautern" ;
+skos:hasMember sdp:Cuntz_M; 
+sd:hasAddress "Fachbereich Mathematik, Universität Kaiserslautern, Postfach 3049, D-67653 Kaiserslautern" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Paderborn> a org:FormalOrganization ; 
+skos:prefLabel "Uni Paderborn" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Paderborn/MI> a org:FormalOrganization ; 
+skos:prefLabel "Mathematisches Institut, Universität Paderborn" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Paderborn> ;
+sd:hasAddress "Universität Paderborn, Mathematisches Institut, Warburger Str. 100, D-33098 Paderborn" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Passau> a org:FormalOrganization ; 
+skos:prefLabel "Uni Passau" . 
+
+<http://symbolicdata.org/Data/Organization/Uni-Passau/FMI> a org:FormalOrganization ; 
+skos:prefLabel "Fakultät für Mathematik und Informatik, Uni Passau" ;
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/Uni-Passau> ;
+sd:hasAddress "Universität Passau, Fakultät für Mathematik und Informatik, Innstraße 33, D-94030 Passau" . 
+
+<http://symbolicdata.org/Data/Organization/TU-Muenchen> a org:FormalOrganization ; 
+skos:prefLabel "TU München" . 
+
+<http://symbolicdata.org/Data/Organization/TU-Muenchen/FI> a org:FormalOrganization ; 
+skos:prefLabel "Fakultät für Informatik, TU München" ;
+skos:hasMember sdp:Mayr_EW; 
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/TU-Muenchen> ;
+sd:hasAddress "Fakultät für Informatik, Technische Universität München, Boltzmannstraße 3, D-85748 Garching" . 
+
+<http://symbolicdata.org/Data/Organization/LMU-Muenchen> a org:FormalOrganization ; 
+skos:prefLabel "Ludwig-Maximilians-Universität München" . 
+
+<http://symbolicdata.org/Data/Organization/LMU-Muenchen/MI> a org:FormalOrganization ; 
+skos:prefLabel "Mathematisches Institut, Ludwig-Maximilians-Universität München" ;
+skos:hasMember sdp:Derenthal_U; 
+    org:subOrganizationOf <http://symbolicdata.org/Data/Organization/LMU-Muenchen> ;
+sd:hasAddress "Ludwig-Maximilians-Universität München, Mathematisches Institut, Theresienstr. 39, D-80333 München" . 

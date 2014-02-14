@@ -3,10 +3,14 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
 
 <http://symbolicdata.org/Data/BirkhoffPolytopes/>
     a owl:Ontology ;
-    rdfs:comment "SD Birkhoff Polytopes" ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project";
+    rdfs:comment "SD Birkhoff Polytopes, draft version" ;
     rdfs:label "SD Birkhoff Polytopes" .
 
 sd:BirkhoffPolytope

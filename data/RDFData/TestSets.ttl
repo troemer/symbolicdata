@@ -5,9 +5,13 @@
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
 @prefix sdts: <http://symbolicdata.org/Data/TestSet/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
 
 <http://symbolicdata.org/Data/TestSets/>
     a owl:Ontology ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project";
     rdfs:comment "TestSets Data" ;
     rdfs:label "SD TestSets Data"  .
 

@@ -8,6 +8,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix cc: <http://creativecommons.org/ns#> .
 
 sd:CAS a owl:Class ;
        rdfs:label "CA System" .
@@ -89,6 +90,8 @@ sd:CAS a owl:Class ;
                                                owl:sameAs <http://www.swmath.org/software/866> .
 
 <> a owl:Ontology ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project";
    rdfs:label "SD CA-Systems Data" ;
-   owl:imports <http://symbolicdata.org/Data/People/> ;
    rdfs:comment "CA System Data" .

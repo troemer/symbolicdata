@@ -6,9 +6,13 @@
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
 @prefix sdg: <http://symbolicdata.org/Data/GeometryProblem/> .
 @prefix sdgps: <http://symbolicdata.org/Data/GeoProofScheme/> .
+@prefix cc: <http://creativecommons.org/ns#> .
 
 <http://symbolicdata.org/Data/GeometryProblems/>
     a owl:Ontology ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project";
     rdfs:label "SD Geometry Problems Formulations" .
 
 sd:GeoProblemFormulation a owl:Class ; 

@@ -9,6 +9,9 @@ sd:GAlgebra a owl:Class ; rdfs:label "G-Algebra" .
 
 <http://symbolicdata.org/Data/GAlgebras/>
     a owl:Ontology ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project";
     rdfs:label "SD G-Algebra Systems Data" .
 
 <http://symbolicdata.org/Data/GAlgebra/algdep_qso3> a sd:GAlgebra ;

@@ -4,6 +4,7 @@
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix sdtg: <http://symbolicdata.org/Data/TransitiveGroup/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
 
 sd:TransitiveGroup
     a owl:Class ;
@@ -68812,6 +68813,9 @@ sdtg:Gr9T9
 
 <http://symbolicdata.org/Data/TransitiveGroups/>
     a owl:Ontology ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+   cc:attributionURL <http://symbolicdata.org> ;
+   cc:attributionName "The SymbolicData Project";
     rdfs:comment "SD Transitive Groups, extracted from http://galoisdb.math.uni-paderborn.de", "fixed syntax, HGG 2013-09-30 ;
     rdfs:label "SD Transitive Groups" .
 
