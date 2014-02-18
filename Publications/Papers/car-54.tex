@@ -1,0 +1,247 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{CAR}
+
+\begin{document}
+\setcounter{footnote}{0}
+\setcounter{figure}{0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Abschnitt
+% Name der Rubrik
+{Rubrik}
+% Name der Rubrik (Inhaltsverzeichnis)
+{Rubrik}
+% Label fuer die Rubrik
+{rubrik}
+
+\vspace{3mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Aufsatz
+% Titel des Aufsatzes
+{The {\SD} Project}
+% Titel des Aufsatzes (Inhaltsverzeichnis)
+{The {\SD} Project}
+% Autor
+{Hans-Gert Gr\"abe}
+% Abkuerzung des Namens als Label
+{H.-G. Gr\"abe}
+% Autor mit Adresse
+{H.-G. Gr\"abe\\(Universit"at Leipzig)}
+% Dateiname eines Bildes
+{nn}
+% E-Mail
+{graebe@informatik.uni-leipzig.de}
+
+\vspace{3mm}
+
+\begin{multicols}{2}
+\noindent
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Ueberschriften fuer Abschnitte im Aufsatz:
+\Ueberschrift{Introduction}{intro}
+
+In a more and more networked and interlinked world both the prospects and
+importance of a well desgined and powerful digital research
+\emph{infrastructure} dramatically increase. Well acknowledged efforts in that
+direction are met for years within the organizational structures of the
+scholarly process -- dissemination of new papers, refereeing processes,
+scientific communication within communities. MathSciNet, ArXiv.org, well
+established bibliographical services as, e.g., bibsonomy.org or \emph{The DBLP
+  Computer Science Bibliography}, witness for these efforts.  With the
+\emph{GND Project} (Gemeinsame Norm-Datei) the network of German Scientific
+Libraries made strong efforts to unite and build up an integrated digital
+information system that enhances the classical catalogue system of meta
+information about scholarly work and makes it ready for the digital age.
+
+Smaller academic communities, as, e.g., the Computer Algebra community, are
+challenged in the same way to reorganize also their intracommunity
+communication networks and infrastructure.  Its hard to allocate resources for
+such a reorganization process since infrastructural efforts -- implementation
+of new algorithms into computer programs, management of research databases,
+preparation of a new release of a well established Computer Algebra System
+etc. -- are rarely acknowledged by the reputational processes of the community
+and hence are left to the casual engagement of volunteers if not supported by
+the leading edge scientists of the community.  Such a misrecognition of
+important efforts is addressed for years in particular in the Computer Algebra
+Communities.
+
+\Ueberschrift{The {\SD} Project at Large}{large}
+
+{\SD} is such a project. It grew out from the special session on Benchmarking
+at the 1998 ISSAC conference, where the community was faced with a typical
+situation: Within the EU-supported PoSSo and FRISCO projects volunteers
+compiled a large database of Polynomial Systems with the goal to make it
+publicly available for testing and benchmarking of algorithms.  If the project
+funding finished people switched to other tasks and it became more and more
+problematic to access the data. Moreover, more or less well cloned copies of
+the data went across the globe and after a while it was even hard to decide,
+what, e.g., \emph{Katsura-5} means -- is it about the example from the well
+known series with 5 variables $y_1,\dots,y_5$ or with 6 variables
+$x_0,\dots,x_5$?
+
+The {\SD} Project started in 1999 to build a reference for such a database of
+Polynomial Systems, to extend and update it, to collect meta information about
+the records, and also to develop tools to manage the data and to set up and
+run testing and benchmarking computations on the data. The main design
+decisions and implementations of the first prototype were realized by Olaf
+Bachmann and Hans-Gert Gr\"abe in 1999 and 2000. We collected data from
+\emph{Polynomial System Solving} and \emph{Geometry Theorem Proving}, set up a
+CVS repository, and started test computations, both at UMS Medicis, with the
+main focus on Polynomial System Solving. The prototype was presented at the
+Meeting of the Fachgruppe Computeralgebra, Kaiserslautern, February 2000.
+
+The project resources drastically shrinked when Olaf Bachmann left the project
+for a new job at the end of 2000.  We presented the project within talks at
+RWCA-02, ADG-02 and also in the CA-Rundbrief published by the Fachgruppe
+Computeralgebra, but there was almost no advance of the project during
+2002--2005.  In a second phase around 2006 the project matured again. Data
+were supplied by the CoCoA group (F.~Cioffi), the Singular group (M.~Dengel,
+M.~Brickenstein, S.~Steidel, M.~Wenk), V.~Levandovskyy (non commutative
+polynomial systems, G-Algebras) and Raymond Hemmecke (Test sets from Integer
+Programming). In 2005 the Web site \url{http://www.symbolicdata.org} was set
+up by the German \emph{Fachgruppe Computeralgebra}. During the Special
+Semester on Groebner Bases in March 2006 we tried to join forces with the
+GB-Bibliography project (Bruno Buchberger, Alexander Zapletal) and the
+GB-Facilities project (Viktor Levandovskyy). Unfortunately, all that turned
+out to be another flash in the pan.
+
+A third phase started in 2009 if we joined forces with the Agile Knowledge
+Engineering and Semantic Web (AKSW) Group at Leipzig University to strongly
+refactor the data along standard Semantic Web concepts based on the Resource
+Description Framework (RDF).  In 2012 these efforts were supported by a 12
+months grant \emph{Benchmarking in Symbolic Computations and Web 3.0} for
+Andreas Nareike within the \emph{Saxonian E-Science Initiative}.
+
+We completed a redesign of the data distinguishing more consequently between
+data (\emph{resources} in the RDF terminology) and meta data (\emph{knowledge
+  bases} in the RDF terminology) and refactoring the meta data along the
+Linked Data principles.  The new {\SD} data and tools were released as
+version~3 in September 2013.  
+
+Resources (testing and benchmarking examples from different Computer Algebra
+areas) are publicly available in XML markup, meta data in RDF notation both
+from a public git repo, hosted at github.org, and from an OntoWiki based data
+store at symbolicdata.org/Data.  Moreover, we offer a SPARQL endpoint at
+symbolicdata.org to explore the data by standard Linked Data methods.
+
+The website operates on a standard installation using an Apache web server to
+deliver the data, the Virtuoso RDF data store as data backend and SPARQL
+endpoint and (optionally) OntoWiki to explore, display and edit the data.
+This standard installation can easily be rolled out at a local site (tested
+under Linux Debian and Ubuntu 12.04 LTS; a more detailed description can be
+found in the {\SD} wiki) to support local testing and benchmarking. 
+
+The distribution offers also tools for such a local integration -- the Python
+based \emph{SDEval package} by Albert Heinle (formerly Aachen, now at Uni
+Waterloo) that offers a JUnit like framework to set up, run, log, monitor and
+interrupt testing and benchmarking computations, and the \emph{sdsage package}
+by Andreas Nareike, a {\SD} integration with the Sagemath Project. 
+
+\Ueberschrift{The {\SD} Design}{design}
+
+to be added.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Literaturverzeichnis
+\begin{thebibliography}{1}
+\itemsep=0cm plus 0pt minus 0pt
+
+% Makro fuer einen Eintrag im Literaturverzeichnis
+\bibitem
+% Label
+{B1}
+% Autoren
+Max~H.\ Musterman und Hans~M.\ N.N.
+% Titel
+\newblock Beispieltitel.
+% Zeitschrift
+\newblock {\em Computeralgebra-Rundbrief}, 54:0--1, March 2014.
+
+\end{thebibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{multicols}
+\end{document}
+
+
+\documentclass{article}
+\usepackage{a4wide,german,url}
+\usepackage[utf8]{inputenc}
+
+\newcommand{\SD}{{\sc Symbolic\-Data}}
+\parindent0pt
+\parskip4pt
+
+\begin{document}
+
+\section*{\centering Beitrag zum Teil „Berichte von Konferenzen“}
+
+\subsection*{Workshop on SymbolicData Design}
+
+Leipzig, 27. -- 28. August 2013
+
+\url{http://symbolicdata.org/wiki/Events.2013-08}
+
+The workshop was designed as final milestone of the E-Science Benchmarking
+Project promoted for 12 month within the \emph{E-Science Saxony Framework}.
+Unfortunately, the event was completely ignored by the Computer Algebra
+Communities, so that we had no opportunity to present the results of the
+project to a larger audience.  Instead we had intense discussions with people
+from the \emph{swmath} project (\url{http://www.swmath.org}, a project of the
+\emph{Zentralblatt Mathematik} towards an information service for mathematical
+software) about trends in Semantic Web Technologies that are suitable to
+support future common efforts towards a semantic aware IT infrastructure for
+Computer Algebra.
+
+In a first talk \emph{Hans-Gert Gräbe} presented the state of the SymbolicData
+project.  Note that at the end of September 2013 version 3 of SymbolicData was
+released, thus finishing a major redesign of SymbolicData, that marks a
+milestone across the implementation of semantic techniques within Computer
+Algebra.  We strongly use RDF and Linked Data principles in the organisation
+of the data. These principles are also reflected in the presentation of the
+data at \texttt{symbolicdata.org}. All resources are delivered via
+\texttt{http/rdf+xml} and a Sparql endpoint allows for navigation in the
+metadata. This can be installed also on a localhost and thus can be integrated
+into a local benchmarking or profiling infrastructure (best using python as
+scripting language and a web server at localhost). A more detailed description
+of the new release is available from the SymbolicData web pages and will be
+given also in the next issue of the \emph{Computeralgebra Rundbrief}.
+
+\emph{Andreas Nareike} presented in a second talk his prototypical integration
+of the Polynomial Systems subproject with sagemath and SymbolicData as a sage
+package \emph{sdsage} that smoothly integrates both the global SD network
+infrastructure and a local installation into the sagemath process. One can
+load data and metadata transparently into sage objects and process them as
+mathematical objects in the usual way within sage. 
+
+\emph{Ulf Schöneberg} gave a talk about effort at the ZBMath to discover and
+understand mathematical formulas in Zentralblatt mathematical reviews, mixing
+classical colocation approaches with semantic enriched opportunities of latex
+mark-up. This research is part of larger efforts within, e.g., the OpenMath
+activities.
+
+We discussed in great detail the potential interplay between
+\begin{itemize}
+\item the efforts at ZBMath to organize access to data in well established RDF
+  based formats,
+\item the SymbolicData intercommunity efforts and experience with Linked Data
+  standards, Sparql endpoints, Virtuoso and Ontowiki based local
+  installations,
+\item ongoing efforts of the DNB and other libraries (SLUB Dresden, UB
+  Leipzig) to reshape their catalogue data towards Linked Data standards and
+  get them interoperating within the GND project,
+\item perspectives to join forces with these library projects to strengthen
+  the IT infrastructure for Computer Algebra Communities.
+\end{itemize}
+\begin{flushright}
+    Hans-Gert Gr"abe (Leipzig)\footnote{to be published in
+      „Computeralgebra-Rundbrief“ 53, Oktober 2013}
+  \end{flushright}
+\end{document}
