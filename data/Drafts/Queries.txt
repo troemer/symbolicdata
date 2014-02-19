@@ -13,8 +13,19 @@ PREFIX sdpol: <http://symbolicdata.org/Data/PolynomialSystems/>
 PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
 
 ---------------------------------
-Tagungen um Feld ical:summary erweitern
+Alle Schlagworte zu Arbeitsgruppen auflisten
 
+PREFIX org: <http://www.w3.org/ns/org#>
+select distinct ?t
+from <http://symbolicdata.org/Data/Groups/>
+where {
+?a a org:Organization  .
+?a foaf:topic_interest ?t  .
+}
+
+
+---------------------------------
+Tagungen um Feld ical:summary erweitern
 
 PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
 PREFIX sd: <http://symbolicdata.org/Data/Model#> 

@@ -128,10 +128,6 @@ sdp:Horn_M a foaf:Person;
  foaf:name "Horn, Max" ; 
  foaf:mbox "max.horn@math.uni-giessen.de" .
 
-sdp:Stein_A a foaf:Person;
- foaf:name "Stein, Andreas" ; 
- foaf:mbox "andreas.stein1@uni-oldenburg.de" .
-
 sdp:Hoge_T a foaf:Person;
  foaf:name "Hoge, Torsten" ; 
  foaf:mbox "torsten.hoge@rub.de" .
