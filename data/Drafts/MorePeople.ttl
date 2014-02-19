@@ -1,0 +1,294 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix sdt: <http://symbolicdata.org/Data/Tag/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+
+<http://symbolicdata.org/Data/MorePeople/>
+    a owl:Ontology ;
+    rdfs:comment "Data extracted from a SPP 1489 mailing." ;
+    rdfs:label "CAFG: MorePeople" .
+
+sdp:Geck_M a foaf:Person;
+ foaf:name "Geck, Meinolf" ; 
+ foaf:mbox "meinolf.geck@mathematik.uni-stuttgart.de" .
+
+sdp:Thiel_NN a foaf:Person;
+ foaf:name "Thiel" ; 
+ foaf:mbox "thiel@mathematik.uni-stuttgart.de" .
+
+sdp:Grelak_F a foaf:Person;
+ foaf:name "Grelak, Felix" ; 
+ foaf:mbox "felix.grelak@uni-due.de" .
+
+sdp:Barakat_NN a foaf:Person;
+ foaf:name "barakat" ; 
+ foaf:mbox "barakat@mathematik.uni-kl.de" .
+
+sdp:Gutsche_NN a foaf:Person;
+ foaf:name "gutsche" ; 
+ foaf:mbox "gutsche@mathematik.uni-kl.de" .
+
+sdp:Posur_S a foaf:Person;
+ foaf:name "Posur, Sebastian" ; 
+ foaf:mbox "sebastian.posur@rwth-aachen.de" .
+
+sdp:Boeckle_NN a foaf:Person;
+ foaf:name "boeckle" ; 
+ foaf:mbox "boeckle@uni-hd.de" .
+
+sdp:Nebe_G a foaf:Person;
+ foaf:name "Nebe, Gabriele" ; 
+ foaf:mbox "gabriele.nebe@rwth-aachen.de" .
+
+sdp:Braun_O a foaf:Person;
+ foaf:name "Braun, Oliver" ; 
+ foaf:mbox "oliver.braun1@rwth-aachen.de" .
+
+sdp:Schoennenbeck_S a foaf:Person;
+ foaf:name "Schönnenbeck, Sebastian" ; 
+ foaf:mbox "sebastian.schoennenbeck@rwth-aachen.de" .
+
+sdp:Grigoryev_D a foaf:Person;
+ foaf:name "Grigoryev, Dima" ; 
+ foaf:mbox "dima.grigoryev@gmail.com" .
+
+sdp:Bruns_W a foaf:Person;
+ foaf:name "Bruns, W." ; 
+ foaf:mbox "wbruns@uos.de" .
+
+sdp:Hahn_NN a foaf:Person;
+ foaf:name "hahn" ; 
+ foaf:mbox "hahn@math.uni-sb.de" .
+
+sdp:Bopp_NN a foaf:Person;
+ foaf:name "bopp" ; 
+ foaf:mbox "bopp@math.uni-sb.de" .
+
+sdp:Soeger_C a foaf:Person;
+ foaf:name "Soeger, C." ; 
+ foaf:mbox "csoeger@uos.de" .
+
+sdp:Toman_NN a foaf:Person;
+ foaf:name "toman" ; 
+ foaf:mbox "toman@tum.de" .
+
+sdp:Roehrle_G a foaf:Person;
+ foaf:name "Röhrle, Gerhard" ; 
+ foaf:mbox "gerhard.roehrle@ruhr-uni-bochum.de" .
+
+sdp:Albertas_D a foaf:Person;
+ foaf:name "albertas.d" ; 
+ foaf:mbox "albertas.d@gmail.com" .
+
+sdp:Mueller_JM a foaf:Person;
+ foaf:name "Müller, Jürgen Manfred" ; 
+ foaf:mbox "juergen.manfred.mueller@uni-jena.de" .
+
+sdp:Wewers_S a foaf:Person;
+ foaf:name "Wewers, Stefan" ; 
+ foaf:mbox "stefan.wewers@uni-ulm.de" .
+
+sdp:Troemer_NN a foaf:Person;
+ foaf:name "troemer" ; 
+ foaf:mbox "troemer@uos.de" .
+
+sdp:Spreckels_U a foaf:Person;
+ foaf:name "Spreckels, Ute" ; 
+ foaf:mbox "ute.spreckels@uni-oldenburg.de" .
+
+sdp:Tanturri_NN a foaf:Person;
+ foaf:name "tanturri" ; 
+ foaf:mbox "tanturri@math.uni-sb.de" .
+
+sdp:Kirschmer_M a foaf:Person;
+ foaf:name "mkirschmer" ; 
+ foaf:mbox "mkirschmer@yahoo.com" .
+
+sdp:Husert_NN a foaf:Person;
+ foaf:name "husert" ; 
+ foaf:mbox "husert@math.uni-paderborn.de" .
+
+sdp:Lorenz_NN a foaf:Person;
+ foaf:name "lorenz" ; 
+ foaf:mbox "lorenz@math.tu-berlin.de" .
+
+sdp:Boerner_M a foaf:Person;
+ foaf:name "Börner, Michel" ; 
+ foaf:mbox "michel.boerner@gmail.com" .
+
+sdp:Margolis_L a foaf:Person;
+ foaf:name "Margolis, Leo" ; 
+ foaf:mbox "leo.margolis@mathematik.uni-stuttgart.de" .
+
+sdp:Horn_M a foaf:Person;
+ foaf:name "Horn, Max" ; 
+ foaf:mbox "max.horn@math.uni-giessen.de" .
+
+sdp:Stein_A a foaf:Person;
+ foaf:name "Stein, Andreas" ; 
+ foaf:mbox "andreas.stein1@uni-oldenburg.de" .
+
+sdp:Hoge_T a foaf:Person;
+ foaf:name "Hoge, Torsten" ; 
+ foaf:mbox "torsten.hoge@rub.de" .
+
+sdp:Bouw_I a foaf:Person;
+ foaf:name "Bouw, Irene" ; 
+ foaf:mbox "irene.bouw@uni-ulm.de" .
+
+sdp:Amend_N a foaf:Person;
+ foaf:name "Amend, Nils" ; 
+ foaf:mbox "nils.amend@rub.de" .
+
+sdp:Rueth_J a foaf:Person;
+ foaf:name "Rueth, Julian" ; 
+ foaf:mbox "julian.rueth@fsfe.org" .
+
+sdp:Rossmann_NN a foaf:Person;
+ foaf:name "rossmann" ; 
+ foaf:mbox "rossmann@math.uni-bielefeld.de" .
+
+sdp:Centeleghe_T a foaf:Person;
+ foaf:name "Centeleghe, Tommaso" ; 
+ foaf:mbox "tommaso.centeleghe@iwr.uni-heidelberg.de" .
+
+sdp:Stein_S a foaf:Person;
+ foaf:name "Stein, Sandra" ; 
+ foaf:mbox "sandra.stein@uni-oldenburg.de" .
+
+sdp:Marks_NN a foaf:Person;
+ foaf:name "marks" ; 
+ foaf:mbox "marks@mathematik.uni-stuttgart.de" .
+
+sdp:Koenig_S a foaf:Person;
+ foaf:name "skoenig" ; 
+ foaf:mbox "skoenig@mathematik.uni-stuttgart.de" .
+
+sdp:Kuelshammer_NN a foaf:Person;
+ foaf:name "kuelshammer" ; 
+ foaf:mbox "kuelshammer@uni-jena.de" .
+
+sdp:Voll_NN a foaf:Person;
+ foaf:name "voll" ; 
+ foaf:mbox "voll@math.uni-bielefeld.de" .
+
+sdp:Moede_T a foaf:Person;
+ foaf:name "Moede, T." ; 
+ foaf:mbox "t.moede@tu-bs.de" .
+
+sdp:King_S a foaf:Person;
+ foaf:name "King, S." ; 
+ foaf:mbox "simon.king@uni-jena.de" .
+
+sdp:Paffenholz_A a foaf:Person;
+ foaf:name "Paffenholz, Andreas" ; 
+ foaf:mbox "paffenholz@mathematik.tu-darmstadt.de" .
+
+sdp:Johanning_S a foaf:Person;
+ foaf:name "Johanning, Simon" ; 
+ foaf:mbox "Simonjohanning@gmail.com" .
+
+sdp:Benner_I a foaf:Person;
+ foaf:name "Benner, I." ; 
+ foaf:mbox "ibenner@iaz.uni-stuttgart.de" .
+
+sdp:Schulze_M a foaf:Person;
+ foaf:name "Schulze, M." ; 
+ foaf:mbox "mschulze@mathematik.uni-kl.de" .
+
+sdp:Distler_A a foaf:Person;
+ foaf:name "Distler, A." ; 
+ foaf:mbox "a.distler@tu-bs.de" .
+
+sdp:Hofmann_T a foaf:Person;
+ foaf:name "Hofmann, T." ; 
+ foaf:mbox "thofmann@mathematik.uni-kl.de" .
+
+sdp:Kimmerle_NN a foaf:Person;
+ foaf:name "kimmerle" ; 
+ foaf:mbox "kimmerle@mathematik.uni-stuttgart.de" .
+
+sdp:Sieg_R a foaf:Person;
+ foaf:name "Sieg, Richard" ; 
+ foaf:mbox "richard.sieg@uos.de" .
+
+sdp:Pieropan_M a foaf:Person;
+ foaf:name "Pieropan_Marta" ; 
+ foaf:mbox "Marta.Pieropan@mathematik.uni-muenchen.de" .
+
+sdp:Goodwillhart_NN a foaf:Person;
+ foaf:name "goodwillhart" ; 
+ foaf:mbox "goodwillhart@googlemail.com" .
+
+sdp:Rottner_NN a foaf:Person;
+ foaf:name "rottner" ; 
+ foaf:mbox "rottner@mathematik.uni-kl.de" .
+
+sdp:Bachle_A a foaf:Person;
+ foaf:name "Bachle, A." ; 
+ foaf:mbox "ABachle@vub.ac.be" .
+
+sdp:Ivgelder_NN a foaf:Person;
+ foaf:name "ivgelder" ; 
+ foaf:mbox "ivgelder@vub.ac.be" .
+
+sdp:vanLeeuwen_M a foaf:Person;
+ foaf:name "van Leeuwen, Marc" ; 
+ foaf:mbox "Marc.van-Leeuwen@math.univ-poitiers.fr" .
+
+sdp:Behrends_NN a foaf:Person;
+ foaf:name "behrends" ; 
+ foaf:mbox "behrends@gmail.com" .
+
+sdp:Keicher_S a foaf:Person;
+ foaf:name "Keicher, Simon" ; 
+ foaf:mbox "simonkeicher@googlemail.com" .
+
+sdp:Hausen_J a foaf:Person;
+ foaf:name "Hausen, Jürgen" ; 
+ foaf:mbox "juergen.hausen@uni-tuebingen.de" .
+
+sdp:Boehm_NN a foaf:Person;
+ foaf:name "boehm" ; 
+ foaf:mbox "boehm@mathematik.uni-kl.de" .
+
+sdp:Stoll_M a foaf:Person;
+ foaf:name "Stoll, Michael" ; 
+ foaf:mbox "Michael.Stoll@uni-bayreuth.de" .
+
+sdp:Nunobfreitas_NN a foaf:Person;
+ foaf:name "nunobfreitas" ; 
+ foaf:mbox "nunobfreitas@gmail.com" .
+
+sdp:Deppe_H a foaf:Person;
+ foaf:name "Deppe, H." ; 
+ foaf:mbox "hdeppe@math.uni-bielefeld.de" .
+
+sdp:Derc_E a foaf:Person;
+ foaf:name "Derc, E." ; 
+ foaf:mbox "ederc@mathematik.uni-kl.de" .
+
+sdp:Conca_A a foaf:Person;
+ foaf:name "Conca, Aldo" ; 
+ foaf:mbox "conca@dima.unige.it" .
+
+sdp:Stump_C a foaf:Person;
+ foaf:name "Stump, Christian" ; 
+ foaf:mbox "christian.stump@gmail.com" .
+
+sdp:Wolff_DE a foaf:Person;
+ foaf:name "Wolff, D.E." ; 
+ foaf:mbox "dewolff@math.uni-sb.de" .
+
+sdp:Pavemete_NN a foaf:Person;
+ foaf:name "pavemete" ; 
+ foaf:mbox "pavemete@gmail.com" .
+
+sdp:Michel_J a foaf:Person;
+ foaf:name "Michel, J." ; 
+ foaf:mbox "jmichel@math.jussieu.fr" .
+

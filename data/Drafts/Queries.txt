@@ -10,6 +10,29 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX sd: <http://symbolicdata.org/Data/Model#> 
 PREFIX sdp: <http://symbolicdata.org/Data/People/> 
 PREFIX sdpol: <http://symbolicdata.org/Data/PolynomialSystems/> 
+PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
+
+---------------------------------
+Tagungen um Feld ical:summary erweitern
+
+
+PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+select ?a ?d
+from <http://symbolicdata.org/Data/Tagungsankuendigungen/>
+where {
+?a a sd:Event  .
+?a ical:description ?d .
+}
+
+PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+construct { ?a ical:summary ?d .  }
+from <http://symbolicdata.org/Data/Tagungsankuendigungen/>
+where {
+?a a sd:Event  .
+?a ical:description ?d .
+}
 
 ---------------------------------
 
