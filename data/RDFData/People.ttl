@@ -37,6 +37,9 @@ sdp:Apel_J a foaf:Person ;
 sdp:Arndt_F a foaf:Person ;
             foaf:name "Arndt, Frauke" .
 
+sdp:Autexier_S a foaf:Person ;
+               foaf:name "Autexier, Serge" .
+
 sdp:Bachmann_O a foaf:Person, sd:Contributor ;
                foaf:name "Bachmann, Olaf" ;
                foaf:nick "obachman" ;
@@ -116,6 +119,10 @@ sdp:Czakon_M a foaf:Person ;
 
 sdp:Czapor_SR a foaf:Person ;
               foaf:name "Czapor, S.R." .
+
+sdp:Davenport_JH a foaf:Person ;
+                 foaf:name "Davenport, James Harold" ;
+                 foaf:homepage <http://people.bath.ac.uk/masjhd/> .
 
 sdp:Decker_W a foaf:Person ;
              foaf:name "Decker, Wolfram" .
@@ -351,6 +358,12 @@ sdp:Koepf_W a foaf:Person ;
 sdp:Koerner_H a foaf:Person ;
               foaf:name "Körner, H." .
 
+sdp:Kohlhase_A a foaf:Person ;
+               foaf:name "Kohlhase, Andrea" .
+
+sdp:Kohlhase_M a foaf:Person ;
+               foaf:name "Kohlhase, Michael" .
+
 sdp:Kortenkamp_U a foaf:Person ;
                  foaf:name "Kortenkamp, Ulrich" .
 
@@ -391,6 +404,9 @@ sdp:Levandovskyy_V a foaf:Person, sd:Contributor ;
                    foaf:homepage <http://www.math.rwth-aachen.de/~Viktor.Levandovskyy> ;
                    sd:hasContributed "Data: GAlgebra, FreeAlgebra" ;
                    sd:lastModified "2004-08-26" .
+
+sdp:Libbrecht_P a foaf:Person ;
+                foaf:name "Libbrecht, Paul" .
 
 sdp:Liedtke_C a foaf:Person ;
               foaf:name "Liedtke, Christian" .
@@ -555,6 +571,17 @@ sdp:Seiler_W a foaf:Person ;
 sdp:Senk_DG a foaf:Person ;
             foaf:name "Senk, Dieter G." .
 
+sdp:Sexton_AP a foaf:Person ;
+              foaf:name "Sexton, Alan P." ;
+              foaf:homepage <http://www.cs.bham.ac.uk/~aps/> .
+
+sdp:Smirnova_E a foaf:Person ;
+               foaf:name "Smirnova, Elena" .
+
+sdp:Sojka_P a foaf:Person ;
+            foaf:name "Sojka, Petr" ;
+            foaf:homepage <http://www.fi.muni.cz/usr/sojka/> .
+
 sdp:Sorgatz_A a foaf:Person ;
               foaf:name "Sorgatz, Andreas" .
 
@@ -602,6 +629,10 @@ sdp:Traverso_C a foaf:Person ;
 sdp:Troost_W a foaf:Person ;
              foaf:name "Troost, W." .
 
+sdp:Urban_J a foaf:Person ;
+            foaf:name "Urban, Josef" ;
+            foaf:homepage <http://cs.ru.nl/~urban/> .
+
 sdp:Vehling_R a foaf:Person ;
               foaf:name "Vehling, Reimund" .
 
@@ -616,6 +647,9 @@ sdp:Wallack_A a foaf:Person ;
 
 sdp:Wang_D a foaf:Person ;
            foaf:name "Wang, Dongming" .
+
+sdp:Watt_S a foaf:Person ;
+           foaf:name "Watt, Stephen" .
 
 sdp:Weispfenning_V a foaf:Person ;
                    foaf:name "Weispfenning, Volker" .
