@@ -1,0 +1,85 @@
+\documentclass{beamer}
+\usepackage[english]{babel}
+
+\author{Albert Heinle, U Waterloo}
+
+\title{Benchmarking with SDEval}
+
+\date{February 28, 2014}
+
+\begin{document}
+\begin{frame}
+\begin{titlepage}
+\end{titlepage}
+\end{frame}
+\begin{frame}
+  \frametitle{What is SDEval?}
+  
+  \begin{itemize}
+    \item Tool for {\textbf{creating}} and {\textbf{running}} benchmarks.
+    \item Focus on problems in computer algebra.
+    \item Built on top of the Symbolic Data project.
+  \end{itemize}
+  {\textbf{Goals:}}
+  \begin{itemize}
+    \item Provide a {\textbf{feasible}}, {\textbf{fair}} and
+      {\textbf{automatizable way}} of {\textbf{reproducing}} benchmarks
+      published in current research works.
+    \item Lead to standards for benchmarking, which are not yet thoroughly
+      established and followed in computer algebra compared to other research
+      areas (e.\,g.\ SAT-solving, SMT-solving, numerics).
+    \item Address particularities of benchmarking in computer algebra (results
+      of computations sometimes not unique, big variety of subtopics and
+      different problems).
+    \item Ease the work for researchers who want to compare their
+      implementation to existing ones without the necessity to learn to
+      operate those.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Creating a Benchmark with SDEval}
+  
+  Given
+  \begin{itemize}
+    \item A computation problem (e.\,g.\ Gr{\"o}bner basis calculation).
+    \item A list of computer algebra systems or other programs which are
+      supported that provide functionality to solve the computation problem.
+    \item A list of entries in the Symbolic Data database that can serve as
+      inputs for the given computation problem.
+  \end{itemize}
+  Then our tools can generate executable code for the given computer algebra
+  systems, that will instruct them to compute a solution to the computation
+  problem given the inputs from Symbolic-Data.
+  
+  {\textbf{Furthermore:}}
+  \begin{itemize}
+    \item Tools are easily extendable using templates for custom computation
+      problems and custom programs or other computer algebra systems.
+    \item Witten in Python, therefore operating-system independent.
+    \item GUI available.
+  \end{itemize}
+\end{frame}
+\begin{frame}
+  \frametitle{Running Benchmarks with SDEval}
+ 
+  \begin{itemize}
+    \item Based on a specific folder structure, that can be generated using
+      SDEval.
+    \item Running and monitoring computations:
+    \begin{itemize}
+      \item Progress view via HTML- or XML-file (latter for automatization).
+      \item User can predefine restrictions on time and memory consumption
+        (tool automatically cancels processes which violate those
+        restrictions).
+    \end{itemize}
+    \item Designed to be easy to customize (e.\,g.\ exclude or add other
+      problem instances or programs to existing benchmark).
+    \item Using independent, open source time mechanism for fair evaluation.
+    \item Every execution of the benchmark will create separate folder with
+      results. Therefore change of evaluations of the benchmark over time
+      traceable.
+  \end{itemize}
+\end{frame}
+
+\end{document}
