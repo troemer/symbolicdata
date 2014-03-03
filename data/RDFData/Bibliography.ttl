@@ -8,6 +8,7 @@
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix sdb: <http://symbolicdata.org/Data/BIB/> .
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix cc: <http://creativecommons.org/ns#> .
 
 sdb:Albano_00a a sd:Reference ;
                sd:createdAt "2001-03-16" ;

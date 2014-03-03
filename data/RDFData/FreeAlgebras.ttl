@@ -4,6 +4,7 @@
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
 
 sd:FreeAlgebra a owl:Class ; rdfs:label "Free Algebra" .
 
