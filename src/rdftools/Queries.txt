@@ -1,0 +1,166 @@
+##################################
+#
+# author: graebe
+# createdAt: 2014-03-05
+# lastUpdate: 2014-03-05
+
+# purpose: Examples of SPARQL Queries.  Feel free to enlarge the list of
+# examples.
+
+List of useful prefixes
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+PREFIX sdp: <http://symbolicdata.org/Data/People/> 
+PREFIX sdpol: <http://symbolicdata.org/Data/PolynomialSystems/> 
+PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
+
+---------------------------------
+
+PREFIX sd: <http://symbolicdata.org/Data/Model/> 
+
+construct { ?a ?b ?c . }  WHERE {
+  ?a a sd:Contributor .
+  ?a ?b ?c
+}
+
+---------------------------------
+Find all keywords associated to working groups
+
+PREFIX org: <http://www.w3.org/ns/org#>
+select distinct ?t
+from <http://symbolicdata.org/Data/Groups/>
+where {
+?a a org:Organization  .
+?a foaf:topic_interest ?t  .
+}
+
+---------------------------------
+List all Birkhoff Polytopes 
+
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+select distinct ?a
+from <http://symbolicdata.org/Data/BirkhoffPolytopes/>
+where {
+?a a sd:BirkhoffPolytope  .
+}
+
+---------------------------------
+Extend Conferences by a field ical:summary 
+
+PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+select ?a ?d ?begin
+from <http://symbolicdata.org/Data/Tagungsankuendigungen/>
+where {
+?a a sd:Event  .
+optional { ?a ical:dtstart ?begin . }
+?a ical:description ?d .
+} order by ?begin
+
+PREFIX ical: <http://www.w3.org/2002/12/cal/ical#> 
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+construct { ?a ical:summary ?d .  }
+from <http://symbolicdata.org/Data/Tagungsankuendigungen/>
+where {
+?a a sd:Event  .
+?a ical:description ?d .
+}
+
+---------------------------------
+
+PREFIX sd: <http://symbolicdata.org/Data/Model/> 
+
+construct { ?a ?b ?c . }  WHERE {
+  ?a a sd:Contributor .
+  ?a ?b ?c
+}
+
+-- Different search queries on the BIB Entries
+http://symbolicdata.org:8890/sparql
+
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+select count(distinct ?a) 
+where {
+?a a sd:Reference .
+}
+
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+select count(distinct ?a) 
+where {
+?a a sd:Reference .
+?a sd:hasZBentry ?b .
+}
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+select ?a ?t count(distinct ?cn)
+where {
+?a a sd:Reference .
+optional { ?a dct:title ?t . }
+optional { ?a dct:creator ?c . 
+  ?c foaf:name ?cn . }
+optional { ?a sd:hasZBentry ?b . }
+filter (!bound(?b)) 
+}
+
+-- Find foaf:Person entries in the CAFG database
+http://symbolicdata.org:8890/sparql
+
+PREFIX org: <http://www.w3.org/ns/org#>
+select distinct ?an ?on
+from <http://symbolicdata.org/Data/People/>
+from <http://symbolicdata.org/Data/Groups/>
+where {
+?a a foaf:Person .
+?o a org:Organization .
+?o org:hasMember ?a . 
+optional { ?a foaf:name ?an . }
+optional { ?o skos:prefLabel ?on . }
+}
+
+-- List polynomial configurations by fingerprints
+
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+select distinct ?ll ?dl count(?a) 
+from <http://symbolicdata.org/Data/PolynomialSystems/>
+where {
+?a a sd:Ideal . 
+?a sd:hasLengthsList ?ll . 
+?a sd:hasDegreeList ?dl . 
+} order by desc(count(?a))
+
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+select ?a 
+from <http://symbolicdata.org/Data/PolynomialSystems/>
+where {
+?a a sd:Ideal . 
+?a sd:hasLengthsList "4,4,4" . 
+?a sd:hasDegreeList "3,3,3" . 
+} 
+
+-- Find all transformation operations between ideal configurations
+
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+select distinct ?p 
+from <http://symbolicdata.org/Data/PolynomialSystems/>
+where {
+?a a sd:Ideal . 
+?b a sd:Ideal . 
+?a ?p ?b .
+}
+
+-- Annotations
+
+PREFIX sd: <http://symbolicdata.org/Data/Model#> 
+select ?a 
+from <http://symbolicdata.org/Data/Annotations/>
+where {
+?a a sd:Annotation . 
+?a sd:relatesTo <http://symbolicdata.org/Data/Ideal/Sym1_211> .
+}
