@@ -288,3 +288,15 @@ sdp:Michel_J a foaf:Person;
  foaf:name "Michel, J." ; 
  foaf:mbox "jmichel@math.jussieu.fr" .
 
+sdp:Dan-Cohen_I a foaf:Person ; foaf:name "Dan-Cohen, Ishai" .
+sdp:deWolf_T a foaf:Person ; foaf:name "de Wolf, Timo" .
+sdp:Dvirnas_A a foaf:Person ; foaf:name "Dvirnas, Albertas" .
+sdp:Eder_C a foaf:Person ; foaf:name "Eder, Christian" .
+sdp:Freitas_N a foaf:Person ; foaf:name "Freitas, Nuno" .
+sdp:Kastner_L a foaf:Person ; foaf:name "Kastner, Lars" .
+sdp:Katthaen_L a foaf:Person ; foaf:name "Katthän, Lukas" .
+sdp:Lange-Hegermann_M a foaf:Person ; foaf:name "Lange-Hegermann, Markus" .
+sdp:Metelisyn_P a foaf:Person ; foaf:name "Metelisyn, Pavel" .
+sdp:Mohammadi_F a foaf:Person ; foaf:name "Mohammadi, Fatemeh" .
+sdp:Shalile_A a foaf:Person ; foaf:name "Shalile, Armin" .
+sdp:vanGelder_I a foaf:Person ; foaf:name "van Gelder, Inneke" .

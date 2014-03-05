@@ -1,697 +1,1172 @@
-# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
-
-@base <http://symbolicdata.org/Data/People/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
 @prefix sdt: <http://symbolicdata.org/Data/Tag/> .
 @prefix cc: <http://creativecommons.org/ns#> .
 
-sd:Contributor a owl:Class ;
-               rdfs:label "Contributor" .
+sd:Contributor
+    a owl:Class ;
+    rdfs:label "Contributor" .
+
+<http://symbolicdata.org/Data/People/>
+    cc:attributionName "The SymbolicData Project" ;
+    cc:attributionURL <http://symbolicdata.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    a owl:Ontology ;
+    rdfs:label "SD Person Data" .
+
+sdp:Abbott_J
+    a foaf:Person ;
+    foaf:name "Abbott, John" .
+
+sdp:Albano_G
+    a foaf:Person ;
+    foaf:name "Albano, G." .
+
+sdp:Albrecht_M
+    a foaf:Person ;
+    foaf:name "Albrecht, Martin" .
+
+sdp:Amend_N
+    a foaf:Person ;
+    foaf:name "Amend, Nils" .
+
+sdp:Amrhein_B
+    a foaf:Person ;
+    foaf:name "Amrhein, Beatrice" .
+
+sdp:Apel_J
+    a foaf:Person ;
+    foaf:name "Apel, Joachim" .
+
+sdp:Arndt_F
+    a foaf:Person ;
+    foaf:name "Arndt, Frauke" .
+
+sdp:Autexier_S
+    a foaf:Person ;
+    foaf:name "Autexier, Serge" .
+
+sdp:Bachle_A
+    a foaf:Person ;
+    foaf:name "Bächle, Andreas" .
+
+sdp:Bachmann_O
+    sd:hasContributed "Version 1: basic Perl tools, Design of Data and Records, Polynomial Systems, Html template design, Compute environment, Bibliography, Benchmark runs" ;
+    sd:lastModified "2010-12-29" ;
+    a sd:Contributor, foaf:Person ;
+    foaf:name "Bachmann, Olaf" ;
+    foaf:nick "obachman" .
+
+sdp:Bailey_DH
+    a foaf:Person ;
+    foaf:name "Bailey, David H." .
+
+sdp:Barakat_M
+    a foaf:Person ;
+    foaf:name "Barakat, Mohamed" .
+
+sdp:Baumeister_B
+    a foaf:Person ;
+    foaf:name "Baumeister, Barbara" .
+
+sdp:Behrends_R
+    a foaf:Person ;
+    foaf:name "Behrends, Reimer" .
+
+sdp:Benner_I
+    a foaf:Person ;
+    foaf:name "Benner, Inga" .
+
+sdp:Berghammer_R
+    a foaf:Person ;
+    foaf:name "Berghammer, Rudolf" .
+
+sdp:Berth_M
+    a foaf:Person ;
+    foaf:name "Berth, Matthias" .
+
+sdp:Bigatti_AM
+    a foaf:Person ;
+    foaf:name "Bigatti, Anna M." .
+
+sdp:Bini_D
+    a foaf:Person ;
+    foaf:name "Bini, D." .
+
+sdp:Bjoerk_G
+    a foaf:Person ;
+    foaf:name "Björck, G." .
+
+sdp:Boeckle_G
+    a foaf:Person ;
+    foaf:name "Boeckle, Gebhard" .
+
+sdp:Boege_W
+    a foaf:Person ;
+    foaf:name "Boege, W." .
+
+sdp:Boehm_J
+    a foaf:Person ;
+    foaf:name "Böhm, Janko" .
+
+sdp:Boerner_M
+    a foaf:Person ;
+    foaf:name "Börner, Michel" .
+
+sdp:Bopp_C
+    a foaf:Person ;
+    foaf:name "Bopp, Christian" .
+
+sdp:Borwein_JM
+    a foaf:Person ;
+    foaf:name "Borwein, Jonathan M." .
+
+sdp:Bouw_I
+    a foaf:Person ;
+    foaf:name "Bouw, Irene" .
+
+sdp:Braun_O
+    a foaf:Person ;
+    foaf:name "Braun, Oliver" .
+
+sdp:Brickenstein_M
+    sd:hasContributed "Version 2: IntPS satlib examples" ;
+    sd:lastModified "2008-02-27" ;
+    a sd:Contributor, foaf:Person ;
+    foaf:name "Brickenstein, Michael" ;
+    foaf:nick "mbrickenstein" .
+
+sdp:Bruns_W
+    a foaf:Person ;
+    foaf:name "Bruns, Winfried" .
+
+sdp:Buchberger_B
+    a foaf:Person ;
+    foaf:name "Buchberger, Benno" .
+
+sdp:Buchmann_J
+    a foaf:Person ;
+    foaf:name "Buchmann, Johannes" .
+
+sdp:Buergisser_P
+    a foaf:Person ;
+    foaf:name "Bürgisser, Peter" .
+
+sdp:Canny_JF
+    a foaf:Person ;
+    foaf:name "Canny, J.F." .
+
+sdp:Centeleghe_T
+    a foaf:Person ;
+    foaf:name "Centeleghe, Tommaso" .
+
+sdp:Chou_SC
+    a foaf:Person ;
+    foaf:name "Chou, S.-C." .
+
+sdp:Christensen_ND
+    a foaf:Person ;
+    foaf:name "Christensen, Neil D." .
+
+sdp:Cioffi_F
+    sd:hasContributed "Version 1: IntPS/Curves" ;
+    sd:lastModified "2013-09-14" ;
+    a sd:Contributor, foaf:Person ;
+    foaf:homepage <https://www.docenti.unina.it/FRANCESCA.CIOFFI> ;
+    foaf:mbox "francesca.cioffi@unina.it" ;
+    foaf:name "Cioffi, Francesca" ;
+    foaf:nick "cioffi" .
+
+sdp:Cohn_H
+    a foaf:Person ;
+    foaf:name "Cohn, H." .
+
+sdp:Conca_A
+    a foaf:Person ;
+    foaf:name "Conca, Aldo" .
+
+sdp:Cox_D
+    a foaf:Person ;
+    foaf:name "Cox, D." .
+
+sdp:Cuntz_M
+    a foaf:Person ;
+    foaf:name "Cuntz, Michael" .
+
+sdp:Czakon_M
+    a foaf:Person ;
+    foaf:name "Czakon, Michal" .
+
+sdp:Czapor_SR
+    a foaf:Person ;
+    foaf:name "Czapor, S.R." .
+
+sdp:Dan-Cohen_I
+    a foaf:Person ;
+    foaf:name "Dan-Cohen, Ishai" .
+
+sdp:Davenport_JH
+    a foaf:Person ;
+    foaf:homepage <http://people.bath.ac.uk/masjhd/> ;
+    foaf:name "Davenport, James Harold" .
+
+sdp:Decker_W
+    a foaf:Person ;
+    foaf:name "Decker, Wolfram" .
+
+sdp:Dengel_M
+    sd:hasContributed "Version 1: Html presentation, frames and JavaScript" ;
+    sd:lastModified "2004-08-26" ;
+    a sd:Contributor, foaf:Person ;
+    foaf:homepage <http://loge.math.uni-sb.de/~dengel> ;
+    foaf:mbox "mdengel@math.uni-sb.de" ;
+    foaf:name "Dengel, Michael" .
+
+sdp:Deppe_H
+    a foaf:Person ;
+    foaf:name "Deppe, Holger" .
+
+sdp:Derenthal_U
+    a foaf:Person ;
+    foaf:name "Derenthal, Ulrich" .
+
+sdp:Diemer_C
+    a foaf:Person ;
+    foaf:name "Diemer, Clemens" .
+
+sdp:Diem_C
+    a foaf:Person ;
+    foaf:name "Diem, Claus" .
+
+sdp:Distler_A
+    a foaf:Person ;
+    foaf:name "Distler, Andreas" .
+
+sdp:Dreyer_A
+    a foaf:Person ;
+    foaf:name "Dreyer, Alexander" .
+
+sdp:Duerrschnabel_K
+    a foaf:Person ;
+    foaf:name "Dürrschnabel, Klaus" .
+
+sdp:Duhr_C
+    a foaf:Person ;
+    foaf:name "Duhr, Claude" .
+
+sdp:Dvirnas_A
+    a foaf:Person ;
+    foaf:name "Dvirnas, Albertas" .
+
+sdp:Eder_C
+    a foaf:Person ;
+    foaf:name "Eder, Christian" .
+
+sdp:Eick_B
+    a foaf:Person ;
+    foaf:name "Eick, Bettina" .
+
+sdp:Eisenbud_D
+    a foaf:Person ;
+    foaf:name "Eisenbud, D." .
+
+sdp:Elvenich_HM
+    a foaf:Person ;
+    foaf:name "Elvenich, Hans-Michael" .
+
+sdp:Emiris_IZ
+    a foaf:Person ;
+    foaf:name "Emiris, I.Z." .
+
+sdp:Enge_A
+    a foaf:Person ;
+    foaf:name "Enge, Andreas" .
+
+sdp:Faugere_JC
+    sd:hasContributed "Version 1: Polynomial Systems" ;
+    sd:lastModified "2013-09-14" ;
+    a sd:Contributor, foaf:Person ;
+    foaf:homepage <http://www-calfor.lip6.fr/~jcf> ;
+    foaf:mbox "Jean-Charles.Faugere@inria.fr" ;
+    foaf:name "Faugére, Jean-Charles" ;
+    foaf:nick "jcf" .
+
+sdp:Fieker_C
+    a foaf:Person ;
+    foaf:name "Fieker, Claus" .
+
+sdp:Frei_C
+    a foaf:Person ;
+    foaf:name "Frei, Christopher" .
+
+sdp:Freitas_N
+    a foaf:Person ;
+    foaf:name "Freitas, Nuno" .
+
+sdp:Froeberg_G
+    a foaf:Person ;
+    foaf:name "Fröberg, G." .
+
+sdp:Fronville_A
+    a foaf:Person ;
+    foaf:name "Fronville, Alexandra" .
+
+sdp:FruehbisKrueger_A
+    a foaf:Person ;
+    foaf:name "Frühbis-Krüger, Anne" .
+
+sdp:Fujiki_NM
+    a foaf:Person ;
+    foaf:name "Fujiki, N. M." .
+
+sdp:Fujise_T
+    a foaf:Person ;
+    foaf:name "Fujise, T." .
+
+sdp:Fukuda_S
+    a foaf:Person ;
+    foaf:name "Fukuda, S." .
+
+sdp:Galligo_A
+    a foaf:Person ;
+    foaf:name "Galligo, André" .
+
+sdp:Gatermann_K
+    a foaf:Person ;
+    foaf:name "Gatermann, Karin" .
+
+sdp:Gebauer_R
+    a foaf:Person ;
+    foaf:name "Gebauer, Rüdiger" .
+
+sdp:Geck_M
+    a foaf:Person ;
+    foaf:name "Geck, Meinolf" .
+
+sdp:Geddes_KO
+    a foaf:Person ;
+    foaf:name "Geddes, Keith O." .
+
+sdp:Gerdt_VP
+    a foaf:Person ;
+    foaf:name "Gerdt, Vladimir P." .
+
+sdp:Giovini_A
+    a foaf:Person ;
+    foaf:name "Giovini, A." .
+
+sdp:Gloor_O
+    a foaf:Person ;
+    foaf:name "Gloor, Oliver" .
+
+sdp:Grabmeier_J
+    a foaf:Person ;
+    foaf:name "Grabmeier, Johannes" .
+
+sdp:Graebe_HG
+    sd:hasContributed "Version 1: basic Perl tools, References, Polynomial Systems, GeoProofSchemes", "Version 2: Redesign", "Version 3: Redesign, Bibliography, GeoProofSchemes, Git Repo, Wiki" ;
+    sd:lastModified "2004-08-26" ;
+    a sd:Contributor, foaf:Person ;
+    foaf:homepage <http://www.informatik.uni-leipzig.de/~graebe> ;
+    foaf:mbox "graebe@informatik.uni-leipzig.de" ;
+    foaf:name "Gräbe, Hans-Gert" ;
+    foaf:nick "graebe" .
+
+sdp:Grayson_DR
+    a foaf:Person ;
+    foaf:name "Grayson, Daniel R." .
+
+sdp:Greefrath_G
+    a foaf:Person ;
+    foaf:name "Greefrath, Gilbert" .
+
+sdp:Grelak_F
+    a foaf:Person ;
+    foaf:name "Grelak, Felix" .
+
+sdp:Greuel_GM
+    a foaf:Person ;
+    foaf:name "Greuel, Gerd-Martin", "Greuel, Gert-Martin" .
+
+sdp:Grigoriev_D
+    a foaf:Person ;
+    foaf:name "Grigoriev, Dima" .
+
+sdp:Groetschel_M
+    a foaf:Person ;
+    foaf:name "Grötschel, Martin" .
+
+sdp:Gutsche_S
+    a foaf:Person ;
+    foaf:name "Gutsche, Sebastian" .
+
+sdp:Haase_C
+    a foaf:Person ;
+    foaf:name "Haase, Christian" .
+
+sdp:Hackl_K
+    a foaf:Person ;
+    foaf:name "Hackl, Klaus" .
+
+sdp:Hahn_M
+    a foaf:Person ;
+    foaf:name "Hahn, Michael" .
+
+sdp:Hahn_T
+    a foaf:Person ;
+    foaf:name "Hahn, Thomas" .
+
+sdp:Hantzschmann_Karl
+    a foaf:Person ;
+    foaf:name "Hantzschmann, Karl" .
+
+sdp:Harlander_R
+    a foaf:Person ;
+    foaf:name "Harlander, R." .
+
+sdp:Hart_WB
+    a foaf:Person ;
+    foaf:name "Hart, William B." .
+
+sdp:Hartmann_J
+    a foaf:Person ;
+    foaf:name "Hartman, Julia" .
+
+sdp:Hausen_J
+    a foaf:Person ;
+    foaf:name "Hausen, Jürgen" .
+
+sdp:Hawes_W
+    a foaf:Person ;
+    foaf:name "Hawes, W." .
+
+sdp:Hearn_AC
+    a foaf:Person ;
+    foaf:name "Hearn, Anthony C." .
+
+sdp:Heinle_A
+    sd:hasContributed "Version 3: FreeAlgebra" ;
+    sd:lastModified "2012-11-18" ;
+    a sd:Contributor, foaf:Person ;
+    foaf:name "Heinle, Albert" .
+
+sdp:Heinrich_ED
+    a foaf:Person ;
+    foaf:name "Heinrich, Elkedagmar" .
+
+sdp:Hemmecke_Ralf
+    sd:hasContributed "Version 1: PolynomialSystems", "Version 3: Git usage" ;
+    a sd:Contributor, foaf:Person ;
+    foaf:name "Hemmecke, Ralf" .
+
+sdp:Hemmecke_Raymond
+    sd:hasContributed "Version 1: TestSets" ;
+    sd:lastModified "2004-08-26" ;
+    a sd:Contributor, foaf:Person ;
+    foaf:homepage <http://www.hemmecke.de/raymond> ;
+    foaf:mbox "raymond@hemmecke.de" ;
+    foaf:name "Hemmecke, Raymond" .
+
+sdp:Henn_HW
+    a foaf:Person ;
+    foaf:name "Henn, Hans-Wolfgang" .
+
+sdp:Hess_F
+    a foaf:Person ;
+    foaf:name "Heß, Florian" .
+
+sdp:Hiss_G
+    a foaf:Person ;
+    foaf:name "Hiß, Gerhard" .
+
+sdp:Hoffkamp_A
+    a foaf:Person ;
+    foaf:name "Hoffkamp, Andrea" .
+
+sdp:Hofmann_T
+    a foaf:Person ;
+    foaf:name "Hofmann, Tommy" .
+
+sdp:Hoge_T
+    a foaf:Person ;
+    foaf:name "Hoge, Torsten" .
+
+sdp:Horn_M
+    a foaf:Person ;
+    foaf:name "Horn, Max" .
+
+sdp:Horn_P
+    a foaf:Person ;
+    foaf:name "Horn, Peter" .
+
+sdp:Hubery_A
+    a foaf:Person ;
+    foaf:name "Hubery, Andrew" .
+
+sdp:Husert_D
+    a foaf:Person ;
+    foaf:name "Husert, David" .
+
+sdp:Inawashiro_N
+    a foaf:Person ;
+    foaf:name "Inawashiro, N." .
+
+sdp:Johanning_S
+    a foaf:Person ;
+    foaf:name "Johanning, Simon" .
+
+sdp:Joswig_M
+    a foaf:Person ;
+    foaf:name "Joswig, Michael" .
+
+sdp:Kahn_K
+    a foaf:Person ;
+    foaf:name "Kahn, Konstantin" .
+
+sdp:Kalkbrener_M
+    a foaf:Person ;
+    foaf:name "Kalkbrener, Michael" .
+
+sdp:Kastner_L
+    a foaf:Person ;
+    foaf:name "Kastner, Lars" .
+
+sdp:Katsura_W
+    a foaf:Person ;
+    foaf:name "Katsura, W." .
+
+sdp:Katthaen_L
+    a foaf:Person ;
+    foaf:name "Katthän, Lukas" .
+
+sdp:Keicher_S
+    a foaf:Person ;
+    foaf:name "Keicher, Simon" .
+
+sdp:Kemper_G
+    a foaf:Person ;
+    foaf:name "Kemper, Gregor" .
+
+sdp:Kerber_A
+    a foaf:Person ;
+    foaf:name "Kerber, Adalbert" .
+
+sdp:Khutornoy_NV
+    a foaf:Person ;
+    foaf:name "Khutornoy, N.V." .
+
+sdp:Kimmerle_W
+    a foaf:Person ;
+    foaf:name "Kimmerle, Wolfgang" .
+
+sdp:King_S
+    a foaf:Person ;
+    foaf:name "King, Simon" .
+
+sdp:Kirschmer_M
+    a foaf:Person ;
+    foaf:name "Kirschmer, Markus" .
+
+sdp:Klaus_U
+    a foaf:Person ;
+    foaf:name "Klaus, Uwe" .
+
+sdp:Klein_A
+    a foaf:Person ;
+    foaf:name "Klein, A." .
+
+sdp:Kleinjung_T
+    a foaf:Person ;
+    foaf:name "Kleinjung, Thorsten" .
+
+sdp:Klinge_S
+    a foaf:Person ;
+    foaf:name "Klinge, Sandra" .
+
+sdp:Klueners_J
+    a foaf:Person ;
+    foaf:name "Klüners, Jürgen" .
+
+sdp:Knechtel_H
+    a foaf:Person ;
+    foaf:name "Knechtel, Heiko" .
+
+sdp:Kobayashi_H
+    a foaf:Person ;
+    foaf:name "Kobayashi, H." .
+
+sdp:Koenig_S
+    a foaf:Person ;
+    foaf:name "Koenig, Steffen" .
+
+sdp:Koepf_W
+    a foaf:Person ;
+    foaf:name "Koepf, Wolfram" .
+
+sdp:Koerner_H
+    a foaf:Person ;
+    foaf:name "Körner, H." .
+
+sdp:Kohlhase_A
+    a foaf:Person ;
+    foaf:name "Kohlhase, Andrea" .
+
+sdp:Kohlhase_M
+    a foaf:Person ;
+    foaf:name "Kohlhase, Michael" .
+
+sdp:Kortenkamp_U
+    a foaf:Person ;
+    foaf:name "Kortenkamp, Ulrich" .
+
+sdp:Krause_H
+    a foaf:Person ;
+    foaf:name "Krause, Henning" .
+
+sdp:Kredel_H
+    a foaf:Person ;
+    foaf:name "Kredel, Heinz" .
+
+sdp:Kreps_DM
+    a foaf:Person ;
+    foaf:name "Kreps, David M." .
+
+sdp:Kreuzer_M
+    a foaf:Person ;
+    foaf:name "Kreuzer, Martin" .
+
+sdp:Krider_ES
+    a foaf:Person ;
+    foaf:name "Krider, Elizabeth S." .
+
+sdp:Kuechlin_W
+    a foaf:Person ;
+    foaf:name "Küchlin, Wolfgang" .
+
+sdp:Kuelshammer_B
+    a foaf:Person ;
+    foaf:name "Külshammer, Burkhard" .
+
+sdp:Kuska_JP
+    a foaf:Person ;
+    foaf:name "Kuska, Jens-Peer" .
+
+sdp:Kyureghyan_G
+    a foaf:Person ;
+    foaf:name "Kyureghyan, Gohar" .
+
+sdp:Lange-Hegermann_M
+    a foaf:Person ;
+    foaf:name "Lange-Hegermann, Markus" .
+
+sdp:Laue_R
+    a foaf:Person ;
+    foaf:name "Laue, Reinhard" .
+
+sdp:Lazard_D
+    a foaf:Person ;
+    foaf:name "Lazard, Daniel" .
+
+sdp:Levandovskyy_V
+    sd:hasContributed "Data: GAlgebra, FreeAlgebra" ;
+    sd:lastModified "2004-08-26" ;
+    a sd:Contributor, foaf:Person ;
+    foaf:homepage <http://www.math.rwth-aachen.de/~Viktor.Levandovskyy> ;
+    foaf:mbox "levandov@math.rwth-aachen.de" ;
+    foaf:name "Levandovskyy, Viktor" ;
+    foaf:nick "levandovsky" .
+
+sdp:Libbrecht_P
+    a foaf:Person ;
+    foaf:name "Libbrecht, Paul" .
+
+sdp:Liedtke_C
+    a foaf:Person ;
+    foaf:name "Liedtke, Christian" .
+
+sdp:Link_F
+    a foaf:Person ;
+    foaf:name "Link, Frauke" .
+
+sdp:Little_J
+    a foaf:Person ;
+    foaf:name "Little, J." .
+
+sdp:Lorenz_B
+    a foaf:Person ;
+    foaf:name "Lorenz, Benjamin" .
+
+sdp:Luebeck_F
+    a foaf:Person ;
+    foaf:name "Lübeck, Frank" .
+
+sdp:Luislampe_S
+    a foaf:Person ;
+    foaf:name "Luislampe, Stefan" .
+
+sdp:Malle_G
+    a foaf:Person ;
+    foaf:name "Malle, Gunter" .
+
+sdp:Manocha_D
+    a foaf:Person ;
+    foaf:name "Manocha, D." .
+
+sdp:Margolis_L
+    a foaf:Person ;
+    foaf:name "Margolis, Leo" .
+
+sdp:Marks_F
+    a foaf:Person ;
+    foaf:name "Marks, Frederic" .
+
+sdp:Markwig_H
+    a foaf:Person ;
+    foaf:name "Markwig, Hannah" .
+
+sdp:Markwig_T
+    a foaf:Person ;
+    foaf:name "Markwig, Thomas" .
+
+sdp:Matzat_BH
+    a foaf:Person ;
+    foaf:name "Matzat, B. Heinrich" .
+
+sdp:Mayr_EW
+    a foaf:Person ;
+    foaf:name "Mayr, Ernst W." .
+
+sdp:McKelvey_RD
+    a foaf:Person ;
+    foaf:name "McKelvey, Richard D." .
+
+sdp:McLennan_A
+    a foaf:Person ;
+    foaf:name "McLennan, Andrew" .
+
+sdp:Melenk_H
+    a foaf:Person ;
+    foaf:name "Melenk, Herbert" .
+
+sdp:Metelisyn_P
+    a foaf:Person ;
+    foaf:name "Metelisyn, Pavel" .
+
+sdp:Meyer_J
+    a foaf:Person ;
+    foaf:name "Meyer, Jörg" .
+
+sdp:Michel_J
+    a foaf:Person ;
+    foaf:name "Michel, Jean" .
+
+sdp:Moede_T
+    a foaf:Person ;
+    foaf:name "Moede, Tobias" .
+
+sdp:Moeller_HM
+    a foaf:Person ;
+    foaf:name "Möller, H. Michael" .
+
+sdp:Mohammadi_F
+    a foaf:Person ;
+    foaf:name "Mohammadi, Fatemeh" .
+
+sdp:Moldenhauer_W
+    a foaf:Person ;
+    foaf:name "Moldenhauer, Wolfgang" .
+
+sdp:Mora_T
+    a foaf:Person ;
+    foaf:name "Mora, Teo" .
+
+sdp:Morgan_A
+    a foaf:Person ;
+    foaf:name "Morgan, Alexander" .
+
+sdp:Mourrain_B
+    a foaf:Person ;
+    foaf:name "Mourrain, B." .
+
+sdp:Mueller_JH
+    a foaf:Person ;
+    foaf:name "Müller, Jan Hendrik" .
+
+sdp:Mueller_JM
+    a foaf:Person ;
+    foaf:name "Müller, Jürgen Manfred" .
+
+sdp:Mueller_JS
+    a foaf:Person ;
+    foaf:name "Müller, Jan Steffen" .
+
+sdp:Murao_H
+    a foaf:Person ;
+    foaf:name "Murao, H." .
+
+sdp:Nebe_G
+    a foaf:Person ;
+    foaf:name "Nebe, Gabriele" .
+
+sdp:Neun_W
+    a foaf:Person ;
+    foaf:name "Neun, Winfried" .
+
+sdp:Niesi_G
+    a foaf:Person ;
+    foaf:name "Niesi, G." .
+
+sdp:Noonburg_VW
+    a foaf:Person ;
+    foaf:name "Noonburg, V. W." .
+
+sdp:OShea_D
+    a foaf:Person ;
+    foaf:name "O'Shea, D." .
+
+sdp:Oldenburg_R
+    a foaf:Person ;
+    foaf:name "Oldenburg, Reinhard" .
+
+sdp:Orecchia_F
+    a foaf:Person ;
+    foaf:name "Orecchia, Ferruccio" .
+
+sdp:Paffenholz_A
+    a foaf:Person ;
+    foaf:name "Paffenholz, Andreas" .
+
+sdp:Peeters_K
+    a foaf:Person ;
+    foaf:name "Peeters, Kasper" .
+
+sdp:Pfister_G
+    a foaf:Person ;
+    foaf:name "Pfister, Gerhard" .
+
+sdp:Pieropan_M
+    a foaf:Person ;
+    foaf:name "Pieropan, Marta" .
+
+sdp:Pinkernell_G
+    a foaf:Person ;
+    foaf:name "Pinkernell, Guido" .
+
+sdp:Plesken_W
+    a foaf:Person ;
+    foaf:name "Plesken, Wilhelm" .
+
+sdp:Pohst_M
+    a foaf:Person ;
+    foaf:name "Pohst, Michael" .
+
+sdp:Posur_S
+    a foaf:Person ;
+    foaf:name "Posur, Sebastian" .
+
+sdp:Quebbemann_HG
+    a foaf:Person ;
+    foaf:name "Quebbemann, Heinz-Georg" .
+
+sdp:Ramella_I
+    a foaf:Person ;
+    foaf:name "Ramella, Isabella" .
+
+sdp:Reiter_T
+    a foaf:Person ;
+    foaf:name "Reiter, Thomas" .
+
+sdp:Richard_T
+    a foaf:Person ;
+    foaf:name "Richard, Thomas" .
+
+sdp:Robbiano_L
+    a foaf:Person ;
+    foaf:name "Robbiano, Lorenzo" .
+
+sdp:Robinson_S
+    a foaf:Person ;
+    foaf:name "Robinson, Sara" .
+
+sdp:Roehrle_G
+    a foaf:Person ;
+    foaf:name "Röhrle, Gerhard" .
+
+sdp:Roozemund_D
+    a foaf:Person ;
+    foaf:name "Roozemund, Dan" .
+
+sdp:Rossmann_T
+    a foaf:Person ;
+    foaf:name "Rossmann, Tobias" .
+
+sdp:Rouillier_F
+    a foaf:Person ;
+    foaf:name "Rouillier, F." .
+
+sdp:Rudolph_E
+    a foaf:Person ;
+    foaf:name "Rudolph, Eva" .
+
+sdp:Rueck_HG
+    a foaf:Person ;
+    foaf:name "Rück, Hans-Georg" .
+
+sdp:Rueth_J
+    a foaf:Person ;
+    foaf:name "Rüth, Julian" .
+
+sdp:Schaper_R
+    a foaf:Person ;
+    foaf:name "Schaper, Ralf" .
+
+sdp:Schila_H
+    a foaf:Person ;
+    foaf:name "Schila, Harald" .
+
+sdp:Schmidt_R
+    a foaf:Person ;
+    foaf:name "Schmidt, Reinhard" .
+
+sdp:Schoenemann_H
+    sd:hasContributed "Version 1: Perl tool Compute, Adaption of GNU time" ;
+    sd:lastModified "2004-08-26" ;
+    a sd:Contributor, foaf:Person ;
+    foaf:homepage <http://www.mathematik.uni-kl.de/~hannes> ;
+    foaf:mbox "hannes@mathematik.uni-kl.de" ;
+    foaf:name "Schönemann, Hans" .
+
+sdp:Schoennenbeck_S
+    a foaf:Person ;
+    foaf:name "Schoennenbeck, Sebastian" .
+
+sdp:Schrans_S
+    a foaf:Person ;
+    foaf:name "Schrans, S." .
+
+sdp:Schwardmann_U
+    a foaf:Person ;
+    foaf:name "Schwardmann, Ulrich" .
+
+sdp:Seiler_W
+    a foaf:Person ;
+    foaf:name "Seiler, Werner" .
+
+sdp:Senk_DG
+    a foaf:Person ;
+    foaf:name "Senk, Dieter G." .
+
+sdp:Sexton_AP
+    a foaf:Person ;
+    foaf:homepage <http://www.cs.bham.ac.uk/~aps/> ;
+    foaf:name "Sexton, Alan P." .
+
+sdp:Shalile_A
+    a foaf:Person ;
+    foaf:name "Shalile, Armin" .
+
+sdp:Sieg_R
+    a foaf:Person ;
+    foaf:name "Sieg, Richard" .
+
+sdp:Smirnova_E
+    a foaf:Person ;
+    foaf:name "Smirnova, Elena" .
+
+sdp:Soeger_C
+    a foaf:Person ;
+    foaf:name "Söger, Christoph" .
+
+sdp:Sojka_P
+    a foaf:Person ;
+    foaf:homepage <http://www.fi.muni.cz/usr/sojka/> ;
+    foaf:name "Sojka, Petr" .
+
+sdp:Sorgatz_A
+    a foaf:Person ;
+    foaf:name "Sorgatz, Andreas" .
+
+sdp:Spreckels_U
+    a foaf:Person ;
+    foaf:name "Spreckels, Ute" .
+
+sdp:Staudenmaier_HM
+    a foaf:Person ;
+    foaf:name "Staudenmaier, H.-M." .
+
+sdp:Steidel_S
+    sd:hasContributed "Version 2: Some IntPS examples" ;
+    sd:lastModified "2010-12-29" ;
+    a sd:Contributor, foaf:Person ;
+    foaf:homepage <http://www.mathematik.uni-kl.de/~steidel> ;
+    foaf:mbox "steidel@mathematik.uni-kl.de" ;
+    foaf:name "Steidel, Stefan" .
+
+sdp:Stein_A
+    a foaf:Person ;
+    foaf:mbox "andreas.stein1@uni-oldenburg.de" ;
+    foaf:name "Stein, Andreas" .
+
+sdp:Steinhauser_M
+    a foaf:Person ;
+    foaf:name "Steinhauser, Matthias" .
+
+sdp:Stillman_ME
+    a foaf:Person ;
+    foaf:name "Stillman, Michael E." .
+
+sdp:Stoll_M
+    a foaf:Person ;
+    foaf:name "Stoll, Michael" .
+
+sdp:Stump_C
+    a foaf:Person ;
+    foaf:name "Stump, Christian" .
+
+sdp:Sturmfels_B
+    a foaf:Person ;
+    foaf:name "Sturmfels, Bernd" .
+
+sdp:Tanturri_F
+    a foaf:Person ;
+    foaf:name "Tanturri, Fabio" .
+
+sdp:Tentukov_M
+    a foaf:Person ;
+    foaf:name "Tentukov, M." .
+
+sdp:Thaller_B
+    a foaf:Person ;
+    foaf:name "Thaller, Bernd" .
+
+sdp:Thiel_U
+    a foaf:Person ;
+    foaf:name "Thiel, Ulrich" .
+
+sdp:Todd_P
+    a foaf:Person ;
+    foaf:name "Todd, Phil" .
+
+sdp:Toman_S
+    a foaf:Person ;
+    foaf:name "Toman, Stefan" .
+
+sdp:Traverso_C
+    a foaf:Person ;
+    foaf:name "Traverso, Carlo" .
+
+sdp:Troost_W
+    a foaf:Person ;
+    foaf:name "Troost, W." .
+
+sdp:Urban_J
+    a foaf:Person ;
+    foaf:homepage <http://cs.ru.nl/~urban/> ;
+    foaf:name "Urban, Josef" .
+
+sdp:Vehling_R
+    a foaf:Person ;
+    foaf:name "Vehling, Reimund" .
+
+sdp:Vercauteren_F
+    a foaf:Person ;
+    foaf:name "Vercauteren, Frederik" .
+
+sdp:Vermaseren_JAM
+    a foaf:Person ;
+    foaf:name "Vermaseren, J. A. M." .
+
+sdp:Voll_C
+    a foaf:Person ;
+    foaf:name "Voll, Christopher" .
+
+sdp:Wallack_A
+    a foaf:Person ;
+    foaf:name "Wallack, A." .
+
+sdp:Wang_D
+    a foaf:Person ;
+    foaf:name "Wang, Dongming" .
+
+sdp:Watt_S
+    a foaf:Person ;
+    foaf:name "Watt, Stephen" .
+
+sdp:Weispfenning_V
+    a foaf:Person ;
+    foaf:name "Weispfenning, Volker" .
+
+sdp:Wenk_M
+    sd:lastModified "2004-08-26" ;
+    a sd:Contributor, foaf:Person ;
+    foaf:homepage <http://www.mathematik.uni-kl.de/~wenk> ;
+    foaf:mbox "wenk@mathematik.uni-kl.de" ;
+    foaf:name "Wenk, Moritz" ;
+    foaf:nick "wenk" .
+
+sdp:Werner_W
+    a foaf:Person ;
+    foaf:name "Werner, Wilhelm" .
+
+sdp:Wessler_M
+    a foaf:Person ;
+    foaf:name "Wessler, Markus" .
+
+sdp:Wewers_S
+    a foaf:Person ;
+    foaf:name "Wewers, Stefan" .
+
+sdp:Wichmann_T
+    a foaf:Person ;
+    foaf:name "Wichmann, T." .
+
+sdp:Wiese_G
+    a foaf:Person ;
+    foaf:name "Wiese, Gabor" .
+
+sdp:Wilson_R
+    a foaf:Person ;
+    foaf:name "Wilson, Robert" .
+
+sdp:Witte_M
+    sd:hasContributed "Version 1: Chou's Geo Examples" ;
+    sd:lastModified "2004-08-26" ;
+    a sd:Contributor, foaf:Person ;
+    foaf:name "Witte, Malte" .
+
+sdp:Wosch_EAT
+    a foaf:Person ;
+    foaf:name "Wosch, Erwin A.T." .
+
+sdp:Wu_WT
+    a foaf:Person ;
+    foaf:name "Wu, W.-T." .
+
+sdp:Zerz_E
+    a foaf:Person ;
+    foaf:name "Zerz, Eva" .
+
+sdp:Zharkov_AYu
+    a foaf:Person ;
+    foaf:name "Zharkov, A.Yu." .
+
+sdp:deWolf_T
+    a foaf:Person ;
+    foaf:name "de Wolf, Timo" .
+
+sdp:vanGelder_I
+    a foaf:Person ;
+    foaf:name "van Gelder, Inneke" .
+
+sdp:vanLeeuwen_M
+    a foaf:Person ;
+    foaf:name "van Leeuwen, Marc" .
+
+sdp:vonzurGathen_J
+    a foaf:Person ;
+    foaf:name "von zur Gathen, Joachim" .
 
-<> a owl:Ontology ;
-   rdfs:label "SD Person Data" ;
-   cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-   cc:attributionURL <http://symbolicdata.org> ;
-   cc:attributionName "The SymbolicData Project" .
-
-sdp:Abbott_J a foaf:Person ;
-             foaf:name "Abbott, John" .
-
-sdp:Albano_G a foaf:Person ;
-             foaf:name "Albano, G." .
-
-sdp:Albrecht_M a foaf:Person ;
-               foaf:name "Albrecht, Martin" .
-
-sdp:Amrhein_B a foaf:Person ;
-              foaf:name "Amrhein, Beatrice" .
-
-sdp:Apel_J a foaf:Person ;
-           foaf:name "Apel, Joachim" .
-
-sdp:Arndt_F a foaf:Person ;
-            foaf:name "Arndt, Frauke" .
-
-sdp:Autexier_S a foaf:Person ;
-               foaf:name "Autexier, Serge" .
-
-sdp:Bachmann_O a foaf:Person, sd:Contributor ;
-               foaf:name "Bachmann, Olaf" ;
-               foaf:nick "obachman" ;
-               sd:hasContributed "Version 1: basic Perl tools, Design of Data and Records, Polynomial Systems, Html template design, Compute environment, Bibliography, Benchmark runs" ;
-               sd:lastModified "2010-12-29" .
-
-sdp:Bailey_DH a foaf:Person ;
-              foaf:name "Bailey, David H." .
-
-sdp:Baumeister_B a foaf:Person ;
-                 foaf:name "Baumeister, Barbara" .
-
-sdp:Berghammer_R a foaf:Person ;
-                 foaf:name "Berghammer, Rudolf" .
-
-sdp:Berth_M a foaf:Person ;
-            foaf:name "Berth, Matthias" .
-
-sdp:Bigatti_AM a foaf:Person ;
-               foaf:name "Bigatti, Anna M." .
-
-sdp:Bini_D a foaf:Person ;
-           foaf:name "Bini, D." .
-
-sdp:Bjoerk_G a foaf:Person ;
-             foaf:name "Björck, G." .
-
-sdp:Boege_W a foaf:Person ;
-            foaf:name "Boege, W." .
-
-sdp:Borwein_JM a foaf:Person ;
-               foaf:name "Borwein, Jonathan M." .
-
-sdp:Brickenstein_M a foaf:Person, sd:Contributor ;
-                   foaf:name "Brickenstein, Michael" ;
-                   foaf:nick "mbrickenstein" ;
-                   sd:hasContributed "Version 2: IntPS satlib examples" ;
-                   sd:lastModified "2008-02-27" .
-
-sdp:Buchberger_B a foaf:Person ;
-                 foaf:name "Buchberger, Benno" .
-
-sdp:Buchmann_J a foaf:Person ;
-               foaf:name "Buchmann, Johannes" .
-
-sdp:Buergisser_P a foaf:Person ;
-                 foaf:name "Bürgisser, Peter" .
-
-sdp:Canny_JF a foaf:Person ;
-             foaf:name "Canny, J.F." .
-
-sdp:Chou_SC a foaf:Person ;
-            foaf:name "Chou, S.-C." .
-
-sdp:Christensen_ND a foaf:Person ;
-                   foaf:name "Christensen, Neil D." .
-
-sdp:Cioffi_F a foaf:Person, sd:Contributor ;
-             foaf:name "Cioffi, Francesca" ;
-             foaf:nick "cioffi" ;
-             foaf:mbox "francesca.cioffi@unina.it" ;
-             foaf:homepage <https://www.docenti.unina.it/FRANCESCA.CIOFFI> ;
-             sd:hasContributed "Version 1: IntPS/Curves" ;
-             sd:lastModified "2013-09-14" .
-
-sdp:Cohn_H a foaf:Person ;
-           foaf:name "Cohn, H." .
-
-sdp:Cox_D a foaf:Person ;
-          foaf:name "Cox, D." .
-
-sdp:Cuntz_M a foaf:Person ;
-            foaf:name "Cuntz, Michael" .
-
-sdp:Czakon_M a foaf:Person ;
-             foaf:name "Czakon, Michal" .
-
-sdp:Czapor_SR a foaf:Person ;
-              foaf:name "Czapor, S.R." .
-
-sdp:Davenport_JH a foaf:Person ;
-                 foaf:name "Davenport, James Harold" ;
-                 foaf:homepage <http://people.bath.ac.uk/masjhd/> .
-
-sdp:Decker_W a foaf:Person ;
-             foaf:name "Decker, Wolfram" .
-
-sdp:Dengel_M a foaf:Person, sd:Contributor ;
-             foaf:name "Dengel, Michael" ;
-             foaf:mbox "mdengel@math.uni-sb.de" ;
-             foaf:homepage <http://loge.math.uni-sb.de/~dengel> ;
-             sd:hasContributed "Version 1: Html presentation, frames and JavaScript" ;
-             sd:lastModified "2004-08-26" .
-
-sdp:Derenthal_U a foaf:Person ;
-                foaf:name "Derenthal, Ulrich" .
-
-sdp:Diemer_C a foaf:Person ;
-             foaf:name "Diemer, Clemens" .
-
-sdp:Distler_A a foaf:Person ;
-              foaf:name "Distler, Andreas" .
-
-sdp:Dreyer_A a foaf:Person ;
-             foaf:name "Dreyer, Alexander" .
-
-sdp:Duerrschnabel_K a foaf:Person ;
-                    foaf:name "Dürrschnabel, Klaus" .
-
-sdp:Duhr_C a foaf:Person ;
-           foaf:name "Duhr, Claude" .
-
-sdp:Eick_B a foaf:Person ;
-           foaf:name "Eick, Bettina" .
-
-sdp:Eisenbud_D a foaf:Person ;
-               foaf:name "Eisenbud, D." .
-
-sdp:Elvenich_HM a foaf:Person ;
-                foaf:name "Elvenich, Hans-Michael" .
-
-sdp:Emiris_IZ a foaf:Person ;
-              foaf:name "Emiris, I.Z." .
-
-sdp:Enge_A a foaf:Person ;
-           foaf:name "Enge, Andreas" .
-
-sdp:Faugere_JC a foaf:Person, sd:Contributor ;
-               foaf:name "Faugére, Jean-Charles" ;
-               foaf:nick "jcf" ;
-               foaf:mbox "Jean-Charles.Faugere@inria.fr" ;
-               foaf:homepage <http://www-calfor.lip6.fr/~jcf> ;
-               sd:hasContributed "Version 1: Polynomial Systems" ;
-               sd:lastModified "2013-09-14" .
-
-sdp:Fieker_C a foaf:Person ;
-             foaf:name "Fieker, Claus" .
-
-sdp:Frei_C a foaf:Person ;
-           foaf:name "Frei, Christopher" .
-
-sdp:Froeberg_G a foaf:Person ;
-               foaf:name "Fröberg, G." .
-
-sdp:Fronville_A a foaf:Person ;
-                foaf:name "Fronville, Alexandra" .
-
-sdp:FruehbisKrueger_A a foaf:Person ;
-                      foaf:name "Frühbis-Krüger, Anne" .
-
-sdp:Fujiki_NM a foaf:Person ;
-              foaf:name "Fujiki, N. M." .
-
-sdp:Fujise_T a foaf:Person ;
-             foaf:name "Fujise, T." .
-
-sdp:Fukuda_S a foaf:Person ;
-             foaf:name "Fukuda, S." .
-
-sdp:Galligo_A a foaf:Person ;
-              foaf:name "Galligo, André" .
-
-sdp:Gatermann_K a foaf:Person ;
-                foaf:name "Gatermann, Karin" .
-
-sdp:Gebauer_R a foaf:Person ;
-              foaf:name "Gebauer, Rüdiger" .
-
-sdp:Geddes_KO a foaf:Person ;
-              foaf:name "Geddes, Keith O." .
-
-sdp:Gerdt_VP a foaf:Person ;
-             foaf:name "Gerdt, Vladimir P." .
-
-sdp:Giovini_A a foaf:Person ;
-              foaf:name "Giovini, A." .
-
-sdp:Gloor_O a foaf:Person ;
-            foaf:name "Gloor, Oliver" .
-
-sdp:Grabmeier_J a foaf:Person ;
-                foaf:name "Grabmeier, Johannes" .
-
-sdp:Graebe_HG a foaf:Person, sd:Contributor ;
-              foaf:name "Gräbe, Hans-Gert" ;
-              foaf:nick "graebe" ;
-              foaf:mbox "graebe@informatik.uni-leipzig.de" ;
-              foaf:homepage <http://www.informatik.uni-leipzig.de/~graebe> ;
-              sd:hasContributed "Version 2: Redesign", "Version 3: Redesign, Bibliography, GeoProofSchemes, Git Repo, Wiki", "Version 1: basic Perl tools, References, Polynomial Systems, GeoProofSchemes" ;
-              sd:lastModified "2004-08-26" .
-
-sdp:Grayson_DR a foaf:Person ;
-               foaf:name "Grayson, Daniel R." .
-
-sdp:Greefrath_G a foaf:Person ;
-                foaf:name "Greefrath, Gilbert" .
-
-sdp:Greuel_GM a foaf:Person ;
-              foaf:name "Greuel, Gert-Martin", "Greuel, Gerd-Martin" .
-
-sdp:Groetschel_M a foaf:Person ;
-                 foaf:name "Grötschel, Martin" .
-
-sdp:Haase_C a foaf:Person ;
-            foaf:name "Haase, Christian" .
-
-sdp:Hackl_K a foaf:Person ;
-            foaf:name "Hackl, Klaus" .
-
-sdp:Hahn_T a foaf:Person ;
-           foaf:name "Hahn, Thomas" .
-
-sdp:Hantzschmann_Karl a foaf:Person ;
-                      foaf:name "Hantzschmann, Karl" .
-
-sdp:Harlander_R a foaf:Person ;
-                foaf:name "Harlander, R." .
-
-sdp:Hart_WB a foaf:Person ;
-            foaf:name "Hart, William B." .
-
-sdp:Hartmann_J a foaf:Person ;
-               foaf:name "Hartman, Julia" .
-
-sdp:Hawes_W a foaf:Person ;
-            foaf:name "Hawes, W." .
-
-sdp:Hearn_AC a foaf:Person ;
-             foaf:name "Hearn, Anthony C." .
-
-sdp:Heinle_A a foaf:Person, sd:Contributor ;
-             foaf:name "Heinle, Albert" ;
-             sd:hasContributed "Version 3: FreeAlgebra" ;
-             sd:lastModified "2012-11-18" .
-
-sdp:Heinrich_ED a foaf:Person ;
-                foaf:name "Heinrich, Elkedagmar" .
-
-sdp:Hemmecke_Ralf a foaf:Person, sd:Contributor ;
-                  foaf:name "Hemmecke, Ralf" ;
-                  sd:hasContributed "Version 3: Git usage", "Version 1: PolynomialSystems" .
-
-sdp:Hemmecke_Raymond a foaf:Person, sd:Contributor ;
-                     foaf:name "Hemmecke, Raymond" ;
-                     foaf:mbox "raymond@hemmecke.de" ;
-                     foaf:homepage <http://www.hemmecke.de/raymond> ;
-                     sd:hasContributed "Version 1: TestSets" ;
-                     sd:lastModified "2004-08-26" .
-
-sdp:Henn_HW a foaf:Person ;
-            foaf:name "Henn, Hans-Wolfgang" .
-
-sdp:Hess_F a foaf:Person ;
-           foaf:name "Heß, Florian" .
-
-sdp:Hiss_G a foaf:Person ;
-           foaf:name "Hiß, Gerhard" .
-
-sdp:Hoffkamp_A a foaf:Person ;
-               foaf:name "Hoffkamp, Andrea" .
-
-sdp:Horn_P a foaf:Person ;
-           foaf:name "Horn, Peter" .
-
-sdp:Hubery_A a foaf:Person ;
-             foaf:name "Hubery, Andrew" .
-
-sdp:Inawashiro_N a foaf:Person ;
-                 foaf:name "Inawashiro, N." .
-
-sdp:Joswig_M a foaf:Person ;
-             foaf:name "Joswig, Michael" .
-
-sdp:Kahn_K a foaf:Person ;
-           foaf:name "Kahn, Konstantin" .
-
-sdp:Kalkbrener_M a foaf:Person ;
-                 foaf:name "Kalkbrener, Michael" .
-
-sdp:Katsura_W a foaf:Person ;
-              foaf:name "Katsura, W." .
-
-sdp:Kemper_G a foaf:Person ;
-             foaf:name "Kemper, Gregor" .
-
-sdp:Kerber_A a foaf:Person ;
-             foaf:name "Kerber, Adalbert" .
-
-sdp:Khutornoy_NV a foaf:Person ;
-                 foaf:name "Khutornoy, N.V." .
-
-sdp:Klaus_U a foaf:Person ;
-            foaf:name "Klaus, Uwe" .
-
-sdp:Klein_A a foaf:Person ;
-            foaf:name "Klein, A." .
-
-sdp:Kleinjung_T a foaf:Person ;
-                foaf:name "Kleinjung, Thorsten" .
-
-sdp:Klinge_S a foaf:Person ;
-             foaf:name "Klinge, Sandra" .
-
-sdp:Klueners_J a foaf:Person ;
-               foaf:name "Klüners, Jürgen" .
-
-sdp:Knechtel_H a foaf:Person ;
-               foaf:name "Knechtel, Heiko" .
-
-sdp:Kobayashi_H a foaf:Person ;
-                foaf:name "Kobayashi, H." .
-
-sdp:Koepf_W a foaf:Person ;
-            foaf:name "Koepf, Wolfram" .
-
-sdp:Koerner_H a foaf:Person ;
-              foaf:name "Körner, H." .
-
-sdp:Kohlhase_A a foaf:Person ;
-               foaf:name "Kohlhase, Andrea" .
-
-sdp:Kohlhase_M a foaf:Person ;
-               foaf:name "Kohlhase, Michael" .
-
-sdp:Kortenkamp_U a foaf:Person ;
-                 foaf:name "Kortenkamp, Ulrich" .
-
-sdp:Krause_H a foaf:Person ;
-             foaf:name "Krause, Henning" .
-
-sdp:Kredel_H a foaf:Person ;
-             foaf:name "Kredel, Heinz" .
-
-sdp:Kreps_DM a foaf:Person ;
-             foaf:name "Kreps, David M." .
-
-sdp:Kreuzer_M a foaf:Person ;
-              foaf:name "Kreuzer, Martin" .
-
-sdp:Krider_ES a foaf:Person ;
-              foaf:name "Krider, Elizabeth S." .
-
-sdp:Kuechlin_W a foaf:Person ;
-               foaf:name "Küchlin, Wolfgang" .
-
-sdp:Kuska_JP a foaf:Person ;
-             foaf:name "Kuska, Jens-Peer" .
-
-sdp:Kyureghyan_G a foaf:Person ;
-                 foaf:name "Kyureghyan, Gohar" .
-
-sdp:Laue_R a foaf:Person ;
-           foaf:name "Laue, Reinhard" .
-
-sdp:Lazard_D a foaf:Person ;
-             foaf:name "Lazard, Daniel" .
-
-sdp:Levandovskyy_V a foaf:Person, sd:Contributor ;
-                   foaf:name "Levandovskyy, Viktor" ;
-                   foaf:nick "levandovsky" ;
-                   foaf:mbox "levandov@math.rwth-aachen.de" ;
-                   foaf:homepage <http://www.math.rwth-aachen.de/~Viktor.Levandovskyy> ;
-                   sd:hasContributed "Data: GAlgebra, FreeAlgebra" ;
-                   sd:lastModified "2004-08-26" .
-
-sdp:Libbrecht_P a foaf:Person ;
-                foaf:name "Libbrecht, Paul" .
-
-sdp:Liedtke_C a foaf:Person ;
-              foaf:name "Liedtke, Christian" .
-
-sdp:Link_F a foaf:Person ;
-           foaf:name "Link, Frauke" .
-
-sdp:Little_J a foaf:Person ;
-             foaf:name "Little, J." .
-
-sdp:Luebeck_F a foaf:Person ;
-              foaf:name "Lübeck, Frank" .
-
-sdp:Luislampe_S a foaf:Person ;
-                foaf:name "Luislampe, Stefan" .
-
-sdp:Malle_G a foaf:Person ;
-            foaf:name "Malle, Gunter" .
-
-sdp:Manocha_D a foaf:Person ;
-              foaf:name "Manocha, D." .
-
-sdp:Markwig_H a foaf:Person ;
-              foaf:name "Markwig, Hannah" .
-
-sdp:Markwig_T a foaf:Person ;
-              foaf:name "Markwig, Thomas" .
-
-sdp:Matzat_BH a foaf:Person ;
-              foaf:name "Matzat, B. Heinrich" .
-
-sdp:Mayr_EW a foaf:Person ;
-            foaf:name "Mayr, Ernst W." .
-
-sdp:McKelvey_RD a foaf:Person ;
-                foaf:name "McKelvey, Richard D." .
-
-sdp:McLennan_A a foaf:Person ;
-               foaf:name "McLennan, Andrew" .
-
-sdp:Melenk_H a foaf:Person ;
-             foaf:name "Melenk, Herbert" .
-
-sdp:Meyer_J a foaf:Person ;
-            foaf:name "Meyer, Jörg" .
-
-sdp:Moeller_HM a foaf:Person ;
-               foaf:name "Möller, H. Michael" .
-
-sdp:Moldenhauer_W a foaf:Person ;
-                  foaf:name "Moldenhauer, Wolfgang" .
-
-sdp:Mora_T a foaf:Person ;
-           foaf:name "Mora, Teo" .
-
-sdp:Morgan_A a foaf:Person ;
-             foaf:name "Morgan, Alexander" .
-
-sdp:Mourrain_B a foaf:Person ;
-               foaf:name "Mourrain, B." .
-
-sdp:Mueller_JH a foaf:Person ;
-               foaf:name "Müller, Jan Hendrik" .
-
-sdp:Mueller_JS a foaf:Person ;
-               foaf:name "Müller, Jan Steffen" .
-
-sdp:Murao_H a foaf:Person ;
-            foaf:name "Murao, H." .
-
-sdp:Nebe_G a foaf:Person ;
-           foaf:name "Nebe, Gabriele" .
-
-sdp:Neun_W a foaf:Person ;
-           foaf:name "Neun, Winfried" .
-
-sdp:Niesi_G a foaf:Person ;
-            foaf:name "Niesi, G." .
-
-sdp:Noonburg_VW a foaf:Person ;
-                foaf:name "Noonburg, V. W." .
-
-sdp:OShea_D a foaf:Person ;
-            foaf:name "O'Shea, D." .
-
-sdp:Oldenburg_R a foaf:Person ;
-                foaf:name "Oldenburg, Reinhard" .
-
-sdp:Orecchia_F a foaf:Person ;
-               foaf:name "Orecchia, Ferruccio" .
-
-sdp:Peeters_K a foaf:Person ;
-              foaf:name "Peeters, Kasper" .
-
-sdp:Pfister_G a foaf:Person ;
-              foaf:name "Pfister, Gerhard" .
-
-sdp:Pinkernell_G a foaf:Person ;
-                 foaf:name "Pinkernell, Guido" .
-
-sdp:Plesken_W a foaf:Person ;
-              foaf:name "Plesken, Wilhelm" .
-
-sdp:Pohst_M a foaf:Person ;
-            foaf:name "Pohst, Michael" .
-
-sdp:Quebbemann_HG a foaf:Person ;
-                  foaf:name "Quebbemann, Heinz-Georg" .
-
-sdp:Ramella_I a foaf:Person ;
-              foaf:name "Ramella, Isabella" .
-
-sdp:Reiter_T a foaf:Person ;
-             foaf:name "Reiter, Thomas" .
-
-sdp:Richard_T a foaf:Person ;
-              foaf:name "Richard, Thomas" .
-
-sdp:Robbiano_L a foaf:Person ;
-               foaf:name "Robbiano, Lorenzo" .
-
-sdp:Robinson_S a foaf:Person ;
-               foaf:name "Robinson, Sara" .
-
-sdp:Roozemund_D a foaf:Person ;
-                foaf:name "Roozemund, Dan" .
-
-sdp:Rouillier_F a foaf:Person ;
-                foaf:name "Rouillier, F." .
-
-sdp:Rudolph_E a foaf:Person ;
-              foaf:name "Rudolph, Eva" .
-
-sdp:Rueck_HG a foaf:Person ;
-             foaf:name "Rück, Hans-Georg" .
-
-sdp:Schaper_R a foaf:Person ;
-              foaf:name "Schaper, Ralf" .
-
-sdp:Schila_H a foaf:Person ;
-             foaf:name "Schila, Harald" .
-
-sdp:Schmidt_R a foaf:Person ;
-              foaf:name "Schmidt, Reinhard" .
-
-sdp:Schoenemann_H a foaf:Person, sd:Contributor ;
-                  foaf:name "Schönemann, Hans" ;
-                  foaf:mbox "hannes@mathematik.uni-kl.de" ;
-                  foaf:homepage <http://www.mathematik.uni-kl.de/~hannes> ;
-                  sd:hasContributed "Version 1: Perl tool Compute, Adaption of GNU time" ;
-                  sd:lastModified "2004-08-26" .
-
-sdp:Schrans_S a foaf:Person ;
-              foaf:name "Schrans, S." .
-
-sdp:Schwardmann_U a foaf:Person ;
-                  foaf:name "Schwardmann, Ulrich" .
-
-sdp:Seiler_W a foaf:Person ;
-             foaf:name "Seiler, Werner" .
-
-sdp:Senk_DG a foaf:Person ;
-            foaf:name "Senk, Dieter G." .
-
-sdp:Sexton_AP a foaf:Person ;
-              foaf:name "Sexton, Alan P." ;
-              foaf:homepage <http://www.cs.bham.ac.uk/~aps/> .
-
-sdp:Smirnova_E a foaf:Person ;
-               foaf:name "Smirnova, Elena" .
-
-sdp:Sojka_P a foaf:Person ;
-            foaf:name "Sojka, Petr" ;
-            foaf:homepage <http://www.fi.muni.cz/usr/sojka/> .
-
-sdp:Sorgatz_A a foaf:Person ;
-              foaf:name "Sorgatz, Andreas" .
-
-sdp:Staudenmaier_HM a foaf:Person ;
-                    foaf:name "Staudenmaier, H.-M." .
-
-sdp:Steidel_S a foaf:Person, sd:Contributor ;
-              foaf:name "Steidel, Stefan" ;
-              foaf:mbox "steidel@mathematik.uni-kl.de" ;
-              foaf:homepage <http://www.mathematik.uni-kl.de/~steidel> ;
-              sd:hasContributed "Version 2: Some IntPS examples" ;
-              sd:lastModified "2010-12-29" .
-
-sdp:Stein_A a foaf:Person ;
-            foaf:name "Stein, Andreas" ;
-            foaf:mbox "andreas.stein1@uni-oldenburg.de" .
-
-sdp:Steinhauser_M a foaf:Person ;
-                  foaf:name "Steinhauser, Matthias" .
-
-sdp:Stillman_ME a foaf:Person ;
-                foaf:name "Stillman, Michael E." .
-
-sdp:Stoll_M a foaf:Person ;
-            foaf:name "Stoll, Michael" .
-
-sdp:Stump_C a foaf:Person ;
-            foaf:name "Stump, Christian" .
-
-sdp:Sturmfels_B a foaf:Person ;
-                foaf:name "Sturmfels, Bernd" .
-
-sdp:Tentukov_M a foaf:Person ;
-               foaf:name "Tentukov, M." .
-
-sdp:Thaller_B a foaf:Person ;
-              foaf:name "Thaller, Bernd" .
-
-sdp:Todd_P a foaf:Person ;
-           foaf:name "Todd, Phil" .
-
-sdp:Traverso_C a foaf:Person ;
-               foaf:name "Traverso, Carlo" .
-
-sdp:Troost_W a foaf:Person ;
-             foaf:name "Troost, W." .
-
-sdp:Urban_J a foaf:Person ;
-            foaf:name "Urban, Josef" ;
-            foaf:homepage <http://cs.ru.nl/~urban/> .
-
-sdp:Vehling_R a foaf:Person ;
-              foaf:name "Vehling, Reimund" .
-
-sdp:Vercauteren_F a foaf:Person ;
-                  foaf:name "Vercauteren, Frederik" .
-
-sdp:Vermaseren_JAM a foaf:Person ;
-                   foaf:name "Vermaseren, J. A. M." .
-
-sdp:Wallack_A a foaf:Person ;
-              foaf:name "Wallack, A." .
-
-sdp:Wang_D a foaf:Person ;
-           foaf:name "Wang, Dongming" .
-
-sdp:Watt_S a foaf:Person ;
-           foaf:name "Watt, Stephen" .
-
-sdp:Weispfenning_V a foaf:Person ;
-                   foaf:name "Weispfenning, Volker" .
-
-sdp:Wenk_M a foaf:Person, sd:Contributor ;
-           foaf:name "Wenk, Moritz" ;
-           foaf:nick "wenk" ;
-           foaf:mbox "wenk@mathematik.uni-kl.de" ;
-           foaf:homepage <http://www.mathematik.uni-kl.de/~wenk> ;
-           sd:lastModified "2004-08-26" .
-
-sdp:Werner_W a foaf:Person ;
-             foaf:name "Werner, Wilhelm" .
-
-sdp:Wessler_M a foaf:Person ;
-              foaf:name "Wessler, Markus" .
-
-sdp:Wichmann_T a foaf:Person ;
-               foaf:name "Wichmann, T." .
-
-sdp:Wiese_G a foaf:Person ;
-            foaf:name "Wiese, Gabor" .
-
-sdp:Wilson_R a foaf:Person ;
-             foaf:name "Wilson, Robert" .
-
-sdp:Witte_M a foaf:Person, sd:Contributor ;
-            foaf:name "Witte, Malte" ;
-            sd:hasContributed "Version 1: Chou's Geo Examples" ;
-            sd:lastModified "2004-08-26" .
-
-sdp:Wosch_EAT a foaf:Person ;
-              foaf:name "Wosch, Erwin A.T." .
-
-sdp:Wu_WT a foaf:Person ;
-          foaf:name "Wu, W.-T." .
-
-sdp:Zerz_E a foaf:Person ;
-           foaf:name "Zerz, Eva" .
-
-sdp:Zharkov_AYu a foaf:Person ;
-                foaf:name "Zharkov, A.Yu." .
-
-sdp:vonzurGathen_J a foaf:Person ;
-                   foaf:name "von zur Gathen, Joachim" .
