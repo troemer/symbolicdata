@@ -25,8 +25,8 @@ computer algebra systems.
 
 #For the readability:
 dictComputationProblem={"FA_Q_dp":"Groebner basis over free algebra",
-                       "GB_Z_lp":"Groebner basis commutative",
-                       "GB_Fp_dp":"Groebner basis commutative (finite field)"}
+                        "GB_Z_lp":"Groebner basis commutative",
+                        "GB_Fp_dp":"Groebner basis commutative (finite field)"}
 
 import os # This is for the check if the path does exist in the next step
 import shutil
@@ -48,7 +48,7 @@ import xml.dom.minidom as dom
 #does exist in the expected path "../XMLResources/". If not, the
 #user will be asked later for the path.
 
-stdxmlDataPathDir = os.path.join("..","XMLResources")
+stdxmlDataPathDir = os.path.join("..", "..", "data", "XMLResources")
 isXMLRessourcesDirectory = \
     os.path.isdir(stdxmlDataPathDir)
     # To make it more platform independent. What stands here would be in unix terms
