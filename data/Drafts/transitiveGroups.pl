@@ -8,10 +8,9 @@
 # http://galoisdb.math.uni-paderborn.de
 
 # remark: This script can be run as-is, but it will take a very long time
-# (probably over an hour) because all data has to be downloaded the first
-# time.  The second run will be significantly(!) faster (maybe 5 minutes)
-# because offline copies will be made. The downloaded data was not included
-# here.
+# (probably over an hour) because all data has to be downloaded the first time.
+# The second run will be significantly(!) faster (maybe 5 minutes) because
+# offline copies will be made. The downloaded data was not included here.
 
 # remark: fixed name spaces. TransitiveGroups for the knowledge base,
 # Data/TransitiveGroup as prefix for the instances, sd: as name prefix for the
@@ -24,7 +23,7 @@ use LWP::Simple;
 use HTML::Tree;
 use Term::ReadKey;
 
-my $NS = "http://symbolicdata.org/data/Drafts/TransitiveGroup/";
+my $NS = "http://symbolicdata.org/data/TransitiveGroup/";
 my $NSP = "sd";
 
 print getPreamble();

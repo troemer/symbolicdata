@@ -1,0 +1,91 @@
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://symbolicdata.org/Data/Annotations/> a sysont:Model ;
+    sysont:prefix "cc=http://creativecommons.org/ns#",
+     "foaf=http://xmlns.com/foaf/0.1/",
+     "rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "rdfs=http://www.w3.org/2000/01/rdf-schema#",
+     "sd=http://symbolicdata.org/Data/Model#" .
+
+<http://symbolicdata.org/Data/Bibliography/> a sysont:Model ;
+    sysont:prefix "cc=http://creativecommons.org/ns#",
+     "foaf=http://xmlns.com/foaf/0.1/",
+     "rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "rdfs=http://www.w3.org/2000/01/rdf-schema#",
+     "sd=http://symbolicdata.org/Data/Model#" .
+
+<http://symbolicdata.org/Data/FanoPolytopes/> a sysont:Model ;
+    sysont:prefix "cc=http://creativecommons.org/ns#",
+     "foaf=http://xmlns.com/foaf/0.1/",
+     "rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "rdfs=http://www.w3.org/2000/01/rdf-schema#",
+     "sd=http://symbolicdata.org/Data/Model#" .
+
+<http://symbolicdata.org/Data/FreeAlgebras/> a sysont:Model ;
+    sysont:prefix "cc=http://creativecommons.org/ns#",
+     "foaf=http://xmlns.com/foaf/0.1/",
+     "rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "rdfs=http://www.w3.org/2000/01/rdf-schema#",
+     "sd=http://symbolicdata.org/Data/Model#" .
+
+<http://symbolicdata.org/Data/GAlgebras/> a sysont:Model ;
+    sysont:prefix "cc=http://creativecommons.org/ns#",
+     "foaf=http://xmlns.com/foaf/0.1/",
+     "rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "rdfs=http://www.w3.org/2000/01/rdf-schema#",
+     "sd=http://symbolicdata.org/Data/Model#" .
+
+<http://symbolicdata.org/Data/GeoCode/> a sysont:Model ;
+    sysont:prefix "cc=http://creativecommons.org/ns#",
+     "foaf=http://xmlns.com/foaf/0.1/",
+     "rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "rdfs=http://www.w3.org/2000/01/rdf-schema#",
+     "sd=http://symbolicdata.org/Data/Model#" .
+
+<http://symbolicdata.org/Data/GeometryProblems/> a sysont:Model ;
+    sysont:prefix "cc=http://creativecommons.org/ns#",
+     "foaf=http://xmlns.com/foaf/0.1/",
+     "rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "rdfs=http://www.w3.org/2000/01/rdf-schema#",
+     "sd=http://symbolicdata.org/Data/Model#" .
+
+<http://symbolicdata.org/Data/GeoProofSchemes/> a sysont:Model ;
+    sysont:prefix "cc=http://creativecommons.org/ns#",
+     "foaf=http://xmlns.com/foaf/0.1/",
+     "rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "rdfs=http://www.w3.org/2000/01/rdf-schema#",
+     "sd=http://symbolicdata.org/Data/Model#" .
+
+<http://symbolicdata.org/Data/People/> a sysont:Model ;
+    sysont:prefix "cc=http://creativecommons.org/ns#",
+     "foaf=http://xmlns.com/foaf/0.1/",
+     "rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "rdfs=http://www.w3.org/2000/01/rdf-schema#",
+     "sd=http://symbolicdata.org/Data/Model#" .
+
+<http://symbolicdata.org/Data/PolynomialSystems/> a sysont:Model ;
+    sysont:prefix "cc=http://creativecommons.org/ns#",
+     "foaf=http://xmlns.com/foaf/0.1/",
+     "rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "rdfs=http://www.w3.org/2000/01/rdf-schema#",
+     "sd=http://symbolicdata.org/Data/Model#" .
+
+<http://symbolicdata.org/Data/Systems/> a sysont:Model ;
+    sysont:prefix "cc=http://creativecommons.org/ns#",
+     "foaf=http://xmlns.com/foaf/0.1/",
+     "rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "rdfs=http://www.w3.org/2000/01/rdf-schema#",
+     "sd=http://symbolicdata.org/Data/Model#" .
+
+<http://symbolicdata.org/Data/TestSets/> a sysont:Model ;
+    sysont:prefix "cc=http://creativecommons.org/ns#",
+     "foaf=http://xmlns.com/foaf/0.1/",
+     "rdf=http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+     "rdfs=http://www.w3.org/2000/01/rdf-schema#",
+     "sd=http://symbolicdata.org/Data/Model#" .

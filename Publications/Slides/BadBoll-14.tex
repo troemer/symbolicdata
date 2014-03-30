@@ -1,0 +1,324 @@
+\documentclass{beamer}
+\usepackage{german}
+\usepackage[english]{babel}
+% Designelemente
+\usetheme{AnnArbor}
+\beamertemplatenavigationsymbolsempty
+
+\newcommand{\ueberschrift}[1]{\begin{center}\bf\large #1\end{center}}
+\newenvironment{code}{\footnotesize\tt \begin{tabbing}
+\hskip12pt\=\hskip12pt\=\hskip12pt\=\hskip12pt\=\hskip5cm\=\hskip5cm\=\kill}
+{\end{tabbing}}
+
+\title[The SymbolicData Project]{The SymbolicData Project -- from Data Store to
+  Computer Algebra Social Network}
+
+\subtitle{Talk given at the Jahrestagung 2014 of the SPP 1489}
+
+\author[Hans-Gert Gr\"abe]{Hans-Gert Gr\"abe}
+
+\institute[Uni Leipzig]{Leipzig University, Germany\\
+\texttt{http://bis.informatik.uni-leipzig.de/HansGertGraebe}} 
+
+\date{Bad Boll, 2014-03-04}
+\begin{document}
+\begin{frame}
+\maketitle
+\end{frame}
+\begin{frame}{Aim and Scope}{}
+Vision:
+\begin{itemize}
+\item Develop concepts and tools for profiling, testing and benchmarking
+  Computer Algebra Software (CAS) from different areas of Computer Algebra
+\item Collect and interlink relevant data and activities from different
+  Computer Algebra subcommunities
+\end{itemize}
+{SymbolicData is an}
+\begin{itemize}
+\item inter-community project that has its roots in the activities of
+  different Computer Algebra Communities and
+\item aims at interlinking these activities using modern Semantic Web
+  concepts. 
+\end{itemize}
+{Tools and data are designed to be used both}
+\begin{itemize}
+\item on a local site for special testing and profiling purposes
+\item and to manage a central repository at http://www.symbolicdata.org.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{What does SymbolicData offer?}{}
+Data:
+\begin{itemize}
+\item Polynomial Systems Solving
+\item Geometry Theorem Proving
+\item Fano Polytopes (A. Paffenholz)
+\item Free Algebras
+\item G-Algebras
+\item Test Sets from Integer Programming
+\end{itemize}
+{Draft:}
+\begin{itemize}
+\item Birkhoff Polytopes (A. Paffenholz)
+\item Transitive Groups (J. Kl\"uners, G. Malle)
+\end{itemize}
+\end{frame}
+
+\begin{frame}{What does SymbolicData offer?}{}
+{Tools:}
+\begin{itemize}
+\item SDEval Package (Albert Heinle)
+\begin{itemize}
+\item Aim: Set up, run, log, monitor standardized Computations on SD data
+  series in a reliable way 
+\item Technology: Python standalone on top of the OS
+\end{itemize}
+\item SDSage Package (Andreas Nareike)
+\begin{itemize}
+\item Aim: Call the new Polynomial Systems format from Sagemath 
+\item Technology: Sagemath Python Package
+\end{itemize}
+\end{itemize}
+Referring to the talk by Andreas Nareike last year, I will not touch that
+topic in my talk this year.
+\end{frame}
+
+\begin{frame}{What does SymbolicData offer?}{}
+{Infrastructure:}
+\begin{itemize}
+\item Github repositories (following the Integration Master Pattern)
+\item A project wiki at http://symbolicdata.org
+\item A mailing list
+\item Web access to the XML resources
+\item A centrally operated OntoWiki based RDF data store of meta informations
+  Based on the Virtuoso RDF store
+\item Organized along Linked Data Principles
+\item Regular Dumps of RDF data in Turtle format
+\item A SPARQL endpoint to query the data
+\item Advise for easy local installation of tools and data based on Virtuoso
+  and a local Apache Web server (OntoWiki optional)
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Some History}{}
+ISSAC 1998: Special session on Benchmarking 
+
+1999-2002: Phase 1 -- Olaf Bachmann, Hans-Gert Gr\"abe
+\begin{itemize}
+\item Focus: Polynomial Systems, tools and concepts
+\item Technology: XML-like special markup, elaborated Perl tools
+\end{itemize}
+2005-2007: Phase 2 -- around the Groebner Special Year
+\begin{itemize}
+\item Focus: Geometry Theorem Proving, first interlinking projects with the GB
+  bibliography and the GB facilities projects
+\item Technology: Switch to true XML concepts
+\end{itemize}
+2012-2014: Phase 3 -- E-Science Saxonia supported project (Andreas Nareike,
+Hans-Gert Gr\"abe)
+\begin{itemize}
+\item Focus: Switch to Linked Data and Semantic Web concepts, XML resources,
+  RDF meta data, data reorganization
+\item Release of version 3 in Sept. 2013
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Linked Data Principles}{}
+\begin{itemize}
+\item \emph{Resources:} URI, HTTP Get access
+\begin{itemize}
+\item URI = Unique Resource Identifier
+\item Access to worldwide distributed data in a unified way
+\end{itemize}
+\item \emph{Resource Descriptions:} Deliver a valuable piece of information in
+  structured RDF format, that can be combined with other pieces of information
+  from other sources into new RDF sentences.
+\begin{itemize}
+\item RDF = Resource Description Framework
+\end{itemize}
+\item Run \emph{RDF Triple Stores} as part of a worldwide distributed data
+  storage infrastructure
+\begin{itemize}
+\item Triple: »subject predicate object.« as the basic RDF information unit.
+\end{itemize}
+\item (Federated) Query Language SPARQL
+\item Run \emph{SPARQL Endpoints} on RDF triple stores
+\end{itemize}
+\end{frame}
+
+\begin{frame}{RDF Basics}{}
+Main idea: Store pieces of information as triples.
+\begin{itemize}
+\item Subject and predicate have to be URIs, object can be an URI or a literal
+  (i.e., plain or typed text)
+\item Different ASCII storage formats (RDF-XML, JSON, Turtle) and tools to
+  parse and transform these formats
+\item We use the Redland RDF Libraries http://librdf.org/
+\item Representation as (directed) RDF graph: Subjects and objects as nodes
+  (literals as annotated blank nodes), predicates as (labelled) edges.
+\end{itemize}
+Allows for navigation within the data: SPARQL Query Language
+
+RDF allows to describe Resources, Concepts (i.e., meta information about
+Resources), Ontologies (i.e., meta information about Concepts) etc.\ in a
+uniform way.
+\end{frame}
+
+\begin{frame}{SymbolicData Data Structure}{}
+Resources:
+\begin{itemize}
+\item SD provides own resources in an XML based format
+\begin{itemize}
+\item Polynomial Systems, Geometry Theorem Proving, \ldots
+\end{itemize}
+\item Draft: SD addresses other resources at different stores
+\begin{itemize}
+\item Polytopes, Transitive Groups
+\end{itemize}
+\item Maintenance of resources requires special semantic knowledge, semantic
+  aware tools and semantically educated people
+\end{itemize}
+Resource Descriptions: 
+\begin{itemize}
+\item Precomputed „fingerprints“ of the different resources in RDF format to
+  navigate and search within the data
+\item Requires semantic knowledge to use the fingerprints in an appropriate
+  way
+\end{itemize}
+\end{frame}
+
+\begin{frame}{SymbolicData Data Structure}{}
+An example in Turtle syntax:
+
+\begin{code}
+  <http://symbolicdata.org/Data/Ideal/Czapor-86c.Flat> \+\\
+  a sd:Ideal ;\\
+  rdfs:comment {\dq}Flat variant of Czapor-86c{\dq} ;\\
+  sd:createdAt {\dq}1999-08-27{\dq} ;\\
+  sd:createdBy sdp:Bachmann\_O ;\\
+  sd:hasDegreeList {\dq}3,3,3{\dq} ;\\
+  sd:hasLengthsList {\dq}4,4,4{\dq} ;\\
+  sd:relatedPolynomialSystem\\\>
+  <http://symbolicdata.org/Data/IntPS/Czapor-86c> ;\\
+  sd:hasVariables {\dq}x,y,z,a,b,c,d,e,f,g,h,k{\dq} .
+\end{code}
+rdfs:, sd: and sdp: are namespace prefixes.
+\end{frame}
+
+\begin{frame}{SymbolicData Data Structure}{}
+Use SPARQL to search for examples with given degree and lengths lists. Run the
+following query at http://symbolicdata.org:8890/sparql
+
+\begin{code}
+  PREFIX sd: <http://symbolicdata.org/Data/Model\#>\\ 
+  select ?a \\
+  from <http://symbolicdata.org/Data/PolynomialSystems/>\\
+  where \{\+\\
+    ?a a sd:Ideal . \\
+    ?a sd:hasLengthsList {\dq}4,4,4{\dq} . \\
+    ?a sd:hasDegreeList {\dq}3,3,3{\dq} . \-\\
+  \} 
+\end{code}
+\end{frame}
+
+\begin{frame}{SymbolicData Data Structure}{}
+Linked Data: Link directs to a valuable resource description as, e.g., 
+
+\texttt{http://symbolicdata.org/Data/Ideal/Sym1\_311.Homog}
+\begin{code}
+  <http://symbolicdata.org/Data/Ideal/Sym1\_311.Homog> \+\\
+  sd:createdAt {\dq}1999-06-04{\dq} ;\\
+  sd:createdBy sdp:Bachmann\_O ;\\
+  sd:hasDegreeList {\dq}3,3,3{\dq} ;\\
+  sd:hasLengthsList {\dq}4,4,4{\dq} ;\\
+  sd:hasVariables {\dq}x,y,z,hv{\dq} ;\\
+  sd:homogenize sdideal:Sym1\_311 ;\\
+  sd:homogenizedWith {\dq}hv{\dq} ;\\
+  a sd:HomogeneousIdeal, sd:Ideal ;\\
+  rdfs:comment {\dq}Homogenized version of Sym1\_311{\dq} .
+\end{code}
+It is the homogenized version of another example.
+\end{frame}
+
+\begin{frame}{SymbolicData Data Structure}{}
+Hence Resource Descriptions have to provide rules to compute derived examples
+from basic ones.
+\begin{itemize}
+\item Requires semantic aware tools to extract the derived examples from the
+  basic ones.
+\item No strong restriction, since most of real applications work within
+  semantic aware environments anyway.
+\item Realized for Polynomial Systems and the Sagemath system by the SDSage
+  package of Andreas Nareike.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{SymbolicData Data Structure}{}
+\emph{Background information:} Use RDF to manage additional data, try to
+interlink that data with other sources along the Linked Data Principles.
+\begin{itemize}
+\item Annotations -- a system of background information on different examples
+  and series of examples
+\item Bibliography -- bibliographical references system (to be aligned with
+  ZBMath)
+\item Conferences -- data base of upcoming conferences
+\item People -- different people and groups (to be aligned with ZBMath)
+\item Systems -- list of CA systems (aligned with swmath) 
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Towards a CA Social Network}{}
+Valuable background information is information the people care about. Try to
+gather data only once, but in a form that it can be multiply reused. Build
+views (web sites) that harvest information.
+
+Care about the rules
+\begin{itemize}
+\item Maximizing reuse minimizes use.
+\item Make things as simple as possible, but not simpler. 
+\end{itemize}
+Vision:
+\begin{itemize}
+\item People -- enlarge the database, link it to the ZBMath people database
+\begin{itemize}
+\item Used to display people from the CAFG Board within the Wordpress based
+  CAFG site
+\end{itemize}
+\item Groups -- collect standard information about CA working groups 
+\begin{itemize}
+\item Used to display such information within the Wordpress based CAFG site
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Towards a CA Social Network}{}
+Vision (continued):
+\begin{itemize}
+\item Conferences -- do not only send conference announcements around mailing
+  lists, but store it in a commonly agreed format within a CA Social Network
+\begin{itemize}
+\item A very first prototype is used to display such information within the
+  Wordpress based CAFG site
+\end{itemize}
+\item The stakeholders understand, that this is a techno-social, and even more
+  a social than a technical process that is best discussed on the Symbolicdata
+  Mailing list.
+\item The CASN germ at http://symbolicdata.org/wiki/CASN matures thanks to
+  common efforts.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Links}{}\small
+\begin{itemize}
+\item \texttt{http://symbolicdata.org} -- the SD Wiki
+\item \texttt{http://symbolicdata.org/XMLResources} -- the SD XML Resources
+\item \texttt{http://symbolicdata.org/RDFData} -- the SD RDF Data Turtle Files
+\item \texttt{http://symbolicdata.org/Data} -- the SD OntoWiki view on RDF
+  data
+\item \texttt{https://github.com/symbolicdata} -- the SD Repository at github
+\end{itemize}
+\end{frame}
+
+\end{document}
+
+

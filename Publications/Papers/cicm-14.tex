@@ -1,0 +1,225 @@
+\documentclass{llncs}
+\usepackage{url}
+
+\newcommand{\SD}{{\sc SymbolicData}}
+
+\title{The {\SD} Project}
+\author{Hans-Gert Gr\"abe \and Andreas Nareike}
+\institute{Universit\"at Leipzig, Germany\\
+\email{(graebe|nareike)@informatik.uni-leipzig.de}}
+\begin{document}
+\maketitle
+
+\begin{abstract}% 86 words
+  We report about a complete redesign of the tools and data of the {\SD}
+  project according to Linked Data principles and RDF technologies that proved
+  to be powerful within modern semantic web approaches. During that redesign
+  the focus of the project changed from a merely data store towards the vision
+  of a Computer Algebra Social Network that aims at technical support of the
+  intercommunity communication between different CA subcommunities. The
+  redesign was released as version 3 of SymbolicData in September 2013 and
+  since then steadily evolved.
+\end{abstract}
+
+\section{Introduction}
+
+The SymbolicData project grew up from the Special Session on Benchmarking at
+the 1998 ISSAC conference to continue the efforts started by the PoSSo
+\cite{PoSSo} an FRISCO \cite{FRISCO} projects. It aimed at building a reliable
+and sustainably available reference of Polynomial Systems data, to extend and
+update it, to collect meta information about the records, and also to develop
+tools to manage the data and to set up and run tests and benchmark
+computations on the data.  A first prototype was developed during 1999--2002
+by Olaf Bachmann and Hans-Gert Gr\"abe, that collected data from
+\emph{Polynomial Systems Solving} and \emph{Geometry Theorem Proving}.
+
+Olaf Bachmann left the project for a new job at the end of 2000, and there was
+almost no advance during 2002--2005.  In a second phase around 2006 the
+project matured again. Data were supplied by the CoCoA group (F.~Cioffi), the
+Singular group (M.~Dengel, M.~Brickenstein, S.~Steidel, M.~Wenk),
+V.~Levandovskyy (non commutative polynomial systems, G-Algebras) and R.
+Hemmecke (Test sets from Integer Programming). In 2005 the German Fachgruppe
+Computeralgebra launched the Web site \url{http://www.symbolicdata.org}.
+During the Special Semester on Groebner Bases in March 2006 we tried to join
+forces with the GB-Bibliography project (B. Buchberger, A. Zapletal) and the
+GB-Facilities project (V. Levandovskyy).
+
+In 2009 we started to refactor the data along standard Semantic Web concepts
+based on the Resource Description Framework (RDF).  In 2012 these efforts were
+supported by a 12 months grant \emph{Benchmarking in Symbolic Computations and
+  Web 3.0} for Andreas Nareike within the \emph{Saxonian E-Science Initiative}
+\cite{E-Science-Sachsen}.  Within that scope we completed a redesign of the
+data distinguishing more consequently between data (\emph{resources} in the
+RDF terminology) and meta data (\emph{knowledge bases} in the RDF terminology)
+and refactoring the meta data along Linked Data principles.  The new {\SD}
+data and tools were released as version~3 in September 2013.
+
+\section{The {\SD} Infrastructure}
+
+Our resources (examples for testing, profiling and benchmarking software and
+algorithms from different areas of symbolic computation) are publicly
+available in XML markup, meta data in RDF notation both from a public git
+repo, hosted at \texttt{github.org}, and from an OntoWiki \cite{OntoWiki}
+based data store at \url{http://symbolicdata.org/Data}.  Moreover, we offer a
+SPARQL endpoint \cite{sdsparql} to explore the data by standard Linked Data
+methods.
+
+The website operates on a standardized installation using an Apache web server
+to deliver the data, the Virtuoso RDF data store \cite{Virtuoso} as data
+backend, a SPARQL endpoint and (optionally) OntoWiki to explore, display and
+edit the data.  This installation can easily be rolled out at a local site
+(tested under Linux Debian and Ubuntu 12.04 LTS; a more detailed description
+can be found in the {\SD} wiki \cite{sdwiki}) to support local testing,
+profiling and benchmarking.
+
+The distribution offers also tools for integration with a local compute
+environment as, e.g., provided by Sagemath \cite{Sagemath} -- the Python based
+\emph{SDEval package} \cite{sdeval} by Albert Heinle offers a JUnit like
+framework to set up, run, log, monitor and interrupt testing and benchmarking
+computations, and the \emph{SDSage package} \cite{sdsage} by Andreas Nareike
+provides a showcase for {\SD} integration with the Sagemath compute
+environment.
+
+We follow a development process along the Integration-Manager-Workflow Model.
+This makes it easy to join forces with the {\SD} team: Fork the repo to your
+github account, start development and send a pull request to the Integration
+Manager if you think you produced something worth to be integrated into the
+upstream master branch.  Even if your contribution is not pulled to the
+upstream, people can use it, since they can pull it from your to their github
+repo. This allows even for agile common small feature development -- a widely
+practised way to advance projects hosted at \texttt{github.com}. You are
+encouraged early to start a discussion about your plans and regularly report
+your progress on the {\SD} mailing list.
+
+\section{{\SD} Resources and Maintenance}
+
+Preparing {\SD} version 3 we decided to strengthen the {\SD} part that is
+\emph{not} involved with Polynomial Systems Solving.  These efforts led to a
+more consequent distinction between data (owned and maintained by different CA
+subcommunities) and meta data. Such a distinction is well supported by RDF
+design principles -- the Resource Description Framework is about
+\emph{description} of \emph{resources}, represented by (globally unique)
+\emph{resource identifiers} (URIs). We follow the Linked Data best practise to
+provide URIs in such a way, that they are accessible by the HTTP internet
+protocol and a valuable part of structured information about that resource is
+delivered upon HTTP request to that URI.
+
+Currently the {\SD} data collection contains resources from the areas of
+Polynomial Systems Solving (390 records, 633 configurations), Free Algebras
+(83 records), G-Algebras (8 records), GeoProofSchemes (297 records) and Test
+Sets from Integer Programming (28 records). These resources are stored in a
+flat XSchema based XML syntax using well established intracommunity syntaxes
+for the internal data.
+
+Such a concept is not restricted to centrally managed resources, but can
+easily be extended to other data stores on the web that are operated by
+different CA subcommunities and offer a minimum of Linked Data facilities.
+There are draft versions of resource descriptions about Fano Polytopes (8630
+records) and Birkhoff Polytopes (5399 records) hosted by Andreas Paffenholz
+and about Transitive Groups (3605 records) from the Database for Number Fields
+of J\"urgen Kl\"uners and Gunter Malle that point to external resources.  This
+part of our project requires further solicitation.
+
+It was one of the great visions of the {\SD} Project to collect not only
+benchmark and testing data but also valuable background information about the
+records in the database as, e.g., information about papers, people, history,
+systems etc.\ concerned with the examples in our collection.  Within the
+redesign we developed a general concept of the \texttt{sd:Annotation} RDF
+class to store background information in a unified way. 
+
+We use that concept in particular to relate bibliographical entries of type
+\texttt{sd:Reference} to different data records.  The management of
+bibliographical references was completely redesigned with {\SD} version 3
+exploiting RDF and the established Dublin Core ontology \cite{dcterms} to
+represent bibliographical information in a way that is queryable by standard
+means and tools. On the other hand, we strongly reduced the part of
+information about bibliographical references kept inside {\SD} since there are
+comprehensive bibliographical stores available on the web that provide all
+required information.  
+
+\section{Towards a Computer Algebra Social Network}
+
+From the five stars to be assigned to a Linked Data project according to Tim
+Berners-Lee's classification \cite{5stars} {\SD} earned four stars so far (for
+offering data in interoperable RDF format on the web and providing a SPARQL
+querable triple store).  For the fifth star one has to build up stable
+semantic relations to foreign knowledge bases and thus become part of the
+Linked Open Data Cloud \cite{lod}.
+
+Much of such interrelation, e.g., a list of interoperability references for
+people, software and bibliographical data with the Zentralblatt, is on the
+way.  Moreover, we joined forces with the efforts of the board of the German
+Fachgruppe to store and provide information about people and groups working on
+CA topics at their new Wordpress driven web site \cite{cafg}.  We developed a
+first prototype to store this information in RDF format, to extract it by
+means of SPARQL queries and to view it on the web site using the Wordpress
+shortcode mechanism via a special Wordpress plugin.  We apply the same
+technique to maintain information about upcoming conferences at this site.
+
+The vision of a Computer Algebra Social Network goes far beyond that: Set up
+and run within the CA community a semantic aware Facebook like Social Network
+and contribute to it about all topics around Computer Algebra using tools that
+express your contributions in an RDF based syntax that the community agreed
+upon. This sounds quite visionary, but it is in no way utopic. We operate a
+first prototypical node of a tool that realizes the challenging concept of a
+\emph{Distributed Semantic Social Network} \cite{dssn}, see our wiki for more
+information.  
+
+Due to page restrictions we cannot explain this and the new RDF based
+techniques in more detail and refer to the extended version \cite{car-54} of
+this paper.
+
+\raggedright
+\begin{thebibliography}{1}
+
+\bibitem{5stars} Berners-Lee, T.: 5 stars for Open Data.
+  \url{http://5stardata.info/} [2014-03-05]
+
+\bibitem{dcterms} DCMI Metadata Terms.
+  \url{http://dublincore.org/documents/dcmi-terms/} [2014-02-27]
+
+\bibitem{E-Science-Sachsen} Das eScience-Forschungsnetzwerk Sachsen.
+  \newblock \url{http://www.escience-sachsen.de} [2014-02-19]
+
+\bibitem{cafg} Website of the German Fachgruppe Computeralgebra.  
+  \url{http://www.fachgruppe-computeralgebra.de/} [2014-03-06]
+
+\bibitem{FRISCO} FRISCO -- A Framework for Integrated Symbolic/Numeric
+  Computation. \url{http://www.nag.co.uk/projects/FRISCO.html} [2014-02-19]
+
+\bibitem{car-54} Gr\"abe, H.-G., Nareike, A.: The {\SD} Project
+  -- from Data Store to Computer Algebra Social Network. 
+  Computeralgebra-Rundbrief {\bf 54} (2014, to appear).
+
+\bibitem{sdeval} Heinle, A.: The SDEval framework.  
+  \url{http://symbolicdata.org/wiki/SDEval} [2014-02-28]
+
+\bibitem{lod} Linked Data.  \url{http://en.wikipedia.org/wiki/Linked_data}
+  [2014-03-05]
+
+\bibitem{sdsage} Nareike, A.: The SDSage package.  
+  \url{http://symbolicdata.org/wiki/PolynomialSystems.Sage} [2014-02-28]
+
+\bibitem{OntoWiki} OntoWiki: A tool providing support for agile, distributed
+  knowledge engineering scenarios. 
+  \url{http://aksw.org/Projects/OntoWiki.html} [2014-02-19]
+
+\bibitem{PoSSo} The PoSSo Project. \url{http://posso.dm.unipi.it/}
+  [2014-02-19]
+
+\bibitem{Sagemath} Sage -- a free open-source mathematics software system.
+  \url{http://www.sagemath.org} [2014-02-19]
+
+\bibitem{sdwiki} The {\SD} project wiki.  \url{http://symbolicdata.org/wiki}
+
+\bibitem{sdsparql} The {\SD} SPARQL endpoint.
+  \url{http://symbolicdata.org:8890/sparql}
+
+\bibitem{dssn} Tramp, S.\ et al.: DSSN: towards a global Distributed Semantic
+  Social Network.  \url{http://aksw.org/Projects/DSSN.html} [2014-03-06]
+
+\bibitem{Virtuoso} Virtuoso Open-Source Edition. \newblock
+  \url{http://virtuoso.openlinksw.com/} [2014-02-19]
+
+\end{thebibliography}
+\end{document}
