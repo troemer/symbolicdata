@@ -1,13 +1,14 @@
 # Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
 
 @base <http://symbolicdata.org/Data/Systems/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dct: <http://purl.org/dc/terms/> .
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix cc: <http://creativecommons.org/ns#> .
 
 sd:CAS a owl:Class ;
@@ -16,9 +17,9 @@ sd:CAS a owl:Class ;
 <http://symbolicdata.org/Data/System/ASYS> a sd:CAS ;
                                            rdfs:label "Reduce package ASYS" ;
                                            rdfs:comment "no idea about the status of the project" ;
-                                           dct:creator sdp:Zharkov_AYu, sdp:Gerdt_VP, sdp:Khutornoy_NV ;
-                                           sd:lastUpdate "2013-09-14" ;
+                                           dct:creator sdp:Gerdt_VP, sdp:Khutornoy_NV, sdp:Zharkov_AYu ;
                                            dct:description "A package for the CAS Reduce to explore different algorithmic aspects of Groebner and involutive bases" ;
+                                           sd:lastUpdate "2013-09-14" ;
                                            sd:relatesTo <http://symbolicdata.org/Data/System/Reduce> .
 
 <http://symbolicdata.org/Data/System/AlPi> a sd:CAS ;
@@ -37,9 +38,9 @@ sd:CAS a owl:Class ;
                                             rdfs:label "CAS Felix" ;
                                             rdfs:comment "no more under development" ;
                                             dct:creator sdp:Apel_J, sdp:Klaus_U ;
+                                            dct:description "Special computer algebra system for the computation in commutative and non-commutative rings and modules" ;
                                             sd:hasURL <http://felix.hgb-leipzig.de> ;
-                                            sd:lastUpdate "2010-12-29" ;
-                                            dct:description "Special computer algebra system for the computation in commutative and non-commutative rings and modules" .
+                                            sd:lastUpdate "2010-12-29" .
 
 <http://symbolicdata.org/Data/System/GB> a sd:CAS ;
                                          rdfs:label "CAS GB" ;
@@ -65,21 +66,25 @@ sd:CAS a owl:Class ;
                                             rdfs:label "CAS MuPAD - now Matlab symbolic toolbox" ;
                                             owl:sameAs <http://www.swmath.org/software/606> .
 
+<http://symbolicdata.org/Data/System/Normaliz> a sd:CAS ;
+                                               rdfs:label "Normaliz" ;
+                                               owl:sameAs <http://www.swmath.org/software/630> .
+
 <http://symbolicdata.org/Data/System/Points> a sd:CAS ;
                                              rdfs:label "Points" ;
                                              dct:creator sdp:Cioffi_F, sdp:Orecchia_F, sdp:Ramella_I ;
-                                             sd:hasURL <http://wpage.unina.it/cioffifr/EPoints.html> ;
-                                             sd:lastUpdate "2010-12-29" ;
                                              dct:description "Points intends to construct algorithms and to implement sofwares concerning problems in Algebraic Geometry which need the computation of the Hilbert Function or of minimal generators or of the resolution of the ideal of a finite set of points." ;
-                                             dct:license <http://www.gnu.org/licenses/gpl.html> .
+                                             dct:license <http://www.gnu.org/licenses/gpl.html> ;
+                                             sd:hasURL <http://wpage.unina.it/cioffifr/EPoints.html> ;
+                                             sd:lastUpdate "2010-12-29" .
 
 <http://symbolicdata.org/Data/System/QPoints> a sd:CAS ;
                                               rdfs:label "QPoints" ;
                                               dct:creator sdp:Cioffi_F, sdp:Orecchia_F, sdp:Ramella_I ;
-                                              sd:hasURL <http://cds.unina.it/~cioffifr/EPoints.html> ;
-                                              sd:lastUpdate "2001-03-28" ;
                                               dct:description "A software for computations related to points in projective spaces over the field Q of rational numbers." ;
-                                              dct:license <http://www.gnu.org/licenses/gpl.html> .
+                                              dct:license <http://www.gnu.org/licenses/gpl.html> ;
+                                              sd:hasURL <http://cds.unina.it/~cioffifr/EPoints.html> ;
+                                              sd:lastUpdate "2001-03-28" .
 
 <http://symbolicdata.org/Data/System/Reduce> a sd:CAS ;
                                              rdfs:label "CAS Reduce" ;
@@ -93,5 +98,5 @@ sd:CAS a owl:Class ;
    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
    cc:attributionURL <http://symbolicdata.org> ;
    cc:attributionName "The SymbolicData Project";
-   rdfs:label "SD CA-Systems Data" ;
-   rdfs:comment "CA System Data" .
+   rdfs:label "SD CA-Software Data" ;
+   rdfs:comment "CA Software Data, mainly links to the swmath database" .
