@@ -7,6 +7,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sdt: <http://symbolicdata.org/Data/Tag/> .
 @prefix cc: <http://creativecommons.org/ns#> .
 
@@ -18,6 +19,16 @@
 
 sdp:Abbott_J a foaf:Person ;
              foaf:name "Abbott, John" .
+
+sdp:Aizawa_A a foaf:Person ;
+             foaf:name "Aizawa, Akiko" ;
+             foaf:affiliation "NII, University of Tokyo" ;
+             foaf:country "Japan" .
+
+sdp:Alama_J a foaf:Person ;
+            foaf:name "Alama, Jesse" ;
+            foaf:affiliation "Technical University of Vienna" ;
+            foaf:country "Austria" .
 
 sdp:Albano_G a foaf:Person ;
              foaf:name "Albano, G." .
@@ -37,6 +48,16 @@ sdp:Apel_J a foaf:Person ;
 sdp:Arndt_F a foaf:Person ;
             foaf:name "Arndt, Frauke" .
 
+sdp:Arthan_R a foaf:Person ;
+             foaf:name "Arthan, Rob" ;
+             foaf:affiliation "Queen Mary University of London" ;
+             foaf:country "UK" .
+
+sdp:Aspinall_D a foaf:Person ;
+               foaf:name "Aspinall, David" ;
+               foaf:affiliation "Univerity of Edinburgh" ;
+               foaf:country "UK" .
+
 sdp:Autexier_S a foaf:Person ;
                foaf:name "Autexier, Serge" .
 
@@ -55,6 +76,11 @@ sdp:Barakat_M a foaf:Person ;
 
 sdp:Baumeister_B a foaf:Person ;
                  foaf:name "Baumeister, Barbara" .
+
+sdp:Beeson_M a foaf:Person ;
+             foaf:name "Beeson, Michael" ;
+             foaf:affiliation "San Jose State University" ;
+             foaf:country "USA" .
 
 sdp:Behrends_R a foaf:Person ;
                foaf:name "Behrends, Reimer" .
@@ -89,11 +115,21 @@ sdp:Boehm_J a foaf:Person ;
 sdp:Boerner_M a foaf:Person ;
               foaf:name "Börner, Michel" .
 
+sdp:Bolikowski_L a foaf:Person ;
+                 foaf:name "Bolikowski, Łukasz" ;
+                 foaf:affiliation "ICM, University of Warsaw" ;
+                 foaf:country "Poland" .
+
 sdp:Bopp_C a foaf:Person ;
            foaf:name "Bopp, Christian" .
 
 sdp:Borwein_JM a foaf:Person ;
                foaf:name "Borwein, Jonathan M." .
+
+sdp:Bouche_T a foaf:Person ;
+             foaf:name "Bouche, Thierry" ;
+             foaf:affiliation "Université Joseph Fourier, Grenoble" ;
+             foaf:country "France" .
 
 sdp:Bouw_I a foaf:Person ;
            foaf:name "Bouw, Irene" .
@@ -123,6 +159,11 @@ sdp:Canny_JF a foaf:Person ;
 sdp:Centeleghe_T a foaf:Person ;
                  foaf:name "Centeleghe, Tommaso" .
 
+sdp:Chlebikova_J a foaf:Person ;
+                 foaf:name "Chlebíková, Janka" ;
+                 foaf:affiliation "School of Computing, University of Portsmouth" ;
+                 foaf:country "UK" .
+
 sdp:Chou_SC a foaf:Person ;
             foaf:name "Chou, S.-C." .
 
@@ -132,6 +173,11 @@ sdp:Christensen_ND a foaf:Person ;
 sdp:Cioffi_F a foaf:Person ;
              foaf:name "Cioffi, Francesca" ;
              foaf:homepage <https://www.docenti.unina.it/FRANCESCA.CIOFFI> .
+
+sdp:Coen_CS a foaf:Person ;
+            foaf:name "Coen, Claudio Sacerdoti" ;
+            foaf:affiliation "University of Bologna" ;
+            foaf:country "Italy" .
 
 sdp:Cohn_H a foaf:Person ;
            foaf:name "Cohn, H." .
@@ -151,8 +197,13 @@ sdp:Czakon_M a foaf:Person ;
 sdp:Czapor_SR a foaf:Person ;
               foaf:name "Czapor, S.R." .
 
-sdp:Dan-Cohen_I a foaf:Person ;
-                foaf:name "Dan-Cohen, Ishai" .
+sdp:DanCohen_I a foaf:Person ;
+               foaf:name "Dan-Cohen, Ishai" .
+
+sdp:Davenport_J a foaf:Person ;
+                foaf:name "Davenport, James" ;
+                foaf:affiliation "University of Bath" ;
+                foaf:country "UK" .
 
 sdp:Davenport_JH a foaf:Person ;
                  foaf:name "Davenport, James Harold" ;
@@ -211,6 +262,11 @@ sdp:Emiris_IZ a foaf:Person ;
 sdp:Enge_A a foaf:Person ;
            foaf:name "Enge, Andreas" .
 
+sdp:England_M a foaf:Person ;
+              foaf:name "England, Matthew" ;
+              foaf:affiliation "University Of Bath" ;
+              foaf:country "UK" .
+
 sdp:Faugere_JC a foaf:Person ;
                foaf:name "Faugére, Jean-Charles" ;
                foaf:homepage <http://www-calfor.lip6.fr/~jcf> .
@@ -260,6 +316,11 @@ sdp:Geddes_KO a foaf:Person ;
 sdp:Gerdt_VP a foaf:Person ;
              foaf:name "Gerdt, Vladimir P." .
 
+sdp:Ginev_D a foaf:Person ;
+            foaf:name "Ginev, Deyan" ;
+            foaf:affiliation "Jacobs University Bremen" ;
+            foaf:country "Germany" .
+
 sdp:Giovini_A a foaf:Person ;
               foaf:name "Giovini, A." .
 
@@ -306,8 +367,18 @@ sdp:Hahn_M a foaf:Person ;
 sdp:Hahn_T a foaf:Person ;
            foaf:name "Hahn, Thomas" .
 
+sdp:Hales_T a foaf:Person ;
+            foaf:name "Hales, Thomas" ;
+            foaf:affiliation "University of Pittsburgh" ;
+            foaf:country "USA" .
+
 sdp:Hantzschmann_Karl a foaf:Person ;
                       foaf:name "Hantzschmann, Karl" .
+
+sdp:Haralambous_Y a foaf:Person ;
+                  foaf:name "Haralambous, Yannis" ;
+                  foaf:affiliation "Inst Mines-Télécom - Télécom Bretagne" ;
+                  foaf:country "France" .
 
 sdp:Harlander_R a foaf:Person ;
                 foaf:name "Harlander, R." .
@@ -335,13 +406,19 @@ sdp:Heinrich_ED a foaf:Person ;
                 foaf:name "Heinrich, Elkedagmar" .
 
 sdp:Hemmecke_Ralf a foaf:Person ;
-                  foaf:name "Hemmecke, Ralf" .
+                  foaf:name "Hemmecke, Ralf" ;
+                  foaf:homepage <https://portal.risc.jku.at/Members/hemmecke> .
 
 sdp:Hemmecke_Raymond a foaf:Person ;
                      foaf:name "Hemmecke, Raymond" .
 
 sdp:Henn_HW a foaf:Person ;
             foaf:name "Henn, Hans-Wolfgang" .
+
+sdp:Heras_J a foaf:Person ;
+            foaf:name "Heras, Jónathan" ;
+            foaf:affiliation "University of Dundee" ;
+            foaf:country "Scotland" .
 
 sdp:Hess_F a foaf:Person ;
            foaf:name "Heß, Florian" .
@@ -373,14 +450,44 @@ sdp:Husert_D a foaf:Person ;
 sdp:Inawashiro_N a foaf:Person ;
                  foaf:name "Inawashiro, N." .
 
+sdp:Jamnik_M a foaf:Person ;
+             foaf:name "Jamnik, Mateja" ;
+             foaf:affiliation "University of Cambridge" ;
+             foaf:country "UK" .
+
+sdp:Janicic_P a foaf:Person ;
+              foaf:name "Janičić, Predrag" ;
+              foaf:affiliation "University of Belgrade" ;
+              foaf:country "Serbia" .
+
+sdp:Jeuring_J a foaf:Person ;
+              foaf:name "Jeuring, Johan" ;
+              foaf:affiliation "Open Universiteit Nederland", "Universiteit Utrecht" ;
+              foaf:country "NL" .
+
+sdp:Jipsen_P a foaf:Person ;
+             foaf:name "Jipsen, Peter" ;
+             foaf:affiliation "Chapman University" ;
+             foaf:country "USA" .
+
 sdp:Johanning_S a foaf:Person ;
                 foaf:name "Johanning, Simon" .
 
 sdp:Joswig_M a foaf:Person ;
              foaf:name "Joswig, Michael" .
 
+sdp:Jovanovic_D a foaf:Person ;
+                foaf:name "Jovanović, Dejan" ;
+                foaf:affiliation "SRI" ;
+                foaf:country "USA" .
+
 sdp:Kahn_K a foaf:Person ;
            foaf:name "Kahn, Konstantin" .
+
+sdp:Kaliszyk_C a foaf:Person ;
+               foaf:name "Kaliszyk, Cezary" ;
+               foaf:affiliation "University of Innsbruck" ;
+               foaf:country "Austria" .
 
 sdp:Kalkbrener_M a foaf:Person ;
                  foaf:name "Kalkbrener, Michael" .
@@ -449,10 +556,17 @@ sdp:Kohlhase_A a foaf:Person ;
                foaf:name "Kohlhase, Andrea" .
 
 sdp:Kohlhase_M a foaf:Person ;
-               foaf:name "Kohlhase, Michael" .
+               foaf:name "Kohlhase, Michael" ;
+               foaf:affiliation "Jacobs University Bremen" ;
+               foaf:country "Germany" .
 
 sdp:Kortenkamp_U a foaf:Person ;
                  foaf:name "Kortenkamp, Ulrich" .
+
+sdp:Kovacs_L a foaf:Person ;
+             foaf:name "Kovács, Laura" ;
+             foaf:affiliation "Chalmers University of Technology" ;
+             foaf:country "Sweden" .
 
 sdp:Krause_H a foaf:Person ;
              foaf:name "Krause, Henning" .
@@ -481,8 +595,13 @@ sdp:Kuska_JP a foaf:Person ;
 sdp:Kyureghyan_G a foaf:Person ;
                  foaf:name "Kyureghyan, Gohar" .
 
-sdp:Lange-Hegermann_M a foaf:Person ;
-                      foaf:name "Lange-Hegermann, Markus" .
+sdp:LangeHegermann_M a foaf:Person ;
+                     foaf:name "Lange-Hegermann, Markus" .
+
+sdp:Lange_C a foaf:Person ;
+            foaf:name "Lange, Christoph" ;
+            foaf:affiliation "University of Birmingham", "University of Bonn" ;
+            foaf:country "Germany", "UK" .
 
 sdp:Laue_R a foaf:Person ;
            foaf:name "Laue, Reinhard" .
@@ -495,7 +614,9 @@ sdp:Levandovskyy_V a foaf:Person ;
                    foaf:homepage <http://www.math.rwth-aachen.de/~Viktor.Levandovskyy> .
 
 sdp:Libbrecht_P a foaf:Person ;
-                foaf:name "Libbrecht, Paul" .
+                foaf:name "Libbrecht, Paul" ;
+                foaf:affiliation "Weingarten University of Education" ;
+                foaf:country "Germany" .
 
 sdp:Liedtke_C a foaf:Person ;
               foaf:name "Liedtke, Christian" .
@@ -512,8 +633,18 @@ sdp:Lorenz_B a foaf:Person ;
 sdp:Luebeck_F a foaf:Person ;
               foaf:name "Lübeck, Frank" .
 
+sdp:Lueth_C a foaf:Person ;
+            foaf:name "Lüth, Christoph" ;
+            foaf:affiliation "DFKI and University of Bremen" ;
+            foaf:country "Germany" .
+
 sdp:Luislampe_S a foaf:Person ;
                 foaf:name "Luislampe, Stefan" .
+
+sdp:Mahboubi_A a foaf:Person ;
+               foaf:name "Mahboubi, Assia" ;
+               foaf:affiliation "INRIA" ;
+               foaf:country "France" .
 
 sdp:Malle_G a foaf:Person ;
             foaf:name "Malle, Gunter" .
@@ -532,6 +663,11 @@ sdp:Markwig_H a foaf:Person ;
 
 sdp:Markwig_T a foaf:Person ;
               foaf:name "Markwig, Thomas" .
+
+sdp:Martin_U a foaf:Person ;
+             foaf:name "Martin, Ursula" ;
+             foaf:affiliation "Queen Mary University of London" ;
+             foaf:country "UK" .
 
 sdp:Matzat_BH a foaf:Person ;
               foaf:name "Matzat, B. Heinrich" .
@@ -556,6 +692,11 @@ sdp:Meyer_J a foaf:Person ;
 
 sdp:Michel_J a foaf:Person ;
              foaf:name "Michel, Jean" .
+
+sdp:Miller_B a foaf:Person ;
+             foaf:name "Miller, Bruce" ;
+             foaf:affiliation "NIST, Gaithersburg, Maryland", "NIST" ;
+             foaf:country "USA" .
 
 sdp:Moede_T a foaf:Person ;
             foaf:name "Moede, Tobias" .
@@ -590,6 +731,11 @@ sdp:Mueller_JS a foaf:Person ;
 sdp:Murao_H a foaf:Person ;
             foaf:name "Murao, H." .
 
+sdp:Naumowicz_A a foaf:Person ;
+                foaf:name "Naumowicz, Adam" ;
+                foaf:affiliation "Institute of Informatics, U. Bialystok", "University of Bialystok" ;
+                foaf:country "Poland" .
+
 sdp:Nebe_G a foaf:Person ;
            foaf:name "Nebe, Gabriele" .
 
@@ -615,6 +761,11 @@ sdp:Paffenholz_A a foaf:Person ;
                  foaf:name "Paffenholz, Andreas" ;
                  foaf:homepage <http://www.mathematik.tu-darmstadt.de/~paffenholz/> .
 
+sdp:Passmore_G a foaf:Person ;
+               foaf:name "Passmore, Grant" ;
+               foaf:affiliation "U. Cambridge and U. Edinburgh" ;
+               foaf:country "UK" .
+
 sdp:Peeters_K a foaf:Person ;
               foaf:name "Peeters, Kasper" .
 
@@ -638,6 +789,16 @@ sdp:Posur_S a foaf:Person ;
 
 sdp:Quebbemann_HG a foaf:Person ;
                   foaf:name "Quebbemann, Heinz-Georg" .
+
+sdp:Rabe_F a foaf:Person ;
+           foaf:name "Rabe, Florian" ;
+           foaf:affiliation "Jacobs University Bremen" ;
+           foaf:country "Germany" .
+
+sdp:Rakosnik_J a foaf:Person ;
+               foaf:name "Rákosník, Jiří" ;
+               foaf:affiliation "Institute of Mathematics AS CR" ;
+               foaf:country "CZ" .
 
 sdp:Ramella_I a foaf:Person ;
               foaf:name "Ramella, Isabella" .
@@ -665,6 +826,11 @@ sdp:Rossmann_T a foaf:Person ;
 
 sdp:Rouillier_F a foaf:Person ;
                 foaf:name "Rouillier, F." .
+
+sdp:Ruddy_D a foaf:Person ;
+            foaf:name "Ruddy, David" ;
+            foaf:affiliation "Cornell University" ;
+            foaf:country "USA" .
 
 sdp:Rudolph_E a foaf:Person ;
               foaf:name "Rudolph, Eva" .
@@ -703,6 +869,11 @@ sdp:Seiler_W a foaf:Person ;
 sdp:Senk_DG a foaf:Person ;
             foaf:name "Senk, Dieter G." .
 
+sdp:Sexton_A a foaf:Person ;
+             foaf:name "Sexton, Alan" ;
+             foaf:affiliation "University of Birmingham" ;
+             foaf:country "UK" .
+
 sdp:Sexton_AP a foaf:Person ;
               foaf:name "Sexton, Alan P." ;
               foaf:homepage <http://www.cs.bham.ac.uk/~aps/> .
@@ -721,10 +892,17 @@ sdp:Soeger_C a foaf:Person ;
 
 sdp:Sojka_P a foaf:Person ;
             foaf:name "Sojka, Petr" ;
-            foaf:homepage <http://www.fi.muni.cz/usr/sojka/> .
+            foaf:homepage <http://www.fi.muni.cz/usr/sojka/> ;
+            foaf:affiliation "Masaryk University, Brno" ;
+            foaf:country "CZ" .
 
 sdp:Sorgatz_A a foaf:Person ;
               foaf:name "Sorgatz, Andreas" .
+
+sdp:Sorge_V a foaf:Person ;
+            foaf:name "Sorge, Volker" ;
+            foaf:affiliation "University of Birmingham" ;
+            foaf:country "UK" .
 
 sdp:Spreckels_U a foaf:Person ;
                 foaf:name "Spreckels, Ute" .
@@ -757,8 +935,18 @@ sdp:Sturmfels_B a foaf:Person ;
 sdp:Tanturri_F a foaf:Person ;
                foaf:name "Tanturri, Fabio" .
 
+sdp:Tassi_E a foaf:Person ;
+            foaf:name "Tassi, Enrico" ;
+            foaf:affiliation "INRIA" ;
+            foaf:country "France" .
+
 sdp:Tentukov_M a foaf:Person ;
                foaf:name "Tentukov, M." .
+
+sdp:Tews_H a foaf:Person ;
+           foaf:name "Tews, Hendrik" ;
+           foaf:affiliation "TU Dresden" ;
+           foaf:country "Germany" .
 
 sdp:Thaller_B a foaf:Person ;
               foaf:name "Thaller, Bernd" .
@@ -772,6 +960,11 @@ sdp:Todd_P a foaf:Person ;
 sdp:Toman_S a foaf:Person ;
             foaf:name "Toman, Stefan" .
 
+sdp:Tompa_F a foaf:Person ;
+            foaf:name "Tompa, Frank" ;
+            foaf:affiliation "University of Waterloo" ;
+            foaf:country "Canada" .
+
 sdp:Traverso_C a foaf:Person ;
                foaf:name "Traverso, Carlo" .
 
@@ -780,7 +973,9 @@ sdp:Troost_W a foaf:Person ;
 
 sdp:Urban_J a foaf:Person ;
             foaf:name "Urban, Josef" ;
-            foaf:homepage <http://cs.ru.nl/~urban/> .
+            foaf:homepage <http://cs.ru.nl/~urban/> ;
+            foaf:affiliation "Radboud University Nijmegen" ;
+            foaf:country "The Netherlands" .
 
 sdp:Vehling_R a foaf:Person ;
               foaf:name "Vehling, Reimund" .
@@ -801,7 +996,9 @@ sdp:Wang_D a foaf:Person ;
            foaf:name "Wang, Dongming" .
 
 sdp:Watt_S a foaf:Person ;
-           foaf:name "Watt, Stephen" .
+           foaf:name "Watt, Stephen" ;
+           foaf:affiliation "University of Western Ontario" ;
+           foaf:country "Canada" .
 
 sdp:Weispfenning_V a foaf:Person ;
                    foaf:name "Weispfenning, Volker" .
@@ -809,6 +1006,11 @@ sdp:Weispfenning_V a foaf:Person ;
 sdp:Wenk_M a foaf:Person ;
            foaf:name "Wenk, Moritz" ;
            foaf:homepage <http://www.mathematik.uni-kl.de/~wenk> .
+
+sdp:Wenzel_M a foaf:Person ;
+             foaf:name "Wenzel, Makarius" ;
+             foaf:affiliation "Université Paris-Sud 11" ;
+             foaf:country "France" .
 
 sdp:Werner_W a foaf:Person ;
              foaf:name "Werner, Wilhelm" .
@@ -821,6 +1023,11 @@ sdp:Wewers_S a foaf:Person ;
 
 sdp:Wichmann_T a foaf:Person ;
                foaf:name "Wichmann, T." .
+
+sdp:Wiedijk_F a foaf:Person ;
+              foaf:name "Wiedijk, Freek" ;
+              foaf:affiliation "Radboud University Nijmegen" ;
+              foaf:country "Netherlands", "The Netherlands" .
 
 sdp:Wiese_G a foaf:Person ;
             foaf:name "Wiese, Gabor" .
@@ -836,6 +1043,11 @@ sdp:Wosch_EAT a foaf:Person ;
 
 sdp:Wu_WT a foaf:Person ;
           foaf:name "Wu, W.-T." .
+
+sdp:Zanibbi_R a foaf:Person ;
+              foaf:name "Zanibbi, Richard" ;
+              foaf:affiliation "Rochester Institute of Technology" ;
+              foaf:country "USA" .
 
 sdp:Zerz_E a foaf:Person ;
            foaf:name "Zerz, Eva" .
