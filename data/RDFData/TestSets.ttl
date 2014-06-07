@@ -23,7 +23,7 @@ sd:TestSet
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/cubes.3x3x3.bas.xml> ;
-    sd:hasMatrixDimension "27" ;
+    sd:numberOfRows "26"^^xsd:positiveInteger; sd:hasAmbientDimension "27"^^xsd:positiveInteger ;
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
@@ -32,7 +32,7 @@ sd:TestSet
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/cubes.3x3x3dd.bas.xml> ;
     sd:hasHilbertBase <http://symbolicdata.org/XMLResources/TestSets/cubes.3x3x3dd.hil.xml> ;
-    sd:hasMatrixDimension "27" ;
+    sd:numberOfRows "30"^^xsd:positiveInteger; sd:hasAmbientDimension "27"^^xsd:positiveInteger ;
     sd:hasRayBase <http://symbolicdata.org/XMLResources/TestSets/cubes.3x3x3dd.ray.xml> ;
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
@@ -41,7 +41,7 @@ sd:TestSet
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/cubes.3x3x3x3.bas.xml> ;
-    sd:hasMatrixDimension "81" ;
+    sd:numberOfRows "107"^^xsd:positiveInteger; sd:hasAmbientDimension "81"^^xsd:positiveInteger ;
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
@@ -49,7 +49,7 @@ sd:TestSet
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/cubes.3x3x3x3dd.bas.xml> ;
-    sd:hasMatrixDimension "81" ;
+    sd:numberOfRows "115"^^xsd:positiveInteger; sd:hasAmbientDimension "81"^^xsd:positiveInteger ;
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
@@ -57,7 +57,7 @@ sd:TestSet
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/cubes.4x4x4.bas.xml> ;
-    sd:hasMatrixDimension "64" ;
+    sd:numberOfRows "47"^^xsd:positiveInteger; sd:hasAmbientDimension "64"^^xsd:positiveInteger ;
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
@@ -65,7 +65,7 @@ sd:TestSet
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/cubes.4x4x4dd.bas.xml> ;
-    sd:hasMatrixDimension "64" ;
+    sd:numberOfRows "51"^^xsd:positiveInteger; sd:hasAmbientDimension "64"^^xsd:positiveInteger ;
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
@@ -73,7 +73,7 @@ sd:TestSet
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/cubes.4x4x4x4.bas.xml> ;
-    sd:hasMatrixDimension "256" ;
+    sd:numberOfRows "255"^^xsd:positiveInteger; sd:hasAmbientDimension "256"^^xsd:positiveInteger ;
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
@@ -82,7 +82,7 @@ sd:TestSet
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/dd.3x3dd.bas.xml> ;
     sd:hasHilbertBase <http://symbolicdata.org/XMLResources/TestSets/dd.3x3dd.hil.xml> ;
-    sd:hasMatrixDimension "9" ;
+    sd:numberOfRows "7"^^xsd:positiveInteger; sd:hasAmbientDimension "9"^^xsd:positiveInteger ;
     sd:hasRayBase <http://symbolicdata.org/XMLResources/TestSets/dd.3x3dd.ray.xml> ;
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
@@ -92,7 +92,7 @@ sd:TestSet
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/dd.4x4dd.bas.xml> ;
     sd:hasHilbertBase <http://symbolicdata.org/XMLResources/TestSets/dd.4x4dd.hil.xml> ;
-    sd:hasMatrixDimension "16" ;
+    sd:numberOfRows "9"^^xsd:positiveInteger; sd:hasAmbientDimension "16"^^xsd:positiveInteger ;
     sd:hasRayBase <http://symbolicdata.org/XMLResources/TestSets/dd.4x4dd.ray.xml> ;
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
@@ -101,7 +101,7 @@ sd:TestSet
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/dd.5x5dd.bas.xml> ;
-    sd:hasMatrixDimension "25" ;
+    sd:numberOfRows "11"^^xsd:positiveInteger; sd:hasAmbientDimension "25"^^xsd:positiveInteger ;
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
@@ -109,7 +109,7 @@ sd:TestSet
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/dd.6x6dd.bas.xml> ;
-    sd:hasMatrixDimension "36" ;
+    sd:numberOfRows "13"^^xsd:positiveInteger; sd:hasAmbientDimension "36"^^xsd:positiveInteger ;
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
@@ -117,7 +117,7 @@ sd:TestSet
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/dd.7x7dd.bas.xml> ;
-    sd:hasMatrixDimension "49" ;
+    sd:numberOfRows "15"^^xsd:positiveInteger; sd:hasAmbientDimension "49"^^xsd:positiveInteger ;
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 
@@ -126,7 +126,7 @@ sd:TestSet
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/pan.3x3pan.bas.xml> ;
     sd:hasHilbertBase <http://symbolicdata.org/XMLResources/TestSets/pan.3x3pan.hil.xml> ;
-    sd:hasMatrixDimension "9" ;
+    sd:numberOfRows "11"^^xsd:positiveInteger; sd:hasAmbientDimension "9"^^xsd:positiveInteger ;
     sd:hasRayBase <http://symbolicdata.org/XMLResources/TestSets/pan.3x3pan.ray.xml> ;
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
@@ -136,7 +136,7 @@ sd:TestSet
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/pan.4x4pan.bas.xml> ;
     sd:hasHilbertBase <http://symbolicdata.org/XMLResources/TestSets/pan.4x4pan.hil.xml> ;
-    sd:hasMatrixDimension "16" ;
+    sd:numberOfRows "15"^^xsd:positiveInteger; sd:hasAmbientDimension "16"^^xsd:positiveInteger ;
     sd:hasRayBase <http://symbolicdata.org/XMLResources/TestSets/pan.4x4pan.ray.xml> ;
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
@@ -146,7 +146,7 @@ sd:TestSet
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/pan.5x5pan.bas.xml> ;
     sd:hasHilbertBase <http://symbolicdata.org/XMLResources/TestSets/pan.5x5pan.hil.xml> ;
-    sd:hasMatrixDimension "25" ;
+    sd:numberOfRows "19"^^xsd:positiveInteger; sd:hasAmbientDimension "25"^^xsd:positiveInteger ;
     sd:hasRayBase <http://symbolicdata.org/XMLResources/TestSets/pan.5x5pan.ray.xml> ;
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
@@ -155,7 +155,7 @@ sd:TestSet
     sd:createdAt "2002-01-28" ;
     sd:createdBy sdp:Graebe_HG ;
     sd:hasBase <http://symbolicdata.org/XMLResources/TestSets/pan.6x6pan.bas.xml> ;
-    sd:hasMatrixDimension "36" ;
+    sd:numberOfRows "23"^^xsd:positiveInteger; sd:hasAmbientDimension "36"^^xsd:positiveInteger ;
     a sd:TestSet ;
     rdfs:comment "Example from a collection of Raymond Hemmecke" .
 

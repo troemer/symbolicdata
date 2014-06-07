@@ -1,0 +1,209 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+
+sd:TestSet
+    a owl:Class ;
+    rdfs:label "Test Set" .
+
+<http://symbolicdata.org/Data/MoreTestSets/>
+    cc:attributionName "The SymbolicData Project" ;
+    cc:attributionURL <http://symbolicdata.org> ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    a owl:Ontology ;
+    rdfs:comment "TestSets Data from http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallenge.html" ;
+    rdfs:label "SD More TestSets Data" .
+
+<http://symbolicdata.org/Data/TestSet/A443>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "40"^^xsd:positiveInteger ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/contingency.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/A443.zip> ;
+    sd:numberOfRows "48"^^xsd:positiveInteger ;
+    a sd:TestSet ;
+    rdfs:comment "The missing cases in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (4x4x3, 5x4x3, 5x5x3) and the first nonnormal case (6x4x3); see [OH], [BHIKS]. (run with -N for Hilbert basis computation)" ;
+    rdfs:label "From Example 6 of the Normaliz collection" .
+
+<http://symbolicdata.org/Data/TestSet/A543>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "47"^^xsd:positiveInteger ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/contingency.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/A543.zip> ;
+    sd:numberOfRows "60"^^xsd:positiveInteger ;
+    a sd:TestSet ;
+    rdfs:comment "The missing cases in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (4x4x3, 5x4x3, 5x5x3) and the first nonnormal case (6x4x3); see [OH], [BHIKS]. (run with -N for Hilbert basis computation)" ;
+    rdfs:label "From Example 6 of the Normaliz collection" .
+
+<http://symbolicdata.org/Data/TestSet/A553>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "55"^^xsd:positiveInteger ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/contingency.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/A553.zip> ;
+    sd:numberOfRows "75"^^xsd:positiveInteger ;
+    a sd:TestSet ;
+    rdfs:comment "The missing cases in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (4x4x3, 5x4x3, 5x5x3) and the first nonnormal case (6x4x3); see [OH], [BHIKS]. (run with -N for Hilbert basis computation)" ;
+    rdfs:label "From Example 6 of the Normaliz collection" .
+
+<http://symbolicdata.org/Data/TestSet/A643>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "54"^^xsd:positiveInteger ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/contingency.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/A643.zip> ;
+    sd:numberOfRows "72"^^xsd:positiveInteger ;
+    a sd:TestSet ;
+    rdfs:comment "The missing cases in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (4x4x3, 5x4x3, 5x5x3) and the first nonnormal case (6x4x3); see [OH], [BHIKS]. (run with -N for Hilbert basis computation)" ;
+    rdfs:label "From Example 6 of the Normaliz collection" .
+
+<http://symbolicdata.org/Data/TestSet/Condorcet>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "24"^^xsd:positiveInteger ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/CombinatorialVoting.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/Condorcet.zip> ;
+    sd:numberOfRows "27"^^xsd:positiveInteger ;
+    a sd:TestSet ;
+    rdfs:comment "Models of combinatorial voting theory: the Condorcet paradox, see [BIS]." ;
+    rdfs:label "From Example 10 of the Normaliz collection" .
+
+<http://symbolicdata.org/Data/TestSet/ICPnonUHC>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "6"^^xsd:positiveInteger ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/ICPnonUHC.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/ICPnonUHC.zip> ;
+    sd:numberOfRows "12"^^xsd:positiveInteger ;
+    a sd:TestSet ;
+    rdfs:comment "An example of a lattice polytope satisfying ICP, but without unimodular cover [B]." ;
+    rdfs:label "Example 2 of the Normaliz collection" .
+
+<http://symbolicdata.org/Data/TestSet/NonMormal3polytope>
+    sd:hasAmbientDimension "3"^^xsd:positiveInteger ;
+    sd:numberOfRows "4"^^xsd:positiveInteger .
+
+<http://symbolicdata.org/Data/TestSet/NonNormal3polytope>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/NonNormal3polytope.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/NonNormal3polytope.zip> ;
+    a sd:TestSet ;
+    rdfs:comment "A nonnormal rectangular simplex of dimension 3 [BG0].", "An example of a normal lattice polytope that has no unimodular cover and even violates the integral Carathéodory property [BG, Section 2.D], [BG2], [BGHMW]." ;
+    rdfs:label "Example 1 and 5 of the Normaliz collection" .
+
+<http://symbolicdata.org/Data/TestSet/VeryampleNonNormal>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "6"^^xsd:positiveInteger ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/VeryampleNonNormal.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/VeryampleNonNormal.zip> ;
+    sd:numberOfRows "10"^^xsd:positiveInteger ;
+    a sd:TestSet ;
+    rdfs:comment "An example of a non-normal very ample lattice polytope [BG1]. (See [BG, p. 87] for further examples.)" ;
+    rdfs:label "Example 3 of the Normaliz collection" .
+
+<http://symbolicdata.org/Data/TestSet/bo5>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "30"^^xsd:positiveInteger ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/SturmfelsWelker.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/bo5.zip> ;
+    sd:numberOfRows "120"^^xsd:positiveInteger ;
+    a sd:TestSet ;
+    rdfs:comment "The ascending model of statistical ranking for <i>n = 5</i> discussed in [SW]." ;
+    rdfs:label "From Example 9 of the Normaliz collection" .
+
+<http://symbolicdata.org/Data/TestSet/dim3tight>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "3"^^xsd:positiveInteger ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/dim3tight.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/dim3tight.zip> ;
+    sd:numberOfRows "19"^^xsd:positiveInteger ;
+    a sd:TestSet ;
+    rdfs:comment "A 3-dimensional tight cone [BG, Section 2.D]." ;
+    rdfs:label "Example 4 of the Normaliz collection" .
+
+<http://symbolicdata.org/Data/TestSet/graph7_331_k5free>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "20"^^xsd:positiveInteger ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/graph.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/graph7_331_k5free.zip> ;
+    sd:numberOfRows "64"^^xsd:positiveInteger ;
+    a sd:TestSet ;
+    rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant for some specific graphs. [SS], [BHIKS]." ;
+    rdfs:label "From Example 8 of the Normaliz collection" .
+
+<http://symbolicdata.org/Data/TestSet/graph8_001_k5free>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "14"^^xsd:positiveInteger ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/graph.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/graph8_001_k5free.zip> ;
+    sd:numberOfRows "128"^^xsd:positiveInteger ;
+    a sd:TestSet ;
+    rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant for some specific graphs. [SS], [BHIKS]." ;
+    rdfs:label "From Example 8 of the Normaliz collection" .
+
+<http://symbolicdata.org/Data/TestSet/graph8_9958_k5free>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "30"^^xsd:positiveInteger ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/graph.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/graph8_9958_k5free.zip> ;
+    sd:numberOfRows "128"^^xsd:positiveInteger ;
+    a sd:TestSet ;
+    rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant for some specific graphs. [SS], [BHIKS]." ;
+    rdfs:label "From Example 8 of the Normaliz collection" .
+
+<http://symbolicdata.org/Data/TestSet/lo6>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "15"^^xsd:positiveInteger ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/SturmfelsWelker.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/lo6.zip> ;
+    sd:numberOfRows "720"^^xsd:positiveInteger ;
+    a sd:TestSet ;
+    rdfs:comment "The inversion model of statistical ranking for <i>n = 6</i> discussed in [SW]." ;
+    rdfs:label "From Example 9 of the Normaliz collection" .
+
+<http://symbolicdata.org/Data/TestSet/pluralityCondorcetEff>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "24"^^xsd:positiveInteger ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/CombinatorialVoting.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/pluralityCondorcetEff.zip> ;
+    sd:numberOfRows "30"^^xsd:positiveInteger ;
+    a sd:TestSet ;
+    rdfs:comment "Models of combinatorial voting theory: the Condorcet efficiency of plurality voting, see [BIS]. Has very high computation time." ;
+    rdfs:label "From Example 10 of the Normaliz collection" .
+
+<http://symbolicdata.org/Data/TestSet/pluralityVsCutoff>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "24"^^xsd:positiveInteger ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/CombinatorialVoting.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/pluralityVsCutoff.zip> ;
+    sd:numberOfRows "28"^^xsd:positiveInteger ;
+    a sd:TestSet ;
+    rdfs:comment "Models of combinatorial voting theory: the plurality voting vs. cutoff for 4 candidates. See [BIS]. Has very high computation time." ;
+    rdfs:label "From Example 10 of the Normaliz collection" .
+
+<http://symbolicdata.org/Data/TestSet/semigraphoid5>
+    sd:createdAt "2014-06-07" ;
+    sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "32"^^xsd:positiveInteger ;
+    sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/semigraphoid5.zip> ;
+    sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/semigraphoid5.zip> ;
+    sd:numberOfRows "80"^^xsd:positiveInteger ;
+    a sd:TestSet ;
+    rdfs:comment "The semi-graphoid for <i>N = 5</i>. (run with -N for Hilbert basis computation) [HMSSW], [BHIKS]." ;
+    rdfs:label "Example 7 of the Normaliz collection" .
+

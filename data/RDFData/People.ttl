@@ -61,6 +61,11 @@ sdp:Aspinall_D a foaf:Person ;
 sdp:Autexier_S a foaf:Person ;
                foaf:name "Autexier, Serge" .
 
+sdp:Baader_F a foaf:Person ;
+             foaf:name "Baader, Franz" ;
+             foaf:affiliation "TU Dresden" ;
+             foaf:country "Germany" .
+
 sdp:Bachle_A a foaf:Person ;
              foaf:name "Bächle, Andreas" .
 
@@ -244,6 +249,11 @@ sdp:Duhr_C a foaf:Person ;
 sdp:Dvirnas_A a foaf:Person ;
               foaf:name "Dvirnas, Albertas" .
 
+sdp:Echenim_M a foaf:Person ;
+              foaf:name "Echenim, Mnacho" ;
+              foaf:affiliation "University of Grenoble" ;
+              foaf:country "France" .
+
 sdp:Eder_C a foaf:Person ;
            foaf:name "Eder, Christian" .
 
@@ -267,9 +277,19 @@ sdp:England_M a foaf:Person ;
               foaf:affiliation "University Of Bath" ;
               foaf:country "UK" .
 
+sdp:Escobar_S a foaf:Person ;
+              foaf:name "Escobar, Santiago" ;
+              foaf:affiliation "Technical University of Valencia" ;
+              foaf:country "Spain" .
+
 sdp:Faugere_JC a foaf:Person ;
                foaf:name "Faugére, Jean-Charles" ;
                foaf:homepage <http://www-calfor.lip6.fr/~jcf> .
+
+sdp:Fernandez_M a foaf:Person ;
+                foaf:name "Fernandez, Maribel" ;
+                foaf:affiliation "King's College London" ;
+                foaf:country "UK" .
 
 sdp:Fieker_C a foaf:Person ;
              foaf:name "Fieker, Claus" .
@@ -592,6 +612,11 @@ sdp:Kuelshammer_B a foaf:Person ;
 sdp:Kuska_JP a foaf:Person ;
              foaf:name "Kuska, Jens-Peer" .
 
+sdp:Kutsia_T a foaf:Person ;
+             foaf:name "Kutsia, Temur" ;
+             foaf:affiliation "RISC" ;
+             foaf:country "Johannes Kepler University Linz" .
+
 sdp:Kyureghyan_G a foaf:Person ;
                  foaf:name "Kyureghyan, Gohar" .
 
@@ -612,6 +637,11 @@ sdp:Lazard_D a foaf:Person ;
 sdp:Levandovskyy_V a foaf:Person ;
                    foaf:name "Levandovskyy, Viktor" ;
                    foaf:homepage <http://www.math.rwth-aachen.de/~Viktor.Levandovskyy> .
+
+sdp:Levy_J a foaf:Person ;
+           foaf:name "Levy, Jordi" ;
+           foaf:affiliation "IIIA CSIC" ;
+           foaf:country "Barcelona" .
 
 sdp:Libbrecht_P a foaf:Person ;
                 foaf:name "Libbrecht, Paul" ;
@@ -641,6 +671,11 @@ sdp:Lueth_C a foaf:Person ;
 sdp:Luislampe_S a foaf:Person ;
                 foaf:name "Luislampe, Stefan" .
 
+sdp:Lynch_C a foaf:Person ;
+            foaf:name "Lynch, Christopher" ;
+            foaf:affiliation "Clarkson University" ;
+            foaf:country "USA" .
+
 sdp:Mahboubi_A a foaf:Person ;
                foaf:name "Mahboubi, Assia" ;
                foaf:affiliation "INRIA" ;
@@ -654,6 +689,11 @@ sdp:Manocha_D a foaf:Person ;
 
 sdp:Margolis_L a foaf:Person ;
                foaf:name "Margolis, Leo" .
+
+sdp:Marin_M a foaf:Person ;
+            foaf:name "Marin, Mircea" ;
+            foaf:affiliation "West University of Timisoara" ;
+            foaf:country "Romania" .
 
 sdp:Marks_F a foaf:Person ;
             foaf:name "Marks, Frederic" .
@@ -684,6 +724,11 @@ sdp:McLennan_A a foaf:Person ;
 sdp:Melenk_H a foaf:Person ;
              foaf:name "Melenk, Herbert" .
 
+sdp:Meseguer_J a foaf:Person ;
+               foaf:name "Meseguer, Jose" ;
+               foaf:affiliation "University of Illinois at Urbana-Champaign" ;
+               foaf:country "USA" .
+
 sdp:Metelisyn_P a foaf:Person ;
                 foaf:name "Metelisyn, Pavel" .
 
@@ -713,6 +758,11 @@ sdp:Moldenhauer_W a foaf:Person ;
 sdp:Mora_T a foaf:Person ;
            foaf:name "Mora, Teo" .
 
+sdp:Morawska_B a foaf:Person ;
+               foaf:name "Morawska, Barbara" ;
+               foaf:affiliation "TU Dresden" ;
+               foaf:country "Germany" .
+
 sdp:Morgan_A a foaf:Person ;
              foaf:name "Morgan, Alexander" .
 
@@ -730,6 +780,11 @@ sdp:Mueller_JS a foaf:Person ;
 
 sdp:Murao_H a foaf:Person ;
             foaf:name "Murao, H." .
+
+sdp:Narendran_P a foaf:Person ;
+                foaf:name "Narendran, Paliath" ;
+                foaf:affiliation "University at Albany—SUNY" ;
+                foaf:country "USA" .
 
 sdp:Naumowicz_A a foaf:Person ;
                 foaf:name "Naumowicz, Adam" ;
@@ -756,6 +811,11 @@ sdp:Oldenburg_R a foaf:Person ;
 
 sdp:Orecchia_F a foaf:Person ;
                foaf:name "Orecchia, Ferruccio" .
+
+sdp:Otop_J a foaf:Person ;
+           foaf:name "Otop, Jan" ;
+           foaf:affiliation "IST" ;
+           foaf:country "Austria" .
 
 sdp:Paffenholz_A a foaf:Person ;
                  foaf:name "Paffenholz, Andreas" ;
@@ -809,6 +869,11 @@ sdp:Reiter_T a foaf:Person ;
 sdp:Richard_T a foaf:Person ;
               foaf:name "Richard, Thomas" .
 
+sdp:Ringeissen_C a foaf:Person ;
+                 foaf:name "Ringeissen, Christophe" ;
+                 foaf:affiliation "LORIA-INRIA Lorraine" ;
+                 foaf:country "France" .
+
 sdp:Robbiano_L a foaf:Person ;
                foaf:name "Robbiano, Lorenzo" .
 
@@ -846,6 +911,11 @@ sdp:Schaper_R a foaf:Person ;
 
 sdp:Schila_H a foaf:Person ;
              foaf:name "Schila, Harald" .
+
+sdp:SchmidtSchauss_M a foaf:Person ;
+                     foaf:name "Schmidt-Schauss, Manfred" ;
+                     foaf:affiliation "Goethe-University Frankfurt" ;
+                     foaf:country "Germany" .
 
 sdp:Schmidt_R a foaf:Person ;
               foaf:name "Schmidt, Reinhard" .
@@ -968,6 +1038,11 @@ sdp:Tompa_F a foaf:Person ;
 sdp:Traverso_C a foaf:Person ;
                foaf:name "Traverso, Carlo" .
 
+sdp:Treinen_R a foaf:Person ;
+              foaf:name "Treinen, Ralf" ;
+              foaf:affiliation "PPS Université Paris Diderot" ;
+              foaf:country "France" .
+
 sdp:Troost_W a foaf:Person ;
              foaf:name "Troost, W." .
 
@@ -985,6 +1060,11 @@ sdp:Vercauteren_F a foaf:Person ;
 
 sdp:Vermaseren_JAM a foaf:Person ;
                    foaf:name "Vermaseren, J. A. M." .
+
+sdp:Villaret_M a foaf:Person ;
+               foaf:name "Villaret, Mateu" ;
+               foaf:affiliation "Universitat de Girona" ;
+               foaf:country "Spain" .
 
 sdp:Voll_C a foaf:Person ;
            foaf:name "Voll, Christopher" .
