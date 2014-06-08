@@ -5,6 +5,8 @@
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix cc: <http://creativecommons.org/ns#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix sdb: <http://symbolicdata.org/Data/BIB/> .
 
 sd:TestSet
     a owl:Class ;
@@ -26,7 +28,7 @@ sd:TestSet
     sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/A443.zip> ;
     sd:numberOfRows "48"^^xsd:positiveInteger ;
     a sd:TestSet ;
-    rdfs:comment "The missing cases in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (4x4x3, 5x4x3, 5x5x3) and the first nonnormal case (6x4x3); see [OH], [BHIKS]. (run with -N for Hilbert basis computation)" ;
+    rdfs:comment "Missing case in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (4x4x3); see [OH], [BHIKS]. (run with -N for Hilbert basis computation)" ;
     rdfs:label "From Example 6 of the Normaliz collection" .
 
 <http://symbolicdata.org/Data/TestSet/A543>
@@ -37,7 +39,7 @@ sd:TestSet
     sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/A543.zip> ;
     sd:numberOfRows "60"^^xsd:positiveInteger ;
     a sd:TestSet ;
-    rdfs:comment "The missing cases in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (4x4x3, 5x4x3, 5x5x3) and the first nonnormal case (6x4x3); see [OH], [BHIKS]. (run with -N for Hilbert basis computation)" ;
+    rdfs:comment "Missing case in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (5x4x3, run 'Normaliz' with -N for Hilbert basis computation)" ;
     rdfs:label "From Example 6 of the Normaliz collection" .
 
 <http://symbolicdata.org/Data/TestSet/A553>
@@ -48,18 +50,18 @@ sd:TestSet
     sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/A553.zip> ;
     sd:numberOfRows "75"^^xsd:positiveInteger ;
     a sd:TestSet ;
-    rdfs:comment "The missing cases in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (4x4x3, 5x4x3, 5x5x3) and the first nonnormal case (6x4x3); see [OH], [BHIKS]. (run with -N for Hilbert basis computation)" ;
+    rdfs:comment "Missing case in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (5x5x3, run 'Normaliz' with -N for Hilbert basis computation)" ;
     rdfs:label "From Example 6 of the Normaliz collection" .
 
 <http://symbolicdata.org/Data/TestSet/A643>
     sd:createdAt "2014-06-07" ;
     sd:createdBy sdp:Graebe_HG ;
-    sd:hasAmbientDimension "54"^^xsd:positiveInteger ;
+    sd:hasAmbientDimension "72"^^xsd:positiveInteger ;
     sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/contingency.zip> ;
     sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/A643.zip> ;
     sd:numberOfRows "72"^^xsd:positiveInteger ;
     a sd:TestSet ;
-    rdfs:comment "The missing cases in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (4x4x3, 5x4x3, 5x5x3) and the first nonnormal case (6x4x3); see [OH], [BHIKS]. (run with -N for Hilbert basis computation)" ;
+    rdfs:comment "Missing case in the Ohsugi-Hibi classification of normal monoids derived from contingency tables, the first nonnormal case (6x4x3, , run 'Normaliz' with -N for Hilbert basis computation)" ;
     rdfs:label "From Example 6 of the Normaliz collection" .
 
 <http://symbolicdata.org/Data/TestSet/Condorcet>
@@ -84,13 +86,11 @@ sd:TestSet
     rdfs:comment "An example of a lattice polytope satisfying ICP, but without unimodular cover [B]." ;
     rdfs:label "Example 2 of the Normaliz collection" .
 
-<http://symbolicdata.org/Data/TestSet/NonMormal3polytope>
-    sd:hasAmbientDimension "3"^^xsd:positiveInteger ;
-    sd:numberOfRows "4"^^xsd:positiveInteger .
-
 <http://symbolicdata.org/Data/TestSet/NonNormal3polytope>
     sd:createdAt "2014-06-07" ;
     sd:createdBy sdp:Graebe_HG ;
+    sd:hasAmbientDimension "3"^^xsd:positiveInteger ;
+    sd:numberOfRows "4"^^xsd:positiveInteger ;
     sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/NonNormal3polytope.zip> ;
     sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/NonNormal3polytope.zip> ;
     a sd:TestSet ;
@@ -207,3 +207,261 @@ sd:TestSet
     rdfs:comment "The semi-graphoid for <i>N = 5</i>. (run with -N for Hilbert basis computation) [HMSSW], [BHIKS]." ;
     rdfs:label "Example 7 of the Normaliz collection" .
 
+
+sdb:Bruns_07a a sd:Reference ;
+dct:creator sdp:Bruns_W ;
+dct:title "On the integral Carathéodory property" ;
+dct:issued "2007"^^dct:W3CDTF ;
+rdfs:comment "[B] Experiment. Math. 16 (2007), 359-365" ;
+sd:lastModified "2014-06-08" .
+
+sdb:Bruns_09a a sd:Reference ;
+dct:creator sdp:Bruns_W, sdp:Gubeladze_J ;
+dct:title "Polytopes, rings, and K-theory" ;
+dct:issued "2009"^^dct:W3CDTF ;
+rdfs:comment "[BG] Springer Monographs in Mathematics (2009)" ;
+sd:lastModified "2014-06-08" .
+
+sdb:Bruns_99a a sd:Reference ;
+dct:creator sdp:Bruns_W, sdp:Gubeladze_J ;
+dct:title "Rectangular simplicial semigroups" ;
+dct:issued "1999"^^dct:W3CDTF ;
+rdfs:comment "[BG0] In Commutative algebra, algebraic geometry, and computational methods, D. Eisenbud, Ed., Springer Singapore, 1999, pp. 201-214" ;
+sd:lastModified "2014-06-08" .
+
+sdb:Bruns_99b a sd:Reference ;
+dct:creator sdp:Bruns_W, sdp:Gubeladze_J ;
+dct:title "Polytopal linear groups" ;
+dct:issued "1999"^^dct:W3CDTF ;
+rdfs:comment "[BG1] J. Algebra 218 (1999), 715-737" ;
+sd:lastModified "2014-06-08" .
+
+sdb:Bruns_99c a sd:Reference ;
+dct:creator sdp:Bruns_W, sdp:Gubeladze_J ;
+dct:title "Normality and covering properties of affine semigroups" ;
+dct:issued "1999"^^dct:W3CDTF ;
+rdfs:comment "[BG2] J. Reine Angew. Math. 510 (1999), 151-178" ;
+sd:lastModified "2014-06-08" .
+
+sdb:Bruns_99d a sd:Reference ;
+dct:creator sdp:Bruns_W, sdp:Gubeladze_J, sdp:Henk_M, sdp:Martin_A, sdp:Weismantel_R ;
+dct:title "A counterexample to an integer analogue of Carathéodory's theorem" ;
+dct:issued "1999"^^dct:W3CDTF ;
+rdfs:comment "[BGHMW] J. Reine Angew. Math. 510 (1999), 179-185" ;
+sd:lastModified "2014-06-08" .
+
+sdb:Bruns_11a a sd:Reference ;
+dct:creator sdp:Bruns_W, sdp:Hemmecke_Raymond, sdp:Ichim_B, sdp:Koeppe_M, sdp:Soeger_C ;
+dct:title "Challenging computations of Hilbert bases of cones associated with algebraic statistics" ;
+dct:issued "2011"^^dct:W3CDTF ;
+rdfs:comment "[BHIKS] Exp. Math. 20 (2011), 25-33" ;
+sd:lastModified "2014-06-08" .
+
+sdb:Bruns_13a a sd:Reference ;
+dct:creator sdp:Bruns_W, sdp:Ichim_B, sdp:Soeger_C ;
+dct:title "The power of  pyramid decompositions in Normaliz" ;
+dct:issued "2013"^^dct:W3CDTF ;
+rdfs:comment "[BIS] arXiv:1206.1916v1" ;
+sd:lastModified "2014-06-08" .
+
+sdb:Hemmecke_08a a sd:Reference ;
+dct:creator sdp:Hemmecke_Raymond, sdp:Morton_J, sdp:Sturmfels_B, sdp:Wienand_O ;
+dct:title "Three counterexamples on semigraphoids" ;
+dct:issued "2008"^^dct:W3CDTF ;
+rdfs:comment "[HMSSW] Comb. Probab. Comput. 17 (2008), 239-257" ;
+sd:lastModified "2014-06-08" .
+
+sdb:Ohsugi_06a a sd:Reference ;
+dct:creator sdp:Ohsugi_H, sdp:Hibi_T ;
+dct:title "Toric ideals arising from contingency tables" ;
+dct:issued "2006"^^dct:W3CDTF ;
+rdfs:comment "[OH] In: Commutative Algebra and Combinatorics. Ramanujan Mathematical Society Lecture Note Series 4 (2006), 87-111" ;
+sd:lastModified "2014-06-08" .
+
+sdb:Sturmfels_12a a sd:Reference ;
+dct:creator sdp:Sturmfels_B, sdp:Welker_V ;
+dct:title "Commutative Algebra of Statistical Ranking" ;
+dct:issued "2012"^^dct:W3CDTF ;
+rdfs:comment "[SW] J. Algebra 361 (2012), 264-286" ;
+sd:lastModified "2014-06-08" .
+
+sdb:Sturmfels_08a a sd:Reference ;
+dct:creator sdp:Sturmfels_B, sdp:Sullivant_S ;
+dct:title "Toric geometry of cuts and splits" ;
+dct:issued "2008"^^dct:W3CDTF ;
+rdfs:comment "[SS] Mich. Math. J. 57 (2008), 689-709" ;
+sd:lastModified "2014-06-08" .
+
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges> a sd:Annotation ;
+rdfs:label "Challenges from the Normaliz homepage" ;
+sd:hasURL <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallenge.html> ; 
+rdfs:comment "A list of 10 challenges from the Normaliz homepage" ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/TestSet/A443>,
+<http://symbolicdata.org/Data/TestSet/A543>,
+<http://symbolicdata.org/Data/TestSet/A553>,
+<http://symbolicdata.org/Data/TestSet/A643>,
+<http://symbolicdata.org/Data/TestSet/Condorcet>,
+<http://symbolicdata.org/Data/TestSet/ICPnonUHC>,
+<http://symbolicdata.org/Data/TestSet/NonMormal3polytope>,
+<http://symbolicdata.org/Data/TestSet/NonNormal3polytope>,
+<http://symbolicdata.org/Data/TestSet/VeryampleNonNormal>,
+<http://symbolicdata.org/Data/TestSet/bo5>,
+<http://symbolicdata.org/Data/TestSet/dim3tight>,
+<http://symbolicdata.org/Data/TestSet/graph7_331_k5free>,
+<http://symbolicdata.org/Data/TestSet/graph8_001_k5free>,
+<http://symbolicdata.org/Data/TestSet/graph8_9958_k5free>,
+<http://symbolicdata.org/Data/TestSet/lo6>,
+<http://symbolicdata.org/Data/TestSet/pluralityCondorcetEff>,
+<http://symbolicdata.org/Data/TestSet/pluralityVsCutoff>,
+<http://symbolicdata.org/Data/TestSet/semigraphoid5> ,
+sdb:Bruns_07a,
+sdb:Bruns_09a,
+sdb:Bruns_99a,
+sdb:Bruns_99b,
+sdb:Bruns_99c,
+sdb:Bruns_99d,
+sdb:Bruns_11a,
+sdb:Bruns_13a,
+sdb:Hemmecke_08a,
+sdb:Ohsugi_06a .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.A443> a sd:Annotation ;
+rdfs:label "TestSets.A443" ;
+rdfs:comment "Missing case in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (4x4x3). Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/A443>,
+sdb:Bruns_11a,
+sdb:Ohsugi_06a .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.A543> a sd:Annotation ;
+rdfs:label "TestSet.A543" ;
+rdfs:comment "Missing case in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (5x4x3). Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/A543>,
+sdb:Bruns_11a,
+sdb:Ohsugi_06a .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.A553> a sd:Annotation ;
+rdfs:label "TestSet.A553" ;
+rdfs:comment "Missing case in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (5x5x3). Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/A553>,
+sdb:Bruns_11a,
+sdb:Ohsugi_06a .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.A643> a sd:Annotation ;
+rdfs:label "TestSet.A643" ;
+rdfs:comment "Missing case in the Ohsugi-Hibi classification of normal monoids derived from contingency tables, the first nonnormal case (6x4x3). Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/A643>,
+sdb:Bruns_11a,
+sdb:Ohsugi_06a .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.Condorcet> a sd:Annotation ;
+rdfs:label "TestSet.Condorcet" ;
+rdfs:comment "Model of combinatorial voting theory: the Condorcet paradox. Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/Condorcet>,
+sdb:Bruns_13a .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.ICPnonUHC> a sd:Annotation ;
+rdfs:label "TestSet.ICPnonUHC" ;
+rdfs:comment "An example of a lattice polytope satisfying ICP, but without unimodular cover. Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/ICPnonUHC>,
+sdb:Bruns_07a .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.NN3Pa> a sd:Annotation ;
+rdfs:label "TestSet.NN3Pa" ;
+rdfs:comment "A nonnormal rectangular simplex of dimension 3. Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/NonNormal3polytope>,
+sdb:Bruns_99a .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.NN3Pb> a sd:Annotation ;
+rdfs:label "TestSet.NN3Pb" ;
+rdfs:comment "An example of a normal lattice polytope that has no unimodular cover and even violates the integral Carathéodory property [BG, Section 2.D]. Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/NonNormal3polytope>,
+sdb:Bruns_09a, sdb:Bruns_99c, sdb:Bruns_99d .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.dim3tight> a sd:Annotation ;
+rdfs:label "TestSet.dim3tight" ;
+rdfs:comment "A 3-dimensional tight cone [BG, Section 2.D]. Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/dim3tight>,
+sdb:Bruns_09a .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph7_331_k5free> a sd:Annotation ;
+rdfs:label "TestSet.graph7_331_k5free" ;
+rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant for some specific graphs. Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/graph7_331_k5free>,
+sdb:Sturmfels_08a, sdb:Bruns_11a .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph8_001_k5free> a sd:Annotation ;
+rdfs:label "TestSet.graph8_001_k5free" ;
+rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant for some specific graphs. Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/graph8_001_k5free>,
+sdb:Sturmfels_08a, sdb:Bruns_11a .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.graph8_9958_k5free> a sd:Annotation ;
+rdfs:label "TestSet.graph8_9958_k5free" ;
+rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant for some specific graphs. Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/graph8_9958_k5free>,
+sdb:Sturmfels_08a, sdb:Bruns_11a .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.lo6> a sd:Annotation ;
+rdfs:label "TestSet.lo6" ;
+rdfs:comment "The inversion model of statistical ranking for <i>n = 6</i>. Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/lo6>,
+sdb:Sturmfels_12a .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.pluralityCondorcetEff> a sd:Annotation ;
+rdfs:label "TestSet.pluralityCondorcetEff" ;
+rdfs:comment "Model of combinatorial voting theory: the Condorcet efficiency of plurality voting. Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/pluralityCondorcetEff>,
+ sdb:Bruns_13a .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.pluralityVsCutoff> a sd:Annotation ;
+rdfs:label "TestSet.pluralityVsCutoff" ;
+rdfs:comment "Model of combinatorial voting theory: the plurality voting vs. cutoff for 4 candidates. Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/pluralityVsCutoff>,
+sdb:Bruns_13a .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.semigraphoid5> a sd:Annotation ;
+rdfs:label "TestSet.semigraphoid5" ;
+rdfs:comment "The semi-graphoid for <i>N = 5</i>. Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/semigraphoid5>,
+sdb:Hemmecke_08a, sdb:Bruns_11a .
+
+<http://symbolicdata.org/Data/Annotation/TestSet.> a sd:Annotation ;
+rdfs:label "TestSet." ;
+rdfs:comment "The inversion model of statistical ranking for <i>n = 6</i>. Example from the Normaliz Challenges." ;
+sd:relatesTo 
+<http://symbolicdata.org/Data/Annotation/TestSets.NormalizChallenges>,
+<http://symbolicdata.org/Data/TestSet/>,
+sdb:Sturmfels_12a .

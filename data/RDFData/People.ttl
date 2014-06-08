@@ -372,6 +372,9 @@ sdp:Grigoriev_D a foaf:Person ;
 sdp:Groetschel_M a foaf:Person ;
                  foaf:name "Grötschel, Martin" .
 
+sdp:Gubeladze_J a foaf:Person ;
+                foaf:name "Gubeladze, J." .
+
 sdp:Gutsche_S a foaf:Person ;
               foaf:name "Gutsche, Sebastian" .
 
@@ -432,6 +435,9 @@ sdp:Hemmecke_Ralf a foaf:Person ;
 sdp:Hemmecke_Raymond a foaf:Person ;
                      foaf:name "Hemmecke, Raymond" .
 
+sdp:Henk_M a foaf:Person ;
+           foaf:name "Henk, M." .
+
 sdp:Henn_HW a foaf:Person ;
             foaf:name "Henn, Hans-Wolfgang" .
 
@@ -442,6 +448,9 @@ sdp:Heras_J a foaf:Person ;
 
 sdp:Hess_F a foaf:Person ;
            foaf:name "Heß, Florian" .
+
+sdp:Hibi_T a foaf:Person ;
+           foaf:name "Hibi, T." .
 
 sdp:Hiss_G a foaf:Person ;
            foaf:name "Hiß, Gerhard" .
@@ -466,6 +475,9 @@ sdp:Hubery_A a foaf:Person ;
 
 sdp:Husert_D a foaf:Person ;
              foaf:name "Husert, David" .
+
+sdp:Ichim_B a foaf:Person ;
+            foaf:name "Ichim, B." .
 
 sdp:Inawashiro_N a foaf:Person ;
                  foaf:name "Inawashiro, N." .
@@ -568,6 +580,9 @@ sdp:Koenig_S a foaf:Person ;
 
 sdp:Koepf_W a foaf:Person ;
             foaf:name "Koepf, Wolfram" .
+
+sdp:Koeppe_M a foaf:Person ;
+             foaf:name "Köppe, M." .
 
 sdp:Koerner_H a foaf:Person ;
               foaf:name "Körner, H." .
@@ -704,6 +719,9 @@ sdp:Markwig_H a foaf:Person ;
 sdp:Markwig_T a foaf:Person ;
               foaf:name "Markwig, Thomas" .
 
+sdp:Martin_A a foaf:Person ;
+             foaf:name "Martin, A." .
+
 sdp:Martin_U a foaf:Person ;
              foaf:name "Martin, Ursula" ;
              foaf:affiliation "Queen Mary University of London" ;
@@ -766,6 +784,9 @@ sdp:Morawska_B a foaf:Person ;
 sdp:Morgan_A a foaf:Person ;
              foaf:name "Morgan, Alexander" .
 
+sdp:Morton_J a foaf:Person ;
+             foaf:name "Morton, J." .
+
 sdp:Mourrain_B a foaf:Person ;
                foaf:name "Mourrain, B." .
 
@@ -805,6 +826,9 @@ sdp:Noonburg_VW a foaf:Person ;
 
 sdp:OShea_D a foaf:Person ;
             foaf:name "O'Shea, D." .
+
+sdp:Ohsugi_H a foaf:Person ;
+             foaf:name "Ohsugi, H." .
 
 sdp:Oldenburg_R a foaf:Person ;
                 foaf:name "Oldenburg, Reinhard" .
@@ -1002,6 +1026,9 @@ sdp:Stump_C a foaf:Person ;
 sdp:Sturmfels_B a foaf:Person ;
                 foaf:name "Sturmfels, Bernd" .
 
+sdp:Sullivant_S a foaf:Person ;
+                foaf:name "Sullivant, S." .
+
 sdp:Tanturri_F a foaf:Person ;
                foaf:name "Tanturri, Fabio" .
 
@@ -1080,8 +1107,14 @@ sdp:Watt_S a foaf:Person ;
            foaf:affiliation "University of Western Ontario" ;
            foaf:country "Canada" .
 
+sdp:Weismantel_R a foaf:Person ;
+                 foaf:name "Weismantel, R." .
+
 sdp:Weispfenning_V a foaf:Person ;
                    foaf:name "Weispfenning, Volker" .
+
+sdp:Welker_V a foaf:Person ;
+             foaf:name "Welker, V." .
 
 sdp:Wenk_M a foaf:Person ;
            foaf:name "Wenk, Moritz" ;
@@ -1108,6 +1141,9 @@ sdp:Wiedijk_F a foaf:Person ;
               foaf:name "Wiedijk, Freek" ;
               foaf:affiliation "Radboud University Nijmegen" ;
               foaf:country "Netherlands", "The Netherlands" .
+
+sdp:Wienand_O a foaf:Person ;
+              foaf:name "Wienand, O." .
 
 sdp:Wiese_G a foaf:Person ;
             foaf:name "Wiese, Gabor" .
