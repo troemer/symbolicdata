@@ -36,6 +36,9 @@ sdp:Albano_G a foaf:Person ;
 sdp:Albrecht_M a foaf:Person ;
                foaf:name "Albrecht, Martin" .
 
+sdp:Altmann_K a foaf:Person ;
+              foaf:name "Altmann, Klaus" .
+
 sdp:Amend_N a foaf:Person ;
             foaf:name "Amend, Nils" .
 
@@ -164,6 +167,9 @@ sdp:Canny_JF a foaf:Person ;
 sdp:Centeleghe_T a foaf:Person ;
                  foaf:name "Centeleghe, Tommaso" .
 
+sdp:Chiadjeu_ELGN a foaf:Person ;
+                  foaf:name "Chiadjeu, Etienne Le Grand Nana" .
+
 sdp:Chlebikova_J a foaf:Person ;
                  foaf:name "Chlebíková, Janka" ;
                  foaf:affiliation "School of Computing, University of Portsmouth" ;
@@ -233,6 +239,9 @@ sdp:Diem_C a foaf:Person ;
 
 sdp:Diemer_C a foaf:Person ;
              foaf:name "Diemer, Clemens" .
+
+sdp:Dingler_C a foaf:Person ;
+              foaf:name "Dingler, Christian" .
 
 sdp:Distler_A a foaf:Person ;
               foaf:name "Distler, Andreas" .
@@ -364,7 +373,7 @@ sdp:Grelak_F a foaf:Person ;
              foaf:name "Grelak, Felix" .
 
 sdp:Greuel_GM a foaf:Person ;
-              foaf:name "Greuel, Gert-Martin", "Greuel, Gerd-Martin" .
+              foaf:name "Greuel, Gert-Martin" .
 
 sdp:Grigoriev_D a foaf:Person ;
                 foaf:name "Grigoriev, Dima" .
@@ -850,6 +859,9 @@ sdp:Passmore_G a foaf:Person ;
                foaf:affiliation "U. Cambridge and U. Edinburgh" ;
                foaf:country "UK" .
 
+sdp:Paule_P a foaf:Person ;
+            foaf:name "Paule, Peter" .
+
 sdp:Peeters_K a foaf:Person ;
               foaf:name "Peeters, Kasper" .
 
@@ -936,6 +948,9 @@ sdp:Schaper_R a foaf:Person ;
 sdp:Schila_H a foaf:Person ;
              foaf:name "Schila, Harald" .
 
+sdp:Schindelar_K a foaf:Person ;
+                 foaf:name "Schindelar, Kristina" .
+
 sdp:SchmidtSchauss_M a foaf:Person ;
                      foaf:name "Schmidt-Schauss, Manfred" ;
                      foaf:affiliation "Goethe-University Frankfurt" ;
@@ -1000,6 +1015,9 @@ sdp:Sorge_V a foaf:Person ;
 
 sdp:Spreckels_U a foaf:Person ;
                 foaf:name "Spreckels, Ute" .
+
+sdp:Stan_F a foaf:Person ;
+           foaf:name "Stan, Flavia" .
 
 sdp:Staudenmaier_HM a foaf:Person ;
                     foaf:name "Staudenmaier, H.-M." .
@@ -1107,6 +1125,9 @@ sdp:Watt_S a foaf:Person ;
            foaf:affiliation "University of Western Ontario" ;
            foaf:country "Canada" .
 
+sdp:Weber_C a foaf:Person ;
+            foaf:name "Weber, Christian" .
+
 sdp:Weismantel_R a foaf:Person ;
                  foaf:name "Weismantel, R." .
 
@@ -1143,7 +1164,7 @@ sdp:Wiedijk_F a foaf:Person ;
               foaf:country "Netherlands", "The Netherlands" .
 
 sdp:Wienand_O a foaf:Person ;
-              foaf:name "Wienand, O." .
+              foaf:name "Wienand, Oliver" .
 
 sdp:Wiese_G a foaf:Person ;
             foaf:name "Wiese, Gabor" .

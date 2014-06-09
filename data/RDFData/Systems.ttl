@@ -8,7 +8,7 @@
 @prefix sd: <http://symbolicdata.org/Data/Model#> .
 @prefix sdp: <http://symbolicdata.org/Data/Person/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix cc: <http://creativecommons.org/ns#> .
 
 sd:CAS a owl:Class ;
@@ -17,8 +17,8 @@ sd:CAS a owl:Class ;
 <http://symbolicdata.org/Data/System/ASYS> a sd:CAS ;
                                            rdfs:label "Reduce package ASYS" ;
                                            rdfs:comment "no idea about the status of the project" ;
-                                           dct:creator sdp:Gerdt_VP, sdp:Khutornoy_NV, sdp:Zharkov_AYu ;
-                                           dct:description "A package for the CAS Reduce to explore different algorithmic aspects of Groebner and involutive bases" ;
+                                           dcterms:creator sdp:Gerdt_VP, sdp:Khutornoy_NV, sdp:Zharkov_AYu ;
+                                           dcterms:description "A package for the CAS Reduce to explore different algorithmic aspects of Groebner and involutive bases" ;
                                            sd:lastUpdate "2013-09-14" ;
                                            sd:relatesTo <http://symbolicdata.org/Data/System/Reduce> .
 
@@ -37,8 +37,8 @@ sd:CAS a owl:Class ;
 <http://symbolicdata.org/Data/System/Felix> a sd:CAS ;
                                             rdfs:label "CAS Felix" ;
                                             rdfs:comment "no more under development" ;
-                                            dct:creator sdp:Apel_J, sdp:Klaus_U ;
-                                            dct:description "Special computer algebra system for the computation in commutative and non-commutative rings and modules" ;
+                                            dcterms:creator sdp:Apel_J, sdp:Klaus_U ;
+                                            dcterms:description "Special computer algebra system for the computation in commutative and non-commutative rings and modules" ;
                                             sd:hasURL <http://felix.hgb-leipzig.de> ;
                                             sd:lastUpdate "2010-12-29" .
 
@@ -72,17 +72,17 @@ sd:CAS a owl:Class ;
 
 <http://symbolicdata.org/Data/System/Points> a sd:CAS ;
                                              rdfs:label "Points" ;
-                                             dct:creator sdp:Cioffi_F, sdp:Orecchia_F, sdp:Ramella_I ;
-                                             dct:description "Points intends to construct algorithms and to implement sofwares concerning problems in Algebraic Geometry which need the computation of the Hilbert Function or of minimal generators or of the resolution of the ideal of a finite set of points." ;
-                                             dct:license <http://www.gnu.org/licenses/gpl.html> ;
+                                             dcterms:creator sdp:Cioffi_F, sdp:Orecchia_F, sdp:Ramella_I ;
+                                             dcterms:description "Points intends to construct algorithms and to implement sofwares concerning problems in Algebraic Geometry which need the computation of the Hilbert Function or of minimal generators or of the resolution of the ideal of a finite set of points." ;
+                                             dcterms:license <http://www.gnu.org/licenses/gpl.html> ;
                                              sd:hasURL <http://wpage.unina.it/cioffifr/EPoints.html> ;
                                              sd:lastUpdate "2010-12-29" .
 
 <http://symbolicdata.org/Data/System/QPoints> a sd:CAS ;
                                               rdfs:label "QPoints" ;
-                                              dct:creator sdp:Cioffi_F, sdp:Orecchia_F, sdp:Ramella_I ;
-                                              dct:description "A software for computations related to points in projective spaces over the field Q of rational numbers." ;
-                                              dct:license <http://www.gnu.org/licenses/gpl.html> ;
+                                              dcterms:creator sdp:Cioffi_F, sdp:Orecchia_F, sdp:Ramella_I ;
+                                              dcterms:description "A software for computations related to points in projective spaces over the field Q of rational numbers." ;
+                                              dcterms:license <http://www.gnu.org/licenses/gpl.html> ;
                                               sd:hasURL <http://cds.unina.it/~cioffifr/EPoints.html> ;
                                               sd:lastUpdate "2001-03-28" .
 
