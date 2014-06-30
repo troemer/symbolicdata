@@ -1,10 +1,6 @@
 \documentclass{llncs}
 \usepackage{url}
 
-\newenvironment{code}{\tt \begin{tabbing}
-\hskip12pt\=\hskip12pt\=\hskip12pt\=\hskip12pt\=\hskip5cm\=\hskip5cm\=\kill}
-{\end{tabbing}}
-
 \newcommand{\SD}{{\sc Symbolic\-Data}}
 \def\pw{{\char94}}
 \def\dq{{\char34}}
@@ -56,15 +52,10 @@ In 2009 we started to refactor the data along standard Semantic Web concepts
 based on the Resource Description Framework (RDF).  We completed a redesign of
 the data along RDF based semantic technologies, set up a Virtuoso
 \cite{Virtuoso} based RDF triple store and SPARQL endpoint at
-\url{http://www.symbolicdata.org} as an open data service along Linked Data
+\url{http://www.symbolicdata.org} as an Open Data service along Linked Data
 standards \cite{lod}, and started both conceptual and practical work towards a
 semantic-aware Computer Algebra Social Network. The new {\SD} data and tools
 were released as version~3 in September 2013.
-
-This and ongoing work was realised within a project \emph{Benchmarking in
-  Symbolic Computations and Web 3.0} supported by the \emph{Saxonian E-Science
-  Initiative} \cite{E-Science-Sachsen} with a 12 months grant for Andreas
-Nareike in 2012/13 and a five months grant for Simon Johanning in 2014.
 
 One of the main decisions within that redesign process was a non-technical one
 -- leave the focus on data storage and the ``roots'' within the Polynomial
@@ -81,6 +72,12 @@ In section 2 and 3 we describe the current {\SD} infrastructure in more
 detail.  The rest of this paper addresses conceptual and practical problems,
 experiences and solutions towards a semantic-aware Computer Algebra Social
 Network as an intercommunity project.
+
+\emph{Acknowledgement:} This and ongoing work was realised within a project
+\emph{Benchmarking in Symbolic Computations and Web 3.0} supported by the
+\emph{Saxonian E-Science Initiative} \cite{E-Science-Sachsen} with a 12 months
+grant for Andreas Nareike in 2012/13 and a five months grant for Simon
+Johanning in 2014.
 
 \section{The {\SD} Infrastructure}
 
@@ -106,8 +103,8 @@ compute environment as, e.g., provided by Sagemath \cite{Sagemath}.  The
 Python based \emph{SDEval package} \cite{sdeval} by Albert Heinle offers a
 JUnit like framework to set up, run, log, monitor and interrupt testing and
 benchmarking computations. The \emph{SDSage package} \cite{sdsage} by Andreas
-Nareike provides a showcase for {\SD} integration with the Sagemath compute
-environment.
+Nareike provides a showcase for {\SD} integration with the Sagemath
+\cite{Sagemath} compute environment.
 
 We follow a development process along the Integration-Manager-Workflow
 Model\footnote{See \url{http://git-scm.com/book/en/Distributed-Git-Distributed-Workflows}.}.
@@ -201,8 +198,7 @@ Dublin Core DCMI Metadata Terms Initiative \cite{dcterms} or the Joint
 Steering Committee for Development of Resource Description and Access
 \cite{RDA}.  Third, there are well elaborated concepts and tools how to
 exchange RDF based information by a protocol as simple and widely spread as
-\emph{HTTP Get} and how to manage that within a standard web server
-infrastructure.
+HTTP Get and how to manage that within a standard web server infrastructure.
 
 \subsection{RDF Basics}
 
@@ -345,7 +341,7 @@ bibliographical stores,
   \texttt{sd:hasZBentry}), 
 \item the Gr\"obner Bases Bibliography database (predicate
   \texttt{sd:hasGBBentry}) and 
-\item the citeseer database (predicate \texttt{sd:hasCSentry}).
+\item the CiteSeer database (predicate \texttt{sd:hasCSentry}).
 \end{itemize}
 
 The same applies to information about and references to CA software that is
@@ -400,7 +396,8 @@ first prototype to store this information in RDF format, to extract it by
 means of SPARQL queries and to view it on the web site using the Wordpress
 shortcode mechanism\footnote{See \url{http://codex.wordpress.org/Shortcode}.}
 via a special Wordpress plugin.  We apply the same technique to maintain
-information about upcoming conferences at this site.
+information about upcoming conferences, CA projects within the SPP 1489
+priority program and a list of dissertations in CA at this site.
 
 The vision of a Computer Algebra Social Network (CASN) goes far beyond that:
 Get people involved themselves on a regular basis, set up and run within the
@@ -414,19 +411,18 @@ prototypical node of a tool that realizes the challenging concept of a
 We set up a second RDF data store at \url{http://symbolicdata.org/casn/} with
 information about 
 \begin{itemize}
-\item upcoming conferences (about 20 entries of type \texttt{sd:Event}) and
-\item publications within the ``CA Rundbrief'' of the German Fachgruppe
-\end{itemize}
-and plan to extend that data store with information about
-\begin{itemize}
-\item CA projects (initial: projects from the German SPP 1489) and
-\item CA working groups (initial: as listed by the German Fachgruppe). 
+\item upcoming conferences (about 20 entries of type \texttt{sd:Event}), 
+\item publications within the ``CA Rundbrief'' of the German Fachgruppe, 
+\item dissertations in CA reported to the board of the German Fachgruppe, 
+\item CA projects (initial: projects from the German SPP 1489 priority
+  program) 
+\item and CA working groups (initial: as listed by the German Fachgruppe). 
 \end{itemize}
 As the project matures this will be interrelated with the DSSN node at
 \url{http://symbolicdata.org/xodx/} running a software under development by
 the AKSW group in such a way that you can join the CASN and supply your
 contributions as you can do (also not yet semantically) in any other social
-network.  See our wiki for more information.
+network.  We refer to our wiki \cite{sdwiki} for more information.
 
 \raggedright
 \begin{thebibliography}{1}
