@@ -1,0 +1,344 @@
+-------- Original-Nachricht --------
+Betreff: CICM 2014 notification for paper 38
+Datum: Mon, 14 Apr 2014 03:03:24 +0200
+Von: CICM 2014 <cicm2014@easychair.org>
+An: Hans-Gert Graebe <graebe@informatik.uni-leipzig.de>
+
+
+Dear Hans-Gert Graebe,
+
+Thank you for your submission to the CICM conference,
+
+   The SymbolicData Project.
+
+After careful consideration, the Program Committee for your track has decided 
+that your submission will NOT be accepted at the conference. ...
+
+Thank you again for your submission to the CICM.  We hope that although your 
+paper was not accepted, you will nevertheless participate in the meeting.
+
+Sincerely
+
+Stephen Watt
+
+with
+
+James Davenport, Alan Sexton, Petr Sojka and Josef Urban
+
+----------------------- REVIEW 1 ---------------------
+PAPER: 38
+TITLE: The SymbolicData Project
+AUTHORS: Hans-Gert Graebe and Andreas Nareike
+
+OVERALL EVALUATION: 0 (borderline paper)
+
+----------- REVIEW -----------
+This paper reports on the publication of the computer algebra benchmarking and
+other related data of the SymbolicData project as linked data.  This effort is
+of interest for Systems & Projects for two reasons: SymbolicData has already
+been a respectable project, and publishing its data as linked data is another
+notable step in this project. 
+
+The paper has, however, two major weaknesses: the unclear focus (is it about
+the linked data publication, or also about everything else in SymbolicData?),
+and technical shortcomings in the presentation of the linked data conversion. 
+
+Given the page limit, there should be one clear focus.  Either on the linked
+data publication (what data you have, and how you obtained it from the
+original formats), or on the project as a whole (and then saying something
+like "the data is available as XML, as …, and BTW also as linked data",
+without going into too much detail about the latter).  
+
+UPDATE: My understanding of the S&P track is that a paper can focus on the
+"project as a project" or on "conceptual aspects of a system/project" (unless
+they are _so_ deeply conceptual that one of the other tracks would fit
+better), but preferably not on everything at the same time.  In conclusion, I
+would have liked to see a clear commitment from you as in what focus you are
+going to give this S&P paper (if accepted).  For this reason I won't change my
+score.
+
+You do point to another paper [6] for further details about your linked data
+work; however this paper is not currently available, or is it?  You say "to
+appear", but for the reader of this submission to appreciate your further work
+you would at least have to provide the URL of a preprint.
+
+UPDATE: Thanks for pointing to http://symbolicdata.org/wiki/Publications and
+great that it also features rejections – it will be good to have this URL in
+the paper.
+
+As I am a linked data rather than a symbolic computation expert, I focused on
+the linked data aspect. 
+
+It is completely unclear what _motivated_ you to publish your data as linked
+data. 
+
+UPDATE: While I'm a linked data enthusiast myself, I don't find your response
+that "all world is talking about linked open data" convincing.  I did find
+convincing arguments in  http://symbolicdata.uni-leipzig.de/Papers/car-54.pdf,
+albeit only in the final section, so I'd encourage you to make these a bit
+more explicit.  Even this long paper says more about the "how" of linked data
+than about the "why", but at least it concludes by saying that in the near
+future this approach will help you to link to non-mathematical data such as
+social networks.
+
+Then, one important aspect of linked data publishing is completely neglected:
+the choice of vocabulary.  Using a widely known vocabulary enables (re)users
+to understand what your data mean, and to like it to other data. What
+vocabularies did you use? What existing vocabularies did you reuse, and why?
+Where was it necessary to design your own, and how did you do it? E.g. by
+deriving it from an XML schema that had existed before?  A graph showing the
+core of your vocabulary would also help. For an overview of vocabularies see,
+e.g.,
+http://www.semantic-web-journal.net/content/ontologies-and-languages-representing-mathematical-knowledge-semantic-web. –
+After looking into the ontology description in your wiki, I realise that most
+existing ontologies for mathematics do not cover your specific use case,
+e.g. I'm not aware of anything comparable to sd:hasParameters. You _could_ get
+there by writing a lot of OpenMath content dictionaries, but I agree that's
+not really effective. However, for certain aspects you should, and can, reuse
+existing ontologies, e.g. GAMS to describe mathematical software packages, a
+more comprehensive bibliography ontology, such as BIBO
+(http://bibliontology.com/) or SPAR (http://sempublishing.sourceforge.net/). 
+
+UPDATE: I appreciate that you consulted LOV and reused widely known
+vocabularies such as FOAF.  My question was rather about more specialised
+vocabularies for scientific publications and the domain of mathematics.  Here
+it becomes trickier.  Some of these vocabularies are not so widely in use that
+LOV would tell you a lot about them, but still they have been published in the
+literature, which means that it would have been possible for you to consider
+them.
+
+UPDATE: Your relationship to swmath.org is not clear from the paper.  However
+it absolutely makes sense to link to existing collections such as swmath.org
+instead of reinventing your own descriptions of software packages.  OTOH from
+the LOD perspective these links are of limited value, as swmath.org itself is
+not available as LOD.  Sure, you really don't have the space to discuss the
+ramifications (e.g. whether or not _you_ should rebuild some of the swmath.org
+information in RDF, or whether you should team up with them to get it done),
+but you could at least state the facts: "swmath.org exists, we are reusing it,
+but it is not yet LOD".
+
+I don't agree with some of your general claims about RDF:
+
+* I haven't heard the term "knowledge base" as a specific technical term of
+  RDF. Do you mean to distinguish resources from their properties, or from
+  links to other resources?
+
+* You say that the RDF design principles support a consequent distinction
+  between data and metadata. One might actually argue that RDF does NOT
+  distinguish between data and metadata. E.g. if you use a domain-specific
+  vocabulary for the data, and Dublin Core for the metadata, all of these end
+  up as RDF triples. 
+
+About your implementation: The SPARQL endpoint was down when I wanted to try
+it. ...
+
+To see what the generated RDF looks like, I tried the command line 
+
+Please find attached an annotated PDF with detailed comments (best viewed with
+Adobe Reader).
+
+----------------------- REVIEW 2 ---------------------
+PAPER: 38
+TITLE: The SymbolicData Project
+AUTHORS: Hans-Gert Graebe and Andreas Nareike
+
+OVERALL EVALUATION: -2 (reject)
+REVIEWER'S CONFIDENCE: 3 (medium)
+
+----------- REVIEW -----------
+This article describes the SymbolicData project which aims to ..., well
+actually I'm not 100% clear on what it does.  Apparently it uses RDF and RDF
+techniques to store some data about collections of mathematical information
+(polynomial systems, etc; tests and benchmarks using that data, etc), but it
+isn't evident if or how the actual mathematical character of the data comes
+into play.  It almost might as well be a Bibliographic database of articles
+about mathematics; There's no particular MKM interest here, that I can see.
+
+The first two pages of the article describe more about the events in the
+project's life, it's funding and how to install it, without really giving a
+very clear view of what it's actually for or what it does.  And then later on
+they fret about not having enough space to explain!
+
+Comments added after author response:
+
+Thanks for your response, but I believe you have made an unfortunate choice
+dealing with the interdisciplinary aspect.  It seems clear that to address
+issues of interest to different communities you should write several papers
+each with an appropriate focus, as you say you wanted to do.  As it is, we
+have than one unfocused paper that is duplicated in several venues, even
+raising ethical concerns.  Because of the lack of focus, I'm still unclear
+whether the mathematical semantics play or role in your system, or whether it
+is merely publication metadata that is used.
+
+So, while I have gradually come to the conclusion that there is actually a
+good paper of clear relevance to CICM hidden in this project, the duplicate
+publication and lack of focus force me to downgrade my evaluation.
+
+----------------------- REVIEW 3 ---------------------
+PAPER: 38
+TITLE: The SymbolicData Project
+AUTHORS: Hans-Gert Graebe and Andreas Nareike
+
+OVERALL EVALUATION: -2 (reject)
+REVIEWER'S CONFIDENCE: 5 (expert)
+
+----------- REVIEW -----------
+The SymbolicData Project
+
+The paper presents an overview of the SymbolicData project, aiming to build a
+reference collection of factoids, initially for the Polynomial Systems
+community, and currently expanding into new math subdomains, as well as
+community metadata. The reader is provided with historical and community
+contexts, technical overview and references to working demonstrations of the
+system. The topic is both completely on topic for CICM, as well as fully
+fitting the Systems and Projects track description.
+
+Find bellow my specific remarks on the submission:
+
+At the end of the introduction, the migration to the Semantic Web RDF standard
+is left unmotivated, probably assumed to be seen as something obvious.  It
+would be nice to have the motivation for the refactoring explicitly in the
+paper - was it enabling community interchange via standard representations?
+The distinction between "data" and "metadata" is not a motivation for RDF over
+XML, since both are capable of representing heterogeneous data.  The big
+difference between the two is the toolchain - you could try to make an
+argument that ontologies are easier to adopt by third-parties, when opposed to
+XML schemas, for example.
+
+The adoption of the GitHub contribution philosophy is both well explained and
+resonates with the reviewer's personal sentiments, and I welcome your effort
+to accommodate it. However, please don't refer readers to the generic
+"github.com" address - use the precise URL of your repository instead, it is
+both a better advertisement for your project and causes less confusion. You
+could hide the URL in a footnote if there are stylistic concerns.
+
+I was happy to find both the SPARQL endpoint and the OntoWiki exploration
+fully functional and seeded with real-world data.
+
+A big concern for me was that the submission is a reduced version of reference
+[6], with a large textual overlap - for example the entire conclusion is an
+almost verbatim copy of the conclusion in [6], with parts cut out. Since [6]
+is yet to appear, that technically means the paper is not a resubmission of an
+existing publication. Note that while the S&P track welcomes descriptions of
+existing projects that haven't been presented to CICM, we do not welcome
+verbatim resubmissions of papers. So I would need to discuss this further with
+the Program Committee.
+
+The last issue notwithstanding, I would be happy to see this work accepted in
+the S&P track, judging it on scientific merit alone.
+
+Side remark:
+
+You have a lot of mathematical content in your knowledge bases. While indeed
+RDF is great for storage, exchange and retrieval of *factoids*, that is not
+immediately obvious for *objects* such as formulas. Have you considered using
+MathML as a format for presenting content / data exchange? That is a relevant
+topic to discuss for the CICM community. While exploring
+http://symbolicdata.org/Data/ I see that you don't store the mathematical
+objects directly, rather their individual identifying components.
+
+Would you consider it useful to have a direct representation of the object
+also available, e.g. the presentation MathML of ideals, so that a user can
+also access a visual cue for the data item? It might be interesting to explore
+at least auto-generating MathML from the data already in the database.
+
+Comments added after author response:
+
+The authors' rebuttal has revealed a lack of understanding of the problem of
+"Duplicate publication" and why it is impossible to tolerate in scientific
+proceedings. To the contrary, the authors were positively eager to "advertise"
+to different scientific communities by republishing near-identical reframing
+of the same results.
+
+In the present day, marketing your work to different scientific communities is
+easily achievable by utilizing existing mailing lists, bulleting boards,
+social networks, blogs and others. Scientific proceedings, however, are
+emphatically *not* targeting advertising of results as a primary purpose.
+Spreading awareness of your work is of course a laudable goal that benefits
+the community overall, but it is only a secondary goal to a conference.
+
+The primary mission remains to push the boundaries of human knowledge and
+collect novel results of scientific importance.
+
+It is also the case that the chief distinguishing aspect between scientific
+proceedings and bulleting boards is the novelty and peer-review of the
+announced results. By republishing in multiple venues one 1) wastes valuable
+reviewer time and most importantly 2) forfeits the claim of novelty of their
+results.
+
+There is a fine, but crucial, distinction between the S&P track inviting
+existing projects to present and inviting them to "resubmit" prior results. We
+have done the former, and as such expect to hear of the latest novel
+increments in the submitted projects, rather than receive resubmissions sent
+to (or previously published at) multiple venues. The latter is sometimes
+allowed for workshops that aim to build a community as a primary goal, and
+consequently do not publish their proceedings.
+
+To me this issue is a sufficient blocker to overwhelm the otherwise
+interesting strengths of the paper.
+
+------------------------------------------------------
+
+Response: 
+
+1) "there should be one clear focus"
+"relation to paper [6]"
+"resubmission of an existing publication"
+
+Since the topic is clearly interdisciplinary we try to present the results to
+different communities. There is necessarily argumentational overlap and [6] is
+in some sense the "master paper" (10 pages) that turned out to be inacceptable
+for publication due to its volume. Even the CA Rundbrief asked for a much
+shorter version that I could not compile within short time due to absence for
+a holyday trip.  So a revised and shortened version of [6] will appear only in
+CA Rundbrief, Oct 2014.
+
+From the CICM track D announcement I had no idea about the focus - is it on
+description of ongoing project activities or on conceptional aspects.  I agree
+with the referee that there should be one focus and I personally prefer to
+have the CA Rundbrief paper focus on project activities and the CICM paper
+focus on conceptional aspects, but I have no idea if a revised version can be
+submitted and in what due time (it's the spring term just starting).
+
+SD follows a very Open Publication strategy - you find pdf versions of all
+papers under submission, accepted, rejected, and published at
+http://symbolicdata.org/wiki/Publications
+
+2) "what _motivated_ you to publish your data as linked data."
+
+All world is talking about "Linked Open Data" and the authors are close to the
+AKSW group, a european-wide leading group in that area, see, e.g.
+http://lod2.eu.  There are, of course, also more substantial arguments ...
+
+3) "choice of vocabulary"
+
+Not every ontology on the internet has equal influence and it is hard to
+decide about their "weights". We use FOAF, dcterms, org, but also a agile
+approach that proved to be very fruitful within AKSW many times. This means,
+start collect RDF sentences (4 stars in the Tim Berners-Lee program program)
+and look for the fifth star in a redesign process. This is on the way with SD
+and we expect good input from discussions at CICM-14 concerning that topic.
+
+Our reference for potentially useful vocabularies is the standard reference
+http://lov.okfn.org of the Open Knowledge Foundation. 
+
+4) "GAMS to describe mathematical software packages"
+
+We decided to maintain within SD only a tall interface to descriptions of
+mathematical software packages with references to swmath
+http://www.swmath.org/.  So all questions about ontologies should be discussed
+directly with the swmath people. 
+
+5) "The SPARQL endpoint was down" 
+
+The Virtuoso core engine was down for some days. Please try anew. 
+
+6) "github.com"
+
+Please check out the develop branch of our "upstream" repo at
+git@github.com:symbolicdata/symbolicdata.git but note that due to the
+Integration Master Workflow it does not contain the most recent code, but only
+a consolidated version offered to casual followers. You may also have a look
+at http://symbolicdata.org/Data/ for a more recent state and can download
+there different knowledge bases aka RDF graphs in different formats. The
+SPARQL endpoint operates on that data.
