@@ -1,14 +1,8 @@
 \documentclass{beamer}
 \usepackage{german}
 \usepackage[english]{babel}
-% For a list of themes see
-% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
-%\usetheme{AnnArbor}   % with section title 
-%\usetheme{Warsaw}     % with section title navigation
-%\usetheme{Goettingen} % with section title navigation
-%\usetheme{Hannover}   % with section title navigation
-\usetheme{Boadilla}   % without section title
-%\usetheme{Madrid}     % without section title
+% Designelemente
+\usetheme{Boadilla}
 \beamertemplatenavigationsymbolsempty
 
 \newcommand{\ueberschrift}[1]{\begin{center}\bf\large #1\end{center}}
@@ -16,10 +10,11 @@
 \hskip12pt\=\hskip12pt\=\hskip12pt\=\hskip12pt\=\hskip5cm\=\hskip5cm\=\kill}
 {\end{tabbing}}
 
-\title[The SymbolicData Project]{The SymbolicData Project -- from Data Store to
+\title[The SymbolicData Project]{The SymbolicData Project\\ Towards a
   Computer Algebra Social Network}
 
-\subtitle{Talk given at the Jahrestagung 2014 of the SPP 1489}
+\subtitle{Talk given at the International Conference on\\ Infrastructures and
+  Cooperation in e-Science and e-Humanities}
 
 \author[Gr\"abe, Johanning]{Hans-Gert Gr\"abe, Simon Johanning}
 
@@ -27,13 +22,12 @@
 \texttt{http://bis.informatik.uni-leipzig.de/HansGertGraebe}} 
 \titlegraphic{\includegraphics[width=.3\textwidth]{Logos/escience.png}}
 
-\date{Bad Boll, 2014-03-04}
+\date{Leipzig, 2014-06-05}
 \begin{document}
 \begin{frame}
-\titlepage
+\maketitle
 \end{frame}
-\section{Aim and Scope}
-\begin{frame}\frametitle{Aim and Scope}
+\begin{frame}{Aim and Scope}{}
 Vision:
 \begin{itemize}
 \item Develop concepts and tools for profiling, testing and benchmarking
@@ -55,8 +49,7 @@ Vision:
 \end{itemize}
 \end{frame}
 
-\section{What does SymbolicData offer?}
-\begin{frame}\frametitle{What does SymbolicData offer?}
+\begin{frame}{What does SymbolicData offer?}{}
 Data:
 \begin{itemize}
 \item Polynomial Systems Solving
@@ -73,7 +66,7 @@ Data:
 \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{What does SymbolicData offer?}
+\begin{frame}{What does SymbolicData offer?}{}
 {Tools:}
 \begin{itemize}
 \item SDEval Package (Albert Heinle)
@@ -88,11 +81,10 @@ Data:
 \item Technology: Sagemath Python Package
 \end{itemize}
 \end{itemize}
-Referring to the talk by Andreas Nareike last year, I will not touch that
-topic in my talk this year.
+I will not touch that topic in my talk.
 \end{frame}
 
-\begin{frame}\frametitle{What does SymbolicData offer?}
+\begin{frame}{What does SymbolicData offer?}{}
 {Infrastructure:}
 \begin{itemize}
 \item Github repositories (following the Integration Master Pattern)
@@ -100,17 +92,16 @@ topic in my talk this year.
 \item A mailing list
 \item Web access to the XML resources
 \item A centrally operated OntoWiki based RDF data store of meta informations
-  Based on the Virtuoso RDF store
+  based on the Virtuoso RDF store
 \item Organized along Linked Data Principles
-\item Regular Dumps of RDF data in Turtle format
+\item Regular dumps of RDF data in Turtle format
 \item A SPARQL endpoint to query the data
 \item Advise for easy local installation of tools and data based on Virtuoso
   and a local Apache Web server (OntoWiki optional)
 \end{itemize}
 \end{frame}
 
-\section{Some History}
-\begin{frame}\frametitle{Some History}
+\begin{frame}{Some History}{}
 ISSAC 1998: Special session on Benchmarking 
 
 1999-2002: Phase 1 -- Olaf Bachmann, Hans-Gert Gr\"abe
@@ -118,14 +109,14 @@ ISSAC 1998: Special session on Benchmarking
 \item Focus: Polynomial Systems, tools and concepts
 \item Technology: XML-like special markup, elaborated Perl tools
 \end{itemize}
-2005-2007: Phase 2 -- around the Groebner Special Year
+2005-2007: Phase 2 -- around the Groebner Special Year in Linz
 \begin{itemize}
 \item Focus: Geometry Theorem Proving, first interlinking projects with the GB
   bibliography and the GB facilities projects
 \item Technology: Switch to true XML concepts
 \end{itemize}
 2012-2014: Phase 3 -- E-Science Saxonia supported project (Andreas Nareike,
-Hans-Gert Gr\"abe)
+Hans-Gert Gr\"abe, Simon Johanning)
 \begin{itemize}
 \item Focus: Switch to Linked Data and Semantic Web concepts, XML resources,
   RDF meta data, data reorganization
@@ -133,8 +124,7 @@ Hans-Gert Gr\"abe)
 \end{itemize}
 \end{frame}
 
-\section{Basic Concepts}
-\begin{frame}\frametitle{Linked Data Principles}
+\begin{frame}{Linked Data Principles}{}
 \begin{itemize}
 \item \emph{Resources:} URI, HTTP Get access
 \begin{itemize}
@@ -157,7 +147,7 @@ Hans-Gert Gr\"abe)
 \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{RDF Basics}
+\begin{frame}{RDF Basics}{}
 Main idea: Store pieces of information as triples.
 \begin{itemize}
 \item Subject and predicate have to be URIs, object can be an URI or a literal
@@ -175,7 +165,7 @@ Resources), Ontologies (i.e., meta information about Concepts) etc.\ in a
 uniform way.
 \end{frame}
 
-\begin{frame}\frametitle{SymbolicData Data Structure}
+\begin{frame}{SymbolicData Data Structure}{}
 Resources:
 \begin{itemize}
 \item SD provides own resources in an XML based format
@@ -191,103 +181,36 @@ Resources:
 \end{itemize}
 Resource Descriptions: 
 \begin{itemize}
-\item Precomputed „fingerprints“ of the different resources in RDF format to
-  navigate and search within the data
-\item Requires semantic knowledge to use the fingerprints in an appropriate
-  way
+\item Precomputed \emph{fingerprints} of the different resources in RDF format
+  to navigate and search within the data.\\ It requires \emph{semantic}
+  knowledge both to compute fingerprints and to use them in an appropriate
+  way.
 \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{SymbolicData Data Structure}
-An example in Turtle syntax:
-
-\begin{code}
-  <http://symbolicdata.org/Data/Ideal/Czapor-86c.Flat> \+\\
-  a sd:Ideal ;\\
-  rdfs:comment {\dq}Flat variant of Czapor-86c{\dq} ;\\
-  sd:createdAt {\dq}1999-08-27{\dq} ;\\
-  sd:createdBy sdp:Bachmann\_O ;\\
-  sd:hasDegreeList {\dq}3,3,3{\dq} ;\\
-  sd:hasLengthsList {\dq}4,4,4{\dq} ;\\
-  sd:relatedPolynomialSystem\\\>
-  <http://symbolicdata.org/Data/IntPS/Czapor-86c> ;\\
-  sd:hasVariables {\dq}x,y,z,a,b,c,d,e,f,g,h,k{\dq} .
-\end{code}
-rdfs:, sd: and sdp: are namespace prefixes.
-\end{frame}
-
-\begin{frame}\frametitle{SymbolicData Data Structure}
-Use SPARQL to search for examples with given degree and lengths lists. Run the
-following query at http://symbolicdata.org:8890/sparql
-
-\begin{code}
-  PREFIX sd: <http://symbolicdata.org/Data/Model\#>\\ 
-  select ?a \\
-  from <http://symbolicdata.org/Data/PolynomialSystems/>\\
-  where \{\+\\
-    ?a a sd:Ideal . \\
-    ?a sd:hasLengthsList {\dq}4,4,4{\dq} . \\
-    ?a sd:hasDegreeList {\dq}3,3,3{\dq} . \-\\
-  \} 
-\end{code}
-\end{frame}
-
-\begin{frame}\frametitle{SymbolicData Data Structure}
-Linked Data: Link directs to a valuable resource description as, e.g., 
-
-\texttt{http://symbolicdata.org/Data/Ideal/Sym1\_311.Homog}
-\begin{code}
-  <http://symbolicdata.org/Data/Ideal/Sym1\_311.Homog> \+\\
-  sd:createdAt {\dq}1999-06-04{\dq} ;\\
-  sd:createdBy sdp:Bachmann\_O ;\\
-  sd:hasDegreeList {\dq}3,3,3{\dq} ;\\
-  sd:hasLengthsList {\dq}4,4,4{\dq} ;\\
-  sd:hasVariables {\dq}x,y,z,hv{\dq} ;\\
-  sd:homogenize sdideal:Sym1\_311 ;\\
-  sd:homogenizedWith {\dq}hv{\dq} ;\\
-  a sd:HomogeneousIdeal, sd:Ideal ;\\
-  rdfs:comment {\dq}Homogenized version of Sym1\_311{\dq} .
-\end{code}
-It is the homogenized version of another example.
-\end{frame}
-
-\begin{frame}\frametitle{SymbolicData Data Structure}
-Hence Resource Descriptions have to provide rules to compute derived examples
-from basic ones.
+\begin{frame}{SymbolicData Data Structure}{}
+Resource Descriptions (cont.)
 \begin{itemize}
-\item Requires semantic aware tools to extract the derived examples from the
-  basic ones.
-\item No strong restriction, since most of real applications work within
-  semantic aware environments anyway.
-\item Realized for Polynomial Systems and the Sagemath system by the SDSage
-  package of Andreas Nareike.
-\end{itemize}
-\end{frame}
-
-\begin{frame}\frametitle{SymbolicData Data Structure}
-\emph{Background information:} Use RDF to manage additional data, try to
+\item \emph{Background information:} Use RDF to manage additional data, try to
 interlink that data with other sources along the Linked Data Principles.
 \begin{itemize}
-\item Annotations -- a system of background information on different examples
-  and series of examples
+\item Annotations -- a notational system to associate background information
+  to different examples and series of examples
+\end{itemize}
 \item Bibliography -- bibliographical references system (to be aligned with
   ZBMath)
-\item Conferences -- data base of upcoming conferences
 \item People -- different people and groups (to be aligned with ZBMath)
-\item Systems -- list of CA systems (aligned with swmath) 
+\item Systems -- list of CA software (aligned with swmath) 
 \end{itemize}
 \end{frame}
 
-\section{Towards a CA Social Network}
-\begin{frame}\frametitle{Towards a CA Social Network}
-Valuable background information is information the people care about. Try to
-gather data only once, but in a form that it can be multiply reused. Build
-views (web sites) that harvest information.
-
-Care about the rules
+\begin{frame}{Towards a CA Social Network}{}
+Valuable background information is information the people care about. 
 \begin{itemize}
-\item Maximizing reuse minimizes use.
-\item Make things as simple as possible, but not simpler. 
+\item Find out the places where such information is spread today.\\ Usually it
+  is \emph{streamed}, not \emph{stored}.
+\item Try to semantically annotate that information. 
+\item Build views (web sites) that harvest information.
 \end{itemize}
 Vision:
 \begin{itemize}
@@ -296,14 +219,15 @@ Vision:
 \item Used to display people from the CAFG Board within the Wordpress based
   CAFG site
 \end{itemize}
-\item Groups -- collect standard information about CA working groups 
+\item Groups and Projects -- collect standard information about CA working
+  groups and their projects
 \begin{itemize}
 \item Used to display such information within the Wordpress based CAFG site
 \end{itemize}
 \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{Towards a CA Social Network}
+\begin{frame}{Towards a CA Social Network}{}
 Vision (continued):
 \begin{itemize}
 \item Conferences -- do not only send conference announcements around mailing
@@ -320,7 +244,7 @@ Vision (continued):
 \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{Links}\small
+\begin{frame}{Links}{}\small
 \begin{itemize}
 \item \texttt{http://symbolicdata.org} -- the SD Wiki
 \item \texttt{http://symbolicdata.org/XMLResources} -- the SD XML Resources
