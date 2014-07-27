@@ -72,7 +72,7 @@ sdp:Arthan_R a foaf:Person ;
 sdp:Aspinall_D a foaf:Person ;
                foaf:name "Aspinall, David" ;
                sd:affiliation "Univerity of Edinburgh" ;
-               sd:country <http://dbpedia.org/resource/United_Kingdom>  .
+               sd:country <http://dbpedia.org/resource/United_Kingdom> .
 
 sdp:Autexier_S a foaf:Person ;
                foaf:name "Autexier, Serge" .
@@ -265,9 +265,9 @@ sdp:DanCohen_I a foaf:Person ;
 
 sdp:Davenport_JH a foaf:Person ;
                  foaf:name "Davenport, James H." ;
-                sd:affiliation "University of Bath" ;
-                sd:country <http://dbpedia.org/resource/United_Kingdom> ;
-                 foaf:homepage <http://people.bath.ac.uk/masjhd/> .
+                 foaf:homepage <http://people.bath.ac.uk/masjhd/> ;
+                 sd:affiliation "University of Bath" ;
+                 sd:country <http://dbpedia.org/resource/United_Kingdom> .
 
 sdp:Decker_W a foaf:Person ;
              foaf:name "Decker, Wolfram" .
@@ -343,6 +343,7 @@ sdp:Enge_A a foaf:Person ;
 
 sdp:England_M a foaf:Person ;
               foaf:name "England, Matthew" ;
+              foaf:homepage <http://www.cs.bath.ac.uk/~me350/> ;
               sd:affiliation "University Of Bath" ;
               sd:country <http://dbpedia.org/resource/United_Kingdom> .
 
@@ -729,14 +730,18 @@ sdp:Koerner_H a foaf:Person ;
               foaf:name "Körner, H." .
 
 sdp:Kohlhase_A a foaf:Person ;
-               foaf:name "Kohlhase, Andrea" .
+               foaf:name "Kohlhase, Andrea" ;
+               foaf:homepage <http://kwarc.info/ako/> ;
+               sd:affiliation "Jacobs University, Bremen" ;
+               sd:country <http://dbpedia.org/resource/Germany> .
 
 sdp:Kohlhase_L a foaf:Person ;
                foaf:name "Kohlhase, Lukas" .
 
 sdp:Kohlhase_M a foaf:Person ;
                foaf:name "Kohlhase, Michael" ;
-               sd:affiliation "Jacobs University Bremen" ;
+               foaf:homepage <http://kwarc.info/kohlhase/> ;
+               sd:affiliation "Jacobs University Bremen", "Jacobs University, Bremen" ;
                sd:country <http://dbpedia.org/resource/Germany> .
 
 sdp:Kokubu_M a foaf:Person ;
@@ -779,7 +784,7 @@ sdp:Kuska_JP a foaf:Person ;
 
 sdp:Kutsia_T a foaf:Person ;
              foaf:name "Kutsia, Temur" ;
-             sd:affiliation "RISC Linz", "Johannes Kepler University Linz" ;
+             sd:affiliation "Johannes Kepler University Linz", "RISC Linz" ;
              sd:country <http://dbpedia.org/resource/Austria> .
 
 sdp:Kyureghyan_G a foaf:Person ;
@@ -813,6 +818,7 @@ sdp:Levy_J a foaf:Person ;
 
 sdp:Libbrecht_P a foaf:Person ;
                 foaf:name "Libbrecht, Paul" ;
+                foaf:homepage <http://www.hoplahup.net/paul/about_me.html> ;
                 sd:affiliation "Weingarten University of Education" ;
                 sd:country <http://dbpedia.org/resource/Germany> .
 
@@ -922,9 +928,9 @@ sdp:MihaljevicBrandt_H a foaf:Person ;
                        foaf:name "Mihaljevic-Brandt, Helena" .
 
 sdp:Miller_BR a foaf:Person ;
-             foaf:name "Miller, Bruce R." ;
-             sd:affiliation "NIST, Gaithersburg, Maryland" ;
-             sd:country <http://dbpedia.org/resource/United_States> .
+              foaf:name "Miller, Bruce R." ;
+              sd:affiliation "NIST, Gaithersburg, Maryland" ;
+              sd:country <http://dbpedia.org/resource/United_States> .
 
 sdp:Moede_T a foaf:Person ;
             foaf:name "Moede, Tobias" .
@@ -999,7 +1005,10 @@ sdp:Neun_W a foaf:Person ;
            foaf:name "Neun, Winfried" .
 
 sdp:Neuper_W a foaf:Person ;
-             foaf:name "Neuper, Walther" .
+             foaf:name "Neuper, Walther" ;
+             foaf:homepage <http://www.ist.tugraz.at/neuper/> ;
+             sd:affiliation "Graz University of Technology" ;
+             sd:country <http://dbpedia.org/resource/Austria> .
 
 sdp:Nghiem_MQ a foaf:Person ;
               foaf:name "Nghiem, Minh-Quoc" .
@@ -1079,7 +1088,10 @@ sdp:Posur_S a foaf:Person ;
             foaf:name "Posur, Sebastian" .
 
 sdp:Quaresma_P a foaf:Person ;
-               foaf:name "Quaresma, Pedro" .
+               foaf:name "Quaresma, Pedro" ;
+               foaf:homepage <http://www.mat.uc.pt/~pedro/> ;
+               sd:affiliation "University of Coimbra" ;
+               sd:country <http://dbpedia.org/resource/Portugal> .
 
 sdp:Quebbemann_HG a foaf:Person ;
                   foaf:name "Quebbemann, Heinz-Georg" .
@@ -1159,7 +1171,8 @@ sdp:Rueth_J a foaf:Person ;
             foaf:name "Rüth, Julian" .
 
 sdp:Ruzicka_M a foaf:Person ;
-              foaf:name "Růžička, Michal" .
+              foaf:name "Růžička, Michal" ;
+              foaf:homepage <https://mir.fi.muni.cz> .
 
 sdp:Santos_V a foaf:Person ;
              foaf:name "Santos, Vanda" .
@@ -1225,10 +1238,10 @@ sdp:Senk_DG a foaf:Person ;
             foaf:name "Senk, Dieter G." .
 
 sdp:Sexton_AP a foaf:Person ;
-             foaf:name "Sexton, Alan P." ;
-             sd:affiliation "University of Birmingham" ;
+              foaf:name "Sexton, Alan P." ;
               foaf:homepage <http://www.cs.bham.ac.uk/~aps/> ;
-             sd:country <http://dbpedia.org/resource/United_Kingdom> .
+              sd:affiliation "University of Birmingham" ;
+              sd:country <http://dbpedia.org/resource/United_Kingdom> .
 
 sdp:Shalile_A a foaf:Person ;
               foaf:name "Shalile, Armin" .
@@ -1407,6 +1420,7 @@ sdp:Wang_F a foaf:Person ;
 
 sdp:Watt_S a foaf:Person ;
            foaf:name "Watt, Stephen" ;
+           foaf:homepage <http://www.csd.uwo.ca/~watt/> ;
            sd:affiliation "University of Western Ontario" ;
            sd:country <http://dbpedia.org/resource/Canada> .
 
