@@ -24,6 +24,9 @@ sdp:Abbott_J a foaf:Person ;
 sdp:Acevedo_C a foaf:Person ;
               foaf:name "Acevedo, Carmela" .
 
+sdp:Adam_M a foaf:Person ;
+           foaf:name "Adam, Michael" .
+
 sdp:Adams_M a foaf:Person ;
             foaf:name "Adams, Mark" .
 
@@ -46,6 +49,9 @@ sdp:Albano_G a foaf:Person ;
 sdp:Albrecht_M a foaf:Person ;
                foaf:name "Albrecht, Martin" .
 
+sdp:Ali_R a foaf:Person ;
+          foaf:name "Ali, Rashid" .
+
 sdp:Altmann_K a foaf:Person ;
               foaf:name "Altmann, Klaus" .
 
@@ -54,6 +60,9 @@ sdp:Amend_N a foaf:Person ;
 
 sdp:Amrhein_B a foaf:Person ;
               foaf:name "Amrhein, Beatrice" .
+
+sdp:Andres_D a foaf:Person ;
+             foaf:name "Andres, Daniel" .
 
 sdp:Apel_J a foaf:Person ;
            foaf:name "Apel, Joachim" .
@@ -95,6 +104,9 @@ sdp:Barakat_M a foaf:Person ;
               foaf:name "Barakat, Mohamed" ;
               foaf:homepage <http://www.mathematik.uni-kl.de/~barakat/> .
 
+sdp:Bartholdi_L a foaf:Person ;
+                foaf:name "Bartholdi, Laurent" .
+
 sdp:Baumeister_B a foaf:Person ;
                  foaf:name "Baumeister, Barbara" .
 
@@ -109,6 +121,9 @@ sdp:Behrends_R a foaf:Person ;
 sdp:Benner_I a foaf:Person ;
              foaf:name "Benner, Inga" .
 
+sdp:Berg_CJ a foaf:Person ;
+            foaf:name "Berg, Chris J." .
+
 sdp:Berghammer_R a foaf:Person ;
                  foaf:name "Berghammer, Rudolf" .
 
@@ -121,6 +136,9 @@ sdp:Bertot_Y a foaf:Person ;
 sdp:Bezem_M a foaf:Person ;
             foaf:name "Bezem, Marc" .
 
+sdp:Biere_A a foaf:Person ;
+            foaf:name "Biere, Armin" .
+
 sdp:Bigatti_AM a foaf:Person ;
                foaf:name "Bigatti, Anna M." .
 
@@ -130,14 +148,20 @@ sdp:Bini_D a foaf:Person ;
 sdp:Bjoerk_G a foaf:Person ;
              foaf:name "Björck, G." .
 
+sdp:Bley_W a foaf:Person ;
+           foaf:name "Bley, Werner" .
+
 sdp:Boeckle_G a foaf:Person ;
-              foaf:name "Boeckle, Gebhard" .
+              foaf:name "Böckle, Gebhard" .
 
 sdp:Boege_W a foaf:Person ;
             foaf:name "Boege, W." .
 
 sdp:Boehm_J a foaf:Person ;
             foaf:name "Böhm, Janko" .
+
+sdp:Boenisch_S a foaf:Person ;
+               foaf:name "Bönisch, Sebastian" .
 
 sdp:Boerner_M a foaf:Person ;
               foaf:name "Börner, Michel" .
@@ -160,6 +184,9 @@ sdp:Bouche_T a foaf:Person ;
 
 sdp:Bouw_I a foaf:Person ;
            foaf:name "Bouw, Irene" .
+
+sdp:Boy_M a foaf:Person ;
+          foaf:name "Boy, Maximilian" .
 
 sdp:Bradford_R a foaf:Person ;
                foaf:name "Bradford, Russell" .
@@ -186,14 +213,20 @@ sdp:Buchmann_J a foaf:Person ;
 sdp:Buergisser_P a foaf:Person ;
                  foaf:name "Bürgisser, Peter" .
 
+sdp:Burgeth_B a foaf:Person ;
+              foaf:name "Burgeth, B." .
+
 sdp:Caminati_MB a foaf:Person ;
                 foaf:name "Caminati, Marco B." .
 
 sdp:Canny_JF a foaf:Person ;
-             foaf:name "Canny, J.F." .
+             foaf:name "Canny, John F." .
 
 sdp:Carette_J a foaf:Person ;
               foaf:name "Carette, Jacques" .
+
+sdp:Carlson_JF a foaf:Person ;
+               foaf:name "Carlson, Jon F." .
 
 sdp:CarvalhoeSilva_J a foaf:Person ;
                      foaf:name "Carvalho e Silva, Jaime" .
@@ -282,6 +315,9 @@ sdp:Deppe_H a foaf:Person ;
 sdp:Derenthal_U a foaf:Person ;
                 foaf:name "Derenthal, Ulrich" .
 
+sdp:Dettweiler_M a foaf:Person ;
+                 foaf:name "Dettweiler, Michael" .
+
 sdp:Diem_C a foaf:Person ;
            foaf:name "Diem, Claus" .
 
@@ -327,7 +363,7 @@ sdp:Eick_B a foaf:Person ;
            foaf:name "Eick, Bettina" .
 
 sdp:Eisenbud_D a foaf:Person ;
-               foaf:name "Eisenbud, D." .
+               foaf:name "Eisenbud, David" .
 
 sdp:Ekici_B a foaf:Person ;
             foaf:name "Ekici, Burak" .
@@ -336,7 +372,7 @@ sdp:Elvenich_HM a foaf:Person ;
                 foaf:name "Elvenich, Hans-Michael" .
 
 sdp:Emiris_IZ a foaf:Person ;
-              foaf:name "Emiris, I.Z." .
+              foaf:name "Emiris, Ioannis Z." .
 
 sdp:Enge_A a foaf:Person ;
            foaf:name "Enge, Andreas" .
@@ -355,6 +391,9 @@ sdp:Escobar_S a foaf:Person ;
 sdp:Evans_I a foaf:Person ;
             foaf:name "Evans, Ieuan" .
 
+sdp:Farkas_G a foaf:Person ;
+             foaf:name "Farkas, Gavril" .
+
 sdp:Farmer_WM a foaf:Person ;
               foaf:name "Farmer, William M." .
 
@@ -366,6 +405,9 @@ sdp:Fernandez_M a foaf:Person ;
                 foaf:name "Fernandez, Maribel" ;
                 sd:affiliation "King's College London" ;
                 sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Feulner_T a foaf:Person ;
+              foaf:name "Feulner, Thomas" .
 
 sdp:Fieker_C a foaf:Person ;
              foaf:name "Fieker, Claus" .
@@ -406,6 +448,9 @@ sdp:Gaspar_J a foaf:Person ;
 sdp:Gatermann_K a foaf:Person ;
                 foaf:name "Gatermann, Karin" .
 
+sdp:Gathmann_A a foaf:Person ;
+               foaf:name "Gathmann, Andreas" .
+
 sdp:Gauthier_T a foaf:Person ;
                foaf:name "Gauthier, Thibault" .
 
@@ -438,6 +483,9 @@ sdp:Gloor_O a foaf:Person ;
 sdp:Goedicke_M a foaf:Person ;
                foaf:name "Gödicke, Michael" .
 
+sdp:Goertz_U a foaf:Person ;
+             foaf:name "Görtz, Ulrich" .
+
 sdp:Grabmeier_J a foaf:Person ;
                 foaf:name "Grabmeier, Johannes" .
 
@@ -454,11 +502,17 @@ sdp:Grayson_DR a foaf:Person ;
 sdp:Greefrath_G a foaf:Person ;
                 foaf:name "Greefrath, Gilbert" .
 
+sdp:Green_DJ a foaf:Person ;
+             foaf:name "Green, David J." .
+
 sdp:Grelak_F a foaf:Person ;
              foaf:name "Grelak, Felix" .
 
 sdp:Greuel_GM a foaf:Person ;
               foaf:name "Greuel, Gert-Martin" .
+
+sdp:Greve_C a foaf:Person ;
+            foaf:name "Greve, Christian" .
 
 sdp:Grigoriev_D a foaf:Person ;
                 foaf:name "Grigoriev, Dima" .
@@ -477,6 +531,9 @@ sdp:Haase_C a foaf:Person ;
 
 sdp:Hackl_K a foaf:Person ;
             foaf:name "Hackl, Klaus" .
+
+sdp:Hahn_J a foaf:Person ;
+           foaf:name "Hahn, Johannes" .
 
 sdp:Hahn_M a foaf:Person ;
            foaf:name "Hahn, Michael" .
@@ -505,6 +562,9 @@ sdp:Harlander_R a foaf:Person ;
 
 sdp:Hart_WB a foaf:Person ;
             foaf:name "Hart, William B." .
+
+sdp:Hartl_A a foaf:Person ;
+            foaf:name "Hartl, Alexander" .
 
 sdp:Hartmann_J a foaf:Person ;
                foaf:name "Hartman, Julia" .
@@ -570,6 +630,9 @@ sdp:Hofmann_T a foaf:Person ;
 sdp:Hoge_T a foaf:Person ;
            foaf:name "Hoge, Torsten" .
 
+sdp:Hohenwarter_M a foaf:Person ;
+                  foaf:name "Hohenwarter, Markus" .
+
 sdp:Hooper_J a foaf:Person ;
              foaf:name "Hooper, Jeff" .
 
@@ -609,9 +672,12 @@ sdp:Jamnik_M a foaf:Person ;
              sd:country <http://dbpedia.org/resource/United_Kingdom> .
 
 sdp:Janicic_P a foaf:Person ;
-              foaf:name "Janičić, Predrag", "Janicic, Predrag" ;
+              foaf:name "Janičić, Predrag" ;
               sd:affiliation "University of Belgrade" ;
               sd:country <http://dbpedia.org/resource/Serbia> .
+
+sdp:Jensen_A a foaf:Person ;
+             foaf:name "Jensen, Anders" .
 
 sdp:Jeuring_J a foaf:Person ;
               foaf:name "Jeuring, Johan" ;
@@ -669,6 +735,9 @@ sdp:Katthaen_L a foaf:Person ;
 sdp:Keicher_S a foaf:Person ;
               foaf:name "Keicher, Simon" .
 
+sdp:Keil_S a foaf:Person ;
+           foaf:name "Keil, S." .
+
 sdp:Kemper_G a foaf:Person ;
              foaf:name "Kemper, Gregor" .
 
@@ -677,6 +746,9 @@ sdp:Kerber_A a foaf:Person ;
 
 sdp:Kerber_M a foaf:Person ;
              foaf:name "Kerber, Manfred" .
+
+sdp:Kern_F a foaf:Person ;
+           foaf:name "Kern, F." .
 
 sdp:KhanAfshar_S a foaf:Person ;
                  foaf:name "Khan-Afshar, Sanaz" .
@@ -708,6 +780,9 @@ sdp:Kleinjung_T a foaf:Person ;
 sdp:Klinge_S a foaf:Person ;
              foaf:name "Klinge, Sandra" .
 
+sdp:Kloosterman_RN a foaf:Person ;
+                   foaf:name "Kloosterman, Remke N." .
+
 sdp:Klueners_J a foaf:Person ;
                foaf:name "Klüners, Jürgen" .
 
@@ -718,7 +793,7 @@ sdp:Kobayashi_H a foaf:Person ;
                 foaf:name "Kobayashi, H." .
 
 sdp:Koenig_S a foaf:Person ;
-             foaf:name "Koenig, Steffen" .
+             foaf:name "Koenig, Steffen", "König, Steffen" .
 
 sdp:Koepf_W a foaf:Person ;
             foaf:name "Koepf, Wolfram" .
@@ -741,11 +816,17 @@ sdp:Kohlhase_L a foaf:Person ;
 sdp:Kohlhase_M a foaf:Person ;
                foaf:name "Kohlhase, Michael" ;
                foaf:homepage <http://kwarc.info/kohlhase/> ;
-               sd:affiliation "Jacobs University Bremen", "Jacobs University, Bremen" ;
+               sd:affiliation "Jacobs University, Bremen" ;
                sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Kohnert_A a foaf:Person ;
+              foaf:name "Kohnert, Axel" .
 
 sdp:Kokubu_M a foaf:Person ;
              foaf:name "Kokubu, Masatoshi" .
+
+sdp:Koornwinder_T a foaf:Person ;
+                  foaf:name "Koornwinder, Tom" .
 
 sdp:Kortenkamp_U a foaf:Person ;
                  foaf:name "Kortenkamp, Ulrich" .
@@ -807,6 +888,12 @@ sdp:Lazard_D a foaf:Person ;
 sdp:Leitao_R a foaf:Person ;
              foaf:name "Leitão, Roxanne" .
 
+sdp:Lempken_W a foaf:Person ;
+              foaf:name "Lempken, Wolfgang" .
+
+sdp:Leprevost_F a foaf:Person ;
+                foaf:name "Leprévost, Franck" .
+
 sdp:Levandovskyy_V a foaf:Person ;
                    foaf:name "Levandovskyy, Viktor" ;
                    foaf:homepage <http://www.math.rwth-aachen.de/~Viktor.Levandovskyy> .
@@ -851,10 +938,16 @@ sdp:Lueth_C a foaf:Person ;
 sdp:Luislampe_S a foaf:Person ;
                 foaf:name "Luislampe, Stefan" .
 
+sdp:Lux_K a foaf:Person ;
+          foaf:name "Lux, Klaus" .
+
 sdp:Lynch_C a foaf:Person ;
             foaf:name "Lynch, Christopher" ;
             sd:affiliation "Clarkson University" ;
             sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Maas_L a foaf:Person ;
+           foaf:name "Maas, Lukas" .
 
 sdp:Mahboubi_A a foaf:Person ;
                foaf:name "Mahboubi, Assia" ;
@@ -865,7 +958,7 @@ sdp:Malle_G a foaf:Person ;
             foaf:name "Malle, Gunter" .
 
 sdp:Manocha_D a foaf:Person ;
-              foaf:name "Manocha, D." .
+              foaf:name "Manocha, Dinesh" .
 
 sdp:Margolis_L a foaf:Person ;
                foaf:name "Margolis, Leo" .
@@ -891,6 +984,9 @@ sdp:Martin_U a foaf:Person ;
              foaf:name "Martin, Ursula" ;
              sd:affiliation "Queen Mary University of London" ;
              sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
+sdp:Matt_AD a foaf:Person ;
+            foaf:name "Matt, Andreas D." .
 
 sdp:Matzat_BH a foaf:Person ;
               foaf:name "Matzat, B. Heinrich" .
@@ -927,19 +1023,34 @@ sdp:Michel_J a foaf:Person ;
 sdp:MihaljevicBrandt_H a foaf:Person ;
                        foaf:name "Mihaljevic-Brandt, Helena" .
 
+sdp:Miller_B a foaf:Person ;
+             foaf:name "Miller, Bruce" .
+
 sdp:Miller_BR a foaf:Person ;
               foaf:name "Miller, Bruce R." ;
               sd:affiliation "NIST, Gaithersburg, Maryland" ;
               sd:country <http://dbpedia.org/resource/United_States> .
 
+sdp:Minzlaff_M a foaf:Person ;
+               foaf:name "Minzlaff, Moritz" .
+
 sdp:Moede_T a foaf:Person ;
             foaf:name "Moede, Tobias" .
+
+sdp:Moehlmann_G a foaf:Person ;
+                foaf:name "Möhlmann, Gerrit" .
 
 sdp:Moeller_HM a foaf:Person ;
                foaf:name "Möller, H. Michael" .
 
 sdp:Mohammadi_F a foaf:Person ;
                 foaf:name "Mohammadi, Fatemeh" .
+
+sdp:Moldenhauer_W a foaf:Person ;
+                  foaf:name "Moldenhauer, Wolfgang" .
+
+sdp:Moll_V a foaf:Person ;
+           foaf:name "Moll, Victor" .
 
 sdp:Moore_R a foaf:Person ;
             foaf:name "Moore, Ross" .
@@ -978,6 +1089,9 @@ sdp:Mueller_JM a foaf:Person ;
 
 sdp:Mueller_JS a foaf:Person ;
                foaf:name "Müller, Jan Steffen" .
+
+sdp:Mueller_P a foaf:Person ;
+              foaf:name "Müller, Peter" .
 
 sdp:Murao_H a foaf:Person ;
             foaf:name "Murao, H." .
@@ -1038,6 +1152,9 @@ sdp:Otop_J a foaf:Person ;
            foaf:name "Otop, Jan" ;
            sd:affiliation "IST" ;
            sd:country <http://dbpedia.org/resource/Austria> .
+
+sdp:Paditz_L a foaf:Person ;
+             foaf:name "Paditz, Ludwig" .
 
 sdp:Paffenholz_A a foaf:Person ;
                  foaf:name "Paffenholz, Andreas" ;
@@ -1126,11 +1243,17 @@ sdp:Ringeissen_C a foaf:Person ;
                  sd:affiliation "LORIA-INRIA Lorraine" ;
                  sd:country <http://dbpedia.org/resource/France> .
 
+sdp:Ritscher_S a foaf:Person ;
+               foaf:name "Ritscher, Stefan" .
+
 sdp:Roast_C a foaf:Person ;
             foaf:name "Roast, Chris" .
 
 sdp:Robbiano_L a foaf:Person ;
                foaf:name "Robbiano, Lorenzo" .
+
+sdp:Robertz_D a foaf:Person ;
+              foaf:name "Robertz, Daniel" .
 
 sdp:Robinson_S a foaf:Person ;
                foaf:name "Robinson, Sara" .
@@ -1144,11 +1267,14 @@ sdp:Roozemund_D a foaf:Person ;
 sdp:Rosen_D a foaf:Person ;
             foaf:name "Rosén, Dan" .
 
+sdp:Rosenberger_G a foaf:Person ;
+                  foaf:name "Rosenberger, Gerhard" .
+
 sdp:Rossmann_T a foaf:Person ;
                foaf:name "Rossmann, Tobias" .
 
 sdp:Rouillier_F a foaf:Person ;
-                foaf:name "Rouillier, F." .
+                foaf:name "Rouillier, Fabrice" .
 
 sdp:Rowat_C a foaf:Person ;
             foaf:name "Rowat, Colin" .
@@ -1173,6 +1299,9 @@ sdp:Rueth_J a foaf:Person ;
 sdp:Ruzicka_M a foaf:Person ;
               foaf:name "Růžička, Michal" ;
               foaf:homepage <https://mir.fi.muni.cz> .
+
+sdp:Sagraloff_M a foaf:Person ;
+                foaf:name "Sagraloff, Michael" .
 
 sdp:Santos_V a foaf:Person ;
              foaf:name "Santos, Vanda" .
@@ -1200,11 +1329,17 @@ sdp:SchmidtSchauss_M a foaf:Person ;
 sdp:Schmidt_R a foaf:Person ;
               foaf:name "Schmidt, Reinhard" .
 
+sdp:Schneider_C a foaf:Person ;
+                foaf:name "Schneider, Carsten" .
+
 sdp:Schneider_K a foaf:Person ;
                 foaf:name "Schneider, Kerstin" .
 
+sdp:Schnuerer_O a foaf:Person ;
+                foaf:name "Schnürer, Oliver" .
+
 sdp:Schoeneberg_U a foaf:Person ;
-                  foaf:name "Schoeneberg, Ulf" .
+                  foaf:name "Schöneberg, Ulf" .
 
 sdp:Schoenemann_H a foaf:Person ;
                   foaf:name "Schönemann, Hans" ;
@@ -1216,8 +1351,17 @@ sdp:Schoennenbeck_S a foaf:Person ;
 sdp:Schrans_S a foaf:Person ;
               foaf:name "Schrans, S." .
 
+sdp:Schreyer_F a foaf:Person ;
+               foaf:name "Schreyer, Frank-Olaf" .
+
 sdp:Schubotz_M a foaf:Person ;
                foaf:name "Schubotz, Moritz" .
+
+sdp:Schuermann_U a foaf:Person ;
+                 foaf:name "Schürmann, Uwe" .
+
+sdp:Schulze_M a foaf:Person ;
+              foaf:name "Schulze, Mathias" .
 
 sdp:Schwardmann_U a foaf:Person ;
                   foaf:name "Schwardmann, Ulrich" .
@@ -1232,10 +1376,13 @@ sdp:Segundo_W a foaf:Person ;
               foaf:name "Segundo, Washington" .
 
 sdp:Seiler_W a foaf:Person ;
-             foaf:name "Seiler, Werner" .
+             foaf:name "Seiler, Werner M." .
 
 sdp:Senk_DG a foaf:Person ;
             foaf:name "Senk, Dieter G." .
+
+sdp:Sexton_A a foaf:Person ;
+             foaf:name "Sexton, Allan" .
 
 sdp:Sexton_AP a foaf:Person ;
               foaf:name "Sexton, Alan P." ;
@@ -1284,8 +1431,14 @@ sdp:Sperber_W a foaf:Person ;
 sdp:Spreckels_U a foaf:Person ;
                 foaf:name "Spreckels, Ute" .
 
+sdp:Sprenger_T a foaf:Person ;
+               foaf:name "Sprenger, Torsten" .
+
 sdp:Stan_F a foaf:Person ;
            foaf:name "Stan, Flavia" .
+
+sdp:Stauch_C a foaf:Person ;
+             foaf:name "Stauch, C." .
 
 sdp:Staudenmaier_HM a foaf:Person ;
                     foaf:name "Staudenmaier, H.-M." .
@@ -1309,8 +1462,14 @@ sdp:Stojanovic_S a foaf:Person ;
 sdp:Stoll_M a foaf:Person ;
             foaf:name "Stoll, Michael" .
 
+sdp:Strehl_V a foaf:Person ;
+             foaf:name "Strehl, Volker" .
+
 sdp:Striewe_M a foaf:Person ;
               foaf:name "Striewe, Michael" .
+
+sdp:Studzinski_G a foaf:Person ;
+                 foaf:name "Studzinski, Grischa" .
 
 sdp:Stump_C a foaf:Person ;
             foaf:name "Stump, Christian" .
@@ -1342,6 +1501,9 @@ sdp:Tews_H a foaf:Person ;
 
 sdp:Thaller_B a foaf:Person ;
               foaf:name "Thaller, Bernd" .
+
+sdp:Theobald_T a foaf:Person ;
+               foaf:name "Theobald, Thorsten" .
 
 sdp:Thiel_U a foaf:Person ;
             foaf:name "Thiel, Ulrich" .
@@ -1377,11 +1539,17 @@ sdp:Treinen_R a foaf:Person ;
 sdp:Troost_W a foaf:Person ;
              foaf:name "Troost, W." .
 
+sdp:Ullah_E a foaf:Person ;
+            foaf:name "Ullah, Ehsan" .
+
 sdp:Urban_J a foaf:Person ;
             foaf:name "Urban, Josef" ;
             foaf:homepage <http://cs.ru.nl/~urban/> ;
             sd:affiliation "Radboud University Nijmegen" ;
             sd:country <http://dbpedia.org/resource/Netherlands> .
+
+sdp:Uzunkol_O a foaf:Person ;
+              foaf:name "Uzunkol, Osmanbey" .
 
 sdp:Vehling_R a foaf:Person ;
               foaf:name "Vehling, Reimund" .
@@ -1399,6 +1567,9 @@ sdp:Villaret_M a foaf:Person ;
                foaf:name "Villaret, Mateu" ;
                sd:affiliation "Universitat de Girona" ;
                sd:country <http://dbpedia.org/resource/Spain> .
+
+sdp:Vo_TT a foaf:Person ;
+          foaf:name "Vo, Thanh Tung" .
 
 sdp:Voll_C a foaf:Person ;
            foaf:name "Voll, Christopher" .
@@ -1418,11 +1589,17 @@ sdp:Wang_D a foaf:Person ;
 sdp:Wang_F a foaf:Person ;
            foaf:name "Wang, Frédéric" .
 
+sdp:Wassermann_A a foaf:Person ;
+                 foaf:name "Wassermann, Alfred" .
+
 sdp:Watt_S a foaf:Person ;
            foaf:name "Watt, Stephen" ;
            foaf:homepage <http://www.csd.uwo.ca/~watt/> ;
            sd:affiliation "University of Western Ontario" ;
            sd:country <http://dbpedia.org/resource/Canada> .
+
+sdp:Weber_A a foaf:Person ;
+            foaf:name "Weber, Andreas" .
 
 sdp:Weber_C a foaf:Person ;
             foaf:name "Weber, Christian" .
@@ -1441,6 +1618,9 @@ sdp:Weisstein_E a foaf:Person ;
 
 sdp:Welker_V a foaf:Person ;
              foaf:name "Welker, V." .
+
+sdp:Weng_A a foaf:Person ;
+           foaf:name "Weng, Annegret" .
 
 sdp:Wenk_M a foaf:Person ;
            foaf:name "Wenk, Moritz" ;
@@ -1461,7 +1641,7 @@ sdp:Wewers_S a foaf:Person ;
              foaf:name "Wewers, Stefan" .
 
 sdp:Wichmann_T a foaf:Person ;
-               foaf:name "Wichmann, T." .
+               foaf:name "Wichmann, Torsten" .
 
 sdp:Wicke_G a foaf:Person ;
             foaf:name "Wicke, Gabriel" .
@@ -1489,6 +1669,9 @@ sdp:Wilson_D a foaf:Person ;
 sdp:Wilson_R a foaf:Person ;
              foaf:name "Wilson, Robert" .
 
+sdp:Winkler_F a foaf:Person ;
+              foaf:name "Winkler, Franz" .
+
 sdp:Witte_M a foaf:Person ;
             foaf:name "Witte, Malte" .
 
@@ -1498,8 +1681,14 @@ sdp:Wosch_EAT a foaf:Person ;
 sdp:Wu_WT a foaf:Person ;
           foaf:name "Wu, W.-T." .
 
+sdp:Xiu_XQ a foaf:Person ;
+           foaf:name "Xiu, Xingqiang" .
+
 sdp:Yamamoto_O a foaf:Person ;
                foaf:name "Yamamoto, Ou" .
+
+sdp:Yap_C a foaf:Person ;
+          foaf:name "Yap, Chee" .
 
 sdp:Youssef_A a foaf:Person ;
               foaf:name "Youssef, Abdou" .
@@ -1518,17 +1707,23 @@ sdp:Zhang_Q a foaf:Person ;
 sdp:Zharkov_AYu a foaf:Person ;
                 foaf:name "Zharkov, A.Yu." .
 
-sdp:deMoura_FLC a foaf:Person ;
-                foaf:name "Moura, Flavio L. C. De" .
+sdp:Zumbraegel_J a foaf:Person ;
+                 foaf:name "Zumbrägel, Jens" .
 
-sdp:deWolf_T a foaf:Person ;
-             foaf:name "de Wolf, Timo" .
+sdp:deMoura_FLC a foaf:Person ;
+                foaf:name "de Moura, Flavio L. C." .
+
+sdp:deWolff_T a foaf:Person ;
+              foaf:name "de Wolff, Timo" .
 
 sdp:vanGelder_I a foaf:Person ;
                 foaf:name "van Gelder, Inneke" .
 
 sdp:vanLeeuwen_M a foaf:Person ;
                  foaf:name "van Leeuwen, Marc" .
+
+sdp:vanStraten_D a foaf:Person ;
+                 foaf:name "van Straten, Duco" .
 
 sdp:vandeSompel_H a foaf:Person ;
                   foaf:name "Van de Sompel, Herbert" .
