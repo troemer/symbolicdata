@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sd="http://symbolicdata.org/Data/Model#"
+   xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <swc:ConferenceEvent rdf:about="http://computeralgebra.de/BadBoll-2014">
+    <swc:hasLocation rdf:resource="http://de.dbpedia.org/resource/Evangelische_Akademie_Bad_Boll"/>
+    <swc:hasRole>
+      <swc:Role>
+        <swc:heldBy rdf:resource="http://symbolicdata.org/Data/Person/Geck_M"/>
+        <swc:heldBy rdf:resource="http://symbolicdata.org/Data/Person/Kimmerle_W"/>
+        <swc:heldBy rdf:resource="http://symbolicdata.org/Data/Person/Koenig_S"/>
+        <swc:heldBy rdf:resource="http://symbolicdata.org/Data/Person/Shalile_A"/>
+        <swc:heldBy rdf:resource="http://symbolicdata.org/Data/Person/Thiel_U"/>
+        <rdfs:label>Local Arrangements Chair</rdfs:label>
+      </swc:Role>
+    </swc:hasRole>
+    <rdfs:label>BadBoll-2014: Annual conference of the DFG priority project SPP 1489</rdfs:label>
+    <ical:description>Annual conference of the DFG priority project SPP 1489</ical:description>
+    <ical:dtend rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-03-07</ical:dtend>
+    <ical:dtstart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-03-03</ical:dtstart>
+    <ical:location>Evangelische Akademie Bad Boll, Germany</ical:location>
+    <ical:url rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014"/>
+  </swc:ConferenceEvent>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1001">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Decker_W"/>
+    <dcterms:title>Ein neues Journal für computational algebra</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/jsag-BadBoll.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1002">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Boeckle_G"/>
+    <dcterms:title>Modular parametrization and multiplicative integrals over function fields</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1003">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Boehm_J"/>
+    <dcterms:title>Tropical mirror symmetry for elliptic curves</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/TropicalMirrorElliptic.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1004">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Barakat_M"/>
+    <dcterms:title>On the Ext-computability of Serre quotient categories</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/Barakat_ExtComputability_handout.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1005">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Derenthal_U"/>
+    <dcterms:title>Cox rings and rational points</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1006">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/vanLeeuwen_M"/>
+    <dcterms:title>The Atlas of Lie groups project</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1007">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Freitas_N"/>
+    <dcterms:title>The Fermat equation over totally real fields</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1008">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Stoll_M"/>
+    <dcterms:title>Most odd degree hyperelliptic curves have only one rational point</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/StollBadBol.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1009">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Graebe_HG"/>
+    <dcterms:title>The SymbolicData Project</dcterms:title>
+    <sd:slidesURL rdf:resource="http://symbolicdata.uni-leipzig.de/Presentations/BadBoll-14.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1010">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Behrends_R"/>
+    <dcterms:title>Parallelization of Computer Algebra Systems: Experiences and Challenges</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1011">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Eder_C"/>
+    <dcterms:title>Signature-based Groebner basis algorithms</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/eder-signature-based.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1012">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Hart_W"/>
+    <dcterms:title>Antics in Number Theory</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1013">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Kastner_L"/>
+    <dcterms:title>Toric geometry in polymake</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1014">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Rossmann_T"/>
+    <dcterms:title>Computing topological zeta functions of groups, rings and modules</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1015">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Conca_A"/>
+    <dcterms:title>Universal Groebner bases for ideals of maximal minors</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/ConcaBadBoll.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1016">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/deWolff_T"/>
+    <dcterms:title>Amoebas, Nonnegative Polynomials and Sums of Squares Supported on Circuits</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1017">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Grigoriev_D"/>
+    <dcterms:title>Cluster algebras and subtraction-free computations of arborescences and Schur polynomials</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1018">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Braun_O"/>
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Nebe_G"/>
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Schoennenbeck_S"/>
+    <dcterms:title>On unit groups of orders</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/BraunVor.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1019">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/vanGelder_I"/>
+    <dcterms:title>Algorithmic developments for units and idempotents in integral group rings</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/VANGELDER.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1020">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Baechle_A"/>
+    <dcterms:title>The HeLP method: a computational approach to torison units in group rings</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/baechle_bad_boll_2014.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1021">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Hofmann_T"/>
+    <dcterms:title>On the integrality of representations of finite groups</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1022">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Kirschmer_M"/>
+    <dcterms:title>Unimodular lattices with small mass</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/kirschmer.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1023">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Bruns_W"/>
+    <dcterms:title>Recent extensions of Normaliz</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/BrunsBadBoll.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1024">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/King_S"/>
+    <dcterms:title>Potential applications of non-commutative F 5 algorithms</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1025">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Pieropan_M"/>
+    <dcterms:title>Integral models of generalised Del Pezzo surfaces and their universal torsors</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/BadBoll2014_Pieropan.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1026">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/LangeHegermann_M"/>
+    <dcterms:title>Counting solutions of differential equations</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/langehegermannbadboll.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1027">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Greuel_GM"/>
+    <dcterms:title>Vorstellung von swMATH</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/GMG_swMATH-Mar2014.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1028">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Stump_C"/>
+    <dcterms:title>Computer-aided proof for Coxeter-Catalan structures</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/ChristianStumpCoxeterCatalanCombinatorics.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1029">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Amend_N"/>
+    <dcterms:title>Inductively free restrictions of reflection arrangements</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/amend.pdf"/>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1030">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Horn_M"/>
+    <dcterms:title>Symbolic computations with p-groups and Lie rings</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1031">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Moede_T"/>
+    <dcterms:title>Coclass theory for nilpotent associative algebras</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1032">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Distler_A"/>
+    <dcterms:title>Konstruktion von Gruppenerweiterungen mit besonderen Eigenschaften</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1033">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Keicher_S"/>
+    <dcterms:title>Computations with Mori dream spaces</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1034">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Lorenz_B"/>
+    <dcterms:title>Smooth Gorenstein polytypes of high index</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1035">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Husert_D"/>
+    <dcterms:title>Similarity of semi-simple integral matrices</dcterms:title>
+  </sd:ConferenceTalk>
+  <sd:ConferenceTalk rdf:about="http://symbolicdata.org/Data/BadBoll-14/Talk/1036">
+    <dcterms:creator rdf:resource="http://symbolicdata.org/Data/Person/Roehrle_G"/>
+    <dcterms:title>Addition-Deletion Theorems for Factorisations of Orlik-Solomon Algebras and Nice Arrangements</dcterms:title>
+    <sd:slidesURL rdf:resource="http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/badboll-roehrle.pdf"/>
+  </sd:ConferenceTalk>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Amend_N">
+    <sd:affiliation>Ruhr-Universität Bochum</sd:affiliation>
+    <foaf:name>Amend, Nils</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/AriasdeReynaDominguez_S">
+    <sd:affiliation>University of Luxembourg</sd:affiliation>
+    <foaf:name>Arias de Reyna Dominguez, Sara</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Baechle_A">
+    <sd:affiliation>Vrije Universiteit Brussel</sd:affiliation>
+    <foaf:name>Bächle, Andreas</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Barakat_M">
+    <sd:affiliation>TU Kaiserslautern</sd:affiliation>
+    <foaf:name>Barakat, Mohamed</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Behrends_R">
+    <sd:affiliation>TU Kaiserslautern</sd:affiliation>
+    <foaf:name>Behrends, Reimer</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Benner_I">
+    <sd:affiliation>Universität Stuttgart</sd:affiliation>
+    <foaf:name>Benner, Inga</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Boeckle_G">
+    <sd:affiliation>Universität Heidelberg</sd:affiliation>
+    <foaf:name>Boeckle, Gebhard</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Boehm_J">
+    <sd:affiliation>TU Kaiserslautern</sd:affiliation>
+    <foaf:name>Böhm, Janko</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Boerner_M">
+    <sd:affiliation>Universität Ulm</sd:affiliation>
+    <foaf:name>Börner, Michel</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Bopp_C">
+    <sd:affiliation>Universität des Saarlandes</sd:affiliation>
+    <foaf:name>Bopp, Christian</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Bouw_I">
+    <sd:affiliation>Universität Ulm</sd:affiliation>
+    <foaf:name>Bouw, Irene</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Braun_O">
+    <sd:affiliation>RWTH Aachen</sd:affiliation>
+    <foaf:name>Braun, Oliver</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Bruns_W">
+    <sd:affiliation>Universität Osnabrück</sd:affiliation>
+    <foaf:name>Bruns, Winfried</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Centeleghe_T">
+    <sd:affiliation>Universität Heidelberg</sd:affiliation>
+    <foaf:name>Centeleghe, Tommaso</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Conca_A">
+    <sd:affiliation>Universität Genua</sd:affiliation>
+    <foaf:name>Conca, Aldo</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Cuntz_M">
+    <sd:affiliation>Leibniz Universität Hannover</sd:affiliation>
+    <foaf:name>Cuntz, Michael</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/DanCohen_I">
+    <sd:affiliation>Universität Duisburg-Essen</sd:affiliation>
+    <foaf:name>Dan-Cohen, Ishai</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Decker_W">
+    <sd:affiliation>TU Kaiserslautern</sd:affiliation>
+    <foaf:name>Decker, Wolfram</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Deppe_H">
+    <sd:affiliation>Universität Bielefeld</sd:affiliation>
+    <foaf:name>Deppe, Holger</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Derenthal_U">
+    <sd:affiliation>LMU München</sd:affiliation>
+    <foaf:name>Derenthal, Ulrich</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Distler_A">
+    <sd:affiliation>TU Braunschweig</sd:affiliation>
+    <foaf:name>Distler, Andreas</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Dvirnas_A">
+    <sd:affiliation>Kaunas University</sd:affiliation>
+    <foaf:name>Dvirnas, Albertas</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Eder_C">
+    <sd:affiliation>TU Kaiserslautern</sd:affiliation>
+    <foaf:name>Eder, Christian</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Eick_B">
+    <sd:affiliation>TU Braunschweig</sd:affiliation>
+    <foaf:name>Eick, Bettina</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Fieker_C">
+    <sd:affiliation>TU Kaiserslautern</sd:affiliation>
+    <foaf:name>Fieker, Claus</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Freitas_N">
+    <sd:affiliation>Universität Bayreuth</sd:affiliation>
+    <foaf:name>Freitas, Nuno</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/FruehbisKrueger_A">
+    <sd:affiliation>Leibniz Universität Hannover</sd:affiliation>
+    <foaf:name>Frühbis-Krüger, Anne</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Geck_M">
+    <sd:affiliation>Universität Stuttgart</sd:affiliation>
+    <foaf:name>Geck, Meinolf</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Graebe_HG">
+    <sd:affiliation>Universität Leipzig</sd:affiliation>
+    <foaf:name>Gräbe, Hans-Gert</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Grelak_F">
+    <sd:affiliation>Universität Duisburg-Essen</sd:affiliation>
+    <foaf:name>Grelak, Felix</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Greuel_GM">
+    <sd:affiliation>TU Kaiserslautern</sd:affiliation>
+    <foaf:name>Greuel, Gert-Martin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Grigoriev_D">
+    <sd:affiliation>MPI Bonn</sd:affiliation>
+    <foaf:name>Grigoriev, Dima</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Gutsche_S">
+    <sd:affiliation>TU Kaiserslautern</sd:affiliation>
+    <foaf:name>Gutsche, Sebastian</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Hahn_M">
+    <sd:affiliation>Universität des Saarlandes</sd:affiliation>
+    <foaf:name>Hahn, Michael</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Hart_W">
+    <sd:affiliation>TU Kaiserslautern</sd:affiliation>
+    <foaf:name>Hart, William</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Hausen_J">
+    <sd:affiliation>Universität Tübingen</sd:affiliation>
+    <foaf:name>Hausen, Jürgen</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Hofmann_T">
+    <sd:affiliation>TU Kaiserslautern</sd:affiliation>
+    <foaf:name>Hofmann, Tommy</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Hoge_T">
+    <sd:affiliation>Ruhr-Universität Bochum</sd:affiliation>
+    <foaf:name>Hoge, Torsten</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Horn_M">
+    <sd:affiliation>Justus-Liebig-Universität Gießen</sd:affiliation>
+    <foaf:name>Horn, Max</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Husert_D">
+    <sd:affiliation>Universität Paderborn</sd:affiliation>
+    <foaf:name>Husert, David</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Johanning_S">
+    <sd:affiliation>Universität Leipzig</sd:affiliation>
+    <foaf:name>Johanning, Simon</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Kastner_L">
+    <sd:affiliation>FU Berlin</sd:affiliation>
+    <foaf:name>Kastner, Lars</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Katthaen_L">
+    <sd:affiliation>Universität Osnabrück</sd:affiliation>
+    <foaf:name>Katthän, Lukas</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Keicher_S">
+    <sd:affiliation>Universität Tübingen</sd:affiliation>
+    <foaf:name>Keicher, Simon</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Kimmerle_W">
+    <sd:affiliation>Universität Stuttgart</sd:affiliation>
+    <foaf:name>Kimmerle, Wolfgang</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/King_S">
+    <sd:affiliation>Friedrich-Schiller-Universität Jena</sd:affiliation>
+    <foaf:name>King, Simon</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Kirschmer_M">
+    <sd:affiliation>RWTH Aachen</sd:affiliation>
+    <foaf:name>Kirschmer, Markus</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Klueners_J">
+    <sd:affiliation>Universität Paderborn</sd:affiliation>
+    <foaf:name>Klüners, Jürgen</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Koenig_S">
+    <sd:affiliation>Universität Stuttgart</sd:affiliation>
+    <foaf:name>König, Steffen</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Kuelshammer_B">
+    <sd:affiliation>Friedrich-Schiller-Universität Jena</sd:affiliation>
+    <foaf:name>Külshammer, Burkhard</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/LangeHegermann_M">
+    <sd:affiliation>RWTH Aachen</sd:affiliation>
+    <foaf:name>Lange-Hegermann, Markus</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Lorenz_B">
+    <sd:affiliation>TU Berlin</sd:affiliation>
+    <foaf:name>Lorenz, Benjamin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Malle_G">
+    <sd:affiliation>TU Kaiserslautern</sd:affiliation>
+    <foaf:name>Malle, Gunter</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Margolis_L">
+    <sd:affiliation>Universität Stuttgart</sd:affiliation>
+    <foaf:name>Margolis, Leo</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Marks_F">
+    <sd:affiliation>Universität Stuttgart</sd:affiliation>
+    <foaf:name>Marks, Frederik</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Metelitsyn_P">
+    <sd:affiliation>Johannes Gutenberg Universität Mainz</sd:affiliation>
+    <foaf:name>Metelitsyn, Pavel</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Michel_J">
+    <sd:affiliation>Mathématiques Jussieu</sd:affiliation>
+    <foaf:name>Michel, Jean</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Moede_T">
+    <sd:affiliation>TU Braunschweig</sd:affiliation>
+    <foaf:name>Moede, Tobias</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Mohammadi_F">
+    <sd:affiliation>Universität Osnabrück</sd:affiliation>
+    <foaf:name>Mohammadi, Fatemeh</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Mueller_JM">
+    <sd:affiliation>Friedrich-Schiller-Universität Jena</sd:affiliation>
+    <foaf:name>Müller, Jürgen</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Nebe_G">
+    <sd:affiliation>RWTH Aachen</sd:affiliation>
+    <foaf:name>Nebe, Gabriele</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Paffenholz_A">
+    <sd:affiliation>TU Darmstadt</sd:affiliation>
+    <foaf:name>Paffenholz, Andreas</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Pieropan_M">
+    <sd:affiliation>LMU München</sd:affiliation>
+    <foaf:name>Pieropan, Marta</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Posur_S">
+    <sd:affiliation>RWTH Aachen</sd:affiliation>
+    <foaf:name>Posur, Sebastian</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Roehrle_G">
+    <sd:affiliation>Ruhr-Universität Bochum</sd:affiliation>
+    <foaf:name>Röhrle, Gerhard</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Roemer_T">
+    <sd:affiliation>Universität Osnabrück</sd:affiliation>
+    <foaf:name>Römer, Tim</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Rossmann_T">
+    <sd:affiliation>Universität Bielefeld</sd:affiliation>
+    <foaf:name>Rossmann, Tobias</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Rueth_J">
+    <sd:affiliation>Universität Ulm</sd:affiliation>
+    <foaf:name>Rüth, Julian</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Schoennenbeck_S">
+    <sd:affiliation>RWTH Aachen</sd:affiliation>
+    <foaf:name>Schoennenbeck, Sebastian</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Shalile_A">
+    <sd:affiliation>Universität Stuttgart</sd:affiliation>
+    <foaf:name>Shalile, Armin</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Sieg_R">
+    <sd:affiliation>Universität Osnabrück</sd:affiliation>
+    <foaf:name>Sieg, Richard</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Soeger_C">
+    <sd:affiliation>Universität Osnabrück</sd:affiliation>
+    <foaf:name>Söger, Christof</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Spreckels_U">
+    <sd:affiliation>Carl von Ossietzky Universität Oldenburg</sd:affiliation>
+    <foaf:name>Spreckels, Ute</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Stein_A">
+    <sd:affiliation>Carl von Ossietzky Universität Oldenburg</sd:affiliation>
+    <foaf:name>Stein, Andreas</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Stoll_M">
+    <sd:affiliation>Universität Bayreuth</sd:affiliation>
+    <foaf:name>Stoll, Michael</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Stump_C">
+    <sd:affiliation>FU Berlin</sd:affiliation>
+    <foaf:name>Stump, Christian</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Tanturri_F">
+    <sd:affiliation>Universität des Saarlandes</sd:affiliation>
+    <foaf:name>Tanturri, Fabio</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Thiel_U">
+    <sd:affiliation>Universität Stuttgart</sd:affiliation>
+    <foaf:name>Thiel, Ulrich</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Toman_S">
+    <sd:affiliation>TU München</sd:affiliation>
+    <foaf:name>Toman, Stefan</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Voll_C">
+    <sd:affiliation>Universität Bielefeld</sd:affiliation>
+    <foaf:name>Voll, Christopher</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/Wewers_S">
+    <sd:affiliation>Universität Ulm</sd:affiliation>
+    <foaf:name>Wewers, Stefan</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/deWolff_T">
+    <sd:affiliation>Universität des Saarlandes</sd:affiliation>
+    <foaf:name>de Wolff, Timo</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/vanGelder_I">
+    <sd:affiliation>Vrije Universiteit Brussel</sd:affiliation>
+    <foaf:name>van Gelder, Inneke</foaf:name>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://symbolicdata.org/Data/Person/vanLeeuwen_M">
+    <sd:affiliation>Université de Poitiers</sd:affiliation>
+    <foaf:name>van Leeuwen, Marc</foaf:name>
+  </foaf:Person>
+  <owl:Ontology rdf:about="http://symbolicdata.org/casn/BadBoll-14/All/">
+    <rdfs:comment>Extracted from the Conference Web site</rdfs:comment>
+    <rdfs:label>BadBoll-14: Detailed Information</rdfs:label>
+  </owl:Ontology>
+</rdf:RDF>

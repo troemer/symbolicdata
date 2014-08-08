@@ -1,0 +1,1635 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://symbolicdata.org/Data/ConferencePapersAndTalks/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://symbolicdata.org/Data/Model#> .
+@prefix sdp: <http://symbolicdata.org/Data/Person/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1001> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Decker_W ;
+                                                    dcterms:title "Ein neues Journal für computational algebra" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/jsag-BadBoll.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1002> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Boeckle_G ;
+                                                    dcterms:title "Modular parametrization and multiplicative integrals over function fields" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1003> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Boehm_J ;
+                                                    dcterms:title "Tropical mirror symmetry for elliptic curves" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/TropicalMirrorElliptic.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1004> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Barakat_M ;
+                                                    dcterms:title "On the Ext-computability of Serre quotient categories" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/Barakat_ExtComputability_handout.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1005> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Derenthal_U ;
+                                                    dcterms:title "Cox rings and rational points" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1006> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:vanLeeuwen_M ;
+                                                    dcterms:title "The Atlas of Lie groups project" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1007> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Freitas_N ;
+                                                    dcterms:title "The Fermat equation over totally real fields" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1008> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Stoll_M ;
+                                                    dcterms:title "Most odd degree hyperelliptic curves have only one rational point" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/StollBadBol.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1009> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Graebe_HG ;
+                                                    dcterms:title "The SymbolicData Project" ;
+                                                    sd:slidesURL <http://symbolicdata.uni-leipzig.de/Presentations/BadBoll-14.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1010> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Behrends_R ;
+                                                    dcterms:title "Parallelization of Computer Algebra Systems: Experiences and Challenges" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1011> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Eder_C ;
+                                                    dcterms:title "Signature-based Groebner basis algorithms" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/eder-signature-based.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1012> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Hart_WB ;
+                                                    dcterms:title "Antics in Number Theory" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1013> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Kastner_L ;
+                                                    dcterms:title "Toric geometry in polymake" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1014> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Rossmann_T ;
+                                                    dcterms:title "Computing topological zeta functions of groups, rings and modules" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1015> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Conca_A ;
+                                                    dcterms:title "Universal Groebner bases for ideals of maximal minors" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/ConcaBadBoll.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1016> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:deWolff_T ;
+                                                    dcterms:title "Amoebas, Nonnegative Polynomials and Sums of Squares Supported on Circuits" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1017> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Grigoriev_D ;
+                                                    dcterms:title "Cluster algebras and subtraction-free computations of arborescences and Schur polynomials" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1018> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Nebe_G, sdp:Braun_O, sdp:Schoennenbeck_S ;
+                                                    dcterms:title "On unit groups of orders" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/BraunVor.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1019> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:vanGelder_I ;
+                                                    dcterms:title "Algorithmic developments for units and idempotents in integral group rings" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/VANGELDER.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1020> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Baechle_A ;
+                                                    dcterms:title "The HeLP method: a computational approach to torison units in group rings" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/baechle_bad_boll_2014.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1021> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Hofmann_T ;
+                                                    dcterms:title "On the integrality of representations of finite groups" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1022> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Kirschmer_M ;
+                                                    dcterms:title "Unimodular lattices with small mass" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/kirschmer.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1023> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Bruns_W ;
+                                                    dcterms:title "Recent extensions of Normaliz" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/BrunsBadBoll.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1024> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:King_S ;
+                                                    dcterms:title "Potential applications of non-commutative F 5 algorithms" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1025> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Pieropan_M ;
+                                                    dcterms:title "Integral models of generalised Del Pezzo surfaces and their universal torsors" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/BadBoll2014_Pieropan.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1026> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:LangeHegermann_M ;
+                                                    dcterms:title "Counting solutions of differential equations" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/langehegermannbadboll.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1027> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Greuel_GM ;
+                                                    dcterms:title "Vorstellung von swMATH" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/GMG_swMATH-Mar2014.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1028> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Stump_C ;
+                                                    dcterms:title "Computer-aided proof for Coxeter-Catalan structures" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/ChristianStumpCoxeterCatalanCombinatorics.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1029> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Amend_N ;
+                                                    dcterms:title "Inductively free restrictions of reflection arrangements" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/amend.pdf> .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1030> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Horn_M ;
+                                                    dcterms:title "Symbolic computations with p-groups and Lie rings" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1031> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Moede_T ;
+                                                    dcterms:title "Coclass theory for nilpotent associative algebras" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1032> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Distler_A ;
+                                                    dcterms:title "Konstruktion von Gruppenerweiterungen mit besonderen Eigenschaften" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1033> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Keicher_S ;
+                                                    dcterms:title "Computations with Mori dream spaces" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1034> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Lorenz_B ;
+                                                    dcterms:title "Smooth Gorenstein polytypes of high index" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1035> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Husert_D ;
+                                                    dcterms:title "Similarity of semi-simple integral matrices" .
+
+<http://symbolicdata.org/Data/BadBoll-14/Talk/1036> a sd:ConferenceTalk ;
+                                                    dcterms:creator sdp:Roehrle_G ;
+                                                    dcterms:title "Addition-Deletion Theorems for Factorisations of Orlik-Solomon Algebras and Nice Arrangements" ;
+                                                    sd:slidesURL <http://www.mathematik.uni-stuttgart.de/~geckmf/spp1489_2014/slides/badboll-roehrle.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1001> a sd:Reference ;
+                                                  dcterms:abstract "Up to now, flexiform mathematical text has mainly been processed with the intention of formalizing mathematical knowledge so that proof engines can be applied to it. This approach can be compared with the symbolic approach to natural language processing, where methods of logic and knowledge representation are used to analyze linguistic phenomena. In the last two decades, a new approach to natural language processing has emerged, based on statistical methods and, in particular, data mining. This method, called text mining, aims to process large text corpora, in order to detect tendencies, to extract information, to classify documents, etc. In this talk I will present math mining, namely the potential applications of text mining to mathematical texts. After reviewing some existing works heading in that direction, I will formulate and describe several roadmap suggestions for the use and applications of statistical methods to mathematical text processing: (1) using terms instead of words as the basic unit of text processing, (2) using topics instead of subjects (&quot;topics&quot; in the sense of &quot;topic models&quot; in natural language processing, and &quot;subjects&quot; in the sense of various mathematical subject classifications), (3) using and correlating various graphs extracted from mathematical corpora, (4) use paraphrastic redundancy, etc. The purpose of this talk is to give a glimpse on potential applications of the math mining approach on large mathematical corpora, such as arXiv.org." ;
+                                                  dcterms:creator sdp:Haralambous_Y ;
+                                                  dcterms:title "Text Mining Methods Applied to Mathematical Texts" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/invited>, <http://cicm-conference.org/2012/track/dml> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/YannisHaralambous.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1002> a sd:Reference ;
+                                                  dcterms:abstract "Gödel’s Incompleteness theorems tell us that there are effective limitations on the capacity of logical systems to admit reasoning about themselves. However, there are solid pragmatic reasons for wanting to try: we can benefit considerably by demonstrating that systematic patterns of reasoning (and programming, of course) are admissible. It is very useful to treat goals as data in order to attack them with computation, adding certified automation to interactive proof tools, delivering the efficiency required to solve compute-intensive problems with no loss of trust.Dependent type theory provides a ready means of reflection: goals become types, and types may be computed from data. This technique has proven highly successful when tightly targeted on specific problem domains. But we may yet ask the bold question of how large a universe of problems we can effectively reflect: how much of our type theory can we encode within its own notion of data? To what extent can our type theory capture its own typing discipline? Might we construct a hierarchy of type theories where the whole of each lower level can be reflected at higher levels? In this talk, I shall outline grounds for modest optimism and propose a plan of campaign. The obstacles may turn out to be as fascinating as the objective. The reward, if we can reach it, is a flexible technology for certified automation in problem-solving, honestly articulating what at least computers can do." ;
+                                                  dcterms:creator sdp:McBride_C ;
+                                                  dcterms:title "A Prospection for Reflection" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/invited>, <http://cicm-conference.org/2012/track/calculemus> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1003> a sd:Reference ;
+                                                  dcterms:abstract "Dependently typed languages promise an elegant environment for programming from specifications: the properties that a program should satisfy are expressed as logical formulas and encoded via the Curry-Howard isomorphism as a type, a candidate implementation should be a member of this type, and the type checker verifies whether this is indeed the case. But sometimes, the type checker demands ``too much'': in particular, in scientific programming, it often seems that one must formalize all of real analysis before writing a single line of useful code. Alternatively, one can use mechanisms provided by the language in order to circumvent the type checker, and confirm that ``real programmers can write Fortran in any language''. We present an example of navigating between these extremes in the case of economic modeling. At first, we use postulates in order to be able to reuse code, and achieve a kind of conditional correctness (for example, we can find a Walrasian equilibrium if we are able to solve a convex optimization problem). We then remove more and more of the postulates, replacing them with proofs of correctness, by using interval arithmetic methods." ;
+                                                  dcterms:creator sdp:Ionescu_C ;
+                                                  dcterms:title "Increasingly correct scientific programming" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/invited>, <http://cicm-conference.org/2012/track/calculemus> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/CezarIonescu.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1004> a sd:Reference ;
+                                                  dcterms:creator sdp:Wolfram_S ;
+                                                  dcterms:title "Special Address" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/invited> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/StephenWolfram.mov> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1005> a sd:Reference ;
+                                                  dcterms:creator sdp:Bylinski_C, sdp:Alama_J ;
+                                                  dcterms:title "New developments in parsing Mizar" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/sysprojects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_30> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1205.0170v1> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1006> a sd:Reference ;
+                                                  dcterms:creator sdp:Poza_M, sdp:Rubio_J, sdp:Heras_J ;
+                                                  dcterms:title "Verifying an algorithm computing Discrete Vector Fields for digital imaging" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/calculemus>, <http://cicm-conference.org/2012/track/regular> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/JonathanHeras.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_15> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1207.3315> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1007> a sd:Reference ;
+                                                  dcterms:creator sdp:Hetzl_S ;
+                                                  dcterms:title "Project Presentation: Algorithmic Structuring and Compression of Proofs (ASCOP)" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/sysprojects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_32> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1008> a sd:Reference ;
+                                                  dcterms:creator sdp:Kofler_K, sdp:Neumaier_A ;
+                                                  dcterms:title "DynGenPar - A Dynamic Generalized Parser for Common Mathematical Language" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/dml>, <http://cicm-conference.org/2012/track/regular> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_26> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1009> a sd:Reference ;
+                                                  dcterms:creator sdp:Asperti_A ;
+                                                  dcterms:title "Proof, message and certification" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/AndreaAsperti.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_2> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1010> a sd:Reference ;
+                                                  dcterms:creator sdp:Maric_F, sdp:Vuckovic_B, sdp:Zivkovic_M ;
+                                                  dcterms:title "Formalizing Frankl's Conjecture: FC-families" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/calculemus>, <http://cicm-conference.org/2012/track/regular> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/FilipMaric.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_17> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1207.3604> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1011> a sd:Reference ;
+                                                  dcterms:creator sdp:Nikolic_M, sdp:Janicic_P ;
+                                                  dcterms:title "CDCL-Based Abstract State Transition System for Coherent Logic" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/calculemus>, <http://cicm-conference.org/2012/track/regular> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/MladenNikolic.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_18> ;
+                                                  sd:paperURL <http://argo.matf.bg.ac.rs/publications/2012/cdclcl.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1012> a sd:Reference ;
+                                                  dcterms:creator sdp:Libbrecht_P, sdp:Herding_D, sdp:Mueller_W, sdp:Rebholz_S, sdp:Tscheulin_F ;
+                                                  dcterms:title "Understanding the Learners' Actions when using Mathematics Learning Tools" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/PaulLibbrecht.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_8> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1207.2280> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1013> a sd:Reference ;
+                                                  dcterms:creator sdp:Kohlhase_M ;
+                                                  dcterms:title "The Planetary Project: Towards eMath3.0" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/sysprojects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_34> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1206.5048> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1014> a sd:Reference ;
+                                                  dcterms:creator sdp:Carette_J, sdp:OConnor_R ;
+                                                  dcterms:title "Theory Expression Combinators" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/calculemus>, <http://cicm-conference.org/2012/track/regular> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/JacquesCarette.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_14> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1204.0053> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1015> a sd:Reference ;
+                                                  dcterms:creator sdp:Wenzel_M ;
+                                                  dcterms:title "Isabelle/jEdit -- a Prover IDE within the PIDE framework" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/sysprojects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_38> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1207.3441> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1016> a sd:Reference ;
+                                                  dcterms:creator sdp:Kornilowicz_A ;
+                                                  dcterms:title "Tentative Experiments with Ellipsis in Mizar" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/sysprojects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_35> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1017> a sd:Reference ;
+                                                  dcterms:creator sdp:Bourke_T, sdp:Daum_M, sdp:Klein_G, sdp:Kolanski_R ;
+                                                  dcterms:title "Challenges and Experiences in Managing Large-Scale Proofs" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/MatthiasDaum.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_3> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1018> a sd:Reference ;
+                                                  dcterms:creator sdp:Echenim_M, sdp:Peltier_N ;
+                                                  dcterms:title "Reasoning on Schemata of Formulae" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_21> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1204.2990> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1019> a sd:Reference ;
+                                                  dcterms:creator sdp:Khan_MT, sdp:Schreiner_W ;
+                                                  dcterms:title "On Formal Specification of Maple Programs" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/sysprojects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_33> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1207.2291> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1020> a sd:Reference ;
+                                                  dcterms:creator sdp:Khan_MT, sdp:Schreiner_W ;
+                                                  dcterms:title "Towards Formal Specification and Verification of Maple Programs" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/calculemus>, <http://cicm-conference.org/2012/track/regular> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/MuhammadTaimoorKhan.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_16> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1207.2300> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1021> a sd:Reference ;
+                                                  dcterms:creator sdp:Jucovschi_C, sdp:Kohlhase_A, sdp:Kohlhase_M, sdp:David_C ;
+                                                  dcterms:title "Semantic Alliance: A Framework for Semantic Allies" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_4> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1022> a sd:Reference ;
+                                                  dcterms:creator sdp:Asperti_A, sdp:Ricciotti_W ;
+                                                  dcterms:title "A Web Interface for Matita" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/sysprojects> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/AndreaAsperti.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_28> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1207.2892> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1023> a sd:Reference ;
+                                                  dcterms:creator sdp:Urban_J, sdp:Tankink_C, sdp:Lange_C ;
+                                                  dcterms:title "Point-and-write -- Documenting Formal Mathematics by Reference" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/CarstTankink.html> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_13> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1204.5094> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1024> a sd:Reference ;
+                                                  dcterms:creator sdp:Watt_S, sdp:Mazalov_V ;
+                                                  dcterms:title "Writing on Clouds" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/dml>, <http://cicm-conference.org/2012/track/regular> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_27> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1025> a sd:Reference ;
+                                                  dcterms:creator sdp:Jucovschi_C ;
+                                                  dcterms:title "Cost-Effective Integration of MKM Semantic Services into Editing Environments" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/ConstantinJucovschi.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_7> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1026> a sd:Reference ;
+                                                  dcterms:creator sdp:Grov_G, sdp:Whiteside_I, sdp:Aspinall_D ;
+                                                  dcterms:title "An Essence of SSReflect" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_13> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1027> a sd:Reference ;
+                                                  dcterms:creator sdp:Horozal_F, sdp:Kohlhase_M, sdp:Rabe_F ;
+                                                  dcterms:title "Extending MKM Formats at the Statement Level" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/FulyaHorozal.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_5> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1028> a sd:Reference ;
+                                                  dcterms:creator sdp:Bradford_R, sdp:Wilson_D, sdp:Davenport_JH ;
+                                                  dcterms:title "Speeding-up Cylindrical Algebraic Decomposition by Gröbner Bases" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/calculemus>, <http://cicm-conference.org/2012/track/regular> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/JamesDavenport.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_19> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1205.6285> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1029> a sd:Reference ;
+                                                  dcterms:creator sdp:Marinkovic_V, sdp:Janicic_P ;
+                                                  dcterms:title "Towards Understanding Triangle Construction Problems" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/VesnaMarinkovic.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_9> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1207.4432> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1030> a sd:Reference ;
+                                                  dcterms:creator sdp:Corneli_J, sdp:Sperber_W, sdp:Kohlhase_M, sdp:Antoniou_I, sdp:Bratsas_C, sdp:Dimou_A, sdp:Ion_P, sdp:Lange_C ;
+                                                  dcterms:title "Reimplementing the Mathematics Subject Classification (MSC) as a Linked Open Dataset" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/sysprojects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_36> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1204.5086> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1031> a sd:Reference ;
+                                                  dcterms:creator sdp:Grueninger_M, sdp:Kutz_O, sdp:Mossakowski_T, sdp:Lange_C ;
+                                                  dcterms:title "The Distributed Ontology Language (DOL): Ontology Integration and Interoperability Applied to Mathematical Formalization" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/sysprojects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_37> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1204.5093> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1032> a sd:Reference ;
+                                                  dcterms:creator sdp:Iancu_M, sdp:Rabe_F ;
+                                                  dcterms:title "Management of Change in Declarative Languages" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/MihneaIancu.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_22> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1033> a sd:Reference ;
+                                                  dcterms:creator sdp:Moura_LD, sdp:Paulson_L, sdp:Passmore_G ;
+                                                  dcterms:title "Real Algebraic Strategies for MetiTarski Proofs" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/GrantPassmore.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_24> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1034> a sd:Reference ;
+                                                  dcterms:creator sdp:Rabe_F ;
+                                                  dcterms:title "A Query Language for Formal Mathematical Libraries" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/http://kwarc.info/frabe/Research/slides/rabe_querying_12.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_10> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1204.4685> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1035> a sd:Reference ;
+                                                  dcterms:creator sdp:Watt_S, sdp:Hu_R, sdp:Mazalov_V ;
+                                                  dcterms:title "A Streaming Digital Ink Framework for Multi-Party Collaboration" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_6> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1036> a sd:Reference ;
+                                                  dcterms:creator sdp:Sexton_AP ;
+                                                  dcterms:title "Abramowitz and Stegun -- A Resource for Mathematical Document Analysis" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_11> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1037> a sd:Reference ;
+                                                  dcterms:creator sdp:dosReis_G ;
+                                                  dcterms:title "A System for Axiomatic Programming" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_20> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1038> a sd:Reference ;
+                                                  dcterms:creator sdp:Sexton_AP, sdp:Baker_J, sdp:Sorge_V ;
+                                                  dcterms:title "Maxtract: Converting PDF to LATEX, MathML and Text" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/sysprojects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_29> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1039> a sd:Reference ;
+                                                  dcterms:creator sdp:Fleuriot_J, sdp:Scott_P ;
+                                                  dcterms:title "A Combinator Language for Theorem Discovery" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_25> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1040> a sd:Reference ;
+                                                  dcterms:creator sdp:Urban_J, sdp:Mamane_L, sdp:Alama_J ;
+                                                  dcterms:title "Dependencies in Formal Mathematics: Applications and Extraction for Coq and Mizar" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/JesseAlamaLionelMammane.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_1> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1041> a sd:Reference ;
+                                                  dcterms:creator sdp:Kohlhase_M, sdp:Prodescu_CC ;
+                                                  dcterms:title "MathWebSearch 0.5 Scaling an Open Formula Search Engine" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mkm> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/MichaelKohlhase-aisc12.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_23> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1042> a sd:Reference ;
+                                                  dcterms:creator sdp:Wang_D, sdp:Chen_X, sdp:Li_W, sdp:Luo_J ;
+                                                  dcterms:title "Open Geometry Textbook: A Case Study of Knowledge Acquisition via Collective Intelligence" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/sysprojects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-31374-5_31> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1043> a sd:Reference ;
+                                                  dcterms:creator sdp:Quaresma_P ;
+                                                  dcterms:title "A XML-Format for Conjectures in Geometry" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/mkm>, <http://cicm-conference.org/2012/track/wip> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/PedroQuaresma.pdf> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1207.2511> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1044> a sd:Reference ;
+                                                  dcterms:creator sdp:Corneli_J, sdp:Dumitru_MA ;
+                                                  dcterms:title "PlanetMath/Planetary" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/mkm>, <http://cicm-conference.org/2012/track/wip> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1045> a sd:Reference ;
+                                                  dcterms:creator sdp:Windsteiger_W ;
+                                                  dcterms:title "Theorema 2.0: A Graphical User Interface for a Mathematical Assistant System" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/sysprojects>, <http://cicm-conference.org/2012/track/wip> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1046> a sd:Reference ;
+                                                  dcterms:creator sdp:Hatlapatka_R ;
+                                                  dcterms:title "JBIG2 Supported by OCR" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/dml>, <http://cicm-conference.org/2012/track/wip> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/RadimHatlapatka.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1047> a sd:Reference ;
+                                                  dcterms:creator sdp:Liska_M, sdp:Ruzicka_M, sdp:Sojka_P, sdp:Formanek_D ;
+                                                  dcterms:title "Normalization of Digital Mathematics Library Content" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/dml>, <http://cicm-conference.org/2012/track/wip> ;
+                                                  sd:paperURL <https://is.muni.cz/auth/publication/986146> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1050> a sd:Reference ;
+                                                  dcterms:abstract "There are continuation efforts ongoing with the dream of WDML in mind: EuDML, recent Washington meeting, projects granted by Sloan, etc. However, these are not coordinated, some views how to proceed differ. Some decisions have already been done in ongoing projects like EuDML, and were discussed at DML panel last year. It is time now to stop for a while, and raise questions whether do we do well and ask for feedback from the community. So, are we on right track as far as a) business model (which strategies, methods, partners); b) digital infrastructures and tools and c) sustainability of WDML services and 'librarianship' curation is concerned?" ;
+                                                  dcterms:creator sdp:Sperber_W, sdp:Sexton_AP, sdp:Ion_P, sdp:Rakosnik_J ;
+                                                  dcterms:title "Towards World DML: Are We on the Right Track?" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/dml> ;
+                                                  sd:paperURL <http://www.informatik.uni-bremen.de/cicm2012/dml/DMLPS.html> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1051> a sd:Reference ;
+                                                  dcterms:creator sdp:Sojka_P, sdp:Kohlhase_M ;
+                                                  dcterms:title "MIR wrap-up and overview" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/dml> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/MichaelKohlhase-mir12-wrapup.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1052> a sd:Reference ;
+                                                  dcterms:creator sdp:Trott_M ;
+                                                  dcterms:title "Mathematical Search" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/invited>, <http://cicm-conference.org/2012/track/mir> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1053> a sd:Reference ;
+                                                  dcterms:creator sdp:Murata_T, sdp:Otagiri_K ;
+                                                  dcterms:title "Searching and Ranking Mathematical Formulas" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mir> ;
+                                                  sd:paperURL <http://www.informatik.uni-bremen.de/cicm2012/mir/mir2012_submission_2.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1054> a sd:Reference ;
+                                                  dcterms:creator sdp:Kristianto_GY, sdp:Nghiem_MQ, sdp:Topic_G, sdp:Inui_N, sdp:Aizawa_A ;
+                                                  dcterms:title "Annotating Mathematical Expression Definitions for Automatic Detection" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mir> ;
+                                                  sd:paperURL <http://www.informatik.uni-bremen.de/cicm2012/mir/mir2012_submission_3.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1055> a sd:Reference ;
+                                                  dcterms:creator sdp:Wolska_M ;
+                                                  dcterms:title "Building a POS-annotated Corpus of Scientific Papers in Mathematics" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mir> ;
+                                                  sd:paperURL <http://www.informatik.uni-bremen.de/cicm2012/mir/mir2012_submission_4.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1056> a sd:Reference ;
+                                                  dcterms:creator sdp:Iancu_M, sdp:Kohlhase_M ;
+                                                  dcterms:title "Searching Induced Formulae; Get Out More Than You Put In!" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mir> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/slides/MichaelKohlhase-mir12.pdf> ;
+                                                  sd:paperURL <http://www.informatik.uni-bremen.de/cicm2012/mir/mir2012_submission_5.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1057> a sd:Reference ;
+                                                  dcterms:creator sdp:Alkalai_MAI, sdp:Sorge_V ;
+                                                  dcterms:title "Issues in Mathematical Table Recognition" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mir> ;
+                                                  sd:paperURL <http://www.informatik.uni-bremen.de/cicm2012/mir/mir2012_submission_6.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1058> a sd:Reference ;
+                                                  dcterms:creator sdp:Kohlhase_M, sdp:Ounis_I, sdp:Aizawa_A ;
+                                                  dcterms:title "An Overview of NTCIR-10 Math Pilot Task" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/mir> ;
+                                                  sd:paperURL <http://www.informatik.uni-bremen.de/cicm2012/mir/mir2012_submission_7.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1059> a sd:Reference ;
+                                                  dcterms:creator sdp:Liska_M, sdp:Ruzicka_M, sdp:Sojka_P ;
+                                                  dcterms:title "Latest Development of MIaS, Math Indexer and Searcher" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mir> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/https://mir.fi.muni.cz/public/2012-cicm-mir.pdf> ;
+                                                  sd:paperURL <http://www.fi.muni.cz/usr/sojka/posters/sojka-liska-doceng2011.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1060> a sd:Reference ;
+                                                  dcterms:creator sdp:Schubotz_M ;
+                                                  dcterms:title "Using LaTeXML and MathWeb Search to Make Enable Mathematical Search in MediaWiki" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mir> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1061> a sd:Reference ;
+                                                  dcterms:creator sdp:Sperber_W ;
+                                                  dcterms:title "A Short Report about Information services of Zentralblatt Math" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/mir> ;
+                                                  sd:paperURL <http://www.informatik.uni-bremen.de/cicm2012/mir/mir2012_submission_9.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1063> a sd:Reference ;
+                                                  dcterms:creator sdp:Sojka_P ;
+                                                  dcterms:title "MIR.fi.muni.cz: Past, Present and Future" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/regular>, <http://cicm-conference.org/2012/track/mir> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2012/http://www.fi.muni.cz/usr/sojka/presentations/sojka-mir2012-pres.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1064> a sd:Reference ;
+                                                  dcterms:creator sdp:Cuypers_H, sdp:Knopper_JW ;
+                                                  dcterms:title "MathDox Select: A tool for creating SCORM packages from existing exercises" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/mathui> ;
+                                                  sd:paperURL <http://www.cermat.org/events/MathUI/12/proc/Cuypers-Knopper-MathDox-Select.html> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1065> a sd:Reference ;
+                                                  dcterms:creator sdp:Kohlhase_A ;
+                                                  dcterms:title "Navigation in Mathematical Documents" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/mathui> ;
+                                                  sd:paperURL <http://www.cermat.org/events/MathUI/12/proc/Kohlhase-Math-Doc-Navigation.html> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1066> a sd:Reference ;
+                                                  dcterms:creator sdp:Libbrecht_P ;
+                                                  dcterms:title "Skills Text Box A Tool to Access Resources by Mathematical Concepts" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/mathui> ;
+                                                  sd:paperURL <http://www.cermat.org/events/MathUI/12/proc/Libbrecht-SkillsTextBox.html> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1067> a sd:Reference ;
+                                                  dcterms:creator sdp:Windsteiger_W ;
+                                                  dcterms:title "Theorema 2.0: A Graphical User Interface for a Mathematical Assistant System" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/uitp> ;
+                                                  sd:paperURL <file:///tmp/papers/UITP/paper-01.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1068> a sd:Reference ;
+                                                  dcterms:creator sdp:Wenzel_M ;
+                                                  dcterms:title "READ-EVAL-PRINT in Parallel and Asynchronous Proof-checking" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/uitp> ;
+                                                  sd:paperURL <file:///tmp/papers/UITP/paper-02.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1069> a sd:Reference ;
+                                                  dcterms:creator sdp:WoltzenlogelPaleo_B, sdp:Dunchev_C, sdp:Leitsch_A, sdp:Libal_T, sdp:Riener_M, sdp:Rukhaia_M, sdp:Weller_D ;
+                                                  dcterms:title "ProofTool: GUI for the GAPT Framework" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/uitp> ;
+                                                  sd:paperURL <file:///tmp/papers/UITP/paper-03.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1070> a sd:Reference ;
+                                                  dcterms:creator sdp:Rahli_V ;
+                                                  dcterms:title "Interfacing with Proof Assistants for Domain Specific Programming Using EventML" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/uitp> ;
+                                                  sd:paperURL <file:///tmp/papers/UITP/paper-04.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1071> a sd:Reference ;
+                                                  dcterms:creator sdp:Bassem_C, sdp:Bestavros_A, sdp:Kfoury_A, sdp:Lapets_A, sdp:Skowyra_R ;
+                                                  dcterms:title "Towards an Infrastructure for Integrated Accessible Formal Reasoning Environments" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/uitp> ;
+                                                  sd:paperURL <file:///tmp/papers/UITP/paper-05.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1072> a sd:Reference ;
+                                                  dcterms:creator sdp:Iancu_M, sdp:Rabe_F ;
+                                                  dcterms:title "An MMT-Based User-Interface" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/uitp> ;
+                                                  sd:paperURL <file:///tmp/papers/UITP/paper-07.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1073> a sd:Reference ;
+                                                  dcterms:title "Welcome and general discussion" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/openmath> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1074> a sd:Reference ;
+                                                  dcterms:creator sdp:Reinhardt_H, sdp:Wenzel_K ;
+                                                  dcterms:title "Mathematical Computations for Linked Data Applications with OpenMath" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/openmath> ;
+                                                  sd:paperURL <file:///tmp/papers/OM2012/paper_1.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1075> a sd:Reference ;
+                                                  dcterms:creator sdp:Caprotti_O, sdp:Saludes_J ;
+                                                  dcterms:title "The Gf Mathematical Grammar Library" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/openmath> ;
+                                                  sd:paperURL <file:///tmp/papers/OM2012/paper_2.pdf> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1076> a sd:Reference ;
+                                                  dcterms:title "OpenMath Society Business Meeting (open to all workshop participants)" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/openmath> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1077> a sd:Reference ;
+                                                  dcterms:creator sdp:Almomen_R ;
+                                                  dcterms:title "Semantic Understanding of Mathematical Formulae in Documents" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/docprog> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1078> a sd:Reference ;
+                                                  dcterms:creator sdp:Horozal_F ;
+                                                  dcterms:title "Representing Declarative Languages and their Translations" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/docprog> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1079> a sd:Reference ;
+                                                  dcterms:creator sdp:Hu_R ;
+                                                  dcterms:title "Pen-Based Collaboration Tools for Mathematics" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/docprog> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1080> a sd:Reference ;
+                                                  dcterms:creator sdp:Iacob_A ;
+                                                  dcterms:title "Knowledge Management Integration in Computer-Aided Design" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/docprog> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1081> a sd:Reference ;
+                                                  dcterms:creator sdp:Schubotz_M ;
+                                                  dcterms:title "Content based Formula Search" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/docprog> .
+
+<http://symbolicdata.org/Data/CICM-12/Paper/1082> a sd:Reference ;
+                                                  dcterms:creator sdp:Wilson_D ;
+                                                  dcterms:title "Real Geometry and Connectedness via Triangular Descriptions" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2012/track/docprog> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1001> a sd:Reference ;
+                                                  dcterms:abstract "For centuries, the highest level of mathematics has been seen as an isolated creative activity, to produce a proof for review and acceptance by research peers. Mathematics is now at a remarkable inflexion point, with new technology radically extending the power and limits of individuals. Crowdsourcing pulls together diverse experts to solve problems; symbolic computation tackles huge routine calculations; and computers, using programs designed to verify hardware, check proofs that are just too long and complicated for any human to comprehend.Mathematical practice is am emerging interdisciplinary field which draws on philosophy, social science and ethnography, and the input of mathematicians themselves, to understand how mathematics is produced. Online mathematical activity provides a rich source of data for empirical investigation of mathematical practice - for example the community question answering system mathoverflow contains around 40,000 mathematical conversations, and polymath collaborations provide transcripts of the process of discovering proofs. Such investigations show the importance of &quot;soft&quot; aspects such as analogy and creativity, alongside formal deduction, in the production of mathematics, and give us new ways to think about the possible complementary roles of people and machines in creating new mathematical knowledge. Social machines are new paradigm, identified by Berners-Lee, for viewing a combination of people and computers as a single problem-solving entity, and the subject of major international research endeavours. We outline a research agenda for mathematics social machines, a combination of people, computers, and mathematical archives to create and apply mathematics, with the potential to change the way people do mathematics, and to transform the reach, pace, and impact of mathematics research." ;
+                                                  dcterms:creator sdp:Pease_A, sdp:Martin_U ;
+                                                  dcterms:title "Mathematical practice, crowdsourcing, and social machines" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/invited> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_7> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1305.0900> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1002> a sd:Reference ;
+                                                  dcterms:abstract "The Odd Order Theorem due to Feit and Thompson is a major result of finite group theory which is a cornerstone of the classification of finite simple groups. Originally published in 1963, this was considered at its time as a demonstration of an uncommon length and intricacy, whose 255 pages filled an entire volume of the Pacific Journal of Mathematics. Later simplified and improved by a collective revision effort, it remains a long and difficult proof, combining a broad panel of algebraic theories. In September 2012, the Mathematical Components team, lead by Georges Gonthier, completed a formalization of this result using the Coq proof assistant. In this talk we will comment on the techniques and methodologies that emerged from this six year collaborative work and on the perspectives it opens on the use of a computer to do mathematics." ;
+                                                  dcterms:creator sdp:Mahboubi_A ;
+                                                  dcterms:title "A Machine-checked proof of the Odd Order Theorem" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/invited> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_1> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1003> a sd:Reference ;
+                                                  dcterms:abstract "Mathematics is an ancient and honorable study. It's been called The Queen and The Language of Science. The World Wide Web is something brand-new that started only about a quarter of a century ago. But the World Wide Web is having a considerable effect on the practice of mathematics, is modifying its image and role in society, and can be said to have changed some of its content. There are forces at work in the web that may be changing our world not necessarily for the better. I'll be exploring some of the issues this raises." ;
+                                                  dcterms:creator sdp:Ion_P ;
+                                                  dcterms:title "Mathematics and the World Wide Web" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/invited> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_15> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1004> a sd:Reference ;
+                                                  dcterms:creator sdp:Bradford_R, sdp:Wilson_D, sdp:Davenport_JH, sdp:England_M ;
+                                                  dcterms:title "Optimising Problem Formulation for Cylindrical Algebraic Decomposition" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/calculemus> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_2> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1304.7222> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1005> a sd:Reference ;
+                                                  dcterms:creator sdp:Farmer_WM ;
+                                                  dcterms:title "The Formalization of Syntax-Based Mathematical Algorithms Using Quotation and Evaluation" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/calculemus> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_3> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1305.6052> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1006> a sd:Reference ;
+                                                  dcterms:creator sdp:Allamigeon_X, sdp:Gaubert_S, sdp:Magron_V, sdp:Werner_B ;
+                                                  dcterms:title "Certification of Bounds of Non-linear Functions: the Templates Method" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/calculemus> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_4> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1007> a sd:Reference ;
+                                                  dcterms:creator sdp:Mata_G, sdp:Romero_A, sdp:Rubio_J, sdp:Saenz_R, sdp:Heras_J ;
+                                                  dcterms:title "Verifying a platform for digital imaging: a multi-tool strategy" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/calculemus> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_5> ;
+                                                  sd:paperURL <http://arxiv.org/pdf/1303.1420.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1008> a sd:Reference ;
+                                                  dcterms:creator sdp:Kohlhase_M, sdp:Mance_F, sdp:Rabe_F ;
+                                                  dcterms:title "A Universal Machine for Biform Theory Graphs" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/calculemus> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_6> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1306.3198> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1009> a sd:Reference ;
+                                                  dcterms:creator sdp:Ring_M, sdp:Lueth_C ;
+                                                  dcterms:title "A Web Interface for Isabelle: The Next Generation" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/sysprojects> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2013/slides/R6-poster.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_22> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1010> a sd:Reference ;
+                                                  dcterms:creator sdp:Kerber_M, sdp:Rowat_C, sdp:Lange_C ;
+                                                  dcterms:title "The ForMaRE Project – Formal Mathematical Reasoning in Economics" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/sysprojects> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2013/slides/R7-poster.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_23> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1303.4194> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1011> a sd:Reference ;
+                                                  dcterms:creator sdp:Miller_BR, sdp:Ginev_D ;
+                                                  dcterms:title "LaTeXML 2012 - A Year of LaTeXML" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/sysprojects> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2013/slides/R8-teaser.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_24> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1012> a sd:Reference ;
+                                                  dcterms:creator sdp:Rabe_F ;
+                                                  dcterms:title "The MMT API: A Generic MKM System" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/sysprojects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_25> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1306.3199> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1013> a sd:Reference ;
+                                                  dcterms:creator sdp:Chebukov_D, sdp:Izaak_A, sdp:Misurina_O, sdp:Pupyrev_Y, sdp:Zhizhchenko_A ;
+                                                  dcterms:title "Math-Net.Ru as a Digital Archive of the Russian Mathematical Knowledge from the XIX Century to Today" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/sysprojects> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2013/slides/R10-poster.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_26> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1305.5655> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1014> a sd:Reference ;
+                                                  dcterms:creator sdp:Abanades_MA, sdp:Botana_F ;
+                                                  dcterms:title "A dynamic symbolic geometry environment based on the GröbnerCover algorithm for the computation of geometric loci and envelopes" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/sysprojects> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2013/slides/R11-demo.avi> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_27> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1306.1900> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1015> a sd:Reference ;
+                                                  dcterms:creator sdp:Komendantskaya_E, sdp:Heras_J ;
+                                                  dcterms:title "ML4PG in Computer Algebra verification" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/sysprojects> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2013/slides/R12-poster.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_28> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1302.6421> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1016> a sd:Reference ;
+                                                  dcterms:creator sdp:Barras_B, sdp:Herbelin_H, sdp:Huesca_LDCG, sdp:RegisGianas_Y, sdp:Wolff_B, sdp:Tassi_E, sdp:Wenzel_M ;
+                                                  dcterms:title "Pervasive Parallelism in Highly-Trustable Interactive Theorem Proving Systems" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/sysprojects> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2013/slides/R13-poster.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_29> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1305.7360> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1017> a sd:Reference ;
+                                                  dcterms:creator sdp:Quaresma_P, sdp:Santos_V, sdp:Bouallegue_S ;
+                                                  dcterms:title "The Web Geometry Laboratory Project" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/sysprojects> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2013/slides/R14-poster.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_30> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1305.5703> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1018> a sd:Reference ;
+                                                  dcterms:creator sdp:Sperber_W, sdp:Brickenstein_M, sdp:Greuel_GM, sdp:Boenisch_S, sdp:Chrapary_H ;
+                                                  dcterms:title "swMATH - a new service for mathematics software" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/sysprojects> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2013/slides/R15-poster.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_31> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1019> a sd:Reference ;
+                                                  dcterms:creator sdp:Prank_R ;
+                                                  dcterms:title "Software for evaluating relevance of steps in algebraic transformations" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/sysprojects> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2013/slides/R16-teaser.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_32> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1306.6749> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1020> a sd:Reference ;
+                                                  dcterms:creator sdp:Schoeneberg_U, sdp:Sperber_W ;
+                                                  dcterms:title "Text analysis in mathematics - the DeLiVerMATH project" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/sysprojects> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2013/slides/R17-demo.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_33> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1306.6944> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1021> a sd:Reference ;
+                                                  dcterms:creator sdp:Kamali_S, sdp:Tompa_F ;
+                                                  dcterms:title "Structural Similarity Search For Mathematics Retrieval" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/DML> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_16> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1022> a sd:Reference ;
+                                                  dcterms:creator sdp:Ruzicka_M, sdp:Sojka_P, sdp:Krejcir_V ;
+                                                  dcterms:title "Towards Machine-Actionable Modules of a Digital Mathematics Library" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/DML> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2013/http://www.fi.muni.cz/usr/sojka/presentations/ruzicka-sojka-krejcir-dml-pres2013.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_17> ;
+                                                  sd:paperURL <http://www.fi.muni.cz/usr/sojka/papers/cicm2013-ruzicka-sojka-krejcir.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1023> a sd:Reference ;
+                                                  dcterms:creator sdp:Kristianto_GY, sdp:Nghiem_MQ, sdp:Topic_G, sdp:Aizawa_A ;
+                                                  dcterms:title "A hybrid approach for semantic enrichment of MathML mathematical expressions" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/DML> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_18> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1305.7316> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1024> a sd:Reference ;
+                                                  dcterms:creator sdp:Miller_BR ;
+                                                  dcterms:title "3 Years of DLMF on the Web; Math &amp; Search" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/DML> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_19> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1025> a sd:Reference ;
+                                                  dcterms:creator sdp:Libbrecht_P ;
+                                                  dcterms:title "Escaping the Trap of too Precise Topic Queries" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/DML> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2013/slides/Libbrecht-DML.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_20> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1305.5724> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1026> a sd:Reference ;
+                                                  dcterms:creator sdp:Do_C, sdp:Pauwels_E ;
+                                                  dcterms:title "Using MathML to Represent Units of Measurement for Improved Ontology Alignment" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/DML> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_21> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1027> a sd:Reference ;
+                                                  dcterms:creator sdp:Urban_J, sdp:Kaliszyk_C ;
+                                                  dcterms:title "Automated Reasoning Service for HOL Light" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/MKM> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_8> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1028> a sd:Reference ;
+                                                  dcterms:creator sdp:Bradford_R, sdp:Wilson_D, sdp:Davenport_JH, sdp:England_M ;
+                                                  dcterms:title "Understanding branch cuts of expressions" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/MKM> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_9> ;
+                                                  sd:paperURL <http://arxiv.org/pdf/1304.7223.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1029> a sd:Reference ;
+                                                  dcterms:creator sdp:Geuvers_H, sdp:Urban_J, sdp:Tankink_C, sdp:Kaliszyk_C ;
+                                                  dcterms:title "Formal Mathematics on Display: A Wiki for Flyspeck" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/MKM> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_10> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1305.5710> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1030> a sd:Reference ;
+                                                  dcterms:creator sdp:Watt_S, sdp:Hu_R ;
+                                                  dcterms:title "Determining Points on Handwritten Mathematical Symbols" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/MKM> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_11> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1306.4966> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1031> a sd:Reference ;
+                                                  dcterms:creator sdp:Adams_M, sdp:Obua_S, sdp:Aspinall_D ;
+                                                  dcterms:title "Capturing Hiproofs in HOL Light" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/MKM> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_12> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1307.2713> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1032> a sd:Reference ;
+                                                  dcterms:creator sdp:Caminati_MB, sdp:Kerber_M, sdp:Rowat_C, sdp:Mossakowski_T, sdp:Windsteiger_W, sdp:Lange_C, sdp:Wenzel_M ;
+                                                  dcterms:title "A Qualitative Comparison of the Suitability of Four Theorem Provers for Basic Auction Theory" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/MKM> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2013/slides/R29.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_13> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1303.4193> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1033> a sd:Reference ;
+                                                  dcterms:creator sdp:Tonisson_E ;
+                                                  dcterms:title "Students' Comparison of Their Trigonometric Answers with the Answers of a Computer Algebra System" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/regular>, <http://cicm-conference.org/2013/track/MKM> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-642-39320-4_14> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1306.5091> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1034> a sd:Reference ;
+                                                  dcterms:creator sdp:Hellstroem_L ;
+                                                  dcterms:title "Literate Sources for Content Dictionaries" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/openmath> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-22.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1035> a sd:Reference ;
+                                                  dcterms:creator sdp:Carter_N, sdp:Monks_K ;
+                                                  dcterms:title "Lurch: A Word Processor Built on OpenMath that Can Check Mathematical Reasoning" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/openmath> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-23.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1036> a sd:Reference ;
+                                                  dcterms:creator sdp:Hellstroem_L ;
+                                                  dcterms:title "Quantifiers and n-ary Binders: an OpenMath Standard Enhancement Proposal" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/openmath> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-21.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1037> a sd:Reference ;
+                                                  dcterms:creator sdp:Moore_R ;
+                                                  dcterms:title "Tagged Mathematics in PDFs for Accessibility and other purposes" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/wip> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-01.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1038> a sd:Reference ;
+                                                  dcterms:creator sdp:Misutka_J ;
+                                                  dcterms:title "Scaling Feature Based Mathematical Search Engine for Real-World Document Sets" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/wip> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-02.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1039> a sd:Reference ;
+                                                  dcterms:creator sdp:MurrayRust_D, sdp:MurrayRust_P ;
+                                                  dcterms:title "The Declaratron, semantic specification for scientific computation using MathML" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/wip> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-03.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1040> a sd:Reference ;
+                                                  dcterms:creator sdp:Carter_N, sdp:Monks_K ;
+                                                  dcterms:title "Lurch: A Word Processor that Can Grade Students' Proofs" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/wip> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-04.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1041> a sd:Reference ;
+                                                  dcterms:title "Demos of systems R200, R201, R202, R203" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/wip> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1042> a sd:Reference ;
+                                                  dcterms:creator sdp:Kohlhase_M, sdp:Doerrie_JW ;
+                                                  dcterms:title "MathMap: Accessing Math via Interactive Maps" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/mathui> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-12.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1043> a sd:Reference ;
+                                                  dcterms:creator sdp:Cuypers_H, sdp:Knopper_JW ;
+                                                  dcterms:title "Interactive Mathematical Videos" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/mathui> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-16.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1044> a sd:Reference ;
+                                                  dcterms:creator sdp:Ginev_D ;
+                                                  dcterms:title "NNexus Glasses: A Drop-in Showcase for Wikification" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/mathui> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-13.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1045> a sd:Reference ;
+                                                  dcterms:creator sdp:Andres_E, sdp:Heeren_B, sdp:Jeuring_J ;
+                                                  dcterms:title "Towards Automatic Generation of Domain-Specific Mathematical Input Support" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/mathui> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-10.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1046> a sd:Reference ;
+                                                  dcterms:creator sdp:Anjewierden_A, sdp:Kamp_ET, sdp:deJong_T ;
+                                                  dcterms:title "Ziggy: Very Interactive Trigonometry" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/mathui> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-11.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1047> a sd:Reference ;
+                                                  dcterms:creator sdp:Nicaud_JF, sdp:Viudez_C ;
+                                                  dcterms:title "Implementation of Dynamic Algebra in Epsilonwriter" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/mathui> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-20.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1048> a sd:Reference ;
+                                                  dcterms:creator sdp:Watt_S, sdp:Hu_R ;
+                                                  dcterms:title "InkChat: A Collaboration Tool for Mathematics" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/mathui> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-14.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1049> a sd:Reference ;
+                                                  dcterms:creator sdp:Watt_S, sdp:Mazalov_V ;
+                                                  dcterms:title "Recommendation Systems in Mathematical Character Recognition" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/mathui> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-19.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1050> a sd:Reference ;
+                                                  dcterms:creator sdp:Marques_D ;
+                                                  dcterms:title "Edition with Arabic mathematical notation" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/mathui> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-18.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1051> a sd:Reference ;
+                                                  dcterms:creator sdp:Iancu_M, sdp:Mance_F, sdp:Rabe_F ;
+                                                  dcterms:title "The Scala-REPL + MMT as a Lightweight Mathematical User Interface" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/mathui> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-15.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1052> a sd:Reference ;
+                                                  dcterms:creator sdp:Kohlhase_A ;
+                                                  dcterms:title "Spreadsheets: From Data Interfaces to Knowledge Interfaces" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/mathui> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-17.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1053> a sd:Reference ;
+                                                  dcterms:creator sdp:Wilson_D ;
+                                                  dcterms:title "Advances in Cylindrical Algebraic Decomposition" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/docprog> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1054> a sd:Reference ;
+                                                  dcterms:creator sdp:Nghiem_MQ ;
+                                                  dcterms:title "Semantic enrichment for mathematical expressions and its application to math search problem" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/docprog> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1055> a sd:Reference ;
+                                                  dcterms:creator sdp:Ruzicka_M ;
+                                                  dcterms:title "Maths Information Retrieval for Digital Libraries" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/docprog> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1056> a sd:Reference ;
+                                                  dcterms:creator sdp:Evans_I ;
+                                                  dcterms:title "Machine Learning Techniques Applied to Mathematical Formulae Recognition" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/docprog> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1057> a sd:Reference ;
+                                                  dcterms:creator sdp:Saroui_BS ;
+                                                  dcterms:title "Offline Segmentation and Recognition of Handwritten Mathematical Notes on Whiteboards" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/docprog> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1058> a sd:Reference ;
+                                                  dcterms:creator sdp:Hu_R ;
+                                                  dcterms:title "Pen-Based Collaboration Tools for Mathematics" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/docprog> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1059> a sd:Reference ;
+                                                  dcterms:creator sdp:Iancu_M ;
+                                                  dcterms:title "Towards Flexiformal Mathematics" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/docprog> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1060> a sd:Reference ;
+                                                  dcterms:abstract "James McKinna coined the phrase &quot;Problems as types&quot; to characterise the presentation of programming and proof (combined) as a problem-solving dialogue, mediating the underlying task of constructing a well typed term. The resulting documents should record both sides of the story---the problems posed, corresponding to the type to be inhabited, and the solution strategy by which those problems are refined to zero or more subproblems, which are elaborated to terms. Our language, Epigram, took a problems-as-types approach to programming, based on the key realisation that the type for a &quot;programming problem&quot; can be more than just the type of a program, also giving the template for its invocation. Whilst dependent types are beginning to catch on, language designers have been at pains to make programming look as much like ordinary functional programming as possible. The problems-as-types approach remains underexplored. In this talk, I shall resume that exploration, looking at problems-as-types approaches to type, program, and proof construction, given recent developments in relevant underlying theories." ;
+                                                  dcterms:creator sdp:McBride_C ;
+                                                  dcterms:title "Problems as Types" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/invited> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1061> a sd:Reference ;
+                                                  dcterms:abstract "This research compares the author's experience in programming algebra in Haskell and in Agda (currently the former experience is large, and the latter is small). There are discussed certain hopes and doubts related to the dependently typed and verified programming of symbolic computation. This concerns the 1) author's experience history, 2) algebraic class hierarchy design, 3) proof cost overhead in evaluation and in coding, 4) other subjects. Various examples are considered, some questions are put." ;
+                                                  dcterms:creator sdp:Meshveliani_S ;
+                                                  dcterms:title "Dependent Types for an Adequate Programming of Algebra" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/invited> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-05.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1062> a sd:Reference ;
+                                                  dcterms:abstract "Idris is a general purpose pure functional programming language with dependent types. Its syntax is influenced by Haskell and its features include full dependent types and records, type classes, tactic based theorem proving, totality checking and an optimising compiler with a foreign function interface. One of the goals of the Idris project is to bring type-based program verification techniques to functional programmers while still supporting efficient systems programming via an optimising compiler and interaction with external libraries. In this talk I will introduce dependently typed programming using Idris, and demonstrate its features using several examples including an interpreter for the simply typed lambda calculus, and a verified binary adder." ;
+                                                  dcterms:creator sdp:Brady_E ;
+                                                  dcterms:title "Dependently Typed Functional Programming in Idris" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/invited> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1063> a sd:Reference ;
+                                                  dcterms:abstract "We propose a dependently-typed generic formalization for a simple class of sequential decision problems. For this class of problems, we implement a generic version of Bellman's backwards induction algorithm (Bellman, &quot;Dynamic Programming&quot;, 1957) and a machine checkable proof that the proposed implementation is correct. The formalization is presented in Idris, but can be easily translated to other dependently-typed programming languages. We conclude with an informal discussion of the problems we have faced in extending the formalization to generic monadic sequential decision problems." ;
+                                                  dcterms:creator sdp:Botta_N, sdp:Brady_E, sdp:Ionescu_C ;
+                                                  dcterms:title "Sequential decision problems, dependently-typed solutions" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/plmms> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-06.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1064> a sd:Reference ;
+                                                  dcterms:abstract "The Dedukti project aims at using a single proof-checker to check proofs developed in many other provers. As some of these provers are classical and other constructive, we need a way to express proofs of one logic into the other. In this talk I will sketch various ways to express classical proofs in a constructive setting, focussing on the possibility to design a single logic mixing classical and constructive connectors and on the possibility to recognize classical proofs that are constructive by chance. This talk will be based on joint work with Olivier Hermant and Frédéric Gilbert." ;
+                                                  dcterms:creator sdp:Dowek_G ;
+                                                  dcterms:title "Checking classical proofs in a constructive proof-checker" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/invited> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1065> a sd:Reference ;
+                                                  dcterms:abstract "We report on a formalisation experiment where excerpts from an algebra textbook are compared to their translation into formal texts of the Isabelle/Isar prover, and where an attempt is made in the formal text to stick as closely as possible with the structure of the informal counterpart. The purpose of the exercise is to gain understanding on how adequately a modern algebra text can be represented using the module facilities of Isabelle. Our initial results are promising." ;
+                                                  dcterms:creator sdp:Ballarin_C ;
+                                                  dcterms:title "Reading an Algebra Textbook" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/plmms> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-07.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1066> a sd:Reference ;
+                                                  dcterms:creator sdp:Quaresma_P, sdp:Baeta_N ;
+                                                  dcterms:title "The Full Angle Method on the OpenGeoProver" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/thedu> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-08.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1067> a sd:Reference ;
+                                                  dcterms:creator sdp:Neuper_W ;
+                                                  dcterms:title "Computer Algebra implemented in Isabelle's Function Package under Lucas-Interpretation - a Case Study" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/thedu> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1010/paper-09.pdf> .
+
+<http://symbolicdata.org/Data/CICM-13/Paper/1071> a sd:Reference ;
+                                                  dcterms:abstract "There are continuation efforts ongoing with the dream of WDML in mind: EuDML has finished its initial phase, so as preparatory project granted by Sloan foundation, and there are other DML projects maturing (RusDML, Euclid, CEDRAM, etc.) Views on who and how to proceed differ. Some decisions were discussed at DML panel last year. It is time now to stop for a while, and ask for feedback from the community. aa) Have running projects as EuDML, Euclid or preparatory WDML (Sloan) met community expectations? ab) What are pros and cons? ac) Which services are good and which are lacking? ba) How DMLs relate to the established services as MR and ZMath? bb) Do they complement their service? bc) What are the prospects of their future interactions? c) What is the current view of WDML services and how should sustainability and curation be secured by the community, if any?" ;
+                                                  dcterms:creator sdp:Sperber_W, sdp:Ion_P, sdp:Bouche_T ;
+                                                  dcterms:title "DML Panel discussion: Fifty Shades of *DML" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2013/track/panel> ;
+                                                  sd:paperURL <http://www.cicm-conference.org/2013/DMLPS.html> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1002> a sd:Reference ;
+                                                  dcterms:abstract "Homotopy Type Theory is a recent evolution of Type Theory, where homotopy equivalence is used to give a new understanding to the notion of equality. This approach also makes it possible change the point of view we can have about inductive types and provides better tools to master the notion of quotients, which play a pervasive role in modern mathematics." ;
+                                                  dcterms:creator sdp:Bertot_Y ;
+                                                  dcterms:title "A naive view of Homotopy Type Theory and its relation to the calculus of constructions" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/InvitedTalks> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1003> a sd:Reference ;
+                                                  dcterms:abstract "The use of technology in schools has been one of the most debated topics around mathematics education. In some countries there is a huge investment, in others there is a downscaling. Malaysia decided in 2013 to put its 10 million students to use Google laptops and Google apps, while Australia in the same year decided it would not continue funding their own high school laptop program. Who is right from the educational point of view? The last major curriculum document written in the world to date, the Common Core State Standards-CCSS in the United States, whose mathematics part is coordinated by the well known mathematician William McCallum, sets as one of its standards for mathematical practice: &quot;Mathematically proficient students consider the available tools when solving a mathematical problem. These tools might include pencil and paper, concrete models, a ruler, a protractor, a calculator, a spreadsheet, a computer algebra system, a statistical package, or dynamic geometry software.&quot; Strong moves need substantiation from research, including the analysis of the existing situation in different countries. What does research say about the use of computers in schools in present time and the use of different pieces of software from spreadsheets to computer algebra systems?" ;
+                                                  dcterms:creator sdp:CarvalhoeSilva_J ;
+                                                  dcterms:title "What international studies say about the importance and limitations of using computers to teach mathematics in secondary schools" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/InvitedTalks> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2014/slides/talk-jaime-c-s.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_1> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1004> a sd:Reference ;
+                                                  dcterms:creator sdp:Duarte_AL ;
+                                                  dcterms:title "Teaching Tiles" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/InvitedTalks> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1005> a sd:Reference ;
+                                                  dcterms:abstract "The use of technology in schools has been one of the most debated topics around mathematics education. In some countries there is a huge investment, in others there is a downscaling. Malaysia decided in 2013 to put its 10 million students to use Google laptops and Google apps, while Australia in the same year decided it would not continue funding their own high school laptop program. Who is right from the educational point of view? The last major curriculum document written in the world to date, the Common Core State Standards-CCSS in the United States, whose mathematics part is coordinated by the well known mathematician William McCallum, sets as one of its standards for mathematical practice: &quot;Mathematically proficient students consider the available tools when solving a mathematical problem. These tools might include pencil and paper, concrete models, a ruler, a protractor, a calculator, a spreadsheet, a computer algebra system, a statistical package, or dynamic geometry software.&quot; Strong moves need substantiation from research, including the analysis of the existing situation in different countries. What does research say about the use of computers in schools in present time and the use of different pieces of software from spreadsheets to computer algebra systems?" ;
+                                                  dcterms:creator sdp:vandeSompel_H ;
+                                                  dcterms:title "Towards Robust Hyperlinks for Web-Based Scholarly Communication" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/InvitedTalks> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_2> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1006> a sd:Reference ;
+                                                  dcterms:abstract "The use of technology in schools has been one of the most debated topics around mathematics education. In some countries there is a huge investment, in others there is a downscaling. Malaysia decided in 2013 to put its 10 million students to use Google laptops and Google apps, while Australia in the same year decided it would not continue funding their own high school laptop program. Who is right from the educational point of view? The last major curriculum document written in the world to date, the Common Core State Standards-CCSS in the United States, whose mathematics part is coordinated by the well known mathematician William McCallum, sets as one of its standards for mathematical practice: &quot;Mathematically proficient students consider the available tools when solving a mathematical problem. These tools might include pencil and paper, concrete models, a ruler, a protractor, a calculator, a spreadsheet, a computer algebra system, a statistical package, or dynamic geometry software.&quot; Strong moves need substantiation from research, including the analysis of the existing situation in different countries. What does research say about the use of computers in schools in present time and the use of different pieces of software from spreadsheets to computer algebra systems?" ;
+                                                  dcterms:creator sdp:Weisstein_E ;
+                                                  dcterms:title "Computable data, mathematics, and digital libraries in Mathematica and Wolfram|Alpha" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/InvitedTalks> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_3> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1007> a sd:Reference ;
+                                                  dcterms:creator sdp:Ahmed_W, sdp:Hamdi_MS, sdp:Hasan_O, sdp:Tahar_S ;
+                                                  dcterms:title "Towards the Formal Reliability Analysis of Oil and Gas Pipelines" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/Calculemus> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_4> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1008> a sd:Reference ;
+                                                  dcterms:creator sdp:Cerna_D ;
+                                                  dcterms:title "A Tableaux Based Decision Procedure for Multi-Parameter Propositional Schemata" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/Calculemus> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2014/slides/DavidCernaPortugal.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_6> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1009> a sd:Reference ;
+                                                  dcterms:creator sdp:Bradford_R, sdp:Chen_C, sdp:MorenoMaza_M, sdp:Wilson_D, sdp:Davenport_JH, sdp:England_M ;
+                                                  dcterms:title "Problem formulation for truth-table invariant cylindrical algebraic decomposition by incremental triangular decomposition" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/Calculemus> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2014/slides/England-CICMSlides.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_5> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1404.6371> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1010> a sd:Reference ;
+                                                  dcterms:creator sdp:Fish_A, sdp:Lisitsa_A ;
+                                                  dcterms:title "Detecting unknots via equational reasoning, I: Exploration" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/Calculemus> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_7> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1011> a sd:Reference ;
+                                                  dcterms:creator sdp:Bridge_J, sdp:Huang_Z, sdp:Paulson_LC, sdp:Wilson_D, sdp:Davenport_JH, sdp:England_M ;
+                                                  dcterms:title "Applying machine learning to the problem of choosing a heuristic to select the variable ordering for cylindrical algebraic decomposition" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/Calculemus> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2014/slides/Huang-CICMSlides.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_8> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1404.6369> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1012> a sd:Reference ;
+                                                  dcterms:creator sdp:Aravantinos_V, sdp:Hasan_O, sdp:KhanAfshar_S, sdp:Tahar_S ;
+                                                  dcterms:title "Formalization of Complex Vectors in Higher-Order Logic" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/Calculemus> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_10> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1013> a sd:Reference ;
+                                                  dcterms:creator sdp:Claessen_K, sdp:Johansson_M, sdp:Rosen_D, sdp:Smallbone_N ;
+                                                  dcterms:title "Hipster: Integrating Theory Exploration in a Proof Assistant" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/Calculemus> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2014/slides/JohanssonEtAl.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_9> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1405.3426> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1014> a sd:Reference ;
+                                                  dcterms:creator sdp:Schindler_S, sdp:Wegner_B ;
+                                                  dcterms:title "Mathematical structures enabling the decidability of the patentability and patent eligibility of a patent application" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/Calculemus> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_11> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1015> a sd:Reference ;
+                                                  dcterms:abstract "The use of technology in schools has been one of the most debated topics around mathematics education. In some countries there is a huge investment, in others there is a downscaling. Malaysia decided in 2013 to put its 10 million students to use Google laptops and Google apps, while Australia in the same year decided it would not continue funding their own high school laptop program. Who is right from the educational point of view? The last major curriculum document written in the world to date, the Common Core State Standards-CCSS in the United States, whose mathematics part is coordinated by the well known mathematician William McCallum, sets as one of its standards for mathematical practice: &quot;Mathematically proficient students consider the available tools when solving a mathematical problem. These tools might include pencil and paper, concrete models, a ruler, a protractor, a calculator, a spreadsheet, a computer algebra system, a statistical package, or dynamic geometry software.&quot; Strong moves need substantiation from research, including the analysis of the existing situation in different countries. What does research say about the use of computers in schools in present time and the use of different pieces of software from spreadsheets to computer algebra systems?" ;
+                                                  dcterms:creator sdp:Kohlhase_A ;
+                                                  dcterms:title "Search Interfaces for Mathematicians" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/DML> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2014/slides/a-kohlhase.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_12> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1016> a sd:Reference ;
+                                                  dcterms:abstract "The use of technology in schools has been one of the most debated topics around mathematics education. In some countries there is a huge investment, in others there is a downscaling. Malaysia decided in 2013 to put its 10 million students to use Google laptops and Google apps, while Australia in the same year decided it would not continue funding their own high school laptop program. Who is right from the educational point of view? The last major curriculum document written in the world to date, the Common Core State Standards-CCSS in the United States, whose mathematics part is coordinated by the well known mathematician William McCallum, sets as one of its standards for mathematical practice: &quot;Mathematically proficient students consider the available tools when solving a mathematical problem. These tools might include pencil and paper, concrete models, a ruler, a protractor, a calculator, a spreadsheet, a computer algebra system, a statistical package, or dynamic geometry software.&quot; Strong moves need substantiation from research, including the analysis of the existing situation in different countries. What does research say about the use of computers in schools in present time and the use of different pieces of software from spreadsheets to computer algebra systems?" ;
+                                                  dcterms:creator sdp:Kohlhase_M ;
+                                                  dcterms:title "A Data Model and Encoding for a Semantic, Multilingual Glossary of Mathematics" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/DML> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_13> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1017> a sd:Reference ;
+                                                  dcterms:abstract "The use of technology in schools has been one of the most debated topics around mathematics education. In some countries there is a huge investment, in others there is a downscaling. Malaysia decided in 2013 to put its 10 million students to use Google laptops and Google apps, while Australia in the same year decided it would not continue funding their own high school laptop program. Who is right from the educational point of view? The last major curriculum document written in the world to date, the Common Core State Standards-CCSS in the United States, whose mathematics part is coordinated by the well known mathematician William McCallum, sets as one of its standards for mathematical practice: &quot;Mathematically proficient students consider the available tools when solving a mathematical problem. These tools might include pencil and paper, concrete models, a ruler, a protractor, a calculator, a spreadsheet, a computer algebra system, a statistical package, or dynamic geometry software.&quot; Strong moves need substantiation from research, including the analysis of the existing situation in different countries. What does research say about the use of computers in schools in present time and the use of different pieces of software from spreadsheets to computer algebra systems?" ;
+                                                  dcterms:creator sdp:Moore_R ;
+                                                  dcterms:title "PDF/A-3u as an archival format for Accessible mathematics" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/DML> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_14> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1018> a sd:Reference ;
+                                                  dcterms:abstract "The use of technology in schools has been one of the most debated topics around mathematics education. In some countries there is a huge investment, in others there is a downscaling. Malaysia decided in 2013 to put its 10 million students to use Google laptops and Google apps, while Australia in the same year decided it would not continue funding their own high school laptop program. Who is right from the educational point of view? The last major curriculum document written in the world to date, the Common Core State Standards-CCSS in the United States, whose mathematics part is coordinated by the well known mathematician William McCallum, sets as one of its standards for mathematical practice: &quot;Mathematically proficient students consider the available tools when solving a mathematical problem. These tools might include pencil and paper, concrete models, a ruler, a protractor, a calculator, a spreadsheet, a computer algebra system, a statistical package, or dynamic geometry software.&quot; Strong moves need substantiation from research, including the analysis of the existing situation in different countries. What does research say about the use of computers in schools in present time and the use of different pieces of software from spreadsheets to computer algebra systems?" ;
+                                                  dcterms:creator sdp:Kristianto_GY, sdp:Nghiem_MQ, sdp:Topic_G, sdp:Aizawa_A ;
+                                                  dcterms:title "Which one is better: presentation-based or content-based math search?" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/DML> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2014/slides/nghiem.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_15> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1019> a sd:Reference ;
+                                                  rdfs:comment "This paper has been awarded best DML paper prize" ;
+                                                  dcterms:abstract "The use of technology in schools has been one of the most debated topics around mathematics education. In some countries there is a huge investment, in others there is a downscaling. Malaysia decided in 2013 to put its 10 million students to use Google laptops and Google apps, while Australia in the same year decided it would not continue funding their own high school laptop program. Who is right from the educational point of view? The last major curriculum document written in the world to date, the Common Core State Standards-CCSS in the United States, whose mathematics part is coordinated by the well known mathematician William McCallum, sets as one of its standards for mathematical practice: &quot;Mathematically proficient students consider the available tools when solving a mathematical problem. These tools might include pencil and paper, concrete models, a ruler, a protractor, a calculator, a spreadsheet, a computer algebra system, a statistical package, or dynamic geometry software.&quot; Strong moves need substantiation from research, including the analysis of the existing situation in different countries. What does research say about the use of computers in schools in present time and the use of different pieces of software from spreadsheets to computer algebra systems?" ;
+                                                  dcterms:creator sdp:Schoeneberg_U, sdp:Sperber_W ;
+                                                  dcterms:title "POS Tagging and its Applications for Mathematics" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/DML> ;
+                                                  sd:slidesURL <http://www.tiefseh.de/cicm2014/> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_16> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1020> a sd:Reference ;
+                                                  dcterms:abstract "The use of technology in schools has been one of the most debated topics around mathematics education. In some countries there is a huge investment, in others there is a downscaling. Malaysia decided in 2013 to put its 10 million students to use Google laptops and Google apps, while Australia in the same year decided it would not continue funding their own high school laptop program. Who is right from the educational point of view? The last major curriculum document written in the world to date, the Common Core State Standards-CCSS in the United States, whose mathematics part is coordinated by the well known mathematician William McCallum, sets as one of its standards for mathematical practice: &quot;Mathematically proficient students consider the available tools when solving a mathematical problem. These tools might include pencil and paper, concrete models, a ruler, a protractor, a calculator, a spreadsheet, a computer algebra system, a statistical package, or dynamic geometry software.&quot; Strong moves need substantiation from research, including the analysis of the existing situation in different countries. What does research say about the use of computers in schools in present time and the use of different pieces of software from spreadsheets to computer algebra systems?" ;
+                                                  dcterms:creator sdp:Schubotz_M, sdp:Wicke_G ;
+                                                  dcterms:title "Mathoid: Robust, Scalable, Fast and Accessible Math Rendering for Wikipedia" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/DML> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2014/slides/mathoid.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_17> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1021> a sd:Reference ;
+                                                  dcterms:creator sdp:Caminati_MB, sdp:Kerber_M, sdp:Rowat_C, sdp:Lange_C ;
+                                                  dcterms:title "Set Theory or Higher Order Logic to Represent Auction Concepts in Isabelle?" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MKM> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_18> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1022> a sd:Reference ;
+                                                  dcterms:creator sdp:Carette_J, sdp:Farmer_WM, sdp:Kohlhase_M ;
+                                                  dcterms:title "Realms: A Structure for Consolidating Knowledge about Mathematical Theories" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MKM> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_19> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1023> a sd:Reference ;
+                                                  dcterms:creator sdp:Gransden_T, sdp:Raman_R, sdp:Walkinshaw_N ;
+                                                  dcterms:title "Mining State-Based Models from Proof Corpora" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MKM> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_21> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1024> a sd:Reference ;
+                                                  dcterms:creator sdp:Gauthier_T, sdp:Kaliszyk_C ;
+                                                  dcterms:title "Matching concepts across HOL libraries" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MKM> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_20> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1025> a sd:Reference ;
+                                                  dcterms:creator sdp:Quaresma_P, sdp:Haralambous_Y ;
+                                                  dcterms:title "Querying Geometric Figures Using a Controlled Language, Ontological Graphs and Dependency Lattices" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MKM> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_22> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1026> a sd:Reference ;
+                                                  dcterms:creator sdp:Horozal_F, sdp:Kohlhase_M, sdp:Rabe_F ;
+                                                  dcterms:title "Flexary Operators for Formalized Mathematics" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MKM> ;
+                                                  sd:slidesURL <http://kwarc.info/frabe/Research/slides/HRK_sequences_14.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_23> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1027> a sd:Reference ;
+                                                  dcterms:creator sdp:Hupel_L ;
+                                                  dcterms:title "Interactive Simplifier Tracing and Debugging in Isabelle" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MKM> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2014/slides/hupel2014interactive.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_24> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1406.0292> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1028> a sd:Reference ;
+                                                  dcterms:creator sdp:Jucovschi_C ;
+                                                  dcterms:title "Towards an Interaction-based Integration of MKM Services into End-User Applications" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MKM> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_25> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1029> a sd:Reference ;
+                                                  dcterms:creator sdp:Kaliszyk_C, sdp:Rabe_F ;
+                                                  dcterms:title "Towards Knowledge Management for HOL Light" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MKM> ;
+                                                  sd:slidesURL <http://kwarc.info/frabe/Research/slides/KR_hollight_14.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_26> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1030> a sd:Reference ;
+                                                  dcterms:creator sdp:Pak_K ;
+                                                  dcterms:title "Automated improving of proof legibility in the Mizar system" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MKM> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_27> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1031> a sd:Reference ;
+                                                  dcterms:creator sdp:Bezem_M, sdp:Narboux_J, sdp:Stojanovic_S, sdp:Janicic_P ;
+                                                  dcterms:title "A Vernacular for Coherent Logic" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MKM> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_28> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1032> a sd:Reference ;
+                                                  dcterms:creator sdp:Youssef_A, sdp:Zhang_Q ;
+                                                  dcterms:title "An Approach to Math-Similarity Search", "Semantics-Sensitive Math-Similarity Search" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MKM> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_29> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1033> a sd:Reference ;
+                                                  dcterms:creator sdp:Cohl_HS, sdp:McClain_MA, sdp:Saunders_BV, sdp:Schubotz_M, sdp:Williams_JC ;
+                                                  dcterms:title "Digital Repository of Mathematical Formulae" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/SystemsAndProjects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_30> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1034> a sd:Reference ;
+                                                  dcterms:creator sdp:Corneli_J, sdp:Ginev_D ;
+                                                  dcterms:title "NNexus Reloaded" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/SystemsAndProjects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_31> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1035> a sd:Reference ;
+                                                  dcterms:creator sdp:Miller_BR, sdp:Oprea_S, sdp:Ginev_D ;
+                                                  dcterms:title "E-books and Graphics with LaTeXML" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/SystemsAndProjects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_32> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1036> a sd:Reference ;
+                                                  dcterms:creator sdp:Iancu_M, sdp:Jucovschi_C, sdp:Wiesing_T, sdp:Kohlhase_M ;
+                                                  dcterms:title "System Description: MathHub.info" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/SystemsAndProjects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_33> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1037> a sd:Reference ;
+                                                  dcterms:creator sdp:Geuvers_H, sdp:Vyskocil_J, sdp:Urban_J, sdp:Kaliszyk_C ;
+                                                  dcterms:title "Developing Corpus-based Translation Methods between Informal and Formal Mathematics: Project Description" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/SystemsAndProjects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_34> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1038> a sd:Reference ;
+                                                  dcterms:creator sdp:Kohlhase_L, sdp:Kohlhase_M ;
+                                                  dcterms:title "System Description: A Semantics-Aware LaTeX-to-Office Converter" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/SystemsAndProjects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_35> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1039> a sd:Reference ;
+                                                  dcterms:creator sdp:Liska_M, sdp:Ruzicka_M, sdp:Sojka_P ;
+                                                  dcterms:title "Math Indexer and Searcher Web Interface: Towards Fulfillment of Mathematicians' Information Needs" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/SystemsAndProjects> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2014/slides/webmias.pdf> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_36> ;
+                                                  sd:paperURL <http://arxiv.org/abs/1404.6476> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1040> a sd:Reference ;
+                                                  dcterms:creator sdp:Naumowicz_A ;
+                                                  dcterms:title "SAT-enhanced Mizar Proof Checking" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/SystemsAndProjects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_37> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1041> a sd:Reference ;
+                                                  dcterms:creator sdp:Siddique_U, sdp:Tahar_S ;
+                                                  dcterms:title "A Framework for Formal Reasoning about Geometrical Optics" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/SystemsAndProjects> ;
+                                                  dcterms:identifier <http://dx.doi.org/10.1007/978-3-319-08434-3_38> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1042> a sd:Reference ;
+                                                  dcterms:creator sdp:Nareike_A, sdp:Graebe_HG, sdp:Johanning_S ;
+                                                  dcterms:title "The SymbolicData Project - Towards a Computer Algebra Social Network" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/WorkInProgress> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-21.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1043> a sd:Reference ;
+                                                  dcterms:creator sdp:Pagel_R, sdp:Schubotz_M ;
+                                                  dcterms:title "Mathematical Language Processing Project" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/WorkInProgress> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-23.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1044> a sd:Reference ;
+                                                  dcterms:creator sdp:Kahle_R ;
+                                                  dcterms:title "Towards the Structure of Mathematical Proof" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/WorkInProgress> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-22.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1045> a sd:Reference ;
+                                                  dcterms:creator sdp:Dumas_JG, sdp:Duval_D, sdp:Ekici_B, sdp:Reynaud_JC ;
+                                                  dcterms:title "Certified proofs in programs involving exceptions" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/WorkInProgress> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-20.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1046> a sd:Reference ;
+                                                  dcterms:creator sdp:deMoura_FLC, sdp:Segundo_W, sdp:Ventura_D ;
+                                                  dcterms:title "Formalizing a Named Explicit Substitutions Calculus in Coq" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/WorkInProgress> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-19.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1047> a sd:Reference ;
+                                                  dcterms:creator sdp:Moral_J, sdp:Quaresma_P, sdp:Santos_V ;
+                                                  dcterms:title "Reproducing a Geometric Working Session" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/WorkInProgress> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-24.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1048> a sd:Reference ;
+                                                  dcterms:creator sdp:Goedicke_M, sdp:Schwinning_N, sdp:Schypula_M, sdp:Striewe_M ;
+                                                  dcterms:title "Concepts and realisations of flexible exercise design and feedbackgeneration in an e-assessment system for mathematics" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/WorkInProgress> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-25.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1050> a sd:Reference ;
+                                                  dcterms:abstract "The availability of mathematical knowledge on the Web changes mathematical practices. In a study of professional mathematicians' search behavior we identified ten behavioral patterns particular to mathematicians. In this paper, we present a set of design goals for mathematical search interfaces implied by these patterns and insights derived from them." ;
+                                                  dcterms:creator sdp:Kohlhase_A ;
+                                                  dcterms:title "Design of Search Interfaces for Mathematicians" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MathUI> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-02.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1051> a sd:Reference ;
+                                                  dcterms:abstract "A solid and distinctive online record of a scientist's research achievements is nowadays a must, in particular for a researcher at an early career stage looking for a better university position, applying for a grant or a promotion, or trying to establish new contacts and build partnerships and projects. In the global world of science there are already numerous services offering research profile sites, such as Google Scholar, Scopus or ORCID. In the field of mathematics, however, the community still relies a lot on the traditional services MathSciNet and zbMATH, which stand for a high level of quality control regarding data inclusion and assignment. However, the enormously growing number of mathematical publications and new mathematicians begs the question of how to design author profile pages for mathematicians which fit the new trends of communication in the era of social networks, while keeping (or better increasing) the existing level of reliability. In our contribution we plan to present some ideas from the development team of zbMATH addressing this topic." ;
+                                                  dcterms:creator sdp:MihaljevicBrandt_H, sdp:Mueller_F, sdp:Roy_N ;
+                                                  dcterms:title "Author profile pages in zbMATH – improving accuracy through user" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MathUI> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-06.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1052> a sd:Reference ;
+                                                  dcterms:abstract "A solid and distinctive online record of a scientist's research achievements is nowadays a must, in particular for a researcher at an early career stage looking for a better university position, applying for a grant or a promotion, or trying to establish new contacts and build partnerships and projects. In the global world of science there are already numerous services offering research profile sites, such as Google Scholar, Scopus or ORCID. In the field of mathematics, however, the community still relies a lot on the traditional services MathSciNet and zbMATH, which stand for a high level of quality control regarding data inclusion and assignment. However, the enormously growing number of mathematical publications and new mathematicians begs the question of how to design author profile pages for mathematicians which fit the new trends of communication in the era of social networks, while keeping (or better increasing) the existing level of reliability. In our contribution we plan to present some ideas from the development team of zbMATH addressing this topic." ;
+                                                  dcterms:creator sdp:Kokubu_M, sdp:Yamamoto_O ;
+                                                  dcterms:title "Visualization of Tangent Developables on a Volumetric Display" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MathUI> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-09.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1053> a sd:Reference ;
+                                                  dcterms:abstract "A solid and distinctive online record of a scientist's research achievements is nowadays a must, in particular for a researcher at an early career stage looking for a better university position, applying for a grant or a promotion, or trying to establish new contacts and build partnerships and projects. In the global world of science there are already numerous services offering research profile sites, such as Google Scholar, Scopus or ORCID. In the field of mathematics, however, the community still relies a lot on the traditional services MathSciNet and zbMATH, which stand for a high level of quality control regarding data inclusion and assignment. However, the enormously growing number of mathematical publications and new mathematicians begs the question of how to design author profile pages for mathematicians which fit the new trends of communication in the era of social networks, while keeping (or better increasing) the existing level of reliability. In our contribution we plan to present some ideas from the development team of zbMATH addressing this topic." ;
+                                                  dcterms:creator sdp:Acevedo_C, sdp:Kohlhase_M ;
+                                                  dcterms:title "OpenMathMap: Interaction" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MathUI> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-01.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1054> a sd:Reference ;
+                                                  dcterms:abstract "A solid and distinctive online record of a scientist's research achievements is nowadays a must, in particular for a researcher at an early career stage looking for a better university position, applying for a grant or a promotion, or trying to establish new contacts and build partnerships and projects. In the global world of science there are already numerous services offering research profile sites, such as Google Scholar, Scopus or ORCID. In the field of mathematics, however, the community still relies a lot on the traditional services MathSciNet and zbMATH, which stand for a high level of quality control regarding data inclusion and assignment. However, the enormously growing number of mathematical publications and new mathematicians begs the question of how to design author profile pages for mathematicians which fit the new trends of communication in the era of social networks, while keeping (or better increasing) the existing level of reliability. In our contribution we plan to present some ideas from the development team of zbMATH addressing this topic." ;
+                                                  dcterms:creator sdp:Toader_A, sdp:Kohlhase_A ;
+                                                  dcterms:title "FEncy: Spreadsheet Formulae Exploration" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MathUI> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-03.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1055> a sd:Reference ;
+                                                  dcterms:abstract "Spreadsheets are widely used within Science, technology, engineering and maths education. Despite their widespread use, end-user spreadsheet errors are still extremely common and have been shown to have an adverse effect on learning. The textual representation of formulas can be particularly complex and error-prone, exacerbating barriers to dyslexic users. Our work focuses on the design and development of a visual language to graphically represent spreadsheet formulae, with the objective of making them easier to understand than their default textual form. This work contributes to a body of human factors research focused upon spreadsheets." ;
+                                                  dcterms:creator sdp:Leitao_R, sdp:Roast_C ;
+                                                  dcterms:title "Developing visualisations for spreadsheet formulae: towards increasing the accessibility of science, technology, engineering and maths subjects" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MathUI> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-04.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1056> a sd:Reference ;
+                                                  dcterms:abstract "In this document, we describe recent work made by the Mozilla MathML team to help publishing scientific content using Web technologies. We focus on the Firefox OS platform currently being developed by Mozilla that provides a good framework to create mathematical user interfaces on mobile devices." ;
+                                                  dcterms:creator sdp:Silva_R, sdp:Wang_F ;
+                                                  dcterms:title "Firefox OS Web Apps for Science" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MathUI> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-08.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1057> a sd:Reference ;
+                                                  dcterms:abstract "Formula collections are books used in several European countries to support the practice of mathematics of by its learners and later by its practitioners. They are compendia of mathematical formulæ that students employ during their studies, and which may be of use in later professional life. This research explores the opportunity of bringing the formula collection to the mobile phones of the school students. It is motivated by the fact that the formula collection may be one of the rare objects that pupils may refer to later in their lives, when mathematical knowledge needs to be recalled. Making it a mobile phone app makes it a zero weight object which is in easy reach. Technically, this app is realized by a set of HTML files compiled into a mobile application. This makes the formula collection a first class citizen that students can easily access. More importantly, this makes it an artifact that teachers can create themselves instead of relying on a publisher: using their notations and their selected content. The centerpoint of this research is to enable teachers in creating and delivering such an app to the mobile devices of their students." ;
+                                                  dcterms:creator sdp:Schneider_K, sdp:Libbrecht_P ;
+                                                  dcterms:title "Formula Collection Mobile Apps Realized by Teachers" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MathUI> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-05.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1058> a sd:Reference ;
+                                                  dcterms:abstract "Rapid growth in mobile computing has given rise to a dramatic evolution in communication tools that have the potential to transform the educational experience. Because of the complexities of mathematical communication, however, progress towards the realization of that potential has been particularly slow in the mathematical sciences. We are addressing this by developing iCE (interface for Collaborative Equations), a multimodal mathematical communication environment for post-secondary mathematics and statistics courses. Based on our experiences with this, we discuss the user requirements and difficulties in building a universal interface – one that allows users, ranging from mathematical novices to experts, to intuitively communicate mathematics in real-time using a broad range of computing devices." ;
+                                                  dcterms:creator sdp:Cater_B, sdp:Hooper_J, sdp:Kang_S, sdp:Pollanen_M ;
+                                                  dcterms:title "Towards a Universal Interface for Real-Time Mathematical Communication" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/MathUI> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-07.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1060> a sd:Reference ;
+                                                  dcterms:creator sdp:Hellstroem_L ;
+                                                  dcterms:title "The eval symbol for axiomatising variadic functions" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/OpenMath> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-11.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1061> a sd:Reference ;
+                                                  dcterms:creator sdp:Kohlhase_M ;
+                                                  dcterms:title "OpenMath Language Extensions" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/OpenMath> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-14.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1062> a sd:Reference ;
+                                                  dcterms:creator sdp:Kohlhase_M ;
+                                                  dcterms:title "Extension Proposal: Records in Pragmatic OpenMath" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/OpenMath> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-13.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1063> a sd:Reference ;
+                                                  dcterms:creator sdp:Hellstroem_L ;
+                                                  dcterms:title "Literate Sources for Content Dictionaries: a Progress Report" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/OpenMath> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-12.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1064> a sd:Reference ;
+                                                  dcterms:creator sdp:Rabe_F ;
+                                                  dcterms:title "MMT Objects" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/OpenMath> ;
+                                                  sd:slidesURL <http://kwarc.info/frabe/Research/slides/rabe_mmtobjects_14.pdf> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-15.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1065> a sd:Reference ;
+                                                  dcterms:creator sdp:Davenport_JH ;
+                                                  dcterms:title "Another Look at Formal Mathematical Properties" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/OpenMath> ;
+                                                  sd:slidesURL <http://staff.bath.ac.uk/masjhd/Slides/JHDOM2014.pdf> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-10.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1067> a sd:Reference ;
+                                                  dcterms:creator sdp:Gaspar_J ;
+                                                  dcterms:title "Short introduction by example to Coq and Formalising ZF ⊆ ZF_ε in Coq" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/ThEdu> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-16.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1069> a sd:Reference ;
+                                                  dcterms:creator sdp:Petrovic_D ;
+                                                  dcterms:title "Using Small-Step Refinement For Algorithm Verification In Computer Science Education" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/ThEdu> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-18.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1070> a sd:Reference ;
+                                                  dcterms:creator sdp:Neuper_W ;
+                                                  dcterms:title "GCD — a Case Study on Lucas-Interpretation" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/ThEdu> ;
+                                                  sd:paperURL <http://ceur-ws.org/Vol-1186/paper-17.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1071> a sd:Reference ;
+                                                  dcterms:abstract "Groundbreaking mathematics formalisation has been achieved in recent years with the reproduction of three significant mathematical results inside theorem provers: The Four Colour Theorem and the Feit-Thompson Lemma inside Coq, and the Kepler Conjecture inside HOL Light. These efforts have significantly increased the confidence in these results, each of which have substantial original proofs that run to a few hundred pages of mathematical text and, in the case of the Four Colour Theorem and the Kepler Conjecture, at least a few thousand lines of computer source code. However, it is a valid question to ask whether these formalisations have indeed established their claimed results, rather than to simply trust that the result has been proved. An inquisitive user can download the proof scripts for a given project, replay them through the theorem prover, and observe the output. However watching hundreds of screenloads of output whizz past is unlikely to be enlightening unless the user knows exactly what to look out for. We propose a rigorous process of independent assessment by an expert, that is as objective as possible and suitably sceptical, not assuming anything about the reputation of the people carrying out the formalisation, and taking into account the weaknesses of the theorem prover being used. We call this process a &quot;proof audit&quot;. Perhaps surprisingly to those outside the field of theorem proving, proof auditing is not generally carried out on large proof formalisations." ;
+                                                  dcterms:creator sdp:Adams_M ;
+                                                  dcterms:title "Proof Auditing for Formalised Mathematics" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/NotionOfProof> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1072> a sd:Reference ;
+                                                  dcterms:abstract "Mathematics is the process of creating, exploring, and interrelating mathematical models. Proving is the act of deriving logical consequences. It is the most powerful and most important tool for doing mathematics, particularly for exploring mathematical models. Proving is traditionally done with the aid of little more than pencil and paper. Performed with computers, computer proving has advantages over traditional proving that are very compelling. But can computer proving replace traditional proving? Our thesis is that computer proving in its current form cannot entirely replace traditional proving, but computer proving will in time, with suitable advances in mechanized mathematics, replace traditional proving just as text editing on a computer has replaced typing on a typewriter." ;
+                                                  dcterms:creator sdp:Farmer_WM ;
+                                                  dcterms:title "Can Computer Proving Replace Traditional Proving?" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/NotionOfProof> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1073> a sd:Reference ;
+                                                  dcterms:abstract "Proof assistants are computer programs that help mathematicians to prove theorems and to formally verify the correctness of proofs. Proof assistants are nowadays one of the more exciting areas in the intersection of mathematical logic and computer science. For example, one particularly exciting achievement is the formal verification of the proof of the four colour theorem using the proof assistant Coq. In this talk we give a very elementary introduction to Coq by means of a very simple example: the proofs of the theorems if ≤ is a non-strict partial order, then &lt; defined by x &lt; y ↔ x &lt; y ∧ x ≠ y is a strict partial order; if &lt; is a strict partial order, then ≤ defined by x ≤ y ↔ x &lt; y ∨ x = y is a non-strict partial order. Then we end by discussing what is achieved with this kind of formal verification. We keep this talk short, simple and sweet." ;
+                                                  dcterms:creator sdp:Gaspar_J ;
+                                                  dcterms:title "Short introduction by example to Coq" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/NotionOfProof> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1074> a sd:Reference ;
+                                                  dcterms:abstract "Conjecture: Every mathematical proof can be presented as a sequence of gestalt switches, each obtained by a metaphor. A gestalt of a mathematical proof is the way the arrangement of its details is perceived. A gestalt switch occurs when a gestalt is replaced by another. A metaphor is a description of the way a gestalt switch is obtained. Metaphors and gestalts of a proof may contain both mathematical and non-mathematical notions. The gestalts and metaphors of a proof I call 'proof descriptors'. The search for the proof descriptors of a proof I call 'proof-processing'. Proof descriptors provide a way to compare proofs. The comparison of different proofs given to the same theorem may enrich its meaning. Shared proof descriptors in proofs to different theorems may suggest how the later proofs were won from previous proofs. Thus the notion of the internal history of mathematics emerges. Proofs influence the development of mathematics at least as much as theorems. Through proof descriptors proofs may obtain popular presentation. Proof descriptors may provide new links with non-mathematical works of art and poetry. There is room for idiosyncrasy in the generation of metaphors for proofs. The latter are especially of interest as they are rarely pointed out in mathematical texts, but are apparently used in informal discourse among peers. Gestalt signifies static elements of a proof, which are in general rather easy to identify, while metaphor signifies dynamic elements, i.e., constructions. Proof descriptors may relate only to parts of a proof. In fact, it is by its proof descriptors that a part is discerned. Descriptors may serve as mnemonics of repeated patterns. Descriptors are not necessarily verbal; they may include drawings or gestures. The informal character of proof descriptors is of their essence. Conjecture: Mathematicians always proof-process the proofs that they learn. Proof descriptors thus form the arsenal from which mathematicians draw their means for new proofs. The lecture will provide examples of proof descriptors, especially from the context of the Cantor-Bernstein Theorem and Bernstein Division Theorem." ;
+                                                  dcterms:creator sdp:Hinkis_A ;
+                                                  dcterms:title "The representation of mathematical proof through gestalt and metaphors" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/NotionOfProof> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1075> a sd:Reference ;
+                                                  dcterms:abstract "Since the turn of the millennium, there has been a slow but steady increase in the use of automated deduction software in different areas of algebra, such as lattice theory and semigroup theory. In this talk I will discuss how my collaborators and I have used automated deduction tools such as OTTER, Prover9 and Waldmeister to crack hitherto unsolved problems in quasigroup/loop theory. In the last couple of years, the problems we are attempting to attack are pushing the available software to its limits. I will close by discussing some of the implications of this for human understanding of proofs generated by software. No background in quasigroup/loop theory is needed or expected." ;
+                                                  dcterms:creator sdp:Kinyon_M ;
+                                                  dcterms:title "Quasigroups, Loops and Automated Deduction, or How I Learned To Stop Worrying and Start Letting Computers Prove Theorems" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/NotionOfProof> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1077> a sd:Reference ;
+                                                  dcterms:abstract "The computer is changing how mathematics is being done. I'll sketch an extreme system for doing mathematics by computer." ;
+                                                  dcterms:creator sdp:Wiedijk_F ;
+                                                  dcterms:title "Extreme mathematics" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/NotionOfProof> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1078> a sd:Reference ;
+                                                  dcterms:creator sdp:Evans_I ;
+                                                  dcterms:title "Mathematical Document Classification via the Pachinko Allocation Model" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/DoctoralProgramme> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1079> a sd:Reference ;
+                                                  dcterms:creator sdp:Ruzicka_M ;
+                                                  dcterms:title "Maths Information Retrieval for Digital Libraries" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/DoctoralProgramme> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2014/slides/ruzickadoctoral.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1080> a sd:Reference ;
+                                                  dcterms:creator sdp:Schubotz_M ;
+                                                  dcterms:title "Content Based Formula Search" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/DoctoralProgramme> ;
+                                                  sd:slidesURL <http://cicm-conference.org/2014/slides/SchubotzCicmDp.pdf> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1081> a sd:Reference ;
+                                                  dcterms:creator sdp:Ahmed_W ;
+                                                  dcterms:title "Formal Analysis of Reliability Block Diagrams" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/DoctoralProgramme> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1082> a sd:Reference ;
+                                                  dcterms:creator sdp:Siddique_U ;
+                                                  dcterms:title "Formal Analysis of Geometrical Optics in HOL" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/DoctoralProgramme> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1083> a sd:Reference ;
+                                                  dcterms:creator sdp:Ekici_B ;
+                                                  dcterms:title "Certification of programs with computational effects" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/DoctoralProgramme> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1084> a sd:Reference ;
+                                                  dcterms:creator sdp:Segundo_W ;
+                                                  dcterms:title "Formalizing a named calculus modulo alpha-equivalence" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/DoctoralProgramme> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1085> a sd:Reference ;
+                                                  dcterms:creator sdp:Huang_Z ;
+                                                  dcterms:title "Machine learning and computer algebra" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/DoctoralProgramme> .
+
+<http://symbolicdata.org/Data/CICM-14/Paper/1086> a sd:Reference ;
+                                                  dcterms:creator sdp:Torrao_D ;
+                                                  dcterms:title "Algebraic Algorithms for Numerical Semigroups" ;
+                                                  swc:relatedToEvent <http://cicm-conference.org/2014/track/DoctoralProgramme> .
+
+<> a owl:Ontology ;
+   rdfs:label "SD Conference Papers and Talks" ;
+   rdfs:comment "Compiled from various Conference Reports" .
