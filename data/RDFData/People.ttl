@@ -164,6 +164,11 @@ sdp:Bassem_C a foaf:Person ;
 sdp:Baumeister_B a foaf:Person ;
                  foaf:name "Barbara Baumeister" .
 
+sdp:Beck_M a foaf:Person ;
+           foaf:name "Matthias Beck" ;
+           foaf:homepage <http://math.sfsu.edu/beck/> ;
+           sd:affiliation "San Francisco State University, USA" .
+
 sdp:Beeson_M a foaf:Person ;
              foaf:name "Michael Beeson" ;
              sd:affiliation "San Jose State University" ;
@@ -291,6 +296,10 @@ sdp:Braun_M a foaf:Person ;
 sdp:Braun_O a foaf:Person ;
             foaf:name "Oliver Braun" ;
             sd:affiliation "RWTH Aachen" .
+
+sdp:Bremner_D a foaf:Person ;
+              foaf:name "David Bremner" ;
+              sd:affiliation "U Brunswick, CA" .
 
 sdp:Brickenstein_M a foaf:Person ;
                    foaf:name "Michael Brickenstein" .
@@ -1495,9 +1504,6 @@ sdp:Meseguer_J a foaf:Person ;
 
 sdp:Meshveliani_S a foaf:Person ;
                   foaf:name "Sergei Meshveliani" .
-
-sdp:Metelisyn_P a foaf:Person ;
-                foaf:name "Pavel Metelisyn" .
 
 sdp:Metelitsyn_P a foaf:Person ;
                  foaf:name "Pavel Metelitsyn" ;
