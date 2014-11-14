@@ -168,6 +168,11 @@ sdp:Bassem_C a foaf:Person ;
 sdp:Baumeister_B a foaf:Person ;
                  foaf:name "Barbara Baumeister" .
 
+sdp:Bebiano_N a foaf:Person ;
+              foaf:name "Natalia Bebiano" ;
+              sd:affiliation "UC Coimbra, Portugal" ;
+              sd:country <http://dbpedia.org/resource/Portugal> .
+
 sdp:Beck_M a foaf:Person ;
            foaf:name "Matthias Beck" ;
            foaf:homepage <http://math.sfsu.edu/beck/> ;
@@ -371,6 +376,11 @@ sdp:Carlson_JF a foaf:Person ;
 sdp:Carter_N a foaf:Person ;
              foaf:name "Nathan Carter" ;
              foaf:homepage <http://web.bentley.edu/empl/c/ncarter> .
+
+sdp:Carvalho_F a foaf:Person ;
+               foaf:name "Francisco Carvalho" ;
+               sd:affiliation "IPT Coimbra, Portugal" ;
+               sd:country <http://dbpedia.org/resource/Portugal> .
 
 sdp:CarvalhoeSilva_J a foaf:Person ;
                      foaf:name "Jaime Carvalho e Silva" .
@@ -972,6 +982,9 @@ sdp:Huesca_LDCG a foaf:Person ;
 sdp:Huettemann_T a foaf:Person ;
                  foaf:name "Thomas Hüttemann" ;
                  sd:affiliation "Belfast" .
+
+sdp:Hui_CY a foaf:Person ;
+           foaf:name "Chun Yin Hui" .
 
 sdp:Hupel_L a foaf:Person ;
             foaf:name "Lars Hupel" .
