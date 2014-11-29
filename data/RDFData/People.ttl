@@ -24,7 +24,14 @@ sdp:Abanades_MA a foaf:Person ;
                 foaf:name "Miguel A. Abanades" .
 
 sdp:Abbott_J a foaf:Person ;
-             foaf:name "John Abbott" .
+             foaf:name "John Abbott" ;
+             sd:affiliation "Universita of Genova" ;
+             sd:country <http://dbpedia.org/resource/Italy> .
+
+sdp:Abraham_Erika a foaf:Person ;
+                  foaf:name "Erika Ábrahám" ;
+                  sd:affiliation "RWTH Aachen University" ;
+                  sd:country <http://dbpedia.org/resource/Germany> .
 
 sdp:Acevedo_C a foaf:Person ;
               foaf:name "Carmela Acevedo" .
@@ -289,7 +296,9 @@ sdp:Boy_M a foaf:Person ;
 
 sdp:Bradford_R a foaf:Person ;
                foaf:name "Russell Bradford" ;
-               foaf:homepage <http://people.bath.ac.uk/masrjb> .
+               foaf:homepage <http://people.bath.ac.uk/masrjb> ;
+               sd:affiliation "University of Bath" ;
+               sd:country <http://dbpedia.org/resource/United_Kingdom> .
 
 sdp:Brady_E a foaf:Person ;
             foaf:name "Edwin Brady" .
@@ -546,7 +555,9 @@ sdp:Duhr_C a foaf:Person ;
            foaf:name "Claude Duhr" .
 
 sdp:Dumas_JG a foaf:Person ;
-             foaf:name "Jean-Guillaume Dumas" .
+             foaf:name "Jean-Guillaume Dumas" ;
+             sd:affiliation "Grenoble Université" ;
+             sd:country <http://dbpedia.org/resource/France> .
 
 sdp:Dumitru_MA a foaf:Person ;
                foaf:name "Mircea Alexandru Dumitru" .
@@ -682,6 +693,11 @@ sdp:Galambos_L a foaf:Person ;
 sdp:Galligo_A a foaf:Person ;
               foaf:name "André Galligo" .
 
+sdp:Gao_XS a foaf:Person ;
+           foaf:name "Xiao-Shan Gao" ;
+           sd:affiliation "Chinese Academy of Sciences" ;
+           sd:country <http://dbpedia.org/resource/China> .
+
 sdp:Gaspar_J a foaf:Person ;
              foaf:name "Jamie Gaspar" .
 
@@ -709,7 +725,9 @@ sdp:Geddes_KO a foaf:Person ;
               foaf:name "Keith O. Geddes" .
 
 sdp:Gerdt_VP a foaf:Person ;
-             foaf:name "Vladimir P. Gerdt" .
+             foaf:name "Vladimir P. Gerdt" ;
+             sd:affiliation "Joint Institute for Nuclear Research" ;
+             sd:country <http://dbpedia.org/resource/Russia> .
 
 sdp:Geuvers_H a foaf:Person ;
               foaf:name "Herman Geuvers" ;
@@ -722,6 +740,11 @@ sdp:Ginev_D a foaf:Person ;
             foaf:homepage <http://www.kwarc.info/people/dginev> ;
             sd:affiliation "Jacobs University Bremen" ;
             sd:country <http://dbpedia.org/resource/Germany> .
+
+sdp:Giorgi_P a foaf:Person ;
+             foaf:name "Pascal Giorgi" ;
+             sd:affiliation "Université de Montpellier 2" ;
+             sd:country <http://dbpedia.org/resource/France> .
 
 sdp:Giovini_A a foaf:Person ;
               foaf:name "A. Giovini" .
@@ -1093,6 +1116,11 @@ sdp:Kaliszyk_C a foaf:Person ;
 sdp:Kalkbrener_M a foaf:Person ;
                  foaf:name "Michael Kalkbrener" .
 
+sdp:Kaltofen_EL a foaf:Person ;
+                foaf:name "Erich L. Kaltofen" ;
+                sd:affiliation "North Carolina State University" ;
+                sd:country <http://dbpedia.org/resource/United_States> .
+
 sdp:Kamali_S a foaf:Person ;
              foaf:name "Shahab Kamali" ;
              foaf:homepage <http://cs.uwaterloo.ca/~skamali> .
@@ -1331,6 +1359,11 @@ sdp:Laue_R a foaf:Person ;
 sdp:Lazard_D a foaf:Person ;
              foaf:name "Daniel Lazard" .
 
+sdp:Lecerf_G a foaf:Person ;
+             foaf:name "Grégoire Lecerf" ;
+             sd:affiliation "CNRS" ;
+             sd:country <http://dbpedia.org/resource/France> .
+
 sdp:Leitao_R a foaf:Person ;
              foaf:name "Roxanne Leitão" .
 
@@ -1357,6 +1390,11 @@ sdp:Levy_J a foaf:Person ;
 sdp:Li_W a foaf:Person ;
          foaf:name "Wei Li" .
 
+sdp:Li_Z a foaf:Person ;
+         foaf:name "Ziming Li" ;
+         sd:affiliation "Chinese Academy of Sciences" ;
+         sd:country <http://dbpedia.org/resource/China> .
+
 sdp:Libal_T a foaf:Person ;
             foaf:name "Tomer Libal" .
 
@@ -1371,6 +1409,11 @@ sdp:Liedtke_C a foaf:Person ;
 
 sdp:Link_F a foaf:Person ;
            foaf:name "Frauke Link" .
+
+sdp:Linton_S a foaf:Person ;
+             foaf:name "Steve Linton" ;
+             sd:affiliation "University of St Andrews" ;
+             sd:country <http://dbpedia.org/resource/United_Kingdom> .
 
 sdp:Lisitsa_A a foaf:Person ;
               foaf:name "Alexei Lisitsa" .
@@ -1604,7 +1647,9 @@ sdp:Morawska_B a foaf:Person ;
                sd:country <http://dbpedia.org/resource/Germany> .
 
 sdp:MorenoMaza_M a foaf:Person ;
-                 foaf:name "Marc Moreno Maza" .
+                 foaf:name "Marc Moreno Maza" ;
+                 sd:affiliation "University of Western Ontario" ;
+                 sd:country <http://dbpedia.org/resource/Canada> .
 
 sdp:Morgan_A a foaf:Person ;
              foaf:name "Alexander Morgan" .
@@ -1807,6 +1852,11 @@ sdp:Peeters_K a foaf:Person ;
 sdp:Peltier_N a foaf:Person ;
               foaf:name "Nicolas Peltier" .
 
+sdp:Pernet_C a foaf:Person ;
+             foaf:name "Clément Pernet" ;
+             sd:affiliation "Grenoble Université" ;
+             sd:country <http://dbpedia.org/resource/France> .
+
 sdp:Petrovic_D a foaf:Person ;
                foaf:name "Danijela Petrovic" .
 
@@ -1914,6 +1964,11 @@ sdp:Reinhardt_H a foaf:Person ;
 sdp:Reiter_T a foaf:Person ;
              foaf:name "Thomas Reiter" .
 
+sdp:Renault_G a foaf:Person ;
+              foaf:name "Guénaël Renault" ;
+              sd:affiliation "Université Pierre et Marie Curie" ;
+              sd:country <http://dbpedia.org/resource/France> .
+
 sdp:Reynaud_JC a foaf:Person ;
                foaf:name "Jean-Claude Reynaud" .
 
@@ -1949,6 +2004,11 @@ sdp:Robertz_D a foaf:Person ;
 sdp:Robinson_S a foaf:Person ;
                foaf:name "Sara Robinson" .
 
+sdp:Roche_DS a foaf:Person ;
+             foaf:name "Daniel S. Roche " ;
+             sd:affiliation "U.S. Naval Academy" ;
+             sd:country <http://dbpedia.org/resource/United_States> .
+
 sdp:Roehrle_G a foaf:Person ;
               foaf:name "Gerhard Röhrle" ;
               sd:affiliation "Ruhr-Universität Bochum" .
@@ -1961,6 +2021,11 @@ sdp:Romero_A a foaf:Person ;
              foaf:name "Ana Romero" ;
              sd:affiliation "La Rioja" .
 
+sdp:RoneyDougal_CM a foaf:Person ;
+                   foaf:name "Colva M. Roney-Dougal" ;
+                   sd:affiliation "University of St Andrews" ;
+                   sd:country <http://dbpedia.org/resource/United_Kingdom> .
+
 sdp:Roozemund_D a foaf:Person ;
                 foaf:name "Dan Roozemund" .
 
@@ -1969,6 +2034,11 @@ sdp:Rosen_D a foaf:Person ;
 
 sdp:Rosenberger_G a foaf:Person ;
                   foaf:name "Gerhard Rosenberger" .
+
+sdp:Rosenkranz_M a foaf:Person ;
+                 foaf:name "Markus Rosenkranz" ;
+                 sd:affiliation "University of Kent" ;
+                 sd:country <http://dbpedia.org/resource/United_Kingdom> .
 
 sdp:Rossmann_T a foaf:Person ;
                foaf:name "Tobias Rossmann" ;
@@ -2005,6 +2075,11 @@ sdp:Rueth_J a foaf:Person ;
 sdp:Rukhaia_M a foaf:Person ;
               foaf:name "Mikheil Rukhaia" .
 
+sdp:Rump_SM a foaf:Person ;
+            foaf:name "Siegfried M. Rump" ;
+            sd:affiliation "Hamburg University of Technology" ;
+            sd:country <http://dbpedia.org/resource/Germany> .
+
 sdp:Ruzicka_M a foaf:Person ;
               foaf:name "Michal Růžička" ;
               foaf:homepage <https://mir.fi.muni.cz>, <http://www.fi.muni.cz/~xruzick7/> .
@@ -2019,7 +2094,8 @@ sdp:Saenz_R a foaf:Person ;
 
 sdp:SafeyElDin_M a foaf:Person ;
                  foaf:name "Mohab Safey El Din" ;
-                 sd:affiliation "Universite Pierre et Marie Curie, Paris, France" .
+                 sd:affiliation "Universite Pierre et Marie Curie, Paris, France" ;
+                 sd:country <http://dbpedia.org/resource/France> .
 
 sdp:Sagraloff_M a foaf:Person ;
                 foaf:name "Michael Sagraloff" .
@@ -2040,6 +2116,11 @@ sdp:Saroui_BS a foaf:Person ;
 
 sdp:Saunders_BV a foaf:Person ;
                 foaf:name "Bonita V. Saunders" .
+
+sdp:Saunders_D a foaf:Person ;
+               foaf:name "David Saunders" ;
+               sd:affiliation "University of Delaware" ;
+               sd:country <http://dbpedia.org/resource/United_States> .
 
 sdp:Schaper_R a foaf:Person ;
               foaf:name "Ralf Schaper" .
@@ -2066,7 +2147,9 @@ sdp:Schmidt_R a foaf:Person ;
               foaf:name "Reinhard Schmidt" .
 
 sdp:Schneider_C a foaf:Person ;
-                foaf:name "Carsten Schneider" .
+                foaf:name "Carsten Schneider" ;
+                sd:affiliation "RISC" ;
+                sd:country <http://dbpedia.org/resource/Austria> .
 
 sdp:Schneider_K a foaf:Person ;
                 foaf:name "Kerstin Schneider" .
@@ -2084,6 +2167,11 @@ sdp:Schoenemann_H a foaf:Person ;
 sdp:Schoennenbeck_S a foaf:Person ;
                     foaf:name "Sebastian Schoennenbeck" ;
                     sd:affiliation "RWTH Aachen" .
+
+sdp:Schost_Eric a foaf:Person ;
+                foaf:name "Éric Schost" ;
+                sd:affiliation "University of Western Ontario" ;
+                sd:country <http://dbpedia.org/resource/Canada> .
 
 sdp:Schrans_S a foaf:Person ;
               foaf:name "S. Schrans" .
@@ -2123,6 +2211,11 @@ sdp:Segundo_W a foaf:Person ;
 
 sdp:Seiler_W a foaf:Person ;
              foaf:name "Werner M. Seiler" .
+
+sdp:Sendra_JR a foaf:Person ;
+              foaf:name "J. Rafael Sendra" ;
+              sd:affiliation "University of Alcalá" ;
+              sd:country <http://dbpedia.org/resource/Spain> .
 
 sdp:Senk_DG a foaf:Person ;
             foaf:name "Dieter G. Senk" .
@@ -2251,6 +2344,11 @@ sdp:Stump_C a foaf:Person ;
             foaf:name "Christian Stump" ;
             sd:affiliation "FU Berlin" .
 
+sdp:Sturm_T a foaf:Person ;
+            foaf:name "Thomas Sturm" ;
+            sd:affiliation "Max Planck Institute for Informatics" ;
+            sd:country <http://dbpedia.org/resource/Germany> .
+
 sdp:Sturmfels_B a foaf:Person ;
                 foaf:name "Bernd Sturmfels" ;
                 sd:affiliation "University of California, Berkeley, USA" .
@@ -2268,8 +2366,18 @@ sdp:Symonds_P a foaf:Person ;
               sd:affiliation "Manchester" ;
               sd:country <http://dbpedia.org/resource/United_Kingdom> .
 
+sdp:Szanto_A a foaf:Person ;
+             foaf:name "Agnes Szanto" ;
+             sd:affiliation "North Carolina State University" ;
+             sd:country <http://dbpedia.org/resource/United_States> .
+
 sdp:Tahar_S a foaf:Person ;
             foaf:name "Sofiène Tahar" .
+
+sdp:Takayama_N a foaf:Person ;
+               foaf:name "Nobuki Takayama" ;
+               sd:affiliation "Kobe University" ;
+               sd:country <http://dbpedia.org/resource/Japan> .
 
 sdp:Tankink_C a foaf:Person ;
               foaf:name "Carst Tankink" ;
@@ -2382,9 +2490,19 @@ sdp:Vercauteren_F a foaf:Person ;
 sdp:Vermaseren_JAM a foaf:Person ;
                    foaf:name "J. A. M. Vermaseren" .
 
+sdp:Verschelde_J a foaf:Person ;
+                 foaf:name "Jan Verschelde" ;
+                 sd:affiliation "University of Illinois at Chicago" ;
+                 sd:country <http://dbpedia.org/resource/United_States> .
+
 sdp:Vidal_R a foaf:Person ;
             foaf:name "Rene Vidal" ;
             sd:affiliation "Johns Hopkins University, Baltimore, USA" .
+
+sdp:Villard_G a foaf:Person ;
+              foaf:name "Gilles Villard" ;
+              sd:affiliation "CNRS" ;
+              sd:country <http://dbpedia.org/resource/France> .
 
 sdp:Villaret_M a foaf:Person ;
                foaf:name "Mateu Villaret" ;
@@ -2569,6 +2687,11 @@ sdp:Yamamoto_O a foaf:Person ;
 sdp:Yap_C a foaf:Person ;
           foaf:name "Chee Yap" .
 
+sdp:Yokoyama_K a foaf:Person ;
+               foaf:name "Kazuhiro Yokoyama" ;
+               sd:affiliation "Rikkyo University" ;
+               sd:country <http://dbpedia.org/resource/Japan> .
+
 sdp:Youssef_A a foaf:Person ;
               foaf:name "Abdou Youssef" .
 
@@ -2585,6 +2708,11 @@ sdp:Zhang_Q a foaf:Person ;
 
 sdp:Zharkov_AYu a foaf:Person ;
                 foaf:name "A.Yu. Zharkov" .
+
+sdp:Zhi_Lihong a foaf:Person ;
+               foaf:name "Lihong Zhi" ;
+               sd:affiliation "Chinese Academy of Sciences" ;
+               sd:country <http://dbpedia.org/resource/China> .
 
 sdp:Zhizhchenko_A a foaf:Person ;
                   foaf:name "Alexey Zhizhchenko" .
