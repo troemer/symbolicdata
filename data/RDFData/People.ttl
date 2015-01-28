@@ -163,6 +163,11 @@ sdp:Barakat_M a foaf:Person ;
               foaf:homepage <http://www.mathematik.uni-kl.de/~barakat/> ;
               sd:affiliation "TU Kaiserslautern" .
 
+sdp:Barberousse_A a foaf:Person ;
+                  foaf:name "Anouk Barberousse" ;
+                  sd:affiliation "Université Lille 1" ;
+                  sd:country <http://dbpedia.org/resource/France> .
+
 sdp:Barras_B a foaf:Person ;
              foaf:name "Bruno Barras" .
 
@@ -171,6 +176,11 @@ sdp:Bartholdi_L a foaf:Person ;
 
 sdp:Bassem_C a foaf:Person ;
              foaf:name "Christine Bassem" .
+
+sdp:Batterman_R a foaf:Person ;
+                foaf:name "Robert Batterman" ;
+                sd:affiliation "University of Pittsburgh" ;
+                sd:country <http://dbpedia.org/resource/United_States> .
 
 sdp:Baumeister_B a foaf:Person ;
                  foaf:name "Barbara Baumeister" .
@@ -451,6 +461,11 @@ sdp:Conca_A a foaf:Person ;
             foaf:name "Aldo Conca" ;
             sd:affiliation "Universität Genua" .
 
+sdp:Corless_R a foaf:Person ;
+              foaf:name "Robert Corless" ;
+              sd:affiliation "Western University, Ontario" ;
+              sd:country <http://dbpedia.org/resource/Canada> .
+
 sdp:Corneli_J a foaf:Person ;
               foaf:name "Joseph Corneli" ;
               foaf:homepage <http://metameso.org/~joe/> .
@@ -652,6 +667,11 @@ sdp:Fieker_C a foaf:Person ;
              foaf:name "Claus Fieker" ;
              sd:affiliation "TU Kaiserslautern" .
 
+sdp:Fillion_N a foaf:Person ;
+              foaf:name "Nicolas Fillion" ;
+              sd:affiliation "Simon Fraser University" ;
+              sd:country <http://dbpedia.org/resource/Canada> .
+
 sdp:Fiorenza_D a foaf:Person ;
                foaf:name "Domenico Fiorenza" ;
                sd:affiliation "Rome" .
@@ -820,6 +840,11 @@ sdp:Grueninger_M a foaf:Person ;
 
 sdp:Gubeladze_J a foaf:Person ;
                 foaf:name "J. Gubeladze" .
+
+sdp:Gunzburger_M a foaf:Person ;
+                 foaf:name "Max Gunzburger" ;
+                 sd:affiliation "Florida State University" ;
+                 sd:country <http://dbpedia.org/resource/United_States> .
 
 sdp:Gutsche_S a foaf:Person ;
               foaf:name "Sebastian Gutsche" ;
@@ -1545,7 +1570,7 @@ sdp:Martin_A a foaf:Person ;
 sdp:Martin_U a foaf:Person ;
              foaf:name "Ursula Martin" ;
              foaf:homepage <http://www.eecs.qmul.ac.uk/~uhmm/> ;
-             sd:affiliation "Queen Mary University of London" ;
+             sd:affiliation "Queen Mary University of London", "Oxford University" ;
              sd:country <http://dbpedia.org/resource/United_Kingdom> .
 
 sdp:MartinezMoro_E a foaf:Person ;
@@ -1640,6 +1665,11 @@ sdp:Moeller_HM a foaf:Person ;
 sdp:Mohammadi_F a foaf:Person ;
                 foaf:name "Fatemeh Mohammadi" ;
                 sd:affiliation "Universität Osnabrück" .
+
+sdp:Moir_R a foaf:Person ;
+           foaf:name "Robert Moir" ;
+           sd:affiliation "Western University, Ontario" ;
+           sd:country <http://dbpedia.org/resource/Canada> .
 
 sdp:Moldenhauer_W a foaf:Person ;
                   foaf:name "Wolfgang Moldenhauer" .
@@ -2136,6 +2166,11 @@ sdp:Santos_V a foaf:Person ;
              sd:affiliation "CISUC" ;
              sd:country <http://dbpedia.org/resource/Portugal> .
 
+sdp:SanzSerna_J a foaf:Person ;
+                foaf:name "Jesús Sanz-Serna" ;
+                sd:affiliation "Universidad Carlos III de Madrid" ;
+                sd:country <http://dbpedia.org/resource/Spain> .
+
 sdp:Saroui_BS a foaf:Person ;
               foaf:name "Behrang S. Saroui" .
 
@@ -2281,6 +2316,11 @@ sdp:Skowyra_R a foaf:Person ;
 
 sdp:Smallbone_N a foaf:Person ;
                 foaf:name "Nicholas Smallbone" .
+
+sdp:Smeenk_C a foaf:Person ;
+             foaf:name "Chris Smeenk" ;
+             sd:affiliation "Western University, Ontario" ;
+             sd:country <http://dbpedia.org/resource/Canada> .
 
 sdp:Smirnova_E a foaf:Person ;
                foaf:name "Elena Smirnova" ;
@@ -2668,6 +2708,11 @@ sdp:Williams_JC a foaf:Person ;
 sdp:Wilson_D a foaf:Person ;
              foaf:name "David Wilson" ;
              foaf:homepage <http://www.cs.bath.ac.uk/~djw42> .
+
+sdp:Wilson_M a foaf:Person ;
+             foaf:name "Mark Wilson" ;
+             sd:affiliation "University of Pittsburgh" ;
+             sd:country <http://dbpedia.org/resource/United_States> .
 
 sdp:Wilson_R a foaf:Person ;
              foaf:name "Robert Wilson" .
