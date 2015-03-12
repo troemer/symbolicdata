@@ -89,6 +89,9 @@ sdp:Amend_N a foaf:Person ;
 sdp:Amrhein_B a foaf:Person ;
               foaf:name "Beatrice Amrhein" .
 
+sdp:Andreatta_F a foaf:Person ;
+                foaf:name "Fabrizio Andreatta" .
+
 sdp:Andres_D a foaf:Person ;
              foaf:name "Daniel Andres" .
 
@@ -216,6 +219,9 @@ sdp:Benzmueller_C a foaf:Person ;
 
 sdp:Berg_CJ a foaf:Person ;
             foaf:name "Chris J. Berg" .
+
+sdp:Berger_T a foaf:Person ;
+             foaf:name "Tobias Berger" .
 
 sdp:Berghammer_R a foaf:Person ;
                  foaf:name "Rudolf Berghammer" .
@@ -528,6 +534,9 @@ sdp:Derenthal_U a foaf:Person ;
 sdp:Dettweiler_M a foaf:Person ;
                  foaf:name "Michael Dettweiler" .
 
+sdp:Diamond_F a foaf:Person ;
+              foaf:name "Fred Diamond" .
+
 sdp:Diem_C a foaf:Person ;
            foaf:name "Claus Diem" .
 
@@ -538,6 +547,9 @@ sdp:Dietrich_H a foaf:Person ;
                foaf:name "Heiko Dietrich" ;
                sd:affiliation "Melbourne" ;
                sd:country <http://dbpedia.org/resource/Australia> .
+
+sdp:Dimitrov_M a foaf:Person ;
+               foaf:name "Mladen Dimitrov" .
 
 sdp:Dimou_A a foaf:Person ;
             foaf:name "Anastasia Dimou" .
@@ -600,6 +612,9 @@ sdp:Echenim_M a foaf:Person ;
 sdp:Eder_C a foaf:Person ;
            foaf:name "Christian Eder" ;
            sd:affiliation "TU Kaiserslautern" .
+
+sdp:Edixhoven_B a foaf:Person ;
+                foaf:name "Bas Edixhoven" .
 
 sdp:Eick_B a foaf:Person ;
            foaf:name "Bettina Eick" ;
@@ -970,8 +985,14 @@ sdp:Herding_D a foaf:Person ;
               foaf:name "Daniel Herding" ;
               foaf:homepage <http://elearn.rwth-aachen.de/herding> .
 
+sdp:Herzig_F a foaf:Person ;
+             foaf:name "Florian Herzig" .
+
 sdp:Hess_F a foaf:Person ;
-           foaf:name "Florian Heß" .
+           foaf:name "Florian Heß" ;
+           foaf:homepage <http://www.staff.uni-oldenburg.de/florian.hess/> ;
+           sd:affiliation "Universität Oldenburg" ;
+           sd:country <http://dbpedia.org/resource/Germany> .
 
 sdp:Hetzl_S a foaf:Person ;
             foaf:name "Stefan Hetzl" ;
@@ -1382,6 +1403,9 @@ sdp:Kutz_O a foaf:Person ;
 
 sdp:Kyureghyan_G a foaf:Person ;
                  foaf:name "Gohar Kyureghyan" .
+
+sdp:Lan_KW a foaf:Person ;
+           foaf:name "K.W. Lan" .
 
 sdp:LangeHegermann_M a foaf:Person ;
                      foaf:name "Markus Lange-Hegermann" ;
@@ -2174,6 +2198,9 @@ sdp:SanzSerna_J a foaf:Person ;
 sdp:Saroui_BS a foaf:Person ;
               foaf:name "Behrang S. Saroui" .
 
+sdp:Sasaki_S a foaf:Person ;
+             foaf:name "Shu Sasaki" .
+
 sdp:Saunders_BV a foaf:Person ;
                 foaf:name "Bonita V. Saunders" .
 
@@ -2181,6 +2208,9 @@ sdp:Saunders_D a foaf:Person ;
                foaf:name "David Saunders" ;
                sd:affiliation "University of Delaware" ;
                sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Schaeffer_G a foaf:Person ;
+                foaf:name "George Schaeffer" .
 
 sdp:Schaper_R a foaf:Person ;
               foaf:name "Ralf Schaper" .
@@ -2279,6 +2309,9 @@ sdp:Sendra_JR a foaf:Person ;
               sd:affiliation "University of Alcalá" ;
               sd:country <http://dbpedia.org/resource/Spain> .
 
+sdp:Senguen_H a foaf:Person ;
+              foaf:name "Haluk Sengün" .
+
 sdp:Senk_DG a foaf:Person ;
             foaf:name "Dieter G. Senk" .
 
@@ -2300,6 +2333,9 @@ sdp:Sheard_T a foaf:Person ;
              foaf:name "Tim Sheard" ;
              sd:affiliation "Portland State University" ;
              sd:country <http://dbpedia.org/resource/United_States> .
+
+sdp:Shin_SW a foaf:Person ;
+            foaf:name "Sug Woo Shin" .
 
 sdp:Siddique_U a foaf:Person ;
                foaf:name "Umair Siddique" .
@@ -2480,6 +2516,9 @@ sdp:Thiel_U a foaf:Person ;
 sdp:Thomas_RR a foaf:Person ;
               foaf:name "Rekha R. Thomas" ;
               sd:affiliation "University of Washington, Seattle, USA" .
+
+sdp:Tilouine_J a foaf:Person ;
+               foaf:name "Jacques Tilouine" .
 
 sdp:Toader_A a foaf:Person ;
              foaf:name "Alexandru Toader" .
@@ -2726,6 +2765,9 @@ sdp:Windsteiger_W a foaf:Person ;
 sdp:Winkler_F a foaf:Person ;
               foaf:name "Franz Winkler" .
 
+sdp:Wintenberger_JP a foaf:Person ;
+                    foaf:name "Jean-Pierre Wintenberger" .
+
 sdp:Witte_M a foaf:Person ;
             foaf:name "Malte Witte" .
 
@@ -2763,6 +2805,9 @@ sdp:Yokoyama_K a foaf:Person ;
                foaf:name "Kazuhiro Yokoyama" ;
                sd:affiliation "Rikkyo University" ;
                sd:country <http://dbpedia.org/resource/Japan> .
+
+sdp:Yoo_H a foaf:Person ;
+          foaf:name "Hwajong Yoo" .
 
 sdp:Youssef_A a foaf:Person ;
               foaf:name "Abdou Youssef" .
