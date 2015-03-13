@@ -29,3 +29,16 @@ order by ?p
 
 http://symbolicdata.org/Data/Annotation/TestSet.bo66 	http://symbolicdata.org/Data/TestSet/bo6 
 
+-------------------------------------------------------
+Do the sd:TestSet have sd:type?
+
+PREFIX sd: <http://symbolicdata.org/Data/Model#>
+select 
+distinct ?p ?t
+where {
+?p a sd:TestSet .
+optional { ?c sd:type ?t . }
+filter (!bound(?t))
+order by ?p
+}
+	
