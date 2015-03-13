@@ -1,0 +1,31 @@
+Queries to test the integrity of MoreTestSets:
+
+-------------------------------------------------------
+Are the sd:Reference dct:creator values in SD/People?
+
+PREFIX dct: <http://purl.org/dc/terms/> 
+PREFIX sd: <http://symbolicdata.org/Data/Model#>
+select 
+distinct ?c ?n
+where {
+?p a sd:Reference; dct:creator ?c .
+optional { ?c foaf:name ?n . }
+filter (!bound(?n))
+}
+
+-------------------------------------------------------
+Do the sd:Annotation sd:relatesTo values exist?
+
+PREFIX sd: <http://symbolicdata.org/Data/Model#>
+select 
+distinct ?p ?c ?t
+where {
+?p a sd:Annotation; sd:relatesTo ?c .
+optional { ?c a ?t . }
+filter (!bound(?t))
+order by ?p
+}
+	
+
+http://symbolicdata.org/Data/Annotation/TestSet.bo66 	http://symbolicdata.org/Data/TestSet/bo6 
+
