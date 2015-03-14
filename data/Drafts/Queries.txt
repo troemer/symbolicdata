@@ -23,22 +23,20 @@ where {
 ?p a sd:Annotation; sd:relatesTo ?c .
 optional { ?c a ?t . }
 filter (!bound(?t))
-order by ?p
 }
+order by ?p
 	
 
 http://symbolicdata.org/Data/Annotation/TestSet.bo66 	http://symbolicdata.org/Data/TestSet/bo6 
 
 -------------------------------------------------------
-Do the sd:TestSet have sd:type?
+Fix rdfs:label
 
 PREFIX sd: <http://symbolicdata.org/Data/Model#>
 select 
-distinct ?p ?t
+distinct ?p ?l
 where {
-?p a sd:TestSet .
-optional { ?c sd:type ?t . }
-filter (!bound(?t))
-order by ?p
+?p a sd:TestSet; rdfs:label ?l .
 }
+order by ?p
 	
