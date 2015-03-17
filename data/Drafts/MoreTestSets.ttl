@@ -36,6 +36,7 @@ sd:TestSet a owl:Class ;
 <http://symbolicdata.org/Data/TestSet/A443> a sd:TestSet, sd:Normalization ;
                                             rdfs:label "TestSet/A443" ;
                                             rdfs:comment "A missing case in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (4x4x3); run with -N for Hilbert basis computation. See [OH], [BHIKS]." ;
+                                            sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 6 of the Normaliz collection" ;
                                             sd:hasNumberOfExtremeRays "48"^^xsd:integer ;
                                             sd:hasSupportingHyperplanes "4948"^^xsd:integer ;
                                             sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/contingency.zip> ;
@@ -43,12 +44,12 @@ sd:TestSet a owl:Class ;
                                             sd:numberOfRows "48"^^xsd:integer ;
                                             sd:numberOfColumns "40"^^xsd:integer ;
                                             sd:hasNumberOfHilbertBasisElements "48"^^xsd:integer ;
-                                            sd:hasRank "30"^^xsd:integer ;
-                                            sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 6 of the Normaliz collection" .
+                                            sd:hasRank "30"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/A543> a sd:TestSet, sd:Normalization ;
                                             rdfs:label "TestSet/A543" ;
                                             rdfs:comment "A missing case in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (5x4x3); run 'Normaliz' with -N for Hilbert basis computation. See [OH], [BHIKS]." ;
+                                            sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 6 of the Normaliz collection" ;
                                             sd:hasNumberOfExtremeRays "60"^^xsd:integer ;
                                             sd:hasSupportingHyperplanes "29387"^^xsd:integer ;
                                             sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/contingency.zip> ;
@@ -56,12 +57,12 @@ sd:TestSet a owl:Class ;
                                             sd:numberOfRows "60"^^xsd:integer ;
                                             sd:numberOfColumns "47"^^xsd:integer ;
                                             sd:hasNumberOfHilbertBasisElements "60"^^xsd:integer ;
-                                            sd:hasRank "36"^^xsd:integer ;
-                                            sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 6 of the Normaliz collection" .
+                                            sd:hasRank "36"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/A553> a sd:TestSet, sd:Normalization ;
                                             rdfs:label "TestSet/A553" ;
                                             rdfs:comment "A missing case in the Ohsugi-Hibi classification of normal monoids derived from contingency tables (5x5x3); run 'Normaliz' with -N for Hilbert basis computation. See [OH], [BHIKS]." ;
+                                            sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 6 of the Normaliz collection" ;
                                             sd:hasNumberOfExtremeRays "75"^^xsd:integer ;
                                             sd:hasSupportingHyperplanes "306955"^^xsd:integer ;
                                             sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/contingency.zip> ;
@@ -69,12 +70,12 @@ sd:TestSet a owl:Class ;
                                             sd:numberOfRows "75"^^xsd:integer ;
                                             sd:numberOfColumns "55"^^xsd:integer ;
                                             sd:hasNumberOfHilbertBasisElements "75"^^xsd:integer ;
-                                            sd:hasRank "43"^^xsd:integer ;
-                                            sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 6 of the Normaliz collection" .
+                                            sd:hasRank "43"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/A643> a sd:TestSet, sd:Normalization ;
                                             rdfs:label "TestSet/A643" ;
                                             rdfs:comment "The first nonnormal case (6x4x3) derived from the Ohsugi-Hibi classification of normal monoids derived from contingency tables; run 'Normaliz' with -N for Hilbert basis computation. See [OH], [BHIKS]." ;
+                                            sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 6 of the Normaliz collection" ;
                                             sd:hasNumberOfExtremeRays "72"^^xsd:integer ;
                                             sd:hasSupportingHyperplanes "153858"^^xsd:integer ;
                                             sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/contingency.zip> ;
@@ -82,12 +83,12 @@ sd:TestSet a owl:Class ;
                                             sd:numberOfRows "72"^^xsd:integer ;
                                             sd:numberOfColumns "54"^^xsd:integer ;
                                             sd:hasNumberOfHilbertBasisElements "4392"^^xsd:integer ;
-                                            sd:hasRank "42"^^xsd:integer ;
-                                            sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 6 of the Normaliz collection" .
+                                            sd:hasRank "42"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/Condorcet> a sd:TestSet, sd:Hyperplanes ;
                                                  rdfs:label "TestSet/Condorcet" ;
                                                  rdfs:comment "Models of combinatorial voting theory: the Condorcet paradox. See [BIS]." ;
+                                                 sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 10 of the Normaliz collection" ;
                                                  sd:hasNumberOfExtremeRays "234"^^xsd:integer ;
                                                  sd:hasSupportingHyperplanes "27"^^xsd:integer ;
                                                  sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/CombinatorialVoting.zip> ;
@@ -95,12 +96,12 @@ sd:TestSet a owl:Class ;
                                                  sd:numberOfRows "27"^^xsd:integer ;
                                                  sd:numberOfColumns "24"^^xsd:integer ;
                                                  sd:hasNumberOfHilbertBasisElements "242"^^xsd:integer ;
-                                                 sd:hasRank "24"^^xsd:integer ;
-                                                 sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 10 of the Normaliz collection" .
+                                                 sd:hasRank "24"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/ICPnonUHC> a sd:TestSet, sd:IntegralClosure ;
                                                  rdfs:label "TestSet/ICPnonUHC" ;
                                                  rdfs:comment "An example of a lattice polytope satisfying ICP, but without unimodular cover [B]." ;
+                                                 sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. Example 2 of the Normaliz collection" ;
                                                  sd:hasNumberOfExtremeRays "12"^^xsd:integer ;
                                                  sd:hasSupportingHyperplanes "40"^^xsd:integer ;
                                                  sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/ICPnonUHC.zip> ;
@@ -108,12 +109,12 @@ sd:TestSet a owl:Class ;
                                                  sd:numberOfRows "12"^^xsd:integer ;
                                                  sd:numberOfColumns "6"^^xsd:integer ;
                                                  sd:hasNumberOfHilbertBasisElements "12"^^xsd:integer ;
-                                                 sd:hasRank "6"^^xsd:integer ;
-                                                 sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. Example 2 of the Normaliz collection" .
+                                                 sd:hasRank "6"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/NonNormal3polytope> a sd:TestSet, sd:Polytope ;
                                                           rdfs:label "TestSet/NonNormal3polytope" ;
                                                           rdfs:comment "A nonnormal rectangular simplex of dimension 3 [BG0]." ;
+                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. Example 5 of the Normaliz collection" ;
                                                           sd:hasSupportingHyperplanes "4"^^xsd:integer ;
                                                           sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/NonNormal3polytope.zip> ;
                                                           sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/NonNormal3polytope.zip> ;
@@ -121,12 +122,12 @@ sd:TestSet a owl:Class ;
                                                           sd:hasDimension "3"^^xsd:integer ;
                                                           sd:numberOfColumns "3"^^xsd:integer ;
                                                           sd:hasNumberOfLatticePoints "18"^^xsd:integer ;
-                                                          sd:hasNumberExtremePoints "4"^^xsd:integer ;
-                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. Example 5 of the Normaliz collection" .
+                                                          sd:hasNumberExtremePoints "4"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/VeryampleNonNormal> a sd:TestSet, sd:Normalization ;
                                                           rdfs:label "TestSet/VeryampleNonNormal" ;
                                                           rdfs:comment "An example of a non-normal very ample lattice polytope [BG1]. (See [BG, p. 87] for further examples.)" ;
+                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. Example 3 of the Normaliz collection" ;
                                                           sd:hasNumberOfExtremeRays "10"^^xsd:integer ;
                                                           sd:hasSupportingHyperplanes "22"^^xsd:integer ;
                                                           sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/VeryampleNonNormal.zip> ;
@@ -134,12 +135,12 @@ sd:TestSet a owl:Class ;
                                                           sd:numberOfRows "10"^^xsd:integer ;
                                                           sd:numberOfColumns "6"^^xsd:integer ;
                                                           sd:hasNumberOfHilbertBasisElements "11"^^xsd:integer ;
-                                                          sd:hasRank "6"^^xsd:integer ;
-                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. Example 3 of the Normaliz collection" .
+                                                          sd:hasRank "6"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/bo5> a sd:TestSet, sd:Polytope ;
                                            rdfs:label "TestSet/bo5" ;
                                            rdfs:comment "The ascending model of statistical ranking discussed in [SW] for <i>n = 5</i>." ;
+                                           sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 9 of the Normaliz collection" ;
                                            sd:hasSupportingHyperplanes "235"^^xsd:integer ;
                                            sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/SturmfelsWelker.zip> ;
                                            sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/bo5.zip> ;
@@ -147,12 +148,12 @@ sd:TestSet a owl:Class ;
                                            sd:hasDimension "26"^^xsd:integer ;
                                            sd:numberOfColumns "30"^^xsd:integer ;
                                            sd:hasNumberOfLatticePoints "120"^^xsd:integer ;
-                                           sd:hasNumberExtremePoints "120"^^xsd:integer ;
-                                           sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 9 of the Normaliz collection" .
+                                           sd:hasNumberExtremePoints "120"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/dim3tight> a sd:TestSet, sd:IntegralClosure ;
                                                  rdfs:label "TestSet/dim3tight" ;
                                                  rdfs:comment "A 3-dimensional tight cone [BG, Section 2.D]." ;
+                                                 sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. Example 4 of the Normaliz collection" ;
                                                  sd:hasNumberOfExtremeRays "6"^^xsd:integer ;
                                                  sd:hasSupportingHyperplanes "6"^^xsd:integer ;
                                                  sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/dim3tight.zip> ;
@@ -160,12 +161,12 @@ sd:TestSet a owl:Class ;
                                                  sd:numberOfRows "19"^^xsd:integer ;
                                                  sd:numberOfColumns "3"^^xsd:integer ;
                                                  sd:hasNumberOfHilbertBasisElements "19"^^xsd:integer ;
-                                                 sd:hasRank "3"^^xsd:integer ;
-                                                 sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. Example 4 of the Normaliz collection" .
+                                                 sd:hasRank "3"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph10_001_k5free> a sd:TestSet, sd:Normalization ;
                                                           rdfs:label "TestSet/graph10_001_k5free" ;
                                                           rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                           sd:hasNumberOfExtremeRays "512"^^xsd:integer ;
                                                           sd:hasSupportingHyperplanes "352"^^xsd:integer ;
                                                           sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -173,12 +174,12 @@ sd:TestSet a owl:Class ;
                                                           sd:numberOfRows "512"^^xsd:integer ;
                                                           sd:numberOfColumns "48"^^xsd:integer ;
                                                           sd:hasNumberOfHilbertBasisElements "512"^^xsd:integer ;
-                                                          sd:hasRank "25"^^xsd:integer ;
-                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                          sd:hasRank "25"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph10_002_k5free> a sd:TestSet, sd:Normalization ;
                                                           rdfs:label "TestSet/graph10_002_k5free" ;
                                                           rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                           sd:hasNumberOfExtremeRays "512"^^xsd:integer ;
                                                           sd:hasSupportingHyperplanes "344"^^xsd:integer ;
                                                           sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -186,12 +187,12 @@ sd:TestSet a owl:Class ;
                                                           sd:numberOfRows "512"^^xsd:integer ;
                                                           sd:numberOfColumns "48"^^xsd:integer ;
                                                           sd:hasNumberOfHilbertBasisElements "512"^^xsd:integer ;
-                                                          sd:hasRank "25"^^xsd:integer ;
-                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                          sd:hasRank "25"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph10_003_k5free> a sd:TestSet, sd:Normalization ;
                                                           rdfs:label "TestSet/graph10_003_k5free" ;
                                                           rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                           sd:hasNumberOfExtremeRays "512"^^xsd:integer ;
                                                           sd:hasSupportingHyperplanes "352"^^xsd:integer ;
                                                           sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -199,12 +200,12 @@ sd:TestSet a owl:Class ;
                                                           sd:numberOfRows "512"^^xsd:integer ;
                                                           sd:numberOfColumns "48"^^xsd:integer ;
                                                           sd:hasNumberOfHilbertBasisElements "512"^^xsd:integer ;
-                                                          sd:hasRank "25"^^xsd:integer ;
-                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                          sd:hasRank "25"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph10_004_k5free> a sd:TestSet, sd:Normalization ;
                                                           rdfs:label "TestSet/graph10_004_k5free" ;
                                                           rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                           sd:hasNumberOfExtremeRays "512"^^xsd:integer ;
                                                           sd:hasSupportingHyperplanes "352"^^xsd:integer ;
                                                           sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -212,12 +213,12 @@ sd:TestSet a owl:Class ;
                                                           sd:numberOfRows "512"^^xsd:integer ;
                                                           sd:numberOfColumns "48"^^xsd:integer ;
                                                           sd:hasNumberOfHilbertBasisElements "512"^^xsd:integer ;
-                                                          sd:hasRank "25"^^xsd:integer ;
-                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                          sd:hasRank "25"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph10_005_k5free> a sd:TestSet, sd:Normalization ;
                                                           rdfs:label "TestSet/graph10_005_k5free" ;
                                                           rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                           sd:hasNumberOfExtremeRays "512"^^xsd:integer ;
                                                           sd:hasSupportingHyperplanes "344"^^xsd:integer ;
                                                           sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -225,12 +226,12 @@ sd:TestSet a owl:Class ;
                                                           sd:numberOfRows "512"^^xsd:integer ;
                                                           sd:numberOfColumns "48"^^xsd:integer ;
                                                           sd:hasNumberOfHilbertBasisElements "512"^^xsd:integer ;
-                                                          sd:hasRank "25"^^xsd:integer ;
-                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                          sd:hasRank "25"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph10_006_k5free> a sd:TestSet, sd:Normalization ;
                                                           rdfs:label "TestSet/graph10_006_k5free" ;
                                                           rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                           sd:hasNumberOfExtremeRays "512"^^xsd:integer ;
                                                           sd:hasSupportingHyperplanes "392"^^xsd:integer ;
                                                           sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -238,12 +239,12 @@ sd:TestSet a owl:Class ;
                                                           sd:numberOfRows "512"^^xsd:integer ;
                                                           sd:numberOfColumns "48"^^xsd:integer ;
                                                           sd:hasNumberOfHilbertBasisElements "512"^^xsd:integer ;
-                                                          sd:hasRank "25"^^xsd:integer ;
-                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                          sd:hasRank "25"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph10_007_k5free> a sd:TestSet, sd:Normalization ;
                                                           rdfs:label "TestSet/graph10_007_k5free" ;
                                                           rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                           sd:hasNumberOfExtremeRays "512"^^xsd:integer ;
                                                           sd:hasSupportingHyperplanes "344"^^xsd:integer ;
                                                           sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -251,12 +252,12 @@ sd:TestSet a owl:Class ;
                                                           sd:numberOfRows "512"^^xsd:integer ;
                                                           sd:numberOfColumns "48"^^xsd:integer ;
                                                           sd:hasNumberOfHilbertBasisElements "512"^^xsd:integer ;
-                                                          sd:hasRank "25"^^xsd:integer ;
-                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                          sd:hasRank "25"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph10_008_k5free> a sd:TestSet, sd:Normalization ;
                                                           rdfs:label "TestSet/graph10_008_k5free" ;
                                                           rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                           sd:hasNumberOfExtremeRays "512"^^xsd:integer ;
                                                           sd:hasSupportingHyperplanes "456"^^xsd:integer ;
                                                           sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -264,12 +265,12 @@ sd:TestSet a owl:Class ;
                                                           sd:numberOfRows "512"^^xsd:integer ;
                                                           sd:numberOfColumns "48"^^xsd:integer ;
                                                           sd:hasNumberOfHilbertBasisElements "512"^^xsd:integer ;
-                                                          sd:hasRank "25"^^xsd:integer ;
-                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                          sd:hasRank "25"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph10_009_k5free> a sd:TestSet, sd:Normalization ;
                                                           rdfs:label "TestSet/graph10_009_k5free" ;
                                                           rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                           sd:hasNumberOfExtremeRays "512"^^xsd:integer ;
                                                           sd:hasSupportingHyperplanes "352"^^xsd:integer ;
                                                           sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -277,12 +278,12 @@ sd:TestSet a owl:Class ;
                                                           sd:numberOfRows "512"^^xsd:integer ;
                                                           sd:numberOfColumns "48"^^xsd:integer ;
                                                           sd:hasNumberOfHilbertBasisElements "512"^^xsd:integer ;
-                                                          sd:hasRank "25"^^xsd:integer ;
-                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                          sd:hasRank "25"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph10_012_k5free> a sd:TestSet, sd:Normalization ;
                                                           rdfs:label "TestSet/graph10_012_k5free" ;
                                                           rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                           sd:hasNumberOfExtremeRays "512"^^xsd:integer ;
                                                           sd:hasSupportingHyperplanes "464"^^xsd:integer ;
                                                           sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -290,12 +291,12 @@ sd:TestSet a owl:Class ;
                                                           sd:numberOfRows "512"^^xsd:integer ;
                                                           sd:numberOfColumns "48"^^xsd:integer ;
                                                           sd:hasNumberOfHilbertBasisElements "512"^^xsd:integer ;
-                                                          sd:hasRank "25"^^xsd:integer ;
-                                                          sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                          sd:hasRank "25"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph6_001_k5free> a sd:TestSet, sd:Normalization ;
                                                          rdfs:label "TestSet/graph6_001_k5free" ;
                                                          rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                          sd:hasNumberOfExtremeRays "32"^^xsd:integer ;
                                                          sd:hasSupportingHyperplanes "56"^^xsd:integer ;
                                                          sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -303,12 +304,12 @@ sd:TestSet a owl:Class ;
                                                          sd:numberOfRows "32"^^xsd:integer ;
                                                          sd:numberOfColumns "24"^^xsd:integer ;
                                                          sd:hasNumberOfHilbertBasisElements "32"^^xsd:integer ;
-                                                         sd:hasRank "13"^^xsd:integer ;
-                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                         sd:hasRank "13"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph7_001_k5free> a sd:TestSet, sd:Normalization ;
                                                          rdfs:label "TestSet/graph7_001_k5free" ;
                                                          rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                          sd:hasNumberOfExtremeRays "64"^^xsd:integer ;
                                                          sd:hasSupportingHyperplanes "96"^^xsd:integer ;
                                                          sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -316,12 +317,12 @@ sd:TestSet a owl:Class ;
                                                          sd:numberOfRows "64"^^xsd:integer ;
                                                          sd:numberOfColumns "30"^^xsd:integer ;
                                                          sd:hasNumberOfHilbertBasisElements "64"^^xsd:integer ;
-                                                         sd:hasRank "16"^^xsd:integer ;
-                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                         sd:hasRank "16"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph8_001_k5free> a sd:TestSet, sd:Normalization ;
                                                          rdfs:label "TestSet/graph8_001_k5free" ;
                                                          rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                          sd:hasNumberOfExtremeRays "128"^^xsd:integer ;
                                                          sd:hasSupportingHyperplanes "152"^^xsd:integer ;
                                                          sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -329,12 +330,12 @@ sd:TestSet a owl:Class ;
                                                          sd:numberOfRows "128"^^xsd:integer ;
                                                          sd:numberOfColumns "36"^^xsd:integer ;
                                                          sd:hasNumberOfHilbertBasisElements "128"^^xsd:integer ;
-                                                         sd:hasRank "19"^^xsd:integer ;
-                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                         sd:hasRank "19"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph8_002_k5free> a sd:TestSet, sd:Normalization ;
                                                          rdfs:label "TestSet/graph8_002_k5free" ;
                                                          rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                          sd:hasNumberOfExtremeRays "128"^^xsd:integer ;
                                                          sd:hasSupportingHyperplanes "152"^^xsd:integer ;
                                                          sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -342,12 +343,12 @@ sd:TestSet a owl:Class ;
                                                          sd:numberOfRows "128"^^xsd:integer ;
                                                          sd:numberOfColumns "36"^^xsd:integer ;
                                                          sd:hasNumberOfHilbertBasisElements "128"^^xsd:integer ;
-                                                         sd:hasRank "19"^^xsd:integer ;
-                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                         sd:hasRank "19"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph9_001_k5free> a sd:TestSet, sd:Normalization ;
                                                          rdfs:label "TestSet/graph9_001_k5free" ;
                                                          rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                          sd:hasNumberOfExtremeRays "256"^^xsd:integer ;
                                                          sd:hasSupportingHyperplanes "232"^^xsd:integer ;
                                                          sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -355,12 +356,12 @@ sd:TestSet a owl:Class ;
                                                          sd:numberOfRows "256"^^xsd:integer ;
                                                          sd:numberOfColumns "42"^^xsd:integer ;
                                                          sd:hasNumberOfHilbertBasisElements "256"^^xsd:integer ;
-                                                         sd:hasRank "22"^^xsd:integer ;
-                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                         sd:hasRank "22"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph9_002_k5free> a sd:TestSet, sd:Normalization ;
                                                          rdfs:label "TestSet/graph9_002_k5free" ;
                                                          rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                          sd:hasNumberOfExtremeRays "256"^^xsd:integer ;
                                                          sd:hasSupportingHyperplanes "232"^^xsd:integer ;
                                                          sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -368,12 +369,12 @@ sd:TestSet a owl:Class ;
                                                          sd:numberOfRows "256"^^xsd:integer ;
                                                          sd:numberOfColumns "42"^^xsd:integer ;
                                                          sd:hasNumberOfHilbertBasisElements "256"^^xsd:integer ;
-                                                         sd:hasRank "22"^^xsd:integer ;
-                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                         sd:hasRank "22"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph9_003_k5free> a sd:TestSet, sd:Normalization ;
                                                          rdfs:label "TestSet/graph9_003_k5free" ;
                                                          rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                          sd:hasNumberOfExtremeRays "256"^^xsd:integer ;
                                                          sd:hasSupportingHyperplanes "232"^^xsd:integer ;
                                                          sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -381,12 +382,12 @@ sd:TestSet a owl:Class ;
                                                          sd:numberOfRows "256"^^xsd:integer ;
                                                          sd:numberOfColumns "42"^^xsd:integer ;
                                                          sd:hasNumberOfHilbertBasisElements "256"^^xsd:integer ;
-                                                         sd:hasRank "22"^^xsd:integer ;
-                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                         sd:hasRank "22"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/graph9_004_k5free> a sd:TestSet, sd:Normalization ;
                                                          rdfs:label "TestSet/graph9_004_k5free" ;
                                                          rdfs:comment "Verification of a conjecture of Sturmfels and Sullivant on normality of cut polytopes for some specific graphs [SS], [BHIKS], [O], [S]." ;
+                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" ;
                                                          sd:hasNumberOfExtremeRays "256"^^xsd:integer ;
                                                          sd:hasSupportingHyperplanes "272"^^xsd:integer ;
                                                          sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/cut_monoids.zip> ;
@@ -394,12 +395,12 @@ sd:TestSet a owl:Class ;
                                                          sd:numberOfRows "256"^^xsd:integer ;
                                                          sd:numberOfColumns "42"^^xsd:integer ;
                                                          sd:hasNumberOfHilbertBasisElements "256"^^xsd:integer ;
-                                                         sd:hasRank "22"^^xsd:integer ;
-                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 8 of the Normaliz collection" .
+                                                         sd:hasRank "22"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/lo6> a sd:TestSet, sd:Polytope ;
                                            rdfs:label "TestSet/lo6" ;
                                            rdfs:comment "The inversion model of statistical ranking discussed in [SW] for <i>n = 6</i>." ;
+                                           sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 9 of the Normaliz collection" ;
                                            sd:hasSupportingHyperplanes "910"^^xsd:integer ;
                                            sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/SturmfelsWelker.zip> ;
                                            sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/lo6.zip> ;
@@ -407,12 +408,12 @@ sd:TestSet a owl:Class ;
                                            sd:hasDimension "15"^^xsd:integer ;
                                            sd:numberOfColumns "15"^^xsd:integer ;
                                            sd:hasNumberOfLatticePoints "720"^^xsd:integer ;
-                                           sd:hasNumberExtremePoints "720"^^xsd:integer ;
-                                           sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 9 of the Normaliz collection" .
+                                           sd:hasNumberExtremePoints "720"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/nonICP> a sd:TestSet, sd:IntegralClosure ;
                                               rdfs:label "TestSet/nonICP" ;
                                               rdfs:comment "An example of a normal lattice polytope that has no unimodular cover and even violates the integral Carathéodory property [BG, Section 2.D], [BG2], [BGHMW]." ;
+                                              sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. Example 1 of the Normaliz collection" ;
                                               sd:hasNumberOfExtremeRays "10"^^xsd:integer ;
                                               sd:hasSupportingHyperplanes "27"^^xsd:integer ;
                                               sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/nonICP.zip> ;
@@ -420,36 +421,36 @@ sd:TestSet a owl:Class ;
                                               sd:numberOfRows "10"^^xsd:integer ;
                                               sd:numberOfColumns "6"^^xsd:integer ;
                                               sd:hasNumberOfHilbertBasisElements "10"^^xsd:integer ;
-                                              sd:hasRank "6"^^xsd:integer ;
-                                              sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. Example 1 of the Normaliz collection" .
+                                              sd:hasRank "6"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/pluralityCondorcetEff> a sd:TestSet, sd:Hyperplanes ;
                                                              rdfs:label "TestSet/pluralityCondorcetEff" ;
                                                              rdfs:comment "Models of combinatorial voting theory: the Condorcet efficiency of plurality voting. See [BIS].  Has very high computation time." ;
+                                                             sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 10 of the Normaliz collection" ;
                                                              sd:hasNumberOfExtremeRays "3928"^^xsd:integer ;
                                                              sd:hasSupportingHyperplanes "30"^^xsd:integer ;
                                                              sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/CombinatorialVoting.zip> ;
                                                              sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/pluralityCondorcetEff.zip> ;
                                                              sd:numberOfRows "30"^^xsd:integer ;
                                                              sd:numberOfColumns "24"^^xsd:integer ;
-                                                             sd:hasRank "24"^^xsd:integer ;
-                                                             sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 10 of the Normaliz collection" .
+                                                             sd:hasRank "24"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/pluralityVsCutoff> a sd:TestSet, sd:Hyperplanes ;
                                                          rdfs:label "TestSet/pluralityVsCutoff" ;
                                                          rdfs:comment "Models of combinatorial voting theory: the plurality voting vs. cutoff for 4 candidates. See [BIS]. Has very high computation time." ;
+                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 10 of the Normaliz collection" ;
                                                          sd:hasNumberOfExtremeRays "1872"^^xsd:integer ;
                                                          sd:hasSupportingHyperplanes "28"^^xsd:integer ;
                                                          sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/CombinatorialVoting.zip> ;
                                                          sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/pluralityVsCutoff.zip> ;
                                                          sd:numberOfRows "28"^^xsd:integer ;
                                                          sd:numberOfColumns "24"^^xsd:integer ;
-                                                         sd:hasRank "24"^^xsd:integer ;
-                                                         sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. From Example 10 of the Normaliz collection" .
+                                                         sd:hasRank "24"^^xsd:integer .
 
 <http://symbolicdata.org/Data/TestSet/semigraphoid5> a sd:TestSet, sd:IntegralClosure ;
                                                      rdfs:label "TestSet/semigraphoid5" ;
                                                      rdfs:comment "The semi-graphoid for <i>N = 5</i> [HMSSW], [BHIKS]; run with -N for Hilbert basis computation." ;
+                                                     sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. Example 7 of the Normaliz collection" ;
                                                      sd:hasNumberOfExtremeRays "80"^^xsd:integer ;
                                                      sd:hasSupportingHyperplanes "117978"^^xsd:integer ;
                                                      sd:hasNormalizPrimaryBase <http://www.home.uni-osnabrueck.de/wbruns/normaliz/InterChallExamples/semigraphoid5.zip> ;
@@ -457,5 +458,4 @@ sd:TestSet a owl:Class ;
                                                      sd:numberOfRows "80"^^xsd:integer ;
                                                      sd:numberOfColumns "32"^^xsd:integer ;
                                                      sd:hasNumberOfHilbertBasisElements "1300"^^xsd:integer ;
-                                                     sd:hasRank "26"^^xsd:integer ;
-                                                     sd:hasOrigin "Normaliz Collection, Tim Roemer 2015-03. Example 7 of the Normaliz collection" .
+                                                     sd:hasRank "26"^^xsd:integer .
