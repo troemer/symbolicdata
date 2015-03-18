@@ -1,0 +1,104 @@
+
+
+-------- Weitergeleitete Nachricht --------
+Betreff: 	Ihr Beitrag zur Netzwerkkonferenz
+Datum: 	Tue, 17 Mar 2015 16:29:53 +0000
+Von: 	Koschtial Claudia <Claudia.Koschtial@bwl.tu-freiberg.de>
+An: 	Hans-Gert Gräbe <graebe@informatik.uni-leipzig.de>
+
+Sehr geehrter Herr Prof. Dr. Gräbe,
+
+nach bedauerlich langer Zeit haben wir nun alle Beiträge wieder begutachten
+lassen können und auch Ihr Beitrag hat ein neues Gutachten erhalten.
+
+Leider sagt das neue Gutachten, dass es noch immer größere Mängel in Bezug auf
+den Beitrag gibt. Er ist somit in der aktuellen Version nicht einem Bereich
+der Bewertung, der eine Publikation im Springerband zulässt. Ich habe Ihnen
+die Hinweise angefügt. Wenn Sie eine entsprechende Überarbeitung planen, wäre
+noch bis zum 7. April 2015 möglich. In diesem Fall bitte ich aber um eine
+Rückinformation.
+
+Beste Grüße,
+Claudia Koschtial
+
+The paper discusses a provision service for scientific data. In context of
+open data initiatives, this is an important topic, because there is a strong
+need to have well described and useful data available to be able to perform
+research.
+
+*Thematic relevance for the conference (see Call for Papers) (20%): 4*
+*Originality (20%): 2*
+*Relevance for theory (10%): 1*
+*Relevance for practice (10%): 4*
+*Quality of research design (10%): 1*
+*Quality of research execution (10%): 1*
+*Quality of presentation (20%): 1*
+*Overall evaluation: 2*
+
+*Review:*
+
+First of all, this is not a research paper – even not in computer science. It
+can be understood as a project report. The authors should consider that a
+research paper should have some (demonstrated) relevance with a rigorous
+analysis. A Chapter 2 describes usually the actual situation applying a state
+of the art or a literature review (or information gathered by another
+scientific method) and should make the gap obvious. A Chapter 3 describes the
+methodological procedure to close (or at least reduce) the gap. Chapter 4 its
+application and Chapter 5 discusses the results of closing the defined gap
+(based on defined criteria, which might be deduced from the literature). This
+is more or less missing right now. I would strongly recommend the authors to
+re-write the paper according to the proposed agenda above. Additionally, each
+statement needs a literature reference or a research procedure so that all the
+readers are able to understand, where the knowledge is coming from.
+
+Due to the reason that main but important parts of a research paper are
+missing, there is still a lot of work to do. The written elements right now
+are understandable, but should move away from a report style to a scientific
+style, so that a broader community can use it as a knowledge base.
+
+*Reviewer’s confidence with the paper’s subject: 5*
+
+-------- Original-Nachricht --------
+Betreff: Re: Review
+Datum: Fri, 06 Jun 2014 13:40:46 +0200
+Von: graebe <graebe@informatik.uni-leipzig.de>
+An: Olivia Görlich <goerlich84@googlemail.com>
+Kopie (CC): Simon Johanning <simonjohanning@googlemail.com>
+
+Sehr geehrte Frau Koschtial,
+
+wie bereits gestern mündlich erläutert möchte ich noch einmal zur Frage der
+"wissenschaftlichen Qualität" unseres Beitrags Stellung nehmen.  Hier gibt es
+offensichtlich verschiedene Verständnisse von "E-Science".  Ich verstehe mich
+in der hier verhandelten Sache als auf dem Gebiet des "E-Science Environment
+Engineeerings" tätig, also einer Ingenieursdisziplin, wo andere
+wissenschaftliche Standards zur Anwendung kommen als in eher soziologisch
+geprägten Untersuchungen. Ich denke, dies wurde von beiden Reviewern nicht
+ausreichend berücksichtigt.
+
+Zu weiteren Punkten:
+> it is not clear to what degree needs and requirements by potential users
+> have been taken into consideration in the design of the platform.
+> Furthermore, a systematic assessment of how the research community
+> experienced the platform.
+
+Derartige Untersuchungen wären für eine ingenieur-technische Lösung durchaus
+begrüßenswert, dafür standen mir aber keine Ressourcen zur Verfügung, so dass
+sich meine Ausführungen allein auf die ingenieur-technischen Aspekte der
+Lösung konzentrieren können (und auch die Diskussion zu meinem Beitrag bezog
+sich allein auf solche Aspekte).  Dasselbe gilt für vergleichende
+Untersuchungen zu anderen Ansätzen. Dies kann in einem ingenieur-technischen
+Kontext allein als "nice to have" bei auskömmlicher Finanzierung gesehen, hier
+also nicht erwartet werden.
+
+Ebenso kann ich mit den Bezügen zu Fettke und Hevner nichts anfangen, da dort
+praktische ingenieurtechnische Belange, so wie sich mir dies nach
+oberflächlicher erster Sichtung darstellt, nicht tangiert werden.
+
+Wie gestern besprochen bitte ich also darum, möglichst zügig zu entscheiden,
+ob der Beitrag überhaupt publiziert werden kann oder eine ingenieur-technische
+Sicht hier "off topic" ist. Die große Mehrzahl der mir angetragenen
+Änderungswünsche der Reviewer kann und werde ich nicht umsetzen.
+
+Mit freundlichen Grüßen,
+Hans-Gert Gräbe
