@@ -615,9 +615,9 @@ sd:TestSet a owl:Class ;
                                                   sd:hasNumberOfHilbertBasisElements "10"^^xsd:integer ;
                                                   sd:hasRank "9"^^xsd:integer .
 
-<http://symbolicdata.org/Data/TestSet/pan.5x5pan> a sd:TestSet, sd:Equations ;
-                                                  rdfs:label "TestSet/pan.5x5pan" ;
+<http://symbolicdata.org/Data/TestSet/pan.6x6pan> a sd:TestSet, sd:Equations ;
+                                                  rdfs:label "TestSet/pan.6x6pan" ;
                                                   sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
-                                                  sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/pan.5x5pan.zip> ;
+                                                  sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/pan.6x6pan.zip> ;
                                                   sd:numberOfRows "23"^^xsd:integer ;
                                                   sd:numberOfColumns "36"^^xsd:integer ;
