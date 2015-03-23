@@ -23,6 +23,9 @@ sd:Normalization a owl:Class ;
 sd:Polytope a owl:Class ;
             rdfs:label "Test Set of Polytope Type" .
 
+sd:Equations a owl:Class ;
+            rdfs:label "Test Set of Equations Type" .
+
 sd:TestSet a owl:Class ;
            rdfs:label "Test Set" .
 
@@ -459,3 +462,162 @@ sd:TestSet a owl:Class ;
                                                      sd:numberOfColumns "32"^^xsd:integer ;
                                                      sd:hasNumberOfHilbertBasisElements "1300"^^xsd:integer ;
                                                      sd:hasRank "26"^^xsd:integer .
+%---------------------------------------------------------------------
+<http://symbolicdata.org/Data/TestSet/cubes.3x3x3> a sd:TestSet, sd:Equations ;
+                                                   rdfs:label "TestSet/cubes.3x3x3" ;
+                                                   sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
+                                                   sd:hasNumberOfExtremeRays "66"^^xsd:integer ;
+                                                   sd:hasSupportingHyperplanes "27"^^xsd:integer ;
+                                                   sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/cubes.3x3x3.zip> ;
+                                                   sd:numberOfRows "26"^^xsd:integer ;
+                                                   sd:numberOfColumns "27"^^xsd:integer ;
+                                                   sd:hasNumberOfHilbertBasisElements "66"^^xsd:integer ;
+                                                   sd:hasRank "9"^^xsd:integer .
+
+<http://symbolicdata.org/Data/TestSet/cubes.3x3x3dd> a sd:TestSet, sd:Equations ;
+                                                     rdfs:label "TestSet/cubes.3x3x3dd" ;
+                                                     sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
+                                                     sd:hasNumberOfExtremeRays "18"^^xsd:integer ;
+                                                     sd:hasSupportingHyperplanes "14"^^xsd:integer ;
+                                                     sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/cubes.3x3x3dd.zip> ;
+                                                     sd:numberOfRows "30"^^xsd:integer ;
+                                                     sd:numberOfColumns "27"^^xsd:integer ;
+                                                     sd:hasNumberOfHilbertBasisElements "19"^^xsd:integer ;
+                                                     sd:hasRank "5"^^xsd:integer .
+
+<http://symbolicdata.org/Data/TestSet/cubes.3x3x3x3> a sd:TestSet, sd:Equations ;
+                                                     rdfs:label "TestSet/cubes.3x3x3x3" ;
+                                                     sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
+                                                     sd:hasNumberOfExtremeRays "125412"^^xsd:integer ;
+                                                     sd:hasSupportingHyperplanes "81"^^xsd:integer ;
+                                                     sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/cubes.3x3x3x3.zip> ;
+                                                     sd:numberOfRows "107"^^xsd:integer ;
+                                                     sd:numberOfColumns "81"^^xsd:integer ;
+                                                     sd:hasNumberOfHilbertBasisElements "131892"^^xsd:integer ;
+                                                     sd:hasRank "17"^^xsd:integer .
+
+<http://symbolicdata.org/Data/TestSet/cubes.3x3x3x3dd> a sd:TestSet, sd:Equations ;
+                                                       rdfs:label "TestSet/3x3x3x3dd" ;
+                                                       sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
+                                                       sd:hasNumberOfExtremeRays "1048"^^xsd:integer ;
+                                                       sd:hasSupportingHyperplanes "56"^^xsd:integer ;
+                                                       sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/3x3x3x3dd.zip> ;
+                                                       sd:numberOfRows "115"^^xsd:integer ;
+                                                       sd:numberOfColumns "81"^^xsd:integer ;
+                                                       sd:hasNumberOfHilbertBasisElements "2009"^^xsd:integer ;
+                                                       sd:hasRank "9"^^xsd:integer .
+
+<http://symbolicdata.org/Data/TestSet/cubes.4x4x4> a sd:TestSet, sd:Equations ;
+                                                   rdfs:label "TestSet/cubes.4x4x4" ;
+                                                   sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
+                                                   sd:hasNumberOfExtremeRays "37109376"^^xsd:integer ;
+                                                   sd:hasSupportingHyperplanes "64"^^xsd:integer ;
+                                                   sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/cubes.4x4x4.zip> ;
+                                                   sd:numberOfRows "47"^^xsd:integer ;
+                                                   sd:numberOfColumns "64"^^xsd:integer ;
+                                                   sd:hasRank "28"^^xsd:integer .
+   
+<http://symbolicdata.org/Data/TestSet/cubes.4x4x4dd> a sd:TestSet, sd:Equations ;
+                                                     rdfs:label "TestSet/cubes.4x4x4dd" ;
+                                                     sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
+                                                     sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/cubes.4x4x4dd.zip> ;
+                                                     sd:numberOfRows "51"^^xsd:integer ;
+                                                     sd:numberOfColumns "64"^^xsd:integer ;
+
+<http://symbolicdata.org/Data/TestSet/cubes.4x4x4x4> a sd:TestSet, sd:Equations ;
+                                                     rdfs:label "TestSet/cubes.4x4x4x4" ;
+                                                     sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
+                                                     sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/cubes.4x4x4x4.zip> ;
+                                                     sd:numberOfRows "255"^^xsd:integer ;
+                                                     sd:numberOfColumns "256"^^xsd:integer ;
+
+<http://symbolicdata.org/Data/TestSet/dd.3x3dd> a sd:TestSet, sd:Equations ;
+                                                rdfs:label "TestSet/dd.3x3dd" ;
+                                                sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
+                                                sd:hasNumberOfExtremeRays "4"^^xsd:integer ;
+                                                sd:hasSupportingHyperplanes "4"^^xsd:integer ;
+                                                sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/dd.3x3dd.zip> ;
+                                                sd:numberOfRows "7"^^xsd:integer ;
+                                                sd:numberOfColumns "9"^^xsd:integer ;
+                                                sd:hasNumberOfHilbertBasisElements "5"^^xsd:integer ;
+                                                sd:hasRank "3"^^xsd:integer .
+
+<http://symbolicdata.org/Data/TestSet/dd.4x4dd> a sd:TestSet, sd:Equations ;
+                                                rdfs:label "TestSet/dd.4x4dd" ;
+                                                sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
+                                                sd:hasNumberOfExtremeRays "20"^^xsd:integer ;
+                                                sd:hasSupportingHyperplanes "16"^^xsd:integer ;
+                                                sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/dd.4x4dd.zip> ;
+                                                sd:numberOfRows "9"^^xsd:integer ;
+                                                sd:numberOfColumns "16"^^xsd:integer ;
+                                                sd:hasNumberOfHilbertBasisElements "20"^^xsd:integer ;
+                                                sd:hasRank "8"^^xsd:integer .
+
+<http://symbolicdata.org/Data/TestSet/dd.5x5dd> a sd:TestSet, sd:Equations ;
+                                                rdfs:label "TestSet/dd.5x5dd" ;
+                                                sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
+                                                sd:hasNumberOfExtremeRays "1940"^^xsd:integer ;
+                                                sd:hasSupportingHyperplanes "25"^^xsd:integer ;
+                                                sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/dd.5x5dd.zip> ;
+                                                sd:numberOfRows "11"^^xsd:integer ;
+                                                sd:numberOfColumns "25"^^xsd:integer ;
+                                                sd:hasNumberOfHilbertBasisElements "4828"^^xsd:integer ;
+                                                sd:hasRank "15"^^xsd:integer .
+
+<http://symbolicdata.org/Data/TestSet/dd.6x6dd> a sd:TestSet, sd:Equations ;
+                                                rdfs:label "TestSet/dd.6x6dd" ;
+                                                sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
+                                                sd:hasNumberOfExtremeRays "97548"^^xsd:integer ;
+                                                sd:hasSupportingHyperplanes "36"^^xsd:integer ;
+                                                sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/dd.6x6dd.zip> ;
+                                                sd:numberOfRows "13"^^xsd:integer ;
+                                                sd:numberOfColumns "36"^^xsd:integer ;
+                                                sd:hasNumberOfHilbertBasisElements "522347"^^xsd:integer ;
+                                                sd:hasRank "24"^^xsd:integer .
+
+<http://symbolicdata.org/Data/TestSet/dd.7x7dd> a sd:TestSet, sd:Equations ;
+                                                rdfs:label "TestSet/dd.7x7dd" ;
+                                                sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
+                                                sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/dd.7x7dd.zip> ;
+                                                sd:numberOfRows "15"^^xsd:integer ;
+                                                sd:numberOfColumns "49"^^xsd:integer ;
+
+<http://symbolicdata.org/Data/TestSet/pan.3x3pan> a sd:TestSet, sd:Equations ;
+                                                  rdfs:label "TestSet/pan.3x3pan" ;
+                                                  sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
+                                                  sd:hasNumberOfExtremeRays "1"^^xsd:integer ;
+                                                  sd:hasSupportingHyperplanes "1"^^xsd:integer ;
+                                                  sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/pan.3x3pan.zip> ;
+                                                  sd:numberOfRows "11"^^xsd:integer ;
+                                                  sd:numberOfColumns "9"^^xsd:integer ;
+                                                  sd:hasNumberOfHilbertBasisElements "1"^^xsd:integer ;
+                                                  sd:hasRank "1"^^xsd:integer .
+
+<http://symbolicdata.org/Data/TestSet/pan.4x4pan> a sd:TestSet, sd:Equations ;
+                                                  rdfs:label "TestSet/pan.4x4pan" ;
+                                                  sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
+                                                  sd:hasNumberOfExtremeRays "8"^^xsd:integer ;
+                                                  sd:hasSupportingHyperplanes "16"^^xsd:integer ;
+                                                  sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/pan.4x4pan.zip> ;
+                                                  sd:numberOfRows "15"^^xsd:integer ;
+                                                  sd:numberOfColumns "16"^^xsd:integer ;
+                                                  sd:hasNumberOfHilbertBasisElements "8"^^xsd:integer ;
+                                                  sd:hasRank "5"^^xsd:integer .
+
+<http://symbolicdata.org/Data/TestSet/pan.5x5pan> a sd:TestSet, sd:Equations ;
+                                                  rdfs:label "TestSet/pan.5x5pan" ;
+                                                  sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
+                                                  sd:hasNumberOfExtremeRays "10"^^xsd:integer ;
+                                                  sd:hasSupportingHyperplanes "25"^^xsd:integer ;
+                                                  sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/pan.5x5pan.zip> ;
+                                                  sd:numberOfRows "19"^^xsd:integer ;
+                                                  sd:numberOfColumns "25"^^xsd:integer ;
+                                                  sd:hasNumberOfHilbertBasisElements "10"^^xsd:integer ;
+                                                  sd:hasRank "9"^^xsd:integer .
+
+<http://symbolicdata.org/Data/TestSet/pan.5x5pan> a sd:TestSet, sd:Equations ;
+                                                  rdfs:label "TestSet/pan.5x5pan" ;
+                                                  sd:hasOrigin "Example from a collection of Raymond Hemmecke" ;
+                                                  sd:hasNormalizSDBase <http://symbolicdata.org/data/OtherResources/TestSets/pan.5x5pan.zip> ;
+                                                  sd:numberOfRows "23"^^xsd:integer ;
+                                                  sd:numberOfColumns "36"^^xsd:integer ;
